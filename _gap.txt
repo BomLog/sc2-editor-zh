@@ -1,0 +1,38 @@
+演算体 ID 总数(内部 mod 去重) : 20256
+官方 zhCN 有译名             : 1
+汉化包已译                   : 663
+汉化包占位(id=id, 待翻)      : 31
+完全未收录(连占位都没有)     : 19666
+
+mod                                    演算体      已译      占位     未收录
+--------------------------------------------------------------------
+starcoop                              4315       9       1    4305
+liberty                               4226      30      29    4167
+warclassic                            4111       1       0    4110
+war3data                              3068       2       0    3066
+warclassicsystem                      1130       1       0    1129
+swarm                                  920       6       0     914
+void                                   891       4       0     887
+novastoryassets                        788       1       0     787
+voidmulti                              548       5       0     543
+balancemulti                           347       0       0     347
+arcturusmengsk                         335       1       0     334
+balancemultilanmethodcleanedup         304       0       0     304
+balancemultislowwarpprism              301       0       0     301
+egonstetmann                           299       0       1     298
+voidprologue                           169       2       0     167
+core                                   669     532       2     135
+frontiers                              124       0       0     124
+swarmmulti                             122       0       0     122
+gromhellscream                          55       0       0      55
+warcoopdata                             25       0       0      25
+libertymulti                            19       0       0      19
+novastoryassets (子地图)                   18       0       0      18
+equipments                              17       0       0      17
+challenges                              15       2       0      13
+malfurionstormrage                       5       0       0       5
+jainaproudmoore                          2       0       0       2
+novacampaign                             1       0       0       1
+glue                                     0       0       0       0
+warcoopcore                              0       0       0       0
+warcore                                  0       0       0       0

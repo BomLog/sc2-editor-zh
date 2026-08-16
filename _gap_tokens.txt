@@ -1,0 +1,1500 @@
+the	2425	Heroes From The Storm
+zss	494	ZSS_UIArchivesUpdate
+instance	450	Instance Version
+transmission	402	Campaign Transmission
+you	272	This is an alternative version of "Set Mission Objective Pro
+specified	222	Sets the maximum value for the specified boss bar.  Calling 
+iter	201	PingManagerIter
+each	198	For each character ~character~
+wait	177	Wait until the last sent mission transmission is finished
+clicked	177	ZSS_UIMainBottomButtonClickedState
+send	158	Send a ~transmissionType~ mission transmission from player ~
+shutdown	148	Shutdown
+smx	137	SMX3InfiltrationHolograms
+parameter	127	This is an alternative version of "Set Mission Objective Pro
+are	126	Remind player to spawn Drones after ~delay|delay~ seconds if
+identifier	126	Saves a wave value into a data table instace.  Data tables a
+(campaign)	121	(Campaign) Turn cinematic mode ~onOff~ over ~duration~ secon
+loading	116	Map To Map Loading
+list	113	Mission - Mutator List
+dmg	113	BaseAttackDmg
+size	103	Attach ~type|type~ reticle effect of ~size|size~ size to ~at
+weekly	101	Set the mutator weekly challenge to ~challengeIndex~
+egg	99	Egg Room Conversation
+sets	92	Sets the type ~waveType~ and the target ~waveTarget~ for wav
+rally	91	Nexus Rally Point
+catalog	89	Catalog
+chl	88	CHL_FormatObjectiveTaskMessage
+(coop)	85	(Coop) Set progress for ~objective~ to ~current~
+date	77	DateTime
+which	75	Add Cheat command ~command~ to ~cheatType~ group which runs 
+instace	74	Saves a wave value into a data table instace.  Data tables a
+tables	74	Saves a wave value into a data table instace.  Data tables a
+highlight	73	Select Larva Button Highlight
+chlc	71	CHLC_WSPANELTOPBORDER_Y
+tod	63	TOD Warning
+sor	63	sor1
+"set	62	This is an alternative version of "Set Mission Objective Pro
+bit	61	Make Empty BitMask
+singular	60	Set the singular boss bar style to ~style~
+ncb	60	ncb0
+timestamp	55	Timestamp
+speech	55	SpeechAndMusicNoEffects
+creates	54	Creates a Drop Pod for a building and moves any units out of
+overwrite	54	Sets the maximum value for the specified boss bar.  Calling 
+cuc	54	CUC_ProgressBarHeight
+integer	53	Returns the integer parameter that matches the current diffi
+forge	53	CM_KaraxSolarForgeSOAEnergy
+remind	52	Remind player to create anti air
+different	52	A split mission transmission sends a message with different 
+global	47	Global Functionality
+resources	47	Set Allied Commanders starting Resources
+activity	47	Moves between rooms in story mode. Also changes the current 
+playing	46	Plays a cutscene with options.  Does not support playing mul
+between	45	Moves between rooms in story mode. Also changes the current 
+(old)	44	Progress Bar (Unit) (Old)
+contact	44	Contact Portrait Model for Map ~map~
+skip	44	Play Cinematic Sound ~soundLink~ for ~players~ (at ~volume~%
+"last	44	Use "Last Created Actor" to query the model created, and use
+value,	43	Set progress for ~objective|objective~ to ~current|current~,
+even	43	Saves a wave value into a data table instace.  Data tables a
+combined	43	CM_CoopAI_PartOfCombinedPing
+border	43	_BB_HPBorderWidth
+prophecy	43	Prophecy1
+until	42	Image ~fadeIn|fadeIn|Fade In/Fade Out~ over ~duration|durati
+experience	42	This acts as a modifier for any loss experience awarded.
+aspl	42	Aspl - Destroy
+labels	42	ZSS_UIArchivesDifficultyLabels
+zsx	42	ZSX_CamStatsMissionDefeatedBaseDied
+rej	42	rej1
+other	41	Make all players in ~players|Player Group~ treat each other 
+supplicant	40	Supplicant
+then	40	This function will replace "[%1%]" in the original text with
+subselection	40	This function runs through each item in the specific upgrade
+dark	39	MasteryVorazunDarkPylonRadius
+was	39	Last conversation was skipped
+replacement	39	Format ~text|text~ with replacement ~replacement1|replacemen
+unit"	39	For Story Mode use, returns whether the "New Unit" toast has
+ccc	39	CCC_PLAYERLEVELMAX
+rating	39	RatingTextSilver
+personality	38	Development - AI Personality Choice
+changed	38	Game Day/Night state changed to ~type~
+property	38	This event fires when a unit's property changes.  Use "Trigg
+exists,	38	Saves a wave value into a data table instace.  Data tables a
+saving	38	Saves a wave value into a data table instace.  Data tables a
+displayed	37	The callback is run whenever the primary set will be display
+stored	37	Add the specified unit type to the help panel. If it is stor
+ucs	37	AUcs - Max Targets
+puc	37	PUC_HealthWatchThreshold
+fanfare	36	Mission - Victory Fanfare
+sent	36	Wait until the last sent mission transmission is finished
+award	36	PP_AchievementAwardMission
+mute/unmute	36	Mute/Unmute All Sound Channels
+npn	36	npn1
+skipping	35	Play cutscene ~file|file~ at ~position|position~, ~waitDontW
+player's	35	Set the player's location to ~planet~
+rde	35	rde0
+format	34	Format ~text|text~ with replacement ~replacement1|replacemen
+(in	34	For each mission ~indexMission~ (in order)
+(unit)	33	Mission - Progress Bar (Unit)
+ends	33	For Story Mode use.  Ends simulation mode and restores prope
+cmc	33	CMC_CoopAI_MaxWaveCount
+except	32	~muteUnmute~ all sound channels except for ~ignoredChannel~ 
+also	32	Moves between rooms in story mode. Also changes the current 
+gameplay	32	Turns on/off Swarm cinematic mode for all players. Cinematic
+unit's	32	Shifts the range of the unit's progress bar such that the le
+"triggering	32	This event fires when a unit starts attacking.  Use "Attacki
+currency	32	Returns whether or not there is greater than zero unspent cu
+surrender	32	MeleeSurrender_AIWantToSurrender
+param	32	PARAM_AAAAAAAAAA
+mutators	31	Setup - Custom Mutators
+its	31	Attach ~attachmentUnit|Unit~'s Model To ~targetUnit|Unit~'s 
+starts	31	This event fires when a unit starts attacking.  Use "Attacki
+attempts	31	MoveAttempts
+attempt	31	SpawnAttempt
+cache	30	Destroy cache ~cacheUnit|cacheUnit~ and give player ~player|
+vars	30	PP_SaveTransitionVars
+racing	30	Racing Start TEXT
+nuc	30	NUC_HeroMaxHeroCount
+nfv	30	nfv0
+them	29	Create Coop Attack Force for ~playerA~ and ~playerB~ using ~
+use,	29	For story mode use, returns the camera used in the unit mode
+matches	29	Returns the integer parameter that matches the current diffi
+value"	29	Sets the maximum value for the specified boss bar.  Calling 
+pause/unpause	29	Pause/Unpause Time Of Day War3
+setting),	28	Returns the integer parameter that matches the current diffi
+1's	28	Returns the integer parameter that matches the current diffi
+campaign)	28	Set Singular Boss Bar Boss (Swarm Campaign)
+font	28	PP_ReticleTextFontOfStyle
+waypoint	28	Add Attack Force Waypoint
+music/sound	28	Init 04 Music/Sound
+zsc	28	ZSC_ZerglingRespawnMaxCountPerTurn
+ram	28	ram1
+based	27	Player Based Actions
+instantly	27	Turn all fidgets ~onOff~ instantly
+running	27	Sets the time at which the timer background will turn red to
+don't	27	_Create Drop Pod For Building Don't Wait
+wait/don't	27	Wait/Don't Wait
+names	26	Nova Unit Names
+changes	26	Player ~p~ upgrade changes
+triggering	26	Triggering Day/Night State
+assigned	26	If the player has not assigned 3 Drones to the specified Ext
+bookmark	26	ZSS_SceneCameraBookmark
+=======	25	======= OBJECTIVES =======
+safety	25	Structure Safety
+how	25	Calculate how much to deduct from the Max Score per logic fr
+picked	25	Picked Bank Backup
+but	25	Switches the active room, and prepares the next, but does no
+shows	25	Shows or hides the specified boss bar.
+variable	25	Automatically sets the progress for the passed in objective.
+reference	25	Converts a catalog reference to a catalog reference.
+damaging	25	DamagingUnit
+success	25	PPrologueBankStoryStageKey - Last Map Success
+curr	25	CurrReg
+(deprecated)	24	Story Mission Objective (Deprecated)
+difficulty(	24	Difficulty(~easy~ / ~normal~ / ~hard~ / ~brutal~)
+automatically	24	The listener's cameras will automatically be used for revers
+plays	24	Plays a cutscene with options.  Does not support playing mul
+graph	24	Set the maximum Y data point value that is visible for a gra
+asp	24	Asp1 - Missile
+consecutive	24	Send Two Consecutive Transmissions Q
+styled	24	TipStyled
+ccx	24	CCX_PlayerMasteryLevel
+ngz	24	ngz1
+nqb	24	nqb1
+made	23	How much progress the player has made in an objective.  This
+snapshot	23	ZSS_LoadSnapshotWriterStates
+pcx	23	PCX_UpgradesTaught
+specific	22	CommanderSpecific
+recording	22	Movie Recording
+directive	22	Mission - Campaign Directive
+skipped	22	Last conversation was skipped
+fidgets	22	Turn all fidgets ~onOff~ instantly
+transparency	22	~showHide|showHide~ world cover with ~transparency|transpare
+channels	22	~muteUnmute|mute/Unmute~ all sound channels for ~players|pla
+contest	22	Set Default Commanders For Contest Local Test(Player 1: ~pla
+converts	22	Converts a string value to a image file.
+boolean	22	Returns the boolean parameter that matches the current diffi
+episode	22	NewEpisode determines whether we call PS_StartNewStoryModeEp
+in/out	22	_Fade In/Out Using Image (Wait)
+cur	22	CurValue
+canidates	22	CanidatesFilter
+multikill	22	Multikill Template
+bar)	21	Animate Dead (Hide Status Bar)
+instead	21	Sets the maximum value for the specified boss bar.  Calling 
+text,	21	This action displays floating text for the player who's gain
+ignored	21	This function will replace "[%1%]" in the original text with
+such	21	Objective data is defined in the Data module and describes o
+turned	21	Turns on/off Swarm cinematic mode for all players. Cinematic
+beacon	21	AIWaveState_Beacon
+dlg	21	_MsgDlgButtonClicked
+rhe	21	rhe1
+automatic	20	Automatic Transmissions
+remaining	20	(Coop) Set Objective ~objective~ Timer text color to ~color~
+actor"	20	Use "Last Created Actor" to query the model created, and use
+own	20	This action displays floating text for the player who's gain
+passed	20	Updates and keeps track of the passed in KillBot.
+multiplied	20	Multiplied
+nsc	20	NSC_RoomCount
+dojo	20	SMX2 - Dojo Set - 00
+statis	20	SMX2 - StatisCore - 00
+standard	19	Laser Drill Standard Attack Beam Sound Triggers
+untitled	19	Untitled Custom Script 001
+seconds,	19	~speaker~: ~message~   ( from ~unit~, using ~model~ in portr
+associated	19	Triggers actions associated with Kerrigan's death like start
+saved	19	This is where we process information after the mission is co
+qty	19	Qty
+much	18	Calculate how much to deduct from the Max Score per logic fr
+fades	18	Fades the screen in or out over a specified amount of time.
+they	18	Changes alliance settings for all players in the player grou
+there	18	There are differences between how BNet and local games handl
+fires	18	This event fires when a unit starts attacking.  Use "Attacki
+refund	18	CM_Stukov_UnitCostRefund
+achieve	18	Achieve Debug
+winning	18	Winning Score (Gold)
+nlv	18	nlv1
+nvr	18	nvr0
+nwe	18	nwe1
+aap	18	Aap1
+hallway	18	SMX2_Hallway00
+(campaign	17	Player ~player|player~ is in combat (Campaign version)
+finishes)	17	Image ~fadeIn|fadeIn|Fade In/Fade Out~ over ~duration|durati
+shown	17	Toast has been shown for army category ~armyCategory~
+started	17	A movie started for Player ~player~
+whether	17	This is an alternative version of "Set Mission Objective Pro
+"no	17	Use "Last Created Actor" to query the model created, and use
+text"	17	Use "Last Created Actor" to query the model created, and use
+calling	17	Sets the maximum value for the specified boss bar.  Calling 
+who's	17	This action displays floating text for the player who's gain
+gaining	17	This action displays floating text for the player who's gain
+icon"	17	This action displays floating text for the player who's gain
+like	17	For Story Mode only.  Used to switch between story mode maps
+(integer)	17	Difficulty Value Prologue (Integer)
+killing	17	KillingUnit
+simple	17	Simple Skip Only Fade
+timing	17	BlizzconTiming
+manager	16	CoopAIAttackWavePingManager
+perks	16	Perks
+moves	16	Moves between rooms in story mode. Also changes the current 
+allows	16	Changes alliance settings for all players in the player grou
+aliased	16	Story Add Aliased Unit
+(swarm	16	Set Singular Boss Bar Boss (Swarm Campaign)
+increment	16	CC_PlayerMasteryValueIncrement
+'unit	16	Add 'Unit Uses Ability' Event
+val	16	val
+uid	16	uid
+dying	16	DyingUnitSupply
+stwp	15	stwp - Scroll of Town Portal
+bfg	15	Laser Drill BFG Attack Beam Sound Triggers
+subtip	15	Set campaign ~unit|unit~ info text to ~info|info~, with high
+updates	15	Enable orientation updates for ~divisions~ divisions using s
+iterates	15	Iterates through all missions on the specified planet
+turns	15	Turns on/off Swarm cinematic mode for all players. Cinematic
+receiving	15	Displays floating text for receiving a reward from a mission
+unlocks	15	Unlocks an achievement with debugging notifications & messag
+warn	15	Sets the time at which the timer background will turn red to
+player"	15	This event fires when a unit starts attacking.  Use "Attacki
+entered	15	Sets the Trigger that will be fired whenever a player has en
+exist	15	Instantly revives the hero of the specified type. And will s
+bar(unit)	15	CU_ProgressBar(Unit)_DataName (Old)
+prefix	15	Required Prefix
+desired	15	CounterTypeDesiredAmount
+pcc	15	PCC_ArmyUnitStateKey
+(target	14	Shockwave (Target Limit)
+time)	14	Shadow Meld (Fade Time)
+debugging	14	Coop AI Debugging
+known	14	Set ~character~ known to ~known~
+visited	14	Master Archives have been visited
+rewarded	14	Army Category rewarded for completing mission ~mission~
+progres	14	Set Progres Bar Title for unit ~unit~ to: ~titleText~
+reviver	14	Set hero ~heroType|Type~ reviver cocoon to be ~cocoon~
+created,	14	Use "Last Created Actor" to query the model created, and use
+tag"	14	Use "Last Created Actor" to query the model created, and use
+needed,	14	Use "Last Created Actor" to query the model created, and use
+ping"	14	Creates a minimap ping for objective.  Use "Last Created Pin
+refer	14	Creates a minimap ping for objective.  Use "Last Created Pin
+potential	14	This is used for achievements, so that we can distinguish be
+whose	14	This event fires when a unit's property changes.  Use "Trigg
+frequency	14	Returns a tag which will display in-game as the hotkey for t
+technology	14	Directly enables or disables the technology for a given unit
+equivalence	14	CM_UnitEquivalence
+synced	14	Campaign - Archives Synced
+apg	14	Apg2 - Speed Decay
+uzg	14	uzg1
+rre	14	rre1
+spray	13	Healing Spray (Art)
+clickables	13	Clickables
+towards	13	Turn player ~inSourcePlayer~ ~inAllianceId~ ~ally~ towards p
+showing	13	Triggers actions associated with Kerrigan's death like start
+perf	13	ZSS_DebugScenePerfTestStart
+models	13	ZSS_LoadSetModels
+(real)	13	Difficulty Value Prologue (Real)
+(boolean)	13	Difficulty Value Prologue (Boolean)
+add/remove	13	Add/Remove Objective Re-Ping
+(void	13	Refresh Singular Boss Bar (Void Campaign)
+ppc	13	PPC_HEROUISHIELDBARHEIGHT
+img	13	_BB_BGImgBar
+attackers	13	EnemyAttackersC
+hwt	13	hwt2
+raising	13	Raising Platform
+omnislash	13	Omnislash (Apply)
+(unit	12	Upgrade Set (Unit Screen)
+boolean(bank	12	PP_SaveTransitionVarBoolean(Bank = ~bank|bank~, Section = ~s
+wait)	12	Create a mission auto save with description ~description|des
+(use	12	Destroy cache ~cacheUnit|cacheUnit~ and give player ~player|
+integer(bank	12	PP_LoadTransitionVarInteger(Bank = ~bank|bank~, Section = ~s
+string(bank	12	PP_SaveTransitionVarString(Bank = ~bank|bank~, Section = ~se
+among	12	Share vision among ~players|players~
+logic	12	Calculate how much to deduct from the Max Score per logic fr
+sort	12	Tactical AI Filter - Sort By ~damage~ and ~distance~ for Lif
+"need	12	~enableDisable~ "Need Supply" Info
+their	12	Tactical AI Filter - sort units from ~filter~ by their curre
+elapsed	12	Elapsed AI time
+kerrigan/zerg	12	Campaign Kerrigan/Zerg player color
+considered	12	Returns the number of units, of a specific unit type determi
+called	12	Called whenever the current room needs to be reset to its ap
+information	12	Returns one of the costs of an ability.  Use catalog lookup 
+boss",	12	Sets the maximum value for the specified boss bar.  Calling 
+rely	12	Sets the maximum value for the specified boss bar.  Calling 
+"resource	12	This action displays floating text for the player who's gain
+takes	12	Sets the progress of a unit Progress Bar. Takes an integer v
+include	12	Excluded unit types include Orbital Command Centers, as they
+messages	12	Unlocks an achievement with debugging notifications & messag
+added	12	Checks if we've seen any units of a type added with AIAddDet
+watched	12	Plays sound and visual effects when the unit is brought belo
+footage	12	PP_FootageRecording
+util	12	CM_DataUtilInit
+uiid	12	CC_GetDataIDFromUIID
+holder	12	IsPlaceHolder
+victim	12	VictimUnit
+candidates	12	TargetCandidates
+campagin	12	Campagin Reticle Type
+ambt	12	Ambt - Register
+skippable	12	PP_PlayCinematicSkippable
+ppx	12	PPX_LastMapSuccess
+weight	12	P1Weight
+hpb	12	Hpb1
+nal	12	Nal2
+nbt	12	nbt1
+ncp	12	ncp2
+nct	12	nct1
+ndt	12	ndt1
+nfh	12	nfh0
+nfr	12	nfr1
+nft	12	nft1
+ngh	12	ngh1
+nmg	12	nmg0
+nmh	12	nmh0
+ntt	12	ntt1
+nwc	12	nwc1
+unp	12	unp1
+asb	12	Asb1
+utilities	11	Utilities
+fullscreen	11	Fullscreen Image
+(void)	11	Mission - Boss Bar (Void)
+portrait,	11	~speaker~: ~message~   ( from ~unit~, using ~model~ in portr
+done,	11	~speaker~: ~message~   ( from ~unit~, using ~model~ in portr
+calculate	11	Calculate how much to deduct from the Max Score per logic fr
+computer	11	Start campaign AI personalities for all computer players
+missed	11	Unlock All Missed Nova Equipment
+minute	11	~dateTime~ Minute
+determined	11	Returns the number of units, of a specific unit type determi
+determine	11	Returns the number of units, of a specific unit type determi
+retrieve	11	Returns one of the costs of an ability.  Use catalog lookup 
+note:	11	Creates a Drop Pod for a building and moves any units out of
+delay,	11	If the player has not assigned 3 Drones to the specified Ext
+off,	11	Turns on/off Swarm cinematic mode for all players. Cinematic
+requested	11	Changes alliance settings for all players in the player grou
+length	11	Flashes the Timer Window for a given length of time.  Does n
+teaching	11	Shows/Hides campaign teaching reticles and associated text.
+(with	11	Clear Animation (with blend time)
+halt	11	Halt Timestamp
+featured	11	ZS_InitFeaturedZergStructureTypes
+adjustment	11	Facing Adjustment
+(food	11	CM_PlayerNeedPylonButtonClicked (Food 3)
+reg	11	CurrReg
+applying	11	PP_ApplyingCampaignTech
+psc	11	PSC_MissionObjectiveCount
+sch	11	Sch2
+commercials	11	CommercialsA00009
+(unique	10	Feral Spirit (Unique Summon)
+summon)	10	Feral Spirit (Unique Summon)
+sphere	10	Sphere (Art)
+cheats	10	Game Cheats
+banks	10	For Each Bank Backup pertaining to ~originalBank~ iterate ba
+needs	10	Called whenever the current room needs to be reset to its ap
+spawns	10	Spawns as hero unit for the campaign.
+cutscenes	10	Plays a cutscene with options.  Does not support playing mul
+these	10	Plays a fullscreen cutscene movie.  Two of these cannot be p
+stops	10	Stops all sounds played using Play Sound (Cinematic)
+applies	10	Changes alliance settings for all players in the player grou
+'no	10	In the event that only one player worth of units is required
+want	10	Check to see if the unit is one of the units that we explici
+flags	10	Added ability may not be able to be cast without command but
+exclusive	10	CS_Mute/UnmuteExclusive
+actors	10	CM_SoATargetingCleanupActorsAndUnits
+deprecated	10	Pick Each Player In Player Group Deprecated
+pingable	10	PingableUnit
+instructions	10	Instructions
+woms	10	woms - Wand of Mana Stealing - Steal
+spsh	10	spsh - Amulet of Spell Shield - Charge
+tkno	10	tkno - Tome of Power - Level Up
+accept	10	CU_MasteryAcceptPressed
+num	10	ZSS_UITravelNumPlanets
+stock	10	startingTechStockIter
+cheating	10	TS_DebugProgressCheating
+asd	10	Asd2
+yyi	10	YYI
+soacd	10	SOACDCa
+debriefs	10	DebriefsArcturus00030
+elune's	9	Elune's Grace
+siphon	9	Siphon Mana (Extra Mana)
+activities	9	Rooms And Activities
+reminders	9	Global Casting Reminders
+statistics	9	Statistics
+completing	9	Army Category rewarded for completing mission ~mission~
+(for	9	Create Coop Attack Force for ~playerA~ and ~playerB~ using ~
+parameter[	9	Story event ~event~ parameter[~index~]
+looking	9	Order targeting valid unit in ~unitGroup~, with caster: ~cas
+toggled	9	Count of toggled Bits in ~bitMask|BitMask~
+kerrigan's	9	Start Kerrigan's death sequence
+whenever	9	The callback is run whenever the primary set will be display
+lookup	9	Returns one of the costs of an ability.  Use catalog lookup 
+etc	9	This function will replace "[%1%]" in the original text with
+defined	9	Objective data is defined in the Data module and describes o
+works	9	Only works for cutscenes played using 'Campaign Play Cutscen
+changing	9	Turns on/off Swarm cinematic mode for all players. Cinematic
+usually	9	Check to see if the unit is one of the units that we explici
+correct	9	Moves the timer window to the default campaign location.  Th
+error	9	Directly enables or disables the technology for a given unit
+transitional	9	ZSS_TransitionalSave
+(advanced)	9	Set Mission Objective Progress (Advanced)
+sleep/wake	9	Sleep/WakeUp Unit (Coop)
+dispatch	9	Dispatch Campaign Event
+trial	9	ZS_TrialEnd
+hookup	9	NU_ArmyButtonHookup
+aco	9	Aco2 - Merge Order Marker
+retail	9	ZSS_DebugKerriganCheatRetail
+pmc	9	PMC_SoundDataTableIdentifier
+word	9	Gets the next word in a sentence as determined by the delimi
+abu	9	Abu2
+titan	9	Proto Titan Fighter1
+suplex	9	Suplex Caster
+filter)	8	Pulverize (Target Filter)
+probes	8	Remind player to build Probes after ~delay~ seconds if ~amou
+effort	8	Set the amount of effort spent in the mission to ~percentEff
+reposition	8	Reposition timer window ~timerWindow~ to the campaign defaul
+weekday	8	~datetime~ weekday
+(actions)	8	For each value ~value~ of type ~userDataType~ in array ~inst
+seed	8	Set ~unit~ seed to ~seed~
+(cinematic)	8	Stops all sounds played using Play Sound (Cinematic)
+adds	8	Adds a sound to a list of sounds that will be stopped when S
+may	8	For the rest of the mission, the visibility region will be a
+worth	8	In the event that only one player worth of units is required
+required,	8	In the event that only one player worth of units is required
+player'	8	In the event that only one player worth of units is required
+notifications	8	Unlocks an achievement with debugging notifications & messag
+burrow/unburrow	8	Issues an appropriate Burrow/Unburrow order to all Zerg unit
+would	8	NewEpisode determines whether we call PS_StartNewStoryModeEp
+alternates	8	Turns on or off the Alternate Status for a clickable, which 
+counts	8	Counts all the ones in the bit mask.
+appended	8	Restores the original bank with the contents from its backup
+finder	8	ZSS_CharacterSceneFinderTag
+installation	8	PP_MissionisInstallation
+ver	8	CM_AbilityTransmissionAbathurNestReminderActionVer
+dialogs	8	MeleeSurrender_UpdateDialogs
+(war	8	Game Mech (War3)
+micro	8	Micro Transactions
+interval	8	Interval
+mute	8	MuteChannel
+(3)	8	Default Larva Amount (3)
+aent	8	Aent - Root
+esen	8	esen1 - Huntress W1 - Quarter Damage
+goldmine	8	Goldmine
+atk	8	AtkType
+endpoint	8	TierEndpoint
+ncc	8	NCC_DataVersion
+spots	8	Creep Players - Spots Count
+nbal	8	nbal
+ndqp	8	ndqp
+nerw	8	nerw
+nstl	8	nstl
+nvde	8	nvde
+fgrd	8	fgrd
+ocor	8	ocor
+ofir	8	ofir
+oli	8	oli2
+olig	8	olig
+oven	8	oven
+pams	8	pams
+pclr	8	pclr
+phea	8	phea
+pman	8	pman
+shea	8	shea
+skul	8	skul
+spre	8	spre
+ssan	8	ssan
+tcas	8	tcas
+tgrh	8	tgrh
+tsct	8	tsct
+wneg	8	wneg
+elsecaro	8	Elsecaro1
+typhon	8	Typhon1
+missionpitches	8	MissionpitchesAdjutant00034
+loadinghyperion	8	loadinghyperion1
+creeps	7	Creeps
+scroll	7	stwp - Scroll of Town Portal
+rifts	7	Void Rifts
+nukes	7	Nova Nukes
+script	7	Untitled Custom Script 001
+properties	7	Turn ~unit~ animation properties ~property~ ~onOff~ over ~bl
+pane	7	Set Hero Pane [~index~] hero to be ~heroUnit~
+updating	7	Set progress for ~objective|objective~ to ~current|current~,
+convesation	7	Duration of convesation line ~conversationLine|conversationL
+displaying	7	Display floating text at ~location|location~ using ~resource
+message:	7	Display to ~toPlayerGroup|toPlayerGroup~ the ~messageType|me
+min:	7	Set Progress Bar Value Range for unit ~unit~ to min: ~minVal
+titled	7	Display Progress Bar for unit ~unit~ titled ~title~ with a m
+to:	7	Set Progres Bar Title for unit ~unit~ to: ~titleText~
+lower	7	Difficulty for ~player~ Player is ~difficulty~ or lower
+upon	7	Mission objective ~objective~ ~type~ rewards upon completion
+month	7	~dateTime~ Month
+hour	7	~dateTime~ Hour
+produce	7	Limit player ~p~  to only be able to produce ~cap~ ~producti
+exited	7	The Spear of Adun's targeting mode is exited ~exitType|By Ex
+ablities	7	Set the unit that will be casting Spear of Adun ablities to 
+whole	7	Create a dialog window that cover the whole world which prev
+describes	7	Objective data is defined in the Data module and describes o
+name,	7	Objective data is defined in the Data module and describes o
+(mouseover)	7	Objective data is defined in the Data module and describes o
+useful	7	This must always be called at least once by the time you mar
+"create	7	Pings the minimap using a standard ping model.  This ping ca
+on,	7	Turns on/off Swarm cinematic mode for all players. Cinematic
+vale	7	Sets the progress of a unit Progress Bar. Takes an integer v
+(set	7	Sets the progress of a unit Progress Bar. Takes an integer v
+"display	7	Sets the progress of a unit Progress Bar. Takes an integer v
+represented	7	Shifts the range of the unit's progress bar such that the le
+represents	7	Creates a Unit based progress bar. Use "Set Unit Progress Ba
+bar,	7	Creates a Unit based progress bar. Use "Set Unit Progress Ba
+preceeds	7	Sets the text that preceeds the current progress bar value t
+pushable	7	Changes alliance settings for all players in the player grou
+destroys	7	Destroys the specified revealer.
+completed,	7	Checks the final score to make sure it's a valid result (e.g
+issues	7	Moves the timer window to the default campaign location.  Th
+example,	7	Sets the display value for the progress bar.  Use this only 
+checked	7	The Stealth AI Enemy Unit Group is the unit group that the D
+transitioning	7	Hides a background, but does not stop it. Useful for when yo
+ended	7	Returns true when the credits sequence has been ended.
+entering	7	Turns on or off the Alternate Status for a clickable, which 
+(string)	7	Converts a Preset Room to a Background Room Name (String). U
+removes	7	Removes the backgrounds in all of the main rooms.
+middle	7	Turns off all Nova Equipment for a slot. Useful for changing
+contained	7	Runs the contained actions once for each value for a field f
+use)	7	CM_GlobalCasterUnitForCommander (Old, DO NOT USE)
+insubordination	7	CT_ApplyInsubordination
+afraid	7	CT_ApplyAfraidOfTheDark
+term	7	CC_MapAchievementTerm
+preloading	7	TS_PrepareRoomPreloading
+existing	7	Apply Player Skin (Replacing Existing Unit)
+do/do	7	Do/Do Not
+griddlg	7	GRIDDLG_HV
+relative	7	Relative
+actived	7	CM_NovaGriffinTransportActived
+hgry	7	hgry1 - Gryphon Rider W1 - Spill Damage
+damager	7	Damager
+zssc	7	ZSSC_IdleLineWaitTime
+conv	7	ZSS_DebugConvToggleVisibility
+pulldown	7	PP_MLDifficultyPulldown
+queye	7	PP_MissionVictoryActionQueyeEmpty
+nodes	7	ResourceNodes
+trains	7	TrainsLeft
+callbacks	7	TS_MissionDebriefingCallbacks
+losses	7	Total Losses Text
+(gold)	7	Winning Score (Gold)
+(silver)	7	Winning Score (Silver)
+nchr	7	nchr
+ndqn	7	ndqn
+ndqs	7	ndqs
+ndqt	7	ndqt
+ndqv	7	ndqv
+ndrd	7	ndrd
+ndrt	7	ndrt
+nerd	7	nerd
+ners	7	ners
+nfel	7	nfel
+nfgb	7	nfgb
+nfgu	7	nfgu
+nfov	7	nfov
+nggr	7	nggr
+nina	7	nina
+ninc	7	ninc
+ninf	7	ninf
+ninm	7	ninm
+nndk	7	nndk
+nndr	7	nndr
+nnht	7	nnht
+npfl	7	npfl
+npfm	7	npfm
+nsat	7	nsat
+nsth	7	nsth
+nsts	7	nsts
+nsty	7	nsty
+nvdg	7	nvdg
+nvdl	7	nvdl
+nvdw	7	nvdw
+odoc	7	odoc
+orai	7	orai
+oshm	7	oshm
+ospm	7	ospm
+ospw	7	ospw
+otbk	7	otbk
+otbr	7	otbr
+otrb	7	otrb
+ovlj	7	ovlj
+uaod	7	uaod
+ubon	7	ubon
+ugrv	7	ugrv
+usap	7	usap
+usep	7	usep
+uslh	7	uslh
+utod	7	utod
+utom	7	utom
+uzig	7	uzig
+ahr	7	Ahr3
+afac	7	afac
+ajen	7	ajen
+amrc	7	amrc
+anfg	7	anfg
+arsc	7	arsc
+arsh	7	arsh
+asbl	7	asbl
+axas	7	axas
+azhr	7	azhr
+belv	7	belv
+bfhr	7	bfhr
+bgst	7	bgst
+blba	7	blba
+brac	7	brac
+brag	7	brag
+bspd	7	bspd
+btst	7	btst
+bzbe	7	bzbe
+bzbf	7	bzbf
+ccmd	7	ccmd
+ches	7	ches
+ciri	7	ciri
+ckng	7	ckng
+clfm	7	clfm
+clsd	7	clsd
+cnhn	7	cnhn
+cnob	7	cnob
+cosl	7	cosl
+crdt	7	crdt
+crys	7	crys
+dkfw	7	dkfw
+dphe	7	dphe
+drph	7	drph
+dsum	7	dsum
+dthb	7	dthb
+dtsb	7	dtsb
+engs	7	engs
+envl	7	envl
+esaz	7	esaz
+evtl	7	evtl
+fgdg	7	fgdg
+fgfh	7	fgfh
+fgrg	7	fgrg
+fgsk	7	fgsk
+fgun	7	fgun
+frgd	7	frgd
+frhg	7	frhg
+fwss	7	fwss
+gcel	7	gcel
+gemt	7	gemt
+gfor	7	gfor
+gldo	7	gldo
+glsk	7	glsk
+gmfr	7	gmfr
+gobm	7	gobm
+gomn	7	gomn
+gopr	7	gopr
+grsl	7	grsl
+gsou	7	gsou
+guvi	7	guvi
+gvsm	7	gvsm
+hbth	7	hbth
+hcun	7	hcun
+hlst	7	hlst
+horl	7	horl
+hslv	7	hslv
+hval	7	hval
+infs	7	infs
+iwbr	7	iwbr
+jdrn	7	jdrn
+jpnt	7	jpnt
+kgal	7	kgal
+klmm	7	klmm
+kpin	7	kpin
+ktrm	7	ktrm
+kybl	7	kybl
+kygh	7	kygh
+kymn	7	kymn
+kysn	7	kysn
+ledg	7	ledg
+lgdh	7	lgdh
+lhst	7	lhst
+lmbr	7	lmbr
+lnrn	7	lnrn
+manh	7	manh
+mcou	7	mcou
+mcri	7	mcri
+mgtk	7	mgtk
+mlst	7	mlst
+mnsf	7	mnsf
+mnst	7	mnst
+modt	7	modt
+mort	7	mort
+nflg	7	nflg
+nspi	7	nspi
+odef	7	odef
+oflg	7	oflg
+ofro	7	ofro
+oslo	7	oslo
+pdiv	7	pdiv
+penr	7	penr
+pghe	7	pghe
+pgin	7	pgin
+pgma	7	pgma
+phlt	7	phlt
+pinv	7	pinv
+plcl	7	plcl
+pmna	7	pmna
+pnvl	7	pnvl
+pnvu	7	pnvu
+pomn	7	pomn
+pres	7	pres
+prvt	7	prvt
+pspd	7	pspd
+rag	7	rag1
+ratc	7	ratc
+ratf	7	ratf
+rdis	7	rdis
+rhth	7	rhth
+rlif	7	rlif
+rma	7	rma2
+rman	7	rman
+rnec	7	rnec
+rnsp	7	rnsp
+rots	7	rots
+rreb	7	rreb
+rres	7	rres
+rspd	7	rspd
+rspl	7	rspl
+rsps	7	rsps
+rugt	7	rugt
+rump	7	rump
+rwat	7	rwat
+rwiz	7	rwiz
+sand	7	sand
+sbch	7	sbch
+sbok	7	sbok
+schl	7	schl
+sclp	7	sclp
+scul	7	scul
+sehr	7	sehr
+sfog	7	sfog
+shar	7	shar
+shas	7	shas
+shcw	7	shcw
+shdt	7	shdt
+shen	7	shen
+shhn	7	shhn
+shrs	7	shrs
+shtm	7	shtm
+shwd	7	shwd
+silk	7	silk
+skrt	7	skrt
+sksh	7	sksh
+sman	7	sman
+sneg	7	sneg
+sora	7	sora
+sorf	7	sorf
+sprn	7	sprn
+spro	7	spro
+srbd	7	srbd
+sreg	7	sreg
+sres	7	sres
+sror	7	sror
+srrc	7	srrc
+srtl	7	srtl
+ssil	7	ssil
+stel	7	stel
+stpg	7	stpg
+stre	7	stre
+stwa	7	stwa
+tbak	7	tbak
+tbar	7	tbar
+tbsm	7	tbsm
+tdex	7	tdex
+tdx	7	tdx2
+tels	7	tels
+texp	7	texp
+tfar	7	tfar
+tgxp	7	tgxp
+thdm	7	thdm
+thle	7	thle
+tin	7	tin2
+tlum	7	tlum
+tmmt	7	tmmt
+tmsc	7	tmsc
+totw	7	totw
+tpow	7	tpow
+tret	7	tret
+tstr	7	tstr
+uflg	7	uflg
+vamp	7	vamp
+vddl	7	vddl
+wcyc	7	wcyc
+whwd	7	whwd
+wlsd	7	wlsd
+wneu	7	wneu
+wolg	7	wolg
+wshs	7	wshs
+wswd	7	wswd
+wtlg	7	wtlg
+cantinafidgets	7	CantinafidgetsJukeboxCooper00001
+(hook)	6	Burning Oil (Hook)
+check)	6	Searing Arrows (Target Check)
+(art)	6	Sphere (Art)
+(speed	6	Shadow Strike (Speed Decay)
+decay)	6	Shadow Strike (Speed Decay)
+dismount	6	Dismount (Life & Cooldown)
+(swarm)	6	Boss Bar (Swarm)
+(to	6	World Cover (To Disable Mouse Click)
+click)	6	World Cover (To Disable Mouse Click)
+functionality	6	Global Functionality
+suits	6	Fenix Suits
+development	6	Development Mode
+revives	6	Hero Revives
+instance(	6	Instance(~val|String~)
+(and	6	Create a mission auto save with description ~description|des
+version)	6	Player ~player|player~ is in combat (Campaign version)
+value(catalog	6	PP_CatalogGetFieldArrayValue(Catalog = ~catalog|catalog~, En
+minerals,	6	Order workers in ~regionMineralWorker|regionMineralWorker~ t
+(difficulty	6	Prepare for ~victoryDefeat|victoryDefeat|Victory/Defeat~ to 
+(initially	6	Create a ~positiveNegativeOptions|positiveNegativeOptions~ t
+"army"	6	Display "Army" button and ~doDoNot|do/DoNot~ flash the butto
+lasting	6	Create a ping for ~players~ at ~position~ (using point facin
+availability	6	Set location ~planet~ availability to ~available~
+personalities	6	Start campaign AI personalities for all computer players
+day/night	6	Triggering Day/Night State
+hair	6	Apply Rohana Hair LookAt
+progress"	6	This is an alternative version of "Set Mission Objective Pro
+expensive	6	Creates a Drop Pod for a building and moves any units out of
+code,	6	Creates a Drop Pod for a building and moves any units out of
+redraw	6	Forces the boss bar to redraw.
+%]"	6	This function will replace "[%1%]" in the original text with
+(default)	6	How much progress the player has made in an objective.  This
+customizable	6	Pings the minimap using a standard ping model.  This ping ca
+audio	6	Transmissions play an audio file along with a portrait of a 
+(or	6	Transmissions play an audio file along with a portrait of a 
+provided	6	Transmissions play an audio file along with a portrait of a 
+cached,	6	Turns on/off Swarm cinematic mode for all players. Cinematic
+therefore,	6	Turns on/off Swarm cinematic mode for all players. Cinematic
+means	6	Changes alliance settings for all players in the player grou
+handles	6	Replacement for Set Screen Mode in the LotV campaign.  Handl
+hatchery/lair/hive	6	Instantly produces larva at a hatchery/lair/hive.  Cannot pr
+destroying	6	This action displays floating text for player who's gaining 
+assigns	6	Assigns what unit will be casting the Spear of Adun ablities
+intended	6	Plays a short zoom-in for all players at their current camer
+prevents	6	This prevents units from spawning via any library functions,
+steps,	6	This is the total amount of progress needed before an object
+(unit)"	6	Sets the progress of a unit Progress Bar. Takes an integer v
+makes	6	Checks for when we should send the EnergyHighlight call to t
+button's	6	Returns the value in the cheat button's edit box.
+process	6	This is where we process information after the mission is co
+heading	6	Sets what room you were in before heading into the Archives.
+false	6	If FALSE the hero will not be revived upon death
+adjusted	6	Returns the best guess of when the game started for players 
+"tactical	6	Sets the specified AI Filter to only include units whose lif
+learned	6	Returns the current learned level of the specified learn abi
+aliases	6	ZSS_ApplyAliases
+prompt	6	ZSS_CharacterPrompt
+darts	6	ZSS_RemoveEyeDarts
+(wait)	6	_Fade In/Out Using Image (Wait)
+(don't	6	_Fade In/Out Using Image (Don't Wait)
+detailed)	6	Set Unit Info Text (Campaign Detailed)
+type)	6	Difficulty Value Prologue (Unit Type)
+transports	6	Last Created Coop Attack Force Transports
+statistic	6	CC_MapScoreStatistic
+gender	6	CC_CommanderGender
+mike	6	MikeCreateElapsedTimerWindow
+cone	6	Stealth AI - Make Alarm Bot Exit Cone Detection
+indicator	6	NU_EquipmentUpdateSelectionIndicator
+else	6	If Then Else
+bak	6	Display Kerrigan Kit Selection UI_Bak
+vignette	6	PC_MissionVignetteCutscene
+reanimators	6	Void Reanimators
+envelopes	6	RedEnvelopes
+share/unshare	6	Share/Unshare
+owning	6	Owning Player
+optioins	6	Campaign Transmission Portrait Optioins
+sucessful	6	Sucessful
+auir	6	VoidArc - AuirB
+taught	6	NStoryBankStoryMiscKey - UpgradesTaught
+subtle	6	Slow Head Only Subtle
+cached	6	CM_CoopAI_CachedUpgradeRecord
+avng	6	Avng - Unique Summon Buff
+alert/xp/gold	6	Creep Alert/XP/Gold Summoned Marker
+gray	6	Revive De-Gray
+addional	6	Acmg - Spend Addional Mana
+morphes	6	PP_CampaignUnitInfoUnitMorphes
+worshiper	6	CM_Alarak_EmpowerWorshiperRemove
+trained	6	CM_Fenix_Champion Potential Voluteer Trained
+deplete	6	CT_FoodHuntDepleteFood
+velocity	6	ResourceTextVelocity
+randomized	6	Randomized
+tempu	6	tempu
+attaker	6	TriggerAttaker
+tempug	6	tempug
+attempted	6	AttemptedDamage
+preplaced	6	PreplacedUnits
+diff	6	CM_CoopAI_DiffFlag_TargetSpawnersSet
+initialized	6	Initialized
+increments	6	Increments
+trickle	6	TrickleOption
+expected	6	ExpectedUnitLocation
+gained	6	ObjectiveXPGained
+01a	6	Init 01a Technology
+sentence	6	Gets the next word in a sentence as determined by the delimi
+possibilities	6	CT_GetMutatorCountPossibilities
+member	6	Set Tychus Squad Member
+eaoe	6	eaoe
+eaom	6	eaom
+eaow	6	eaow
+earc	6	earc
+eate	6	eate
+ebal	6	ebal
+ebsh	6	ebsh
+echm	6	echm
+edcm	6	edcm
+eden	6	eden
+edes	6	edes
+edob	6	edob
+edoc	6	edoc
+edos	6	edos
+edot	6	edot
+edry	6	edry
+edtm	6	edtm
+efdr	6	efdr
+efon	6	efon
+egol	6	egol
+ehip	6	ehip
+ehpr	6	ehpr
+eilw	6	eilw
+emow	6	emow
+emtg	6	emtg
+enec	6	enec
+ensh	6	ensh
+eshd	6	eshd
+eshy	6	eshy
+espv	6	espv
+etoa	6	etoa
+etoe	6	etoe
+etol	6	etol
+etrp	6	etrp
+etrs	6	etrs
+ewsp	6	ewsp
+harm	6	harm
+haro	6	haro
+hars	6	hars
+hatw	6	hatw
+hbar	6	hbar
+hbew	6	hbew
+hbla	6	hbla
+hbot	6	hbot
+hbsh	6	hbsh
+hcas	6	hcas
+hcth	6	hcth
+hctw	6	hctw
+hdes	6	hdes
+hdhw	6	hdhw
+hfoo	6	hfoo
+hgra	6	hgra
+hgtw	6	hgtw
+hgyr	6	hgyr
+hhdl	6	hhdl
+hhes	6	hhes
+hhou	6	hhou
+hkee	6	hkee
+hkni	6	hkni
+hlum	6	hlum
+hmil	6	hmil
+hmpr	6	hmpr
+hmtm	6	hmtm
+hmtt	6	hmtt
+hpea	6	hpea
+hphx	6	hphx
+hprt	6	hprt
+hpxe	6	hpxe
+hrdh	6	hrdh
+hrif	6	hrif
+hrtt	6	hrtt
+hshy	6	hshy
+hsor	6	hsor
+hspt	6	hspt
+htow	6	htow
+hvlt	6	hvlt
+hwat	6	hwat
+hwtw	6	hwtw
+nadk	6	nadk
+nadr	6	nadr
+nadw	6	nadw
+nahy	6	nahy
+nalb	6	nalb
+nanb	6	nanb
+nanc	6	nanc
+nane	6	nane
+nanm	6	nanm
+nanw	6	nanw
+narg	6	narg
+nass	6	nass
+nban	6	nban
+nbda	6	nbda
+nbdk	6	nbdk
+nbdm	6	nbdm
+nbdo	6	nbdo
+nbdr	6	nbdr
+nbds	6	nbds
+nbdw	6	nbdw
+nbee	6	nbee
+nbel	6	nbel
+nbfl	6	nbfl
+nbld	6	nbld
+nbnb	6	nbnb
+nbot	6	nbot
+nbrg	6	nbrg
+nbse	6	nbse
+nbsm	6	nbsm
+nbsp	6	nbsp
+nbsw	6	nbsw
+nbwd	6	nbwd
+nbwm	6	nbwm
+nbzd	6	nbzd
+nbzk	6	nbzk
+nbzw	6	nbzw
+ncap	6	ncap
+ncat	6	ncat
+ncaw	6	ncaw
+ncba	6	ncba
+ncbb	6	ncbb
+ncbc	6	ncbc
+ncbd	6	ncbd
+ncbe	6	ncbe
+ncbf	6	ncbf
+ncea	6	ncea
+ncen	6	ncen
+ncer	6	ncer
+ncfs	6	ncfs
+ncgb	6	ncgb
+nchg	6	nchg
+nchp	6	nchp
+nchw	6	nchw
+ncim	6	ncim
+nckb	6	nckb
+ncks	6	ncks
+ncmw	6	ncmw
+ncnk	6	ncnk
+ncnt	6	ncnt
+ncop	6	ncop
+ncpn	6	ncpn
+ncrb	6	ncrb
+ncta	6	ncta
+ncte	6	ncte
+nctl	6	nctl
+ndch	6	ndch
+nder	6	nder
+ndfl	6	ndfl
+ndgt	6	ndgt
+ndke	6	ndke
+ndkw	6	ndkw
+ndmg	6	ndmg
+ndmu	6	ndmu
+ndog	6	ndog
+ndrb	6	ndrb
+ndrf	6	ndrf
+ndrg	6	ndrg
+ndrh	6	ndrh
+ndrj	6	ndrj
+ndrk	6	ndrk
+ndrl	6	ndrl
+ndrm	6	ndrm
+ndrn	6	ndrn
+ndro	6	ndro
+ndrp	6	ndrp
+ndrr	6	ndrr
+ndrs	6	ndrs
+ndru	6	ndru
+ndrv	6	ndrv
+ndrw	6	ndrw
+ndrz	6	ndrz
+ndsa	6	ndsa
+ndtb	6	ndtb
+ndth	6	ndth
+ndtp	6	ndtp
+ndtr	6	ndtr
+ndtt	6	ndtt
+ndtw	6	ndtw
+ndwm	6	ndwm
+nech	6	nech
+necr	6	necr
+nefm	6	nefm
+negf	6	negf
+negm	6	negm
+negt	6	negt
+negz	6	negz
+nehy	6	nehy
+nelb	6	nelb
+nele	6	nele
+nemi	6	nemi
+nenc	6	nenc
+nenf	6	nenf
+nenp	6	nenp
+nepl	6	nepl
+nfac	6	nfac
+nfbr	6	nfbr
+nfgl	6	nfgl
+nfgo	6	nfgo
+nfgt	6	nfgt
+nfnp	6	nfnp
+nfod	6	nfod
+nfoh	6	nfoh
+nfor	6	nfor
+nfot	6	nfot
+nfpc	6	nfpc
+nfpe	6	nfpe
+nfpl	6	nfpl
+nfps	6	nfps
+nfpt	6	nfpt
+nfpu	6	nfpu
+nfra	6	nfra
+nfrb	6	nfrb
+nfre	6	nfre
+nfrg	6	nfrg
+nfrl	6	nfrl
+nfrm	6	nfrm
+nfro	6	nfro
+nfrp	6	nfrp
+nfrs	6	nfrs
+nfrt	6	nfrt
+nfsh	6	nfsh
+nfsp	6	nfsp
+nftb	6	nftb
+nftk	6	nftk
+nftr	6	nftr
+nftt	6	nftt
+ngad	6	ngad
+ngbl	6	ngbl
+ngdk	6	ngdk
+ngir	6	ngir
+nglm	6	nglm
+ngme	6	ngme
+ngna	6	ngna
+ngnb	6	ngnb
+ngnh	6	ngnh
+ngni	6	ngni
+ngno	6	ngno
+ngns	6	ngns
+ngnv	6	ngnv
+ngnw	6	ngnw
+ngob	6	ngob
+ngol	6	ngol
+ngrd	6	ngrd
+ngrk	6	ngrk
+ngrw	6	ngrw
+ngsp	6	ngsp
+ngst	6	ngst
+ngt	6	ngt2
+ngwr	6	ngwr
+ngza	6	ngza
+ngzc	6	ngzc
+ngzd	6	ngzd
+nhar	6	nhar
+nhcn	6	nhcn
+nhdc	6	nhdc
+nhea	6	nhea
+nheb	6	nheb
+nhef	6	nhef
+nhem	6	nhem
+nhew	6	nhew
+nhfp	6	nhfp
+nhhr	6	nhhr
+nhmc	6	nhmc
+nhns	6	nhns
+nhrh	6	nhrh
+nhrq	6	nhrq
+nhrr	6	nhrr
+nhrw	6	nhrw
+nhyc	6	nhyc
+nhyd	6	nhyd
+nhyh	6	nhyh
+nhym	6	nhym
+nico	6	nico
+nitb	6	nitb
+nith	6	nith
+nitp	6	nitp
+nitr	6	nitr
+nits	6	nits
+nitt	6	nitt
+nitw	6	nitw
+njg	6	njg1
+njga	6	njga
+njgb	6	njgb
+njks	6	njks
+nkob	6	nkob
+nkog	6	nkog
+nkol	6	nkol
+nkot	6	nkot
+nlds	6	nlds
+nlkl	6	nlkl
+nlpd	6	nlpd
+nlpr	6	nlpr
+nlps	6	nlps
+nlrv	6	nlrv
+nlsn	6	nlsn
+nltc	6	nltc
+nltl	6	nltl
+nlur	6	nlur
+nmam	6	nmam
+nmbg	6	nmbg
+nmcf	6	nmcf
+nmdm	6	nmdm
+nmdr	6	nmdr
+nmed	6	nmed
+nmer	6	nmer
+nmfs	6	nmfs
+nmgd	6	nmgd
+nmgr	6	nmgr
+nmgv	6	nmgv
+nmgw	6	nmgw
+nmit	6	nmit
+nmmu	6	nmmu
+nmoo	6	nmoo
+nmpe	6	nmpe
+nmpg	6	nmpg
+nmra	6	nmra
+nmrb	6	nmrb
+nmrc	6	nmrc
+nmrd	6	nmrd
+nmre	6	nmre
+nmrf	6	nmrf
+nmrk	6	nmrk
+nmrl	6	nmrl
+nmrm	6	nmrm
+nmrr	6	nmrr
+nmrv	6	nmrv
+nmsc	6	nmsc
+nmsh	6	nmsh
+nmsn	6	nmsn
+nmtw	6	nmtw
+nmyr	6	nmyr
+nmys	6	nmys
+nnad	6	nnad
+nnfm	6	nnfm
+nnmg	6	nnmg
+nnrg	6	nnrg
+nnrs	6	nnrs
+nnsa	6	nnsa
+nnsg	6	nnsg
+nnsu	6	nnsu
+nnsw	6	nnsw
+nntg	6	nntg
+nntt	6	nntt
+nnwa	6	nnwa
+nnwl	6	nnwl
+nnwq	6	nnwq
+nnwr	6	nnwr
+nnws	6	nnws
+nnzg	6	nnzg
+noga	6	noga
+nogl	6	nogl
+nogm	6	nogm
+nogn	6	nogn
+nogo	6	nogo
+nogr	6	nogr
+nomg	6	nomg
+nowb	6	nowb
+nowe	6	nowe
+nowk	6	nowk
+nowl	6	nowl
+npgf	6	npgf
+npgr	6	npgr
+npig	6	npig
+nplb	6	nplb
+nplg	6	nplg
+npng	6	npng
+npnw	6	npnw
+nqbh	6	nqbh
+nrac	6	nrac
+nrat	6	nrat
+nrdk	6	nrdk
+nrdr	6	nrdr
+nrel	6	nrel
+nrog	6	nrog
+nrvd	6	nrvd
+nrvf	6	nrvf
+nrvi	6	nrvi
+nrvl	6	nrvl
+nrvs	6	nrvs
+nrwm	6	nrwm
+nrzb	6	nrzb
+nrzg	6	nrzg
+nrzm	6	nrzm
+nrzs	6	nrzs
+nrzt	6	nrzt
+nsbm	6	nsbm
+nsbs	6	nsbs
+nsca	6	nsca
+nscb	6	nscb
+nsce	6	nsce
+nsea	6	nsea
+nsel	6	nsel
+nser	6	nser
+nsgb	6	nsgb
+nsgg	6	nsgg
+nsgh	6	nsgh
+nsgn	6	nsgn
+nsgt	6	nsgt
+nsha	6	nsha
+nshe	6	nshe
+nshf	6	nshf
+nshp	6	nshp
+nshr	6	nshr
+nshw	6	nshw
+nska	6	nska
+nske	6	nske
+nskf	6	nskf
+nskg	6	nskg
+nskk	6	nskk
+nskm	6	nskm
+nsko	6	nsko
+nslf	6	nslf
+nslh	6	nslh
+nsll	6	nsll
+nslm	6	nslm
+nsln	6	nsln
+nslr	6	nslr
+nslv	6	nslv
+nsno	6	nsno
+nsnp	6	nsnp
+nsns	6	nsns
+nsoc	6	nsoc
+nsog	6	nsog
+nspb	6	nspb
+nspc	6	nspc
+nspd	6	nspd
+nspg	6	nspg
+nspp	6	nspp
+nspr	6	nspr
+nsqa	6	nsqa
+nsqe	6	nsqe
+nsqo	6	nsqo
+nsqt	6	nsqt
+nsra	6	nsra
+nsrh	6	nsrh
+nsrn	6	nsrn
+nsrv	6	nsrv
+nsrw	6	nsrw
+nssn	6	nssn
+nssp	6	nssp
+nstw	6	nstw
+ntav	6	ntav
+nten	6	nten
+nthl	6	nthl
+nthr	6	nthr
+ntka	6	ntka
+ntkc	6	ntkc
+ntkf	6	ntkf
+ntkh	6	ntkh
+ntks	6	ntks
+ntkt	6	ntkt
+ntkw	6	ntkw
+ntn	6	ntn2
+ntnt	6	ntnt
+ntor	6	ntor
+ntrd	6	ntrd
+ntrg	6	ntrg
+ntrh	6	ntrh
+ntrs	6	ntrs
+ntrt	6	ntrt
+ntrv	6	ntrv
+ntws	6	ntws
+ntx	6	ntx2
+nubk	6	nubk
+nubr	6	nubr
+nubw	6	nubw
+nvil	6	nvil
+nvk	6	nvk2
+nvl	6	nvl2
+nvlk	6	nvlk
+nvlw	6	nvlw
+nvul	6	nvul
+nwad	6	nwad
+nwat	6	nwat
+nwen	6	nwen
+nwgs	6	nwgs
+nwgt	6	nwgt
+nwiz	6	nwiz
+nwld	6	nwld
+nwlg	6	nwlg
+nwlt	6	nwlt
+nwna	6	nwna
+nwnr	6	nwnr
+nwns	6	nwns
+nwrg	6	nwrg
+nws	6	nws1
+nwwd	6	nwwd
+nwwf	6	nwwf
+nwwg	6	nwwg
+nwzd	6	nwzd
+nwzg	6	nwzg
+nwzr	6	nwzr
+nzep	6	nzep
+nzin	6	nzin
+nzlc	6	nzlc
+nzom	6	nzom
+oalt	6	oalt
+obar	6	obar
+obea	6	obea
+obot	6	obot
+ocat	6	ocat
+ocbw	6	ocbw
+odes	6	odes
+odkt	6	odkt
+oeye	6	oeye
+ofor	6	ofor
+ofrt	6	ofrt
+ogrk	6	ogrk
+ogru	6	ogru
+ohun	6	ohun
+ohwd	6	ohwd
+ojgn	6	ojgn
+okod	6	okod
+omtg	6	omtg
+onzg	6	onzg
+oosc	6	oosc
+opeo	6	opeo
+oshy	6	oshy
+osld	6	osld
+ostr	6	ostr
+oswy	6	oswy
+otau	6	otau
+otot	6	otot
+otto	6	otto
+ovln	6	ovln
+owar	6	owar
+ownr	6	ownr
+owtw	6	owtw
+owyv	6	owyv
+uabc	6	uabc
+uabo	6	uabo
+uaco	6	uaco
+uarb	6	uarb
+uban	6	uban
+ubdd	6	ubdd
+ubdr	6	ubdr
+ubot	6	ubot
+ubsp	6	ubsp
+ucrm	6	ucrm
+ucry	6	ucry
+udes	6	udes
+ufro	6	ufro
+ugar	6	ugar
+ugho	6	ugho
+ugol	6	ugol
+ugrm	6	ugrm
+uktg	6	uktg
+uktn	6	uktn
+uloc	6	uloc
+umtw	6	umtw
+unec	6	unec
+unpl	6	unpl
+uobs	6	uobs
+uplg	6	uplg
+ushd	6	ushd
+ushp	6	ushp
+uske	6	uske
+uskm	6	uskm
+uswb	6	uswb
+uubs	6	uubs
+zcso	6	zcso
+zhyd	6	zhyd
+zjug	6	zjug
+zmar	6	zmar
+zshv	6	zshv
+zsmc	6	zsmc
+zzrg	6	zzrg
+aro	6	Aro1
+fodder	6	Explosives Fodder 1 (Unnamed)
+invisible	6	Invisible 2x2
+biscuit:	6	TotalBiscuit: Trunks

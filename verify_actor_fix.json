@@ -1,0 +1,17 @@
+{
+  "pid": 29684,
+  "alive_before_scan": true,
+  "hits": {
+    "演算体 - ACss [utf8]": [],
+    "默认武器 [utf8]": [
+      "0xda3eb7307f",
+      "0x249f0adceaf",
+      "0x249f0ae807f"
+    ],
+    "潜地中 [utf8]": [],
+    "正在飞行 [utf8]": []
+  },
+  "regions": 1321,
+  "bytes": 469430272,
+  "exit_code_after_test": 1
+}

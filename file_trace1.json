@@ -1,0 +1,29 @@
+{
+  "changed": [
+    {
+      "path": "D:\\StarCraft II\\Editor\\LocalizedData\\TriggerStrings.txt",
+      "before": 1786890616186022700,
+      "after": 1786891668646606100
+    },
+    {
+      "path": "D:\\StarCraft II\\Editor\\LocalizedData\\ObjectStrings.txt",
+      "before": 1786891611814183400,
+      "after": 1786891668437210500
+    },
+    {
+      "path": "D:\\StarCraft II\\Editor\\EditorCategoryStrings.txt",
+      "before": 1786890556194171900,
+      "after": 1786891661760845000
+    },
+    {
+      "path": "D:\\StarCraft II\\Editor\\EditorCatalogStrings.txt",
+      "before": 1786890556188176700,
+      "after": 1786891661755352100
+    },
+    {
+      "path": "D:\\StarCraft II\\Editor\\EditorStrings.txt",
+      "before": 1786890556120744500,
+      "after": 1786891661686271300
+    }
+  ]
+}

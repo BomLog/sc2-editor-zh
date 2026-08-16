@@ -1,0 +1,17 @@
+{
+  "stamp": "20260815_221647",
+  "backups": [
+    "D:\\StarCraft II\\Editor\\LocalizedData\\TriggerStrings.txt.bak.cascmerge_20260815_221647",
+    "D:\\StarCraft II\\Editor\\LocalizedData\\ObjectStrings.txt.bak.cascmerge_20260815_221647"
+  ],
+  "filled": {
+    "TriggerStrings.txt": {
+      "filled": 0,
+      "needed_but_no_official": 15338
+    },
+    "ObjectStrings.txt": {
+      "filled": 0,
+      "needed_but_no_official": 14995
+    }
+  }
+}

@@ -1,0 +1,5021 @@
+{
+ "unique_bodies": 744,
+ "to_translate": [
+  "*",
+  "2019 WCS",
+  "2D",
+  "3D",
+  "A",
+  "AI",
+  "Accumulator",
+  "Actor reference name for finding team color.",
+  "Adjutant",
+  "Adjutant To Raynor",
+  "Adornment",
+  "Agria",
+  "Air",
+  "Aiur",
+  "Albion",
+  "Alternate",
+  "AlternateEX",
+  "Angry",
+  "Angry (Eyes)",
+  "Arm",
+  "Armor",
+  "Armory",
+  "Ashenvale Proper",
+  "Attached",
+  "Attacher",
+  "Attacher 01",
+  "Attacher 02",
+  "Attacher 03",
+  "Attacher 04",
+  "Attacher 05",
+  "Attacher 06",
+  "Attacher 07",
+  "Attacher 08",
+  "Attacher 09",
+  "Attacher 10",
+  "Attacher 11",
+  "Attacher 12",
+  "Attacher 13",
+  "Attacher 14",
+  "Attacher 15",
+  "Attacher 16",
+  "Attacher 17",
+  "Attacher 18",
+  "Attacher 19",
+  "Attack",
+  "Avernus",
+  "B",
+  "BG_Amb_3D",
+  "BG_Ambient_2D",
+  "BG_Ambient_2D_Night",
+  "BG_Ambient_3D_Night",
+  "BG_Doodad",
+  "BG_MapIntro",
+  "BG_Map_Event_Duck",
+  "BG_NPC_Movement",
+  "BG_Set_Ambient",
+  "Back",
+  "Backpack",
+  "Banshee",
+  "Bartender",
+  "Battlefield",
+  "Bel'Shir",
+  "Berserk",
+  "Birth",
+  "Birth (Global Loop)",
+  "Blast",
+  "Blend mode",
+  "Blink",
+  "Block",
+  "Bone",
+  "Bottom",
+  "Break",
+  "Bridge",
+  "Briefing",
+  "Buff",
+  "Build",
+  "Burned",
+  "Burrow",
+  "C",
+  "CCPA",
+  "CUE",
+  "Campaign",
+  "Cantina",
+  "Cargo",
+  "Castanar",
+  "Caster Ground Height",
+  "Center",
+  "Center 01",
+  "Chain",
+  "Channel",
+  "Char",
+  "Char Dunes",
+  "Char Set",
+  "Char Two",
+  "Chest",
+  "Chest Alternate",
+  "Chest Left",
+  "Chest Mount",
+  "Chest Mount Left",
+  "Chest Mount Rear",
+  "Chest Mount Right",
+  "Chest Right",
+  "Chin",
+  "Click",
+  "Cloak",
+  "Close",
+  "Closed Eyes",
+  "Complete",
+  "Complex",
+  "Component",
+  "Contains All",
+  "Contains Any",
+  "Corrupted",
+  "Cover",
+  "Creep",
+  "Critical",
+  "Custom",
+  "Custom A",
+  "Custom B",
+  "Custom C",
+  "Cyberworld",
+  "D",
+  "DNA",
+  "DX_Announcer_Duck",
+  "DX_Announcer_GameEnd",
+  "DX_Announcer_Main",
+  "DX_Voice_Hero",
+  "DX_Voice_Hero_Int",
+  "Damage",
+  "Damage 1",
+  "Damage 10",
+  "Damage 11",
+  "Damage 12",
+  "Damage 13",
+  "Damage 14",
+  "Damage 15",
+  "Damage 16",
+  "Damage 17",
+  "Damage 18",
+  "Damage 19",
+  "Damage 2",
+  "Damage 3",
+  "Damage 4",
+  "Damage 5",
+  "Damage 6",
+  "Damage 7",
+  "Damage 8",
+  "Damage 9",
+  "Dance",
+  "Dark",
+  "Dead",
+  "Dead (Global Loop)",
+  "Death",
+  "Death (Global Loop)",
+  "Decay",
+  "Default",
+  "Defend",
+  "Dehaka",
+  "Desert World",
+  "Detect",
+  "Devour",
+  "Dialogue",
+  "Diffuse",
+  "Disintegrate",
+  "Dissipate",
+  "Dominant",
+  "Dominion Lab",
+  "Double",
+  "Drain",
+  "Dropship",
+  "Dylar",
+  "E",
+  "Eat",
+  "Eat Tree",
+  "Effect per case",
+  "Effector",
+  "Electrocute",
+  "Elevator",
+  "Emissive",
+  "End",
+  "Enemy",
+  "Engine",
+  "Equal",
+  "Equals",
+  "Eviscerate",
+  "Evolution Master",
+  "Evomaster",
+  "Eye",
+  "F",
+  "FX_Breakables",
+  "FX_Build",
+  "FX_Building_Combat",
+  "FX_Cutscene_In_Engine",
+  "FX_Hero_Death",
+  "FX_Hero_Local_Attack_Impact",
+  "FX_Hero_Local_Attack_Launch",
+  "FX_Hero_Local_Spell",
+  "FX_Hero_Local_Spell_Impact",
+  "FX_Hero_Local_Spell_Loop",
+  "FX_Hero_Local_Ult",
+  "FX_Hero_Local_Vox",
+  "FX_Hero_Movement",
+  "FX_Hero_NPC_Attack_Impact",
+  "FX_Hero_NPC_Attack_Launch",
+  "FX_Hero_NPC_FullRange",
+  "FX_Hero_NPC_Proc",
+  "FX_Hero_NPC_Spell",
+  "FX_Hero_NPC_Spell_Impact",
+  "FX_Hero_NPC_Spell_Loop",
+  "FX_Hero_NPC_Ult",
+  "FX_Hero_NPC_Vox",
+  "FX_Hero_Spell_Secondary",
+  "FX_MapIntro",
+  "FX_Map_Events",
+  "FX_NPC_Combat",
+  "FX_Physics",
+  "FX_Pickups",
+  "FX_Sound_GameEnd",
+  "FX_Warning",
+  "Face",
+  "Falloff ramp type",
+  "Far",
+  "Fast",
+  "Fear (Eyes)",
+  "Female",
+  "Fidget",
+  "Fill",
+  "Final",
+  "Fire",
+  "Firebat",
+  "Flail",
+  "Flesh",
+  "Fling",
+  "Fly",
+  "Foot",
+  "Foot Left",
+  "Foot Left Alternate",
+  "Foot Left Rear",
+  "Foot Right",
+  "Foot Right Alternate",
+  "Foot Right Rear",
+  "Forearm Left",
+  "Forearm Right",
+  "Forward",
+  "Freeze",
+  "Front",
+  "G",
+  "Gather",
+  "Gender",
+  "Ghost",
+  "Glow",
+  "Gold",
+  "Ground",
+  "H",
+  "Hand",
+  "Hand Left",
+  "Hand Left Alternate",
+  "Hand Right",
+  "Hand Right Alternate",
+  "Hanson",
+  "Hanson To Raynor",
+  "Happy",
+  "Happy (Eyes)",
+  "Hardpoint",
+  "Hardpoint 01",
+  "Hardpoint 02",
+  "Hardpoint 02 Alternate",
+  "Hardpoint 03",
+  "Hardpoint 04",
+  "Hardpoint 05",
+  "Hardpoint 06",
+  "Hardpoint 07",
+  "Hardpoint 08",
+  "Hardpoint 09",
+  "Hardpoint 10",
+  "Hardpoint 11",
+  "Hardpoint 12",
+  "Hardpoint 13",
+  "Hardpoint 14",
+  "Hardpoint 15",
+  "Hardpoint 16",
+  "Hardpoint 17",
+  "Hardpoint 18",
+  "Hardpoint 19",
+  "Hardpoint Alternate",
+  "Hardpoint Alternate 01",
+  "Hardpoint Alternate 02",
+  "Hardpoint Alternate 03",
+  "Hardpoint Alternate 04",
+  "Hardpoint Eat Tree",
+  "Hardpoint Large",
+  "Hardpoint Left",
+  "Hardpoint Medium",
+  "Hardpoint Right",
+  "Hardpoint Small",
+  "Haven",
+  "Head",
+  "Head Alternate",
+  "Head Mount",
+  "Head Top",
+  "Heavy",
+  "Helios",
+  "Helmet",
+  "Highlight",
+  "Hill",
+  "Hit",
+  "Hit 1",
+  "Hit 2",
+  "Hit 3",
+  "Hit 4",
+  "Hit 5",
+  "Hit 6",
+  "Hit 7",
+  "Hit 8",
+  "Hit 9",
+  "Hit Point Bar",
+  "Hold",
+  "Hold Position2",
+  "Hold Position3",
+  "Horner",
+  "Horner To Raynor",
+  "Hover",
+  "Hybrid Dusk Set",
+  "Hybrid Lab Inner",
+  "Hybrid Lab Outer",
+  "Hybrid Lab Xel'Naga",
+  "Hybrid Night Set",
+  "I",
+  "ID",
+  "IGNORE",
+  "Ice World",
+  "Id",
+  "If Player Hold flag is on, units loaded into this transport can only move between transports that share the same Cargo Filter",
+  "Ignore",
+  "Ignored",
+  "Inferior",
+  "Infested",
+  "J",
+  "Jessica Hall",
+  "Jump",
+  "K",
+  "Kaldir Set",
+  "Kerrigan",
+  "Kill",
+  "Kings Crest",
+  "Kings Crest Docks",
+  "Kings Crest Gardens",
+  "Kings Crest Raven Court",
+  "Knee",
+  "Knee Left",
+  "Knee Right",
+  "Korhal",
+  "Korhal City",
+  "Korhal Outskirts",
+  "Korhal Planet Set",
+  "Korhal Platform",
+  "Korhal Space Set",
+  "L",
+  "Lab",
+  "Land",
+  "Large",
+  "Left",
+  "Leg",
+  "Level",
+  "License Id",
+  "Light",
+  "Lighting",
+  "Lip",
+  "Lip Upper",
+  "Listen",
+  "Load",
+  "Location",
+  "Looping",
+  "Lumber",
+  "Luxoria",
+  "M",
+  "MX_Dead",
+  "MX_MapIntro",
+  "MX_Music",
+  "MX_Music_GameEnd",
+  "MX_Stinger",
+  "Mac Guffin",
+  "Male",
+  "Mar Sara",
+  "Mar Sara Bar",
+  "Marauder",
+  "Marcus Cade",
+  "Marine",
+  "Master_Game_Out",
+  "Medium",
+  "Meinhoff",
+  "Melee",
+  "Mercenary",
+  "Mercenary 3",
+  "Miscellaneous",
+  "Moderate",
+  "Monlyth",
+  "Moria",
+  "Morph",
+  "Mount",
+  "Movement",
+  "N",
+  "Near Impact",
+  "Neutral Eyes",
+  "New Folsom",
+  "News Report",
+  "Niflheim",
+  "None",
+  "Normal",
+  "O",
+  "Observatory",
+  "Off",
+  "Omni",
+  "Optional parameter than redirects term to test against the actor chosen by the RefName, rather than the actor that is receiving the message that the term is filtering.",
+  "Origin",
+  "Origin 01",
+  "Origin Alternate",
+  "Out",
+  "Overhead",
+  "Overhead 01",
+  "Overhead Alternate",
+  "P",
+  "PCM 16",
+  "PCM 24",
+  "PCM 32",
+  "PCM 8",
+  "PCM FLOAT",
+  "PU72516J",
+  "Penetrate",
+  "Phased",
+  "Pickup",
+  "Placement",
+  "Port Zion",
+  "Portrait",
+  "Portrait Chest",
+  "Portrait Hand Left",
+  "Portrait Hand Right",
+  "Portrait Head",
+  "Pose",
+  "Primal",
+  "Primary",
+  "Prison Ship",
+  "Protoss",
+  "Protoss Scientist",
+  "Puke",
+  "Q",
+  "R",
+  "Race",
+  "Rally Point",
+  "Range",
+  "Raynor",
+  "Raynor To Adjutant",
+  "Raynor To Hanson",
+  "Raynor To Horner",
+  "Raynor To Swann",
+  "Raynor To Tosh",
+  "Raynor To Tychus",
+  "Rear",
+  "Redstone",
+  "Reload",
+  "Restart",
+  "Resurrect",
+  "Ride",
+  "Ride Beast",
+  "Ride Bike",
+  "Ride None",
+  "Ride Surf",
+  "Right",
+  "Run",
+  "S",
+  "Sad",
+  "Sad (Eyes)",
+  "Scared",
+  "Secondary",
+  "Serious (Eyes)",
+  "Set A",
+  "Set B",
+  "Set C",
+  "Set Location",
+  "Set Location 01",
+  "Set Location 02",
+  "Set Location 03",
+  "Set Location 04",
+  "Set Location 05",
+  "Set Location 06",
+  "Set Location 07",
+  "Set Location 08",
+  "Set Location 09",
+  "Set Location 10",
+  "Set Location 11",
+  "Set Location 12",
+  "Set Location 13",
+  "Set Location 14",
+  "Set Location 15",
+  "Severe",
+  "Shakuras",
+  "Shield",
+  "Shoulder",
+  "Shoulder Left",
+  "Shoulder Right",
+  "Siege Tank",
+  "Silent Kill",
+  "Simple",
+  "Slam",
+  "Slow",
+  "Small",
+  "Solo",
+  "Space Set",
+  "Specular",
+  "Spell",
+  "Spider Mine",
+  "Spiked",
+  "Spin",
+  "Sprite First",
+  "Sprite Second",
+  "Sprite Third",
+  "Squish",
+  "Stage Fifth",
+  "Stage First",
+  "Stage Fourth",
+  "Stage Second",
+  "Stage Third",
+  "Stand",
+  "Stand (Global Loop)",
+  "Stand Up",
+  "Star Ship",
+  "Start",
+  "Status Bar",
+  "Status Bar 01",
+  "Status Bar 02",
+  "Status Bar 03",
+  "Status Bar 04",
+  "Status Bar 05",
+  "Status Bar 06",
+  "Status Bar 07",
+  "Status Bar 08",
+  "Status Bar 09",
+  "Status Bar 10",
+  "Status Bar 11",
+  "Status Bar 12",
+  "Status Bar 13",
+  "Status Bar 14",
+  "Status Bar 15",
+  "Status Bar 16",
+  "Status Bar 17",
+  "Status Bar 18",
+  "Status Bar 19",
+  "Stetmann",
+  "Stukov",
+  "Stun",
+  "SubMaster_BG",
+  "SubMaster_DX",
+  "SubMaster_FX",
+  "SubMaster_Hero_Local",
+  "SubMaster_MX",
+  "SubMaster_NPC",
+  "SubMaster_UI",
+  "Submaster_Announcer",
+  "Submaster_Hero_Combat_Duck",
+  "Submaster_Hero_NPC",
+  "Submaster_Hero_Spells",
+  "Superior",
+  "Surf",
+  "Surprise (Eyes)",
+  "Swann",
+  "Swann To Raynor",
+  "Swim",
+  "Switch case fall through for the effect",
+  "T",
+  "Talk",
+  "Target",
+  "Target 01",
+  "Target 02",
+  "Target 03",
+  "Target 04",
+  "Target 05",
+  "Target 06",
+  "Target 07",
+  "Target 08",
+  "Target 09",
+  "Target 10",
+  "Target 11",
+  "Target 12",
+  "Target 13",
+  "Target 14",
+  "Target 15",
+  "Target 16",
+  "Target 17",
+  "Target 18",
+  "Target 19",
+  "Target 20",
+  "Target 21",
+  "Target 22",
+  "Target 23",
+  "Target 24",
+  "Target 25",
+  "Target 26",
+  "Target 27",
+  "Target 28",
+  "Target 29",
+  "Target 30",
+  "Target 31",
+  "Target 32",
+  "Target 33",
+  "Target 34",
+  "Target 35",
+  "Target 36",
+  "Target 37",
+  "Target 38",
+  "Target 39",
+  "Target 40",
+  "Target Final",
+  "Target Ground Height",
+  "Target Heavy",
+  "Target Light",
+  "Target Medium",
+  "Target Shield",
+  "Tarsonis",
+  "Taunt",
+  "Teleport",
+  "Terran",
+  "The pan level to use for non local sounds. Less than zero means to use the value in pan level.",
+  "The speaker mix to use if this sound is played for a non local player. -1 means to use the value in SpeakerMix.",
+  "Throw",
+  "Thrown",
+  "Tileset",
+  "Top",
+  "Tosh",
+  "Tosh to Raynor",
+  "Transmission",
+  "Turbo",
+  "Turn",
+  "Turret",
+  "Turret Y",
+  "Turret Z",
+  "Tychus",
+  "Tychus to Raynor",
+  "Typhon",
+  "Tyrador",
+  "U",
+  "UI_Bnet",
+  "UI_Game",
+  "Ulaan",
+  "Ulnar",
+  "Umoja",
+  "Unburrow",
+  "Unload",
+  "Unpowered",
+  "Up",
+  "Upgrade",
+  "Upgrade Armor",
+  "Upgrade Engine",
+  "Upgrade Engine Bottom",
+  "Upgrade Engine Left",
+  "Upgrade Engine Right",
+  "Upgrade Weapon",
+  "Upgrade Weapon Bottom",
+  "Upgrade Weapon Left",
+  "Upgrade Weapon Right",
+  "Upper",
+  "V",
+  "Valerian",
+  "Valhalla",
+  "Variation",
+  "Variation 00",
+  "Variation 01",
+  "Variation 02",
+  "Variation 03",
+  "Variation 04",
+  "Variation 05",
+  "Variation 06",
+  "Variation 07",
+  "Variation 08",
+  "Variation 09",
+  "Variation 10",
+  "Victory",
+  "Video",
+  "Viking",
+  "W",
+  "WCS 2016",
+  "WCS 2017",
+  "WCS 2018",
+  "Waist",
+  "Waist Back",
+  "Waist Front",
+  "Waist Left",
+  "Waist Right",
+  "Walk",
+  "Warfield",
+  "Weapon",
+  "Weapon 01",
+  "Weapon 02",
+  "Weapon 03",
+  "Weapon 04",
+  "Weapon 05",
+  "Weapon 06",
+  "Weapon 07",
+  "Weapon 08",
+  "Weapon 09",
+  "Weapon 10",
+  "Weapon 11",
+  "Weapon 12",
+  "Weapon 13",
+  "Weapon 14",
+  "Weapon 15",
+  "Weapon 16",
+  "Weapon 17",
+  "Weapon 18",
+  "Weapon 19",
+  "Weapon 20",
+  "Weapon 21",
+  "Weapon 22",
+  "Weapon 23",
+  "Weapon 24",
+  "Weapon 25",
+  "Weapon 26",
+  "Weapon 27",
+  "Weapon 28",
+  "Weapon 29",
+  "Weapon 30",
+  "Weapon Alternate",
+  "Weapon Bottom",
+  "Weapon Left",
+  "Weapon Left Alternate",
+  "Weapon Right",
+  "Weapon Right Alternate",
+  "Which effects the unit should not respond to. Considers the effect dealing damage and all its parent effects.",
+  "Which effects the unit should not respond to. Only considers the effect dealing damage.",
+  "Which effects the unit should respond to. Considers the effect dealing damage and all its parent effects.",
+  "Which effects the unit should respond to. Only considers the effect dealing damage.",
+  "Work",
+  "Wounded",
+  "X",
+  "Xil",
+  "Y",
+  "Z",
+  "Zagara",
+  "Zerg",
+  "Zerus",
+  "Zerus Set",
+  "Zhakul'Das",
+  "z_Test",
+  "~Case.",
+  "~UpgradeWeapon."
+ ],
+ "entries": [
+  {
+   "key": "EDSTR_ACTORSYSTEMKEYHINT_*",
+   "value": "*",
+   "body": "*"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropA",
+   "value": "A /// A",
+   "body": "A"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropAdjutant",
+   "value": "Adjutant",
+   "body": "Adjutant"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropAlternate",
+   "value": "Alternate",
+   "body": "Alternate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropAlternateex",
+   "value": "AlternateEX",
+   "body": "AlternateEX"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropAngry",
+   "value": "Angry",
+   "body": "Angry"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropAngryEyes",
+   "value": "Angry (Eyes)",
+   "body": "Angry (Eyes)"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropArm",
+   "value": "Arm",
+   "body": "Arm"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropAttached",
+   "value": "Attached",
+   "body": "Attached"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropAttack",
+   "value": "Attack",
+   "body": "Attack"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropB",
+   "value": "B /// B",
+   "body": "B"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropBack",
+   "value": "Back",
+   "body": "Back"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropBerserk",
+   "value": "Berserk",
+   "body": "Berserk"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropBirth",
+   "value": "Birth",
+   "body": "Birth"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropBlast",
+   "value": "Blast",
+   "body": "Blast"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropBlink",
+   "value": "Blink",
+   "body": "Blink"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropBlock",
+   "value": "Block",
+   "body": "Block"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropBone",
+   "value": "Bone",
+   "body": "Bone"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropBuild",
+   "value": "Build",
+   "body": "Build"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropBurrow",
+   "value": "Burrow",
+   "body": "Burrow"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropC",
+   "value": "C /// C",
+   "body": "C"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropChain",
+   "value": "Chain",
+   "body": "Chain"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropChannel",
+   "value": "Channel",
+   "body": "Channel"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropChest",
+   "value": "Chest",
+   "body": "Chest"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropClick",
+   "value": "Click",
+   "body": "Click"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropCloak",
+   "value": "Cloak",
+   "body": "Cloak"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropClose",
+   "value": "Close",
+   "body": "Close"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropClosedEyes",
+   "value": "Closed Eyes",
+   "body": "Closed Eyes"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropComplete",
+   "value": "Complete",
+   "body": "Complete"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropComplex",
+   "value": "Complex",
+   "body": "Complex"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropCorrupted",
+   "value": "Corrupted",
+   "body": "Corrupted"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropCover",
+   "value": "Cover",
+   "body": "Cover"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropCreep",
+   "value": "Creep",
+   "body": "Creep"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropCritical",
+   "value": "Critical",
+   "body": "Critical"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropCustom",
+   "value": "Custom",
+   "body": "Custom"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropD",
+   "value": "D /// D",
+   "body": "D"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropDance",
+   "value": "Dance",
+   "body": "Dance"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropDead",
+   "value": "Dead",
+   "body": "Dead"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropDeath",
+   "value": "Death",
+   "body": "Death"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropDecay",
+   "value": "Decay",
+   "body": "Decay"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropDefault",
+   "value": "Default",
+   "body": "Default"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropDefend",
+   "value": "Defend",
+   "body": "Defend"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropDehaka",
+   "value": "Dehaka",
+   "body": "Dehaka"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropDetect",
+   "value": "Detect",
+   "body": "Detect"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropDevour",
+   "value": "Devour",
+   "body": "Devour"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropDialogue",
+   "value": "Dialogue",
+   "body": "Dialogue"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropDisintegrate",
+   "value": "Disintegrate",
+   "body": "Disintegrate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropDissipate",
+   "value": "Dissipate",
+   "body": "Dissipate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropDominant",
+   "value": "Dominant",
+   "body": "Dominant"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropDouble",
+   "value": "Double",
+   "body": "Double"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropDrain",
+   "value": "Drain",
+   "body": "Drain"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropE",
+   "value": "E /// E",
+   "body": "E"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropEat",
+   "value": "Eat",
+   "body": "Eat"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropEatTree",
+   "value": "Eat Tree",
+   "body": "Eat Tree"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropElectrocute",
+   "value": "Electrocute",
+   "body": "Electrocute"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropEnd",
+   "value": "End",
+   "body": "End"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropEnemy",
+   "value": "Enemy",
+   "body": "Enemy"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropEqual",
+   "value": "Equal",
+   "body": "Equal"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropEviscerate",
+   "value": "Eviscerate",
+   "body": "Eviscerate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropEvomaster",
+   "value": "Evomaster",
+   "body": "Evomaster"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropEye",
+   "value": "Eye",
+   "body": "Eye"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropF",
+   "value": "F /// F",
+   "body": "F"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropFar",
+   "value": "Far",
+   "body": "Far"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropFast",
+   "value": "Fast",
+   "body": "Fast"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropFearEyes",
+   "value": "Fear (Eyes)",
+   "body": "Fear (Eyes)"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropFidget",
+   "value": "Fidget",
+   "body": "Fidget"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropFill",
+   "value": "Fill",
+   "body": "Fill"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropFire",
+   "value": "Fire",
+   "body": "Fire"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropFlail",
+   "value": "Flail",
+   "body": "Flail"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropFlesh",
+   "value": "Flesh",
+   "body": "Flesh"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropFling",
+   "value": "Fling",
+   "body": "Fling"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropFly",
+   "value": "Fly",
+   "body": "Fly"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropForward",
+   "value": "Forward",
+   "body": "Forward"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropFreeze",
+   "value": "Freeze",
+   "body": "Freeze"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropG",
+   "value": "G /// G",
+   "body": "G"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropGLbirth",
+   "value": "Birth (Global Loop)",
+   "body": "Birth (Global Loop)"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropGLdead",
+   "value": "Dead (Global Loop)",
+   "body": "Dead (Global Loop)"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropGLdeath",
+   "value": "Death (Global Loop)",
+   "body": "Death (Global Loop)"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropGLstand",
+   "value": "Stand (Global Loop)",
+   "body": "Stand (Global Loop)"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropGather",
+   "value": "Gather",
+   "body": "Gather"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropGlow",
+   "value": "Glow",
+   "body": "Glow"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropGold",
+   "value": "Gold",
+   "body": "Gold"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropH",
+   "value": "H /// H",
+   "body": "H"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropHappy",
+   "value": "Happy",
+   "body": "Happy"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropHappyEyes",
+   "value": "Happy (Eyes)",
+   "body": "Happy (Eyes)"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropHighlight",
+   "value": "Highlight",
+   "body": "Highlight"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropHit",
+   "value": "Hit",
+   "body": "Hit"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropHold",
+   "value": "Hold",
+   "body": "Hold"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropHorner",
+   "value": "Horner",
+   "body": "Horner"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropHover",
+   "value": "Hover",
+   "body": "Hover"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropI",
+   "value": "I /// I",
+   "body": "I"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropIGNORE",
+   "value": "Ignore",
+   "body": "Ignore"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropInferior",
+   "value": "Inferior",
+   "body": "Inferior"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropJ",
+   "value": "J /// J",
+   "body": "J"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropJump",
+   "value": "Jump",
+   "body": "Jump"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropK",
+   "value": "K /// K",
+   "body": "K"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropKerrigan",
+   "value": "Kerrigan",
+   "body": "Kerrigan"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropKill",
+   "value": "Kill",
+   "body": "Kill"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropL",
+   "value": "L /// L",
+   "body": "L"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropLand",
+   "value": "Land",
+   "body": "Land"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropLarge",
+   "value": "Large",
+   "body": "Large"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropLeft",
+   "value": "Left",
+   "body": "Left"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropLeg",
+   "value": "Leg",
+   "body": "Leg"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropLevel",
+   "value": "Level",
+   "body": "Level"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropLight",
+   "value": "Light",
+   "body": "Light"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropLighting",
+   "value": "Lighting",
+   "body": "Lighting"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropListen",
+   "value": "Listen",
+   "body": "Listen"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropLoad",
+   "value": "Load",
+   "body": "Load"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropLooping",
+   "value": "Looping",
+   "body": "Looping"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropLumber",
+   "value": "Lumber",
+   "body": "Lumber"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropM",
+   "value": "M /// M",
+   "body": "M"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropMedium",
+   "value": "Medium",
+   "body": "Medium"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropMelee",
+   "value": "Melee",
+   "body": "Melee"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropModerate",
+   "value": "Moderate",
+   "body": "Moderate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropMorph",
+   "value": "Morph",
+   "body": "Morph"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropMount",
+   "value": "Mount",
+   "body": "Mount"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropN",
+   "value": "N /// N",
+   "body": "N"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropNearImpact",
+   "value": "Near Impact",
+   "body": "Near Impact"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropNeutralEyes",
+   "value": "Neutral Eyes",
+   "body": "Neutral Eyes"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropO",
+   "value": "O /// O",
+   "body": "O"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropOff",
+   "value": "Off",
+   "body": "Off"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropOmni",
+   "value": "Omni",
+   "body": "Omni"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropOut",
+   "value": "Out",
+   "body": "Out"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropP",
+   "value": "P /// P",
+   "body": "P"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropPenetrate",
+   "value": "Penetrate",
+   "body": "Penetrate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropPickup",
+   "value": "Pickup",
+   "body": "Pickup"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropPlacement",
+   "value": "Placement",
+   "body": "Placement"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropPortrait",
+   "value": "Portrait",
+   "body": "Portrait"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropPose",
+   "value": "Pose",
+   "body": "Pose"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropProtoss",
+   "value": "Protoss",
+   "body": "Protoss"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropPuke",
+   "value": "Puke",
+   "body": "Puke"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropQ",
+   "value": "Q /// Q",
+   "body": "Q"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropR",
+   "value": "R /// R",
+   "body": "R"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropRange",
+   "value": "Range",
+   "body": "Range"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropRaynor",
+   "value": "Raynor",
+   "body": "Raynor"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropReload",
+   "value": "Reload",
+   "body": "Reload"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropRestart",
+   "value": "Restart",
+   "body": "Restart"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropResurrect",
+   "value": "Resurrect",
+   "body": "Resurrect"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropRide",
+   "value": "Ride",
+   "body": "Ride"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropRidebeast",
+   "value": "Ride Beast",
+   "body": "Ride Beast"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropRidebike",
+   "value": "Ride Bike",
+   "body": "Ride Bike"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropRidenone",
+   "value": "Ride None",
+   "body": "Ride None"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropRidesurf",
+   "value": "Ride Surf",
+   "body": "Ride Surf"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropRight",
+   "value": "Right",
+   "body": "Right"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropRun",
+   "value": "Run",
+   "body": "Run"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropS",
+   "value": "S /// S",
+   "body": "S"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropSad",
+   "value": "Sad",
+   "body": "Sad"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropSadEyes",
+   "value": "Sad (Eyes)",
+   "body": "Sad (Eyes)"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropScared",
+   "value": "Scared",
+   "body": "Scared"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropSeriousEyes",
+   "value": "Serious (Eyes)",
+   "body": "Serious (Eyes)"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropSevere",
+   "value": "Severe",
+   "body": "Severe"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropShield",
+   "value": "Shield",
+   "body": "Shield"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropSilentkill",
+   "value": "Silent Kill",
+   "body": "Silent Kill"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropSimple",
+   "value": "Simple",
+   "body": "Simple"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropSlam",
+   "value": "Slam",
+   "body": "Slam"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropSlow",
+   "value": "Slow",
+   "body": "Slow"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropSmall",
+   "value": "Small",
+   "body": "Small"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropSpell",
+   "value": "Spell",
+   "body": "Spell"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropSpiked",
+   "value": "Spiked",
+   "body": "Spiked"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropSpin",
+   "value": "Spin",
+   "body": "Spin"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropSquish",
+   "value": "Squish",
+   "body": "Squish"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropStageFifth",
+   "value": "Stage Fifth",
+   "body": "Stage Fifth"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropStageFirst",
+   "value": "Stage First",
+   "body": "Stage First"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropStageFourth",
+   "value": "Stage Fourth",
+   "body": "Stage Fourth"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropStageSecond",
+   "value": "Stage Second",
+   "body": "Stage Second"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropStageThird",
+   "value": "Stage Third",
+   "body": "Stage Third"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropStand",
+   "value": "Stand",
+   "body": "Stand"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropStandup",
+   "value": "Stand Up",
+   "body": "Stand Up"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropStart",
+   "value": "Start",
+   "body": "Start"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropStukov",
+   "value": "Stukov",
+   "body": "Stukov"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropStun",
+   "value": "Stun",
+   "body": "Stun"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropSuperior",
+   "value": "Superior",
+   "body": "Superior"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropSurf",
+   "value": "Surf",
+   "body": "Surf"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropSurpriseEyes",
+   "value": "Surprise (Eyes)",
+   "body": "Surprise (Eyes)"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropSwim",
+   "value": "Swim",
+   "body": "Swim"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropT",
+   "value": "T /// T",
+   "body": "T"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropTalk",
+   "value": "Talk",
+   "body": "Talk"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropTaunt",
+   "value": "Taunt",
+   "body": "Taunt"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropTeleport",
+   "value": "Teleport",
+   "body": "Teleport"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropTerran",
+   "value": "Terran",
+   "body": "Terran"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropThrow",
+   "value": "Throw",
+   "body": "Throw"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropThrown",
+   "value": "Thrown",
+   "body": "Thrown"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropTurbo",
+   "value": "Turbo",
+   "body": "Turbo"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropTurn",
+   "value": "Turn",
+   "body": "Turn"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropU",
+   "value": "U /// U",
+   "body": "U"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropUnburrow",
+   "value": "Unburrow",
+   "body": "Unburrow"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropUnload",
+   "value": "Unload",
+   "body": "Unload"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropUnpowered",
+   "value": "Unpowered",
+   "body": "Unpowered"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropUp",
+   "value": "Up",
+   "body": "Up"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropUpgrade",
+   "value": "Upgrade",
+   "body": "Upgrade"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropV",
+   "value": "V /// V",
+   "body": "V"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropValerian",
+   "value": "Valerian",
+   "body": "Valerian"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropVictory",
+   "value": "Victory",
+   "body": "Victory"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropW",
+   "value": "W /// W",
+   "body": "W"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropWalk",
+   "value": "Walk",
+   "body": "Walk"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropWork",
+   "value": "Work",
+   "body": "Work"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropWounded",
+   "value": "Wounded",
+   "body": "Wounded"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropX",
+   "value": "X /// X",
+   "body": "X"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropY",
+   "value": "Y /// Y",
+   "body": "Y"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropZ",
+   "value": "Z /// Z",
+   "body": "Z"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropZagara",
+   "value": "Zagara",
+   "body": "Zagara"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_animPropZerg",
+   "value": "Zerg",
+   "body": "Zerg"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyAgria",
+   "value": "Agria",
+   "body": "Agria"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyAir",
+   "value": "Air",
+   "body": "Air"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyAiur",
+   "value": "Aiur",
+   "body": "Aiur"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyAlbion",
+   "value": "Albion",
+   "body": "Albion"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyArmor",
+   "value": "Armor",
+   "body": "Armor"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyAttacher",
+   "value": "Attacher",
+   "body": "Attacher"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyAvernus",
+   "value": "Avernus",
+   "body": "Avernus"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyBack",
+   "value": "Back",
+   "body": "Back"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyBelShir",
+   "value": "Bel'Shir",
+   "body": "Bel'Shir"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyBottom",
+   "value": "Bottom",
+   "body": "Bottom"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyCargo",
+   "value": "Cargo",
+   "body": "Cargo"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyCastanar",
+   "value": "Castanar",
+   "body": "Castanar"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyCenter",
+   "value": "Center",
+   "body": "Center"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyChannel",
+   "value": "Channel",
+   "body": "Channel"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyChar",
+   "value": "Char",
+   "body": "Char"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyChest",
+   "value": "Chest",
+   "body": "Chest"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyChin",
+   "value": "Chin",
+   "body": "Chin"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyCustomA",
+   "value": "Custom A",
+   "body": "Custom A"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyCustomB",
+   "value": "Custom B",
+   "body": "Custom B"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyCustomC",
+   "value": "Custom C",
+   "body": "Custom C"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyDamage",
+   "value": "Damage",
+   "body": "Damage"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyDeath",
+   "value": "Death",
+   "body": "Death"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyDylar",
+   "value": "Dylar",
+   "body": "Dylar"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyEatTree",
+   "value": "Eat Tree",
+   "body": "Eat Tree"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyEffector",
+   "value": "Effector",
+   "body": "Effector"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyEngine",
+   "value": "Engine",
+   "body": "Engine"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyFace",
+   "value": "Face",
+   "body": "Face"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyFinal",
+   "value": "Final",
+   "body": "Final"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyFoot",
+   "value": "Foot",
+   "body": "Foot"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyFront",
+   "value": "Front",
+   "body": "Front"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyGround",
+   "value": "Ground",
+   "body": "Ground"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyHPBar",
+   "value": "Hit Point Bar",
+   "body": "Hit Point Bar"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyHand",
+   "value": "Hand",
+   "body": "Hand"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyHardpoint",
+   "value": "Hardpoint",
+   "body": "Hardpoint"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyHaven",
+   "value": "Haven",
+   "body": "Haven"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyHead",
+   "value": "Head",
+   "body": "Head"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyHeavy",
+   "value": "Heavy",
+   "body": "Heavy"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyHit",
+   "value": "Hit",
+   "body": "Hit"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyIGNORE",
+   "value": "Ignored",
+   "body": "Ignored"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyKnee",
+   "value": "Knee",
+   "body": "Knee"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyKorhal",
+   "value": "Korhal",
+   "body": "Korhal"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyLeft",
+   "value": "Left",
+   "body": "Left"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyLight",
+   "value": "Light",
+   "body": "Light"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyLip",
+   "value": "Lip",
+   "body": "Lip"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyMacGuffin",
+   "value": "Mac Guffin",
+   "body": "Mac Guffin"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyMarSara",
+   "value": "Mar Sara",
+   "body": "Mar Sara"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyMedium",
+   "value": "Medium",
+   "body": "Medium"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyMeinhoff",
+   "value": "Meinhoff",
+   "body": "Meinhoff"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyMonlyth",
+   "value": "Monlyth",
+   "body": "Monlyth"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyMoria",
+   "value": "Moria",
+   "body": "Moria"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyMount",
+   "value": "Mount",
+   "body": "Mount"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyMovement",
+   "value": "Movement",
+   "body": "Movement"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyNewFolsom",
+   "value": "New Folsom",
+   "body": "New Folsom"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyOrigin",
+   "value": "Origin",
+   "body": "Origin"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyOverhead",
+   "value": "Overhead",
+   "body": "Overhead"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyPU72516J",
+   "value": "PU72516J",
+   "body": "PU72516J"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyPortZion",
+   "value": "Port Zion",
+   "body": "Port Zion"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyPrimary",
+   "value": "Primary",
+   "body": "Primary"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyRallyPoint",
+   "value": "Rally Point",
+   "body": "Rally Point"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyRear",
+   "value": "Rear",
+   "body": "Rear"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyRedstone",
+   "value": "Redstone",
+   "body": "Redstone"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyRight",
+   "value": "Right",
+   "body": "Right"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeySecondary",
+   "value": "Secondary",
+   "body": "Secondary"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeySetA",
+   "value": "Set A",
+   "body": "Set A"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeySetB",
+   "value": "Set B",
+   "body": "Set B"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeySetC",
+   "value": "Set C",
+   "body": "Set C"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyShield",
+   "value": "Shield",
+   "body": "Shield"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyShoulder",
+   "value": "Shoulder",
+   "body": "Shoulder"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyStatusBar",
+   "value": "Status Bar",
+   "body": "Status Bar"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyTarget",
+   "value": "Target",
+   "body": "Target"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyTargetShield",
+   "value": "Target Shield",
+   "body": "Target Shield"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyTarsonis",
+   "value": "Tarsonis",
+   "body": "Tarsonis"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyTop",
+   "value": "Top",
+   "body": "Top"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyTransmission",
+   "value": "Transmission",
+   "body": "Transmission"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyTurret",
+   "value": "Turret",
+   "body": "Turret"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyTurretY",
+   "value": "Turret Y",
+   "body": "Turret Y"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyTurretZ",
+   "value": "Turret Z",
+   "body": "Turret Z"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyTyrador",
+   "value": "Tyrador",
+   "body": "Tyrador"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyUmoja",
+   "value": "Umoja",
+   "body": "Umoja"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyUpgrade",
+   "value": "Upgrade",
+   "body": "Upgrade"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyUpper",
+   "value": "Upper",
+   "body": "Upper"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyValhalla",
+   "value": "Valhalla",
+   "body": "Valhalla"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyWaist",
+   "value": "Waist",
+   "body": "Waist"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyWeapon",
+   "value": "Weapon",
+   "body": "Weapon"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyWork",
+   "value": "Work",
+   "body": "Work"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachKeyXil",
+   "value": "Xil",
+   "body": "Xil"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Adjutant",
+   "value": "Adjutant",
+   "body": "Adjutant"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_AdjutantToRaynor",
+   "value": "Adjutant To Raynor",
+   "body": "Adjutant To Raynor"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Banshee",
+   "value": "Banshee",
+   "body": "Banshee"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Bartender",
+   "value": "Bartender",
+   "body": "Bartender"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Dropship",
+   "value": "Dropship",
+   "body": "Dropship"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_EvolutionMaster",
+   "value": "Evolution Master",
+   "body": "Evolution Master"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Firebat",
+   "value": "Firebat",
+   "body": "Firebat"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Ghost",
+   "value": "Ghost",
+   "body": "Ghost"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Hanson",
+   "value": "Hanson",
+   "body": "Hanson"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_HansonToRaynor",
+   "value": "Hanson To Raynor",
+   "body": "Hanson To Raynor"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Hill",
+   "value": "Hill",
+   "body": "Hill"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Horner",
+   "value": "Horner",
+   "body": "Horner"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_HornerToRaynor",
+   "value": "Horner To Raynor",
+   "body": "Horner To Raynor"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_JessicaHall",
+   "value": "Jessica Hall",
+   "body": "Jessica Hall"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Kerrigan",
+   "value": "Kerrigan",
+   "body": "Kerrigan"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Marauder",
+   "value": "Marauder",
+   "body": "Marauder"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_MarcusCade",
+   "value": "Marcus Cade",
+   "body": "Marcus Cade"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Marine",
+   "value": "Marine",
+   "body": "Marine"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Merc03",
+   "value": "Mercenary 3",
+   "body": "Mercenary 3"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Primal",
+   "value": "Primal",
+   "body": "Primal"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_ProtossScientist",
+   "value": "Protoss Scientist",
+   "body": "Protoss Scientist"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Raynor",
+   "value": "Raynor",
+   "body": "Raynor"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_RaynorToAdjutant",
+   "value": "Raynor To Adjutant",
+   "body": "Raynor To Adjutant"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_RaynorToHanson",
+   "value": "Raynor To Hanson",
+   "body": "Raynor To Hanson"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_RaynorToHorner",
+   "value": "Raynor To Horner",
+   "body": "Raynor To Horner"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_RaynorToSwann",
+   "value": "Raynor To Swann",
+   "body": "Raynor To Swann"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_RaynorToTosh",
+   "value": "Raynor To Tosh",
+   "body": "Raynor To Tosh"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_RaynorToTychus",
+   "value": "Raynor To Tychus",
+   "body": "Raynor To Tychus"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SetLocation",
+   "value": "Set Location",
+   "body": "Set Location"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SetLocation 01",
+   "value": "Set Location 01",
+   "body": "Set Location 01"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SetLocation 02",
+   "value": "Set Location 02",
+   "body": "Set Location 02"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SetLocation 03",
+   "value": "Set Location 03",
+   "body": "Set Location 03"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SetLocation 04",
+   "value": "Set Location 04",
+   "body": "Set Location 04"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SetLocation 05",
+   "value": "Set Location 05",
+   "body": "Set Location 05"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SetLocation 06",
+   "value": "Set Location 06",
+   "body": "Set Location 06"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SetLocation 07",
+   "value": "Set Location 07",
+   "body": "Set Location 07"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SetLocation 08",
+   "value": "Set Location 08",
+   "body": "Set Location 08"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SetLocation 09",
+   "value": "Set Location 09",
+   "body": "Set Location 09"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SetLocation 10",
+   "value": "Set Location 10",
+   "body": "Set Location 10"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SetLocation 11",
+   "value": "Set Location 11",
+   "body": "Set Location 11"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SetLocation 12",
+   "value": "Set Location 12",
+   "body": "Set Location 12"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SetLocation 13",
+   "value": "Set Location 13",
+   "body": "Set Location 13"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SetLocation 14",
+   "value": "Set Location 14",
+   "body": "Set Location 14"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SetLocation 15",
+   "value": "Set Location 15",
+   "body": "Set Location 15"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SiegeTank",
+   "value": "Siege Tank",
+   "body": "Siege Tank"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Spidermine",
+   "value": "Spider Mine",
+   "body": "Spider Mine"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Stetmann",
+   "value": "Stetmann",
+   "body": "Stetmann"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Stukov",
+   "value": "Stukov",
+   "body": "Stukov"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Swann",
+   "value": "Swann",
+   "body": "Swann"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_SwannToRaynor",
+   "value": "Swann To Raynor",
+   "body": "Swann To Raynor"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Tosh",
+   "value": "Tosh",
+   "body": "Tosh"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_ToshToRaynor",
+   "value": "Tosh to Raynor",
+   "body": "Tosh to Raynor"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Tychus",
+   "value": "Tychus",
+   "body": "Tychus"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_TychusToRaynor",
+   "value": "Tychus to Raynor",
+   "body": "Tychus to Raynor"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Viking",
+   "value": "Viking",
+   "body": "Viking"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Warfield",
+   "value": "Warfield",
+   "body": "Warfield"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachPos_Zagara",
+   "value": "Zagara",
+   "body": "Zagara"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Agria",
+   "value": "Agria",
+   "body": "Agria"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Aiur",
+   "value": "Aiur",
+   "body": "Aiur"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Albion",
+   "value": "Albion",
+   "body": "Albion"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher",
+   "value": "Attacher",
+   "body": "Attacher"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 01",
+   "value": "Attacher 01",
+   "body": "Attacher 01"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 02",
+   "value": "Attacher 02",
+   "body": "Attacher 02"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 03",
+   "value": "Attacher 03",
+   "body": "Attacher 03"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 04",
+   "value": "Attacher 04",
+   "body": "Attacher 04"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 05",
+   "value": "Attacher 05",
+   "body": "Attacher 05"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 06",
+   "value": "Attacher 06",
+   "body": "Attacher 06"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 07",
+   "value": "Attacher 07",
+   "body": "Attacher 07"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 08",
+   "value": "Attacher 08",
+   "body": "Attacher 08"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 09",
+   "value": "Attacher 09",
+   "body": "Attacher 09"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 10",
+   "value": "Attacher 10",
+   "body": "Attacher 10"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 11",
+   "value": "Attacher 11",
+   "body": "Attacher 11"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 12",
+   "value": "Attacher 12",
+   "body": "Attacher 12"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 13",
+   "value": "Attacher 13",
+   "body": "Attacher 13"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 14",
+   "value": "Attacher 14",
+   "body": "Attacher 14"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 15",
+   "value": "Attacher 15",
+   "body": "Attacher 15"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 16",
+   "value": "Attacher 16",
+   "body": "Attacher 16"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 17",
+   "value": "Attacher 17",
+   "body": "Attacher 17"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 18",
+   "value": "Attacher 18",
+   "body": "Attacher 18"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Attacher 19",
+   "value": "Attacher 19",
+   "body": "Attacher 19"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Avernus",
+   "value": "Avernus",
+   "body": "Avernus"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Back",
+   "value": "Back",
+   "body": "Back"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_BelShir",
+   "value": "Bel'Shir",
+   "body": "Bel'Shir"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Castanar",
+   "value": "Castanar",
+   "body": "Castanar"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Center",
+   "value": "Center",
+   "body": "Center"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Center 01",
+   "value": "Center 01",
+   "body": "Center 01"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Char",
+   "value": "Char",
+   "body": "Char"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Chest",
+   "value": "Chest",
+   "body": "Chest"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Chest Alternate",
+   "value": "Chest Alternate",
+   "body": "Chest Alternate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Chest Left",
+   "value": "Chest Left",
+   "body": "Chest Left"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Chest Mount",
+   "value": "Chest Mount",
+   "body": "Chest Mount"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Chest Mount Left",
+   "value": "Chest Mount Left",
+   "body": "Chest Mount Left"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Chest Mount Rear",
+   "value": "Chest Mount Rear",
+   "body": "Chest Mount Rear"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Chest Mount Right",
+   "value": "Chest Mount Right",
+   "body": "Chest Mount Right"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Chest Right",
+   "value": "Chest Right",
+   "body": "Chest Right"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Chin",
+   "value": "Chin",
+   "body": "Chin"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage",
+   "value": "Damage",
+   "body": "Damage"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 01",
+   "value": "Damage 1",
+   "body": "Damage 1"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 02",
+   "value": "Damage 2",
+   "body": "Damage 2"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 03",
+   "value": "Damage 3",
+   "body": "Damage 3"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 04",
+   "value": "Damage 4",
+   "body": "Damage 4"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 05",
+   "value": "Damage 5",
+   "body": "Damage 5"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 06",
+   "value": "Damage 6",
+   "body": "Damage 6"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 07",
+   "value": "Damage 7",
+   "body": "Damage 7"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 08",
+   "value": "Damage 8",
+   "body": "Damage 8"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 09",
+   "value": "Damage 9",
+   "body": "Damage 9"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 10",
+   "value": "Damage 10",
+   "body": "Damage 10"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 11",
+   "value": "Damage 11",
+   "body": "Damage 11"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 12",
+   "value": "Damage 12",
+   "body": "Damage 12"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 13",
+   "value": "Damage 13",
+   "body": "Damage 13"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 14",
+   "value": "Damage 14",
+   "body": "Damage 14"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 15",
+   "value": "Damage 15",
+   "body": "Damage 15"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 16",
+   "value": "Damage 16",
+   "body": "Damage 16"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 17",
+   "value": "Damage 17",
+   "body": "Damage 17"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 18",
+   "value": "Damage 18",
+   "body": "Damage 18"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Damage 19",
+   "value": "Damage 19",
+   "body": "Damage 19"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Dylar",
+   "value": "Dylar",
+   "body": "Dylar"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Elevator",
+   "value": "Elevator",
+   "body": "Elevator"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Engine",
+   "value": "Engine",
+   "body": "Engine"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Face",
+   "value": "Face",
+   "body": "Face"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Foot Left",
+   "value": "Foot Left",
+   "body": "Foot Left"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Foot Left Alternate",
+   "value": "Foot Left Alternate",
+   "body": "Foot Left Alternate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Foot Left Rear",
+   "value": "Foot Left Rear",
+   "body": "Foot Left Rear"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Foot Right",
+   "value": "Foot Right",
+   "body": "Foot Right"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Foot Right Alternate",
+   "value": "Foot Right Alternate",
+   "body": "Foot Right Alternate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Foot Right Rear",
+   "value": "Foot Right Rear",
+   "body": "Foot Right Rear"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Forearm Left",
+   "value": "Forearm Left",
+   "body": "Forearm Left"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Forearm Right",
+   "value": "Forearm Right",
+   "body": "Forearm Right"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hand",
+   "value": "Hand",
+   "body": "Hand"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hand Left",
+   "value": "Hand Left",
+   "body": "Hand Left"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hand Left Alternate",
+   "value": "Hand Left Alternate",
+   "body": "Hand Left Alternate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hand Right",
+   "value": "Hand Right",
+   "body": "Hand Right"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hand Right Alternate",
+   "value": "Hand Right Alternate",
+   "body": "Hand Right Alternate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint",
+   "value": "Hardpoint",
+   "body": "Hardpoint"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 01",
+   "value": "Hardpoint 01",
+   "body": "Hardpoint 01"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 01 Alternate",
+   "value": "Hardpoint 02 Alternate",
+   "body": "Hardpoint 02 Alternate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 02",
+   "value": "Hardpoint 02",
+   "body": "Hardpoint 02"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 02 Alternate",
+   "value": "Hardpoint 02 Alternate",
+   "body": "Hardpoint 02 Alternate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 03",
+   "value": "Hardpoint 03",
+   "body": "Hardpoint 03"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 03 Alternate",
+   "value": "Hardpoint 02 Alternate",
+   "body": "Hardpoint 02 Alternate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 04",
+   "value": "Hardpoint 04",
+   "body": "Hardpoint 04"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 04 Alternate",
+   "value": "Hardpoint 02 Alternate",
+   "body": "Hardpoint 02 Alternate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 05",
+   "value": "Hardpoint 05",
+   "body": "Hardpoint 05"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 06",
+   "value": "Hardpoint 06",
+   "body": "Hardpoint 06"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 07",
+   "value": "Hardpoint 07",
+   "body": "Hardpoint 07"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 08",
+   "value": "Hardpoint 08",
+   "body": "Hardpoint 08"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 09",
+   "value": "Hardpoint 09",
+   "body": "Hardpoint 09"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 10",
+   "value": "Hardpoint 10",
+   "body": "Hardpoint 10"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 11",
+   "value": "Hardpoint 11",
+   "body": "Hardpoint 11"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 12",
+   "value": "Hardpoint 12",
+   "body": "Hardpoint 12"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 13",
+   "value": "Hardpoint 13",
+   "body": "Hardpoint 13"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 14",
+   "value": "Hardpoint 14",
+   "body": "Hardpoint 14"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 15",
+   "value": "Hardpoint 15",
+   "body": "Hardpoint 15"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 16",
+   "value": "Hardpoint 16",
+   "body": "Hardpoint 16"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 17",
+   "value": "Hardpoint 17",
+   "body": "Hardpoint 17"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 18",
+   "value": "Hardpoint 18",
+   "body": "Hardpoint 18"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint 19",
+   "value": "Hardpoint 19",
+   "body": "Hardpoint 19"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint Alternate",
+   "value": "Hardpoint Alternate",
+   "body": "Hardpoint Alternate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint Alternate 01",
+   "value": "Hardpoint Alternate 01",
+   "body": "Hardpoint Alternate 01"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint Alternate 02",
+   "value": "Hardpoint Alternate 02",
+   "body": "Hardpoint Alternate 02"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint Alternate 03",
+   "value": "Hardpoint Alternate 03",
+   "body": "Hardpoint Alternate 03"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint Alternate 04",
+   "value": "Hardpoint Alternate 04",
+   "body": "Hardpoint Alternate 04"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint EatTree",
+   "value": "Hardpoint Eat Tree",
+   "body": "Hardpoint Eat Tree"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint Large",
+   "value": "Hardpoint Large",
+   "body": "Hardpoint Large"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint Left",
+   "value": "Hardpoint Left",
+   "body": "Hardpoint Left"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint Medium",
+   "value": "Hardpoint Medium",
+   "body": "Hardpoint Medium"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint Right",
+   "value": "Hardpoint Right",
+   "body": "Hardpoint Right"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hardpoint Small",
+   "value": "Hardpoint Small",
+   "body": "Hardpoint Small"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Haven",
+   "value": "Haven",
+   "body": "Haven"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Head",
+   "value": "Head",
+   "body": "Head"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Head Alternate",
+   "value": "Head Alternate",
+   "body": "Head Alternate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Head Mount",
+   "value": "Head Mount",
+   "body": "Head Mount"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Head Top",
+   "value": "Head Top",
+   "body": "Head Top"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hit",
+   "value": "Hit",
+   "body": "Hit"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hit 01",
+   "value": "Hit 1",
+   "body": "Hit 1"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hit 02",
+   "value": "Hit 2",
+   "body": "Hit 2"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hit 03",
+   "value": "Hit 3",
+   "body": "Hit 3"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hit 04",
+   "value": "Hit 4",
+   "body": "Hit 4"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hit 05",
+   "value": "Hit 5",
+   "body": "Hit 5"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hit 06",
+   "value": "Hit 6",
+   "body": "Hit 6"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hit 07",
+   "value": "Hit 7",
+   "body": "Hit 7"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hit 08",
+   "value": "Hit 8",
+   "body": "Hit 8"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Hit 09",
+   "value": "Hit 9",
+   "body": "Hit 9"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Knee Left",
+   "value": "Knee Left",
+   "body": "Knee Left"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Knee Right",
+   "value": "Knee Right",
+   "body": "Knee Right"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Korhal",
+   "value": "Korhal",
+   "body": "Korhal"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Lip Upper",
+   "value": "Lip Upper",
+   "body": "Lip Upper"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_MarSara",
+   "value": "Mar Sara",
+   "body": "Mar Sara"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Meinhoff",
+   "value": "Meinhoff",
+   "body": "Meinhoff"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Monlyth",
+   "value": "Monlyth",
+   "body": "Monlyth"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Moria",
+   "value": "Moria",
+   "body": "Moria"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Mount",
+   "value": "Mount",
+   "body": "Mount"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_NewFolsom",
+   "value": "New Folsom",
+   "body": "New Folsom"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Origin",
+   "value": "Origin",
+   "body": "Origin"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Origin 01",
+   "value": "Origin 01",
+   "body": "Origin 01"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Origin Alternate",
+   "value": "Origin Alternate",
+   "body": "Origin Alternate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Overhead",
+   "value": "Overhead",
+   "body": "Overhead"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Overhead 01",
+   "value": "Overhead 01",
+   "body": "Overhead 01"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Overhead Alternate",
+   "value": "Overhead Alternate",
+   "body": "Overhead Alternate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_PU72516J",
+   "value": "PU72516J",
+   "body": "PU72516J"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_PortZion",
+   "value": "Port Zion",
+   "body": "Port Zion"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Portrait Chest",
+   "value": "Portrait Chest",
+   "body": "Portrait Chest"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Portrait Hand Left",
+   "value": "Portrait Hand Left",
+   "body": "Portrait Hand Left"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Portrait Hand Right",
+   "value": "Portrait Hand Right",
+   "body": "Portrait Hand Right"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Portrait Head",
+   "value": "Portrait Head",
+   "body": "Portrait Head"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_RallyPoint",
+   "value": "Rally Point",
+   "body": "Rally Point"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Redstone",
+   "value": "Redstone",
+   "body": "Redstone"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Shield",
+   "value": "Shield",
+   "body": "Shield"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Shoulder Left",
+   "value": "Shoulder Left",
+   "body": "Shoulder Left"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Shoulder Right",
+   "value": "Shoulder Right",
+   "body": "Shoulder Right"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Sprite First",
+   "value": "Sprite First",
+   "body": "Sprite First"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Sprite Second",
+   "value": "Sprite Second",
+   "body": "Sprite Second"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Sprite Third",
+   "value": "Sprite Third",
+   "body": "Sprite Third"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar",
+   "value": "Status Bar",
+   "body": "Status Bar"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 01",
+   "value": "Status Bar 01",
+   "body": "Status Bar 01"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 02",
+   "value": "Status Bar 02",
+   "body": "Status Bar 02"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 03",
+   "value": "Status Bar 03",
+   "body": "Status Bar 03"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 04",
+   "value": "Status Bar 04",
+   "body": "Status Bar 04"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 05",
+   "value": "Status Bar 05",
+   "body": "Status Bar 05"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 06",
+   "value": "Status Bar 06",
+   "body": "Status Bar 06"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 07",
+   "value": "Status Bar 07",
+   "body": "Status Bar 07"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 08",
+   "value": "Status Bar 08",
+   "body": "Status Bar 08"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 09",
+   "value": "Status Bar 09",
+   "body": "Status Bar 09"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 10",
+   "value": "Status Bar 10",
+   "body": "Status Bar 10"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 11",
+   "value": "Status Bar 11",
+   "body": "Status Bar 11"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 12",
+   "value": "Status Bar 12",
+   "body": "Status Bar 12"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 13",
+   "value": "Status Bar 13",
+   "body": "Status Bar 13"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 14",
+   "value": "Status Bar 14",
+   "body": "Status Bar 14"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 15",
+   "value": "Status Bar 15",
+   "body": "Status Bar 15"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 16",
+   "value": "Status Bar 16",
+   "body": "Status Bar 16"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 17",
+   "value": "Status Bar 17",
+   "body": "Status Bar 17"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 18",
+   "value": "Status Bar 18",
+   "body": "Status Bar 18"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_StatusBar 19",
+   "value": "Status Bar 19",
+   "body": "Status Bar 19"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target",
+   "value": "Target",
+   "body": "Target"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 01",
+   "value": "Target 01",
+   "body": "Target 01"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 02",
+   "value": "Target 02",
+   "body": "Target 02"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 03",
+   "value": "Target 03",
+   "body": "Target 03"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 04",
+   "value": "Target 04",
+   "body": "Target 04"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 05",
+   "value": "Target 05",
+   "body": "Target 05"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 06",
+   "value": "Target 06",
+   "body": "Target 06"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 07",
+   "value": "Target 07",
+   "body": "Target 07"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 08",
+   "value": "Target 08",
+   "body": "Target 08"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 09",
+   "value": "Target 09",
+   "body": "Target 09"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 10",
+   "value": "Target 10",
+   "body": "Target 10"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 11",
+   "value": "Target 11",
+   "body": "Target 11"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 12",
+   "value": "Target 12",
+   "body": "Target 12"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 13",
+   "value": "Target 13",
+   "body": "Target 13"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 14",
+   "value": "Target 14",
+   "body": "Target 14"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 15",
+   "value": "Target 15",
+   "body": "Target 15"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 16",
+   "value": "Target 16",
+   "body": "Target 16"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 17",
+   "value": "Target 17",
+   "body": "Target 17"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 18",
+   "value": "Target 18",
+   "body": "Target 18"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 19",
+   "value": "Target 19",
+   "body": "Target 19"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 20",
+   "value": "Target 20",
+   "body": "Target 20"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 21",
+   "value": "Target 21",
+   "body": "Target 21"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 22",
+   "value": "Target 22",
+   "body": "Target 22"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 23",
+   "value": "Target 23",
+   "body": "Target 23"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 24",
+   "value": "Target 24",
+   "body": "Target 24"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 25",
+   "value": "Target 25",
+   "body": "Target 25"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 26",
+   "value": "Target 26",
+   "body": "Target 26"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 27",
+   "value": "Target 27",
+   "body": "Target 27"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 28",
+   "value": "Target 28",
+   "body": "Target 28"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 29",
+   "value": "Target 29",
+   "body": "Target 29"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 30",
+   "value": "Target 30",
+   "body": "Target 30"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 31",
+   "value": "Target 31",
+   "body": "Target 31"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 32",
+   "value": "Target 32",
+   "body": "Target 32"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 33",
+   "value": "Target 33",
+   "body": "Target 33"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 34",
+   "value": "Target 34",
+   "body": "Target 34"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 35",
+   "value": "Target 35",
+   "body": "Target 35"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 36",
+   "value": "Target 36",
+   "body": "Target 36"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 37",
+   "value": "Target 37",
+   "body": "Target 37"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 38",
+   "value": "Target 38",
+   "body": "Target 38"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 39",
+   "value": "Target 39",
+   "body": "Target 39"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target 40",
+   "value": "Target 40",
+   "body": "Target 40"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target Final",
+   "value": "Target Final",
+   "body": "Target Final"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target Heavy",
+   "value": "Target Heavy",
+   "body": "Target Heavy"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target Light",
+   "value": "Target Light",
+   "body": "Target Light"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target Medium",
+   "value": "Target Medium",
+   "body": "Target Medium"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Target Shield",
+   "value": "Target Shield",
+   "body": "Target Shield"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Tarsonis",
+   "value": "Tarsonis",
+   "body": "Tarsonis"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Transmission",
+   "value": "Transmission",
+   "body": "Transmission"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Turret",
+   "value": "Turret",
+   "body": "Turret"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_TurretY",
+   "value": "Turret Y",
+   "body": "Turret Y"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_TurretZ",
+   "value": "Turret Z",
+   "body": "Turret Z"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Tyrador",
+   "value": "Tyrador",
+   "body": "Tyrador"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Umoja",
+   "value": "Umoja",
+   "body": "Umoja"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Upgrade",
+   "value": "Upgrade",
+   "body": "Upgrade"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Upgrade Armor",
+   "value": "Upgrade Armor",
+   "body": "Upgrade Armor"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Upgrade Engine",
+   "value": "Upgrade Engine",
+   "body": "Upgrade Engine"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Upgrade Engine Bottom",
+   "value": "Upgrade Engine Bottom",
+   "body": "Upgrade Engine Bottom"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Upgrade Engine Left",
+   "value": "Upgrade Engine Left",
+   "body": "Upgrade Engine Left"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Upgrade Engine Right",
+   "value": "Upgrade Engine Right",
+   "body": "Upgrade Engine Right"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Upgrade Weapon",
+   "value": "Upgrade Weapon",
+   "body": "Upgrade Weapon"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Upgrade Weapon Bottom",
+   "value": "Upgrade Weapon Bottom",
+   "body": "Upgrade Weapon Bottom"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Upgrade Weapon Left",
+   "value": "Upgrade Weapon Left",
+   "body": "Upgrade Weapon Left"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Upgrade Weapon Right",
+   "value": "Upgrade Weapon Right",
+   "body": "Upgrade Weapon Right"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Valhalla",
+   "value": "Valhalla",
+   "body": "Valhalla"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Waist Back",
+   "value": "Waist Back",
+   "body": "Waist Back"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Waist Front",
+   "value": "Waist Front",
+   "body": "Waist Front"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Waist Left",
+   "value": "Waist Left",
+   "body": "Waist Left"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Waist Right",
+   "value": "Waist Right",
+   "body": "Waist Right"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon",
+   "value": "Weapon",
+   "body": "Weapon"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 01",
+   "value": "Weapon 01",
+   "body": "Weapon 01"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 02",
+   "value": "Weapon 02",
+   "body": "Weapon 02"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 03",
+   "value": "Weapon 03",
+   "body": "Weapon 03"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 04",
+   "value": "Weapon 04",
+   "body": "Weapon 04"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 05",
+   "value": "Weapon 05",
+   "body": "Weapon 05"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 06",
+   "value": "Weapon 06",
+   "body": "Weapon 06"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 07",
+   "value": "Weapon 07",
+   "body": "Weapon 07"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 08",
+   "value": "Weapon 08",
+   "body": "Weapon 08"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 09",
+   "value": "Weapon 09",
+   "body": "Weapon 09"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 10",
+   "value": "Weapon 10",
+   "body": "Weapon 10"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 11",
+   "value": "Weapon 11",
+   "body": "Weapon 11"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 12",
+   "value": "Weapon 12",
+   "body": "Weapon 12"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 13",
+   "value": "Weapon 13",
+   "body": "Weapon 13"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 14",
+   "value": "Weapon 14",
+   "body": "Weapon 14"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 15",
+   "value": "Weapon 15",
+   "body": "Weapon 15"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 16",
+   "value": "Weapon 16",
+   "body": "Weapon 16"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 17",
+   "value": "Weapon 17",
+   "body": "Weapon 17"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 18",
+   "value": "Weapon 18",
+   "body": "Weapon 18"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 19",
+   "value": "Weapon 19",
+   "body": "Weapon 19"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 20",
+   "value": "Weapon 20",
+   "body": "Weapon 20"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 21",
+   "value": "Weapon 21",
+   "body": "Weapon 21"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 22",
+   "value": "Weapon 22",
+   "body": "Weapon 22"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 23",
+   "value": "Weapon 23",
+   "body": "Weapon 23"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 24",
+   "value": "Weapon 24",
+   "body": "Weapon 24"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 25",
+   "value": "Weapon 25",
+   "body": "Weapon 25"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 26",
+   "value": "Weapon 26",
+   "body": "Weapon 26"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 27",
+   "value": "Weapon 27",
+   "body": "Weapon 27"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 28",
+   "value": "Weapon 28",
+   "body": "Weapon 28"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 29",
+   "value": "Weapon 29",
+   "body": "Weapon 29"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon 30",
+   "value": "Weapon 30",
+   "body": "Weapon 30"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon Alternate",
+   "value": "Weapon Alternate",
+   "body": "Weapon Alternate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon Bottom",
+   "value": "Weapon Bottom",
+   "body": "Weapon Bottom"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon Left",
+   "value": "Weapon Left",
+   "body": "Weapon Left"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon Left Alternate",
+   "value": "Weapon Left Alternate",
+   "body": "Weapon Left Alternate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon Right",
+   "value": "Weapon Right",
+   "body": "Weapon Right"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Weapon Right Alternate",
+   "value": "Weapon Right Alternate",
+   "body": "Weapon Right Alternate"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachRef_Xil",
+   "value": "Xil",
+   "body": "Xil"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_attachUnknown",
+   "value": "None",
+   "body": "None"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_effectMissile2D",
+   "value": "2D /// 2D",
+   "body": "2D"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_glueThemeWCS2016",
+   "value": "WCS 2016",
+   "body": "WCS 2016"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_glueThemeWCS2017",
+   "value": "WCS 2017",
+   "body": "WCS 2017"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_glueThemeWCS2018",
+   "value": "WCS 2018",
+   "body": "WCS 2018"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_glueThemeWCS2019",
+   "value": "2019 WCS",
+   "body": "2019 WCS"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_motionArrivalTest2D",
+   "value": "2D /// 2D",
+   "body": "2D"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_motionArrivalTest3D",
+   "value": "3D /// 3D",
+   "body": "3D"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_nydusLinkCCPA",
+   "value": "CCPA",
+   "body": "CCPA"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_objectiveRewardDNA",
+   "value": "DNA",
+   "body": "DNA"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_quickCastModeOff",
+   "value": "Off",
+   "body": "Off"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_responseContinueMethodBreak",
+   "value": "Break",
+   "body": "Break"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryAlert",
+   "value": "FX_Map_Events",
+   "body": "FX_Map_Events"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryAmbient",
+   "value": "BG_Ambient_2D",
+   "body": "BG_Ambient_2D"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryBuild",
+   "value": "FX_Build",
+   "body": "FX_Build"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryCombat",
+   "value": "FX_Hero_Local_Attack_Launch",
+   "body": "FX_Hero_Local_Attack_Launch"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryDeath",
+   "value": "FX_Breakables",
+   "body": "FX_Breakables"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryDialogue",
+   "value": "DX_Voice_Hero_Int",
+   "body": "DX_Voice_Hero_Int"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryDoodad",
+   "value": "BG_Doodad",
+   "body": "BG_Doodad"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryFlames",
+   "value": "FX_NPC_Combat",
+   "body": "FX_NPC_Combat"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryFoley",
+   "value": "BG_NPC_Movement",
+   "body": "BG_NPC_Movement"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryGather",
+   "value": "FX_Pickups",
+   "body": "FX_Pickups"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryME",
+   "value": "FX_Cutscene_In_Engine",
+   "body": "FX_Cutscene_In_Engine"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryMessage",
+   "value": "MX_Stinger",
+   "body": "MX_Stinger"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryMission",
+   "value": "UI_Game",
+   "body": "UI_Game"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryMovement",
+   "value": "FX_Hero_Movement",
+   "body": "FX_Hero_Movement"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryMovie",
+   "value": "FX_Hero_Death",
+   "body": "FX_Hero_Death"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryMusic",
+   "value": "MX_Music",
+   "body": "MX_Music"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryOther",
+   "value": "FX_Physics",
+   "body": "FX_Physics"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryReady",
+   "value": "DX_Announcer_Main",
+   "body": "DX_Announcer_Main"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategorySAmbient",
+   "value": "BG_Set_Ambient",
+   "body": "BG_Set_Ambient"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategorySEmitters",
+   "value": "FX_Hero_NPC_Attack_Launch",
+   "body": "FX_Hero_NPC_Attack_Launch"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategorySPieces",
+   "value": "BG_Amb_3D",
+   "body": "BG_Amb_3D"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategorySpell",
+   "value": "FX_Hero_Local_Spell",
+   "body": "FX_Hero_Local_Spell"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategorySpellOneshotImpact",
+   "value": "FX_Hero_Local_Spell_Impact ",
+   "body": "FX_Hero_Local_Spell_Impact"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategorySpellOneshotLaunch",
+   "value": "FX_Hero_Spell_Secondary",
+   "body": "FX_Hero_Spell_Secondary"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryTV",
+   "value": "FX_Hero_Local_Ult ",
+   "body": "FX_Hero_Local_Ult"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryTest",
+   "value": "z_Test",
+   "body": "z_Test"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUI",
+   "value": "UI_Bnet",
+   "body": "UI_Bnet"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUIMovie",
+   "value": "FX_Warning",
+   "body": "FX_Warning"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser1",
+   "value": "MX_Dead",
+   "body": "MX_Dead"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser10",
+   "value": "FX_Hero_Local_Vox",
+   "body": "FX_Hero_Local_Vox"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser11",
+   "value": "DX_Announcer_Duck",
+   "body": "DX_Announcer_Duck"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser12",
+   "value": "BG_Map_Event_Duck",
+   "body": "BG_Map_Event_Duck"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser13",
+   "value": "BG_Ambient_2D_Night",
+   "body": "BG_Ambient_2D_Night"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser14",
+   "value": "BG_Ambient_3D_Night",
+   "body": "BG_Ambient_3D_Night"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser15",
+   "value": "Master_Game_Out",
+   "body": "Master_Game_Out"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser16",
+   "value": "Submaster_Announcer",
+   "body": "Submaster_Announcer"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser17",
+   "value": "Submaster_Hero_Combat_Duck",
+   "body": "Submaster_Hero_Combat_Duck"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser18",
+   "value": "Submaster_Hero_NPC",
+   "body": "Submaster_Hero_NPC"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser19",
+   "value": "Submaster_Hero_Spells",
+   "body": "Submaster_Hero_Spells"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser2",
+   "value": "SubMaster_FX",
+   "body": "SubMaster_FX"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser20",
+   "value": "FX_Building_Combat",
+   "body": "FX_Building_Combat"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser21",
+   "value": "DX_Announcer_GameEnd",
+   "body": "DX_Announcer_GameEnd"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser22",
+   "value": "MX_Music_GameEnd",
+   "body": "MX_Music_GameEnd"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser23",
+   "value": "FX_Sound_GameEnd",
+   "body": "FX_Sound_GameEnd"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser24",
+   "value": "FX_MapIntro",
+   "body": "FX_MapIntro"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser25",
+   "value": "MX_MapIntro",
+   "body": "MX_MapIntro"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser26",
+   "value": "BG_MapIntro",
+   "body": "BG_MapIntro"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser27",
+   "value": "FX_Hero_Local_Attack_Impact",
+   "body": "FX_Hero_Local_Attack_Impact"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser28",
+   "value": "FX_Hero_NPC_Spell  ",
+   "body": "FX_Hero_NPC_Spell"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser29",
+   "value": "FX_Hero_NPC_Ult",
+   "body": "FX_Hero_NPC_Ult"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser3",
+   "value": "SubMaster_MX",
+   "body": "SubMaster_MX"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser30",
+   "value": "FX_Hero_NPC_Spell_Impact",
+   "body": "FX_Hero_NPC_Spell_Impact"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser31",
+   "value": "FX_Hero_NPC_Vox  ",
+   "body": "FX_Hero_NPC_Vox"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser32",
+   "value": "FX_Hero_NPC_Spell_Loop",
+   "body": "FX_Hero_NPC_Spell_Loop"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser33",
+   "value": "FX_Hero_Local_Spell_Loop ",
+   "body": "FX_Hero_Local_Spell_Loop"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser34",
+   "value": "FX_Hero_NPC_Proc",
+   "body": "FX_Hero_NPC_Proc"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser35",
+   "value": "FX_Hero_NPC_FullRange",
+   "body": "FX_Hero_NPC_FullRange"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser4",
+   "value": "SubMaster_DX",
+   "body": "SubMaster_DX"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser5",
+   "value": "SubMaster_UI",
+   "body": "SubMaster_UI"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser6",
+   "value": "SubMaster_Hero_Local",
+   "body": "SubMaster_Hero_Local"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser7",
+   "value": "SubMaster_BG",
+   "body": "SubMaster_BG"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser8",
+   "value": "FX_Hero_NPC_Attack_Impact ",
+   "body": "FX_Hero_NPC_Attack_Impact"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryUser9",
+   "value": "SubMaster_NPC",
+   "body": "SubMaster_NPC"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundCategoryVoice",
+   "value": "DX_Voice_Hero",
+   "body": "DX_Voice_Hero"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundFormatPCM16",
+   "value": "PCM 16 /// PCM 16",
+   "body": "PCM 16"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundFormatPCM24",
+   "value": "PCM 24 /// PCM 24",
+   "body": "PCM 24"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundFormatPCM32",
+   "value": "PCM 32 /// PCM 32",
+   "body": "PCM 32"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundFormatPCM8",
+   "value": "PCM 8 /// PCM 8",
+   "body": "PCM 8"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundFormatPCMFLOAT",
+   "value": "PCM FLOAT /// PCM FLOAT",
+   "body": "PCM FLOAT"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_soundMode2D",
+   "value": "2D /// 2D",
+   "body": "2D"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureExpressionOpIGNORE",
+   "value": "IGNORE",
+   "body": "IGNORE"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProp00",
+   "value": "Variation 00",
+   "body": "Variation 00"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProp01",
+   "value": "Variation 01",
+   "body": "Variation 01"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProp02",
+   "value": "Variation 02",
+   "body": "Variation 02"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProp03",
+   "value": "Variation 03",
+   "body": "Variation 03"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProp04",
+   "value": "Variation 04",
+   "body": "Variation 04"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProp05",
+   "value": "Variation 05",
+   "body": "Variation 05"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProp06",
+   "value": "Variation 06",
+   "body": "Variation 06"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProp07",
+   "value": "Variation 07",
+   "body": "Variation 07"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProp08",
+   "value": "Variation 08",
+   "body": "Variation 08"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProp09",
+   "value": "Variation 09",
+   "body": "Variation 09"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProp10",
+   "value": "Variation 10",
+   "body": "Variation 10"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropadornment",
+   "value": "Adornment",
+   "body": "Adornment"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropagria",
+   "value": "Agria",
+   "body": "Agria"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropaiur",
+   "value": "Aiur",
+   "body": "Aiur"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropalbion",
+   "value": "Albion",
+   "body": "Albion"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProparmory",
+   "value": "Armory",
+   "body": "Armory"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropashenvaleproper",
+   "value": "Ashenvale Proper",
+   "body": "Ashenvale Proper"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropavernus",
+   "value": "Avernus",
+   "body": "Avernus"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropbackpack",
+   "value": "Backpack",
+   "body": "Backpack"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropbattlefield",
+   "value": "Battlefield",
+   "body": "Battlefield"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropbelshir",
+   "value": "Bel'Shir",
+   "body": "Bel'Shir"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropbridge",
+   "value": "Bridge",
+   "body": "Bridge"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropbriefing",
+   "value": "Briefing",
+   "body": "Briefing"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropbuff",
+   "value": "Buff",
+   "body": "Buff"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropburned",
+   "value": "Burned",
+   "body": "Burned"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropcampaign",
+   "value": "Campaign",
+   "body": "Campaign"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropcantina",
+   "value": "Cantina",
+   "body": "Cantina"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropcastanar",
+   "value": "Castanar",
+   "body": "Castanar"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropchar",
+   "value": "Char",
+   "body": "Char"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropchar2",
+   "value": "Char Two",
+   "body": "Char Two"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropchardunes",
+   "value": "Char Dunes",
+   "body": "Char Dunes"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropcharset",
+   "value": "Char Set",
+   "body": "Char Set"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropcomponent",
+   "value": "Component",
+   "body": "Component"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropcyberworld",
+   "value": "Cyberworld",
+   "body": "Cyberworld"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropdark",
+   "value": "Dark",
+   "body": "Dark"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropdesertworld",
+   "value": "Desert World",
+   "body": "Desert World"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropdiffuse",
+   "value": "Diffuse",
+   "body": "Diffuse"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropdominionlab",
+   "value": "Dominion Lab",
+   "body": "Dominion Lab"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropemissive",
+   "value": "Emissive",
+   "body": "Emissive"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropfemale",
+   "value": "Female",
+   "body": "Female"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropgender",
+   "value": "Gender",
+   "body": "Gender"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProphaven",
+   "value": "Haven",
+   "body": "Haven"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProphelios",
+   "value": "Helios",
+   "body": "Helios"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProphelmet",
+   "value": "Helmet",
+   "body": "Helmet"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProphybridduskset",
+   "value": "Hybrid Dusk Set",
+   "body": "Hybrid Dusk Set"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProphybridlabinner",
+   "value": "Hybrid Lab Inner",
+   "body": "Hybrid Lab Inner"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProphybridlabouter",
+   "value": "Hybrid Lab Outer",
+   "body": "Hybrid Lab Outer"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProphybridlabxelnaga",
+   "value": "Hybrid Lab Xel'Naga",
+   "body": "Hybrid Lab Xel'Naga"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProphybridnightset",
+   "value": "Hybrid Night Set",
+   "body": "Hybrid Night Set"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropiceworld",
+   "value": "Ice World",
+   "body": "Ice World"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropignore",
+   "value": "IGNORE",
+   "body": "IGNORE"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropinfested",
+   "value": "Infested",
+   "body": "Infested"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropkaldirset",
+   "value": "Kaldir Set",
+   "body": "Kaldir Set"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropkingscrest",
+   "value": "Kings Crest",
+   "body": "Kings Crest"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropkingscrestdocks",
+   "value": "Kings Crest Docks",
+   "body": "Kings Crest Docks"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropkingscrestgardens",
+   "value": "Kings Crest Gardens",
+   "body": "Kings Crest Gardens"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropkingscrestravencourt",
+   "value": "Kings Crest Raven Court",
+   "body": "Kings Crest Raven Court"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropkorhal",
+   "value": "Korhal",
+   "body": "Korhal"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropkorhalcity",
+   "value": "Korhal City",
+   "body": "Korhal City"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropkorhaloutskirts",
+   "value": "Korhal Outskirts",
+   "body": "Korhal Outskirts"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropkorhalplanetset",
+   "value": "Korhal Planet Set",
+   "body": "Korhal Planet Set"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropkorhalplatform",
+   "value": "Korhal Platform",
+   "body": "Korhal Platform"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropkorhalspaceset",
+   "value": "Korhal Space Set",
+   "body": "Korhal Space Set"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProplab",
+   "value": "Lab",
+   "body": "Lab"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProplocation",
+   "value": "Location",
+   "body": "Location"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropluxoria",
+   "value": "Luxoria",
+   "body": "Luxoria"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropmale",
+   "value": "Male",
+   "body": "Male"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropmarsara",
+   "value": "Mar Sara",
+   "body": "Mar Sara"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropmarsarabar",
+   "value": "Mar Sara Bar",
+   "body": "Mar Sara Bar"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropmeinhoff",
+   "value": "Meinhoff",
+   "body": "Meinhoff"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropmerc",
+   "value": "Mercenary",
+   "body": "Mercenary"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropmisc",
+   "value": "Miscellaneous",
+   "body": "Miscellaneous"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropmonlyth",
+   "value": "Monlyth",
+   "body": "Monlyth"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropnewfolsom",
+   "value": "New Folsom",
+   "body": "New Folsom"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropnewsreport",
+   "value": "News Report",
+   "body": "News Report"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropniflheim",
+   "value": "Niflheim",
+   "body": "Niflheim"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropnormal",
+   "value": "Normal",
+   "body": "Normal"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropobservatory",
+   "value": "Observatory",
+   "body": "Observatory"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropphased",
+   "value": "Phased",
+   "body": "Phased"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropportzion",
+   "value": "Port Zion",
+   "body": "Port Zion"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropprisonship",
+   "value": "Prison Ship",
+   "body": "Prison Ship"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropprotoss",
+   "value": "Protoss",
+   "body": "Protoss"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProprace",
+   "value": "Race",
+   "body": "Race"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropredstone",
+   "value": "Redstone",
+   "body": "Redstone"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropsOpContainsAll",
+   "value": "Contains All",
+   "body": "Contains All"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropsOpContainsAny",
+   "value": "Contains Any",
+   "body": "Contains Any"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropsOpEquals",
+   "value": "Equals",
+   "body": "Equals"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropshakuras",
+   "value": "Shakuras",
+   "body": "Shakuras"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropspaceset",
+   "value": "Space Set",
+   "body": "Space Set"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropspecular",
+   "value": "Specular",
+   "body": "Specular"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropstarship",
+   "value": "Star Ship",
+   "body": "Star Ship"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProptarsonis",
+   "value": "Tarsonis",
+   "body": "Tarsonis"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropterran",
+   "value": "Terran",
+   "body": "Terran"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProptileset",
+   "value": "Tileset",
+   "body": "Tileset"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProptyphon",
+   "value": "Typhon",
+   "body": "Typhon"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureProptyrador",
+   "value": "Tyrador",
+   "body": "Tyrador"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropulaan",
+   "value": "Ulaan",
+   "body": "Ulaan"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropulnar",
+   "value": "Ulnar",
+   "body": "Ulnar"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropvalhalla",
+   "value": "Valhalla",
+   "body": "Valhalla"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropvariation",
+   "value": "Variation",
+   "body": "Variation"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropvideo",
+   "value": "Video",
+   "body": "Video"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropxil",
+   "value": "Xil",
+   "body": "Xil"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropzerg",
+   "value": "Zerg",
+   "body": "Zerg"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropzerus",
+   "value": "Zerus",
+   "body": "Zerus"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropzerusset",
+   "value": "Zerus Set",
+   "body": "Zerus Set"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_texturePropzhakuldas",
+   "value": "Zhakul'Das",
+   "body": "Zhakul'Das"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureSlotignore",
+   "value": "IGNORE",
+   "body": "IGNORE"
+  },
+  {
+   "key": "EDSTR_ENUMVAL_e_textureVideoSound2D",
+   "value": "2D /// 2D",
+   "body": "2D"
+  },
+  {
+   "key": "EDSTR_FIELDHINT_CAbilTransport_CargoFilter",
+   "value": "If Player Hold flag is on, units loaded into this transport can only move between transports that share the same Cargo Filter",
+   "body": "If Player Hold flag is on, units loaded into this transport can only move between transports that share the same Cargo Filter"
+  },
+  {
+   "key": "EDSTR_FIELDHINT_CSound_PanLevelNonLocal",
+   "value": "The pan level to use for non local sounds. Less than zero means to use the value in pan level.",
+   "body": "The pan level to use for non local sounds. Less than zero means to use the value in pan level."
+  },
+  {
+   "key": "EDSTR_FIELDHINT_CSound_SpeakerMixNonLocal",
+   "value": "The speaker mix to use if this sound is played for a non local player. -1 means to use the value in SpeakerMix.",
+   "body": "The speaker mix to use if this sound is played for a non local player. -1 means to use the value in SpeakerMix."
+  },
+  {
+   "key": "EDSTR_FIELDHINT_SActorMsgSceneHaloSetMode_Mode",
+   "value": "Falloff ramp type",
+   "body": "Falloff ramp type"
+  },
+  {
+   "key": "EDSTR_FIELDHINT_SActorMsgSceneHaloSetRastermode_Mode",
+   "value": "Blend mode",
+   "body": "Blend mode"
+  },
+  {
+   "key": "EDSTR_FIELDHINT_SActorMsgSetTeamColorFrom_SourceActor",
+   "value": "Actor reference name for finding team color.",
+   "body": "Actor reference name for finding team color."
+  },
+  {
+   "key": "EDSTR_FIELDHINT_SActorTermTeamId_RefName",
+   "value": "Optional parameter than redirects term to test against the actor chosen by the RefName, rather than the actor that is receiving the message that the term is filtering.",
+   "body": "Optional parameter than redirects term to test against the actor chosen by the RefName, rather than the actor that is receiving the message that the term is filtering."
+  },
+  {
+   "key": "EDSTR_FIELDHINT_SDamageResponse_ExcludeEffectArray",
+   "value": "Which effects the unit should not respond to. Only considers the effect dealing damage.",
+   "body": "Which effects the unit should not respond to. Only considers the effect dealing damage."
+  },
+  {
+   "key": "EDSTR_FIELDHINT_SDamageResponse_ExcludeEffectInChainArray",
+   "value": "Which effects the unit should not respond to. Considers the effect dealing damage and all its parent effects.",
+   "body": "Which effects the unit should not respond to. Considers the effect dealing damage and all its parent effects."
+  },
+  {
+   "key": "EDSTR_FIELDHINT_SDamageResponse_RequireEffectArray",
+   "value": "Which effects the unit should respond to. Only considers the effect dealing damage.",
+   "body": "Which effects the unit should respond to. Only considers the effect dealing damage."
+  },
+  {
+   "key": "EDSTR_FIELDHINT_SDamageResponse_RequireEffectInChainArray",
+   "value": "Which effects the unit should respond to. Considers the effect dealing damage and all its parent effects.",
+   "body": "Which effects the unit should respond to. Considers the effect dealing damage and all its parent effects."
+  },
+  {
+   "key": "EDSTR_FIELDHINT_SEffectSwitchCase_Effect",
+   "value": "Effect per case /// Effect per case",
+   "body": "Effect per case"
+  },
+  {
+   "key": "EDSTR_FIELDHINT_SEffectSwitchCase_FallThrough",
+   "value": "Switch case fall through for the effect /// Switch case fall through for the effect",
+   "body": "Switch case fall through for the effect"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_CGame_AI",
+   "value": "AI /// AI",
+   "body": "AI"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_CPremiumMap_LicenseId",
+   "value": "License Id",
+   "body": "License Id"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_CSoundtrack_CueArray",
+   "value": "CUE /// Cues",
+   "body": "CUE"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_CValidatorUnitCompareHeight_CasterGroundHeight",
+   "value": "Caster Ground Height",
+   "body": "Caster Ground Height"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_CValidatorUnitCompareHeight_TargetGroundHeight",
+   "value": "Target Ground Height",
+   "body": "Target Ground Height"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_SAIDescription_Id",
+   "value": "Id",
+   "body": "Id"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_SAccumulatorSwitchCase_Accumulator",
+   "value": "Accumulator",
+   "body": "Accumulator"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_SActorMsgHostSiteOpsAdd_HoldPosition",
+   "value": "Hold Position2",
+   "body": "Hold Position2"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_SActorMsgHostSiteOpsSet_HoldPosition",
+   "value": "Hold Position3",
+   "body": "Hold Position3"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_SCameraShakeAmplitude_Id",
+   "value": "Id",
+   "body": "Id"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_SCameraShakeFrequency_Id",
+   "value": "Id",
+   "body": "Id"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_SConversationComment_Id",
+   "value": "Id",
+   "body": "Id"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_SConversationFacialAnim_Id",
+   "value": "Id",
+   "body": "Id"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_SGameModeInfo_Id",
+   "value": "ID",
+   "body": "ID"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_SLookAtType_Id",
+   "value": "Id",
+   "body": "Id"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_SSoundCategoryDefaults_Solo",
+   "value": "Solo",
+   "body": "Solo"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_SUserField_Id",
+   "value": "Id",
+   "body": "Id"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_SUserInstanceField_Id",
+   "value": "Id",
+   "body": "Id"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_SUserInstance_Id",
+   "value": "Id",
+   "body": "Id"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_SVoiceOverGroup_Id",
+   "value": "ID",
+   "body": "ID"
+  },
+  {
+   "key": "EDSTR_FIELDNAME_SVoiceOverSkin_Id",
+   "value": "ID",
+   "body": "ID"
+  },
+  {
+   "key": "EDSTR_FIELDHINT_CAccumulatorSwitch_CaseArray",
+   "value": "~Case.",
+   "body": "~Case."
+  },
+  {
+   "key": "EDSTR_FIELDHINT_SUpgradeInfoWeapon_UpgradeWeapon",
+   "value": "~UpgradeWeapon.",
+   "body": "~UpgradeWeapon."
+  }
+ ]
+}

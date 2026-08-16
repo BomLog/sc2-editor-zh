@@ -1,0 +1,39 @@
+{
+  "pid": 35748,
+  "alive_before_scan": true,
+  "hits": {
+    "演算体 - ACss [utf8]": [
+      "0x1e3e3948b90",
+      "0x1e3e8578770",
+      "0x1e3e93a5610"
+    ],
+    "默认武器 [utf8]": [
+      "0x1e3b5d7665f",
+      "0x1e3d24c8f6f",
+      "0x1e3d36cbca0"
+    ],
+    "潜地中 [utf8]": [
+      "0x1e3d4267597",
+      "0x1e3e166e0f7",
+      "0x1e3e2d98557"
+    ],
+    "正在飞行 [utf8]": [
+      "0x1e3b9696110",
+      "0x1e3b9bb0ff2",
+      "0x1e3b9d8c9d0"
+    ],
+    "技能 - AAns [utf8]": [
+      "0x1e3e39a67d0",
+      "0x1e3e85d0240",
+      "0x1e3e9400dc0"
+    ],
+    "默认成就术语 [utf8]": [
+      "0x1e3d32d4450",
+      "0x1e3d38b7b60",
+      "0x1e3d3f239f0"
+    ]
+  },
+  "regions": 11721,
+  "bytes": 1980538880,
+  "exit_code_after_test": 1
+}

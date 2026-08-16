@@ -1,0 +1,12 @@
+{
+  "original_backup": {
+    "pid": 24660,
+    "alive_after_20s": true,
+    "exit_code": null
+  },
+  "localized_current": {
+    "pid": 19396,
+    "alive_after_20s": true,
+    "exit_code": null
+  }
+}

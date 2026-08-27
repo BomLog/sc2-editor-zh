@@ -15,6 +15,7 @@ KEEP = {
     'I','II','III','IV','V','VI','VII','VIII','IX','X','A','B','C','D','E','F','G',
     'H','J','K','L','M','N','O','P','Q','R','S','T','U','W','Y','Z',
 }
+KEEP.update({'AC', 'BR', 'CP', 'HOT', 'LM', 'RU', 'SG', 'SOA', 'TP'})
 # 通用后缀/前缀词(补充本地 suffix 词典)
 EXTRA = {
     'name':'名称','tooltip':'提示','desc':'描述','description':'描述','hint':'提示',
@@ -111,11 +112,33 @@ EXTRA = {
     'select':'选择','selection':'选择','item':'物品','upgrade':'升级',
     'whether':'是否','value':'值','values':'值','data':'数据',
 }
+EXTRA.update({
+    'ab':'应用行为', 'rb':'移除行为', 'as':'动作', 'cu':'创建单位',
+    'coop':'合作任务', 'aoe':'范围', 'hot':'持续治疗', 'ph':'持续效果阶段',
+    'tp':'传送', 'br':'移除行为', 'lm':'发射弹道', 'cp':'创建持续效果',
+    'soa':'亚顿之矛', 'fx':'特效',
+    'petroleum':'石油', 'incendiary':'燃烧性', 'brotherhood':'兄弟连',
+    'precursor':'前置体', 'debuffs':'减益', 'stim':'兴奋剂', 'common':'通用',
+    'ultrasonic':'超声波', 'availability':'可用性', 'bombed':'被炸弹影响',
+    'quickfire':'速射', 'grappling':'抓钩', 'commands':'命令',
+    'shrinking':'收缩', 'behind':'后方', 'maelstromed':'被大漩涡影响',
+    'artifacts':'神器', 'cyber':'控制芯体', 'shine':'光耀',
+    'obscure':'遮蔽', 'pathable':'可寻路', 'reheight':'调整高度',
+    'lv':'等级', 'mm':'毫米', 'op':'操作', 'site':'位置',
+    'operator':'操作', 'radiance':'光辉', 'to':'至',
+})
 
 
 def split_ident(s):
     """CamelCase / snake / 数字 拆 token,并把 3D/T1 这类数字-字母组合重新合并"""
     # 先剥标点:(Campaign) / "Set / value, / unit" 都要还原成裸词
+    s = s.replace('AoEHoTHeal', 'AOE HOT')
+    s = s.replace('AoEHoT', 'AOE HOT')
+    s = s.replace('AoE', 'AOE').replace('HoT', 'HOT').replace('DoT', 'DOT')
+    s = s.replace('BandofBrothers', 'Brotherhood')
+    s = s.replace('DarkShine', 'DarkRadiance')
+    s = s.replace('Healto', 'HealTo')
+    s = s.replace('SOp', 'SiteOperator')
     s = re.sub(r'[()\[\]{}"\'`,;:!?]+', ' ', s)
     s = re.sub(r'[_\-\.]+', ' ', s)
     s = re.sub(r'(?<=[a-z0-9])(?=[A-Z])', ' ', s)
@@ -154,13 +177,15 @@ class Engine:
         tl = t.lower()
         if re.fullmatch(r'\d+', t):
             return t, True, False               # 纯数字:合法后缀
-        if t.upper() in KEEP:
-            # 纯字母缩写被原样保留 => 强烈暗示这是资产哈希代号
-            # 含数字的组合(3D / T1 / Ex1)是合法后缀,不算代号
-            return t, True, t.isalpha()
+        if re.fullmatch(r'(?:[A-Za-z]+\d+[A-Za-z]*|\d+[A-Za-z]+)', t):
+            return t, True, False
         v = self.tokmap.get(tl)
         if v:
             return v, True, False
+        if t.upper() in KEEP:
+            # 纯字母缩写被原样保留 => 强烈暗示这是资产哈希代号
+            # 含数字的组合(3D / T1 / Ex1)是合法后缀,不算代号
+            return t, True, False
         return t, False, False
 
     def translate(self, en, allow_token=True):

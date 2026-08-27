@@ -101,6 +101,64 @@ class LocalizationReleaseTests(unittest.TestCase):
                     str(root / "missing.txt"), str(root / "external.txt")
                 )
 
+    def test_temporary_uninstall_and_restore_round_trip(self):
+        with tempfile.TemporaryDirectory() as directory:
+            editor = Path(directory) / "Editor"
+            first = editor / core.L10N_TABLE
+            second = editor / core.L10N_FILES[3]
+            first.parent.mkdir(parents=True)
+            second.parent.mkdir(parents=True)
+            first.write_text("table", encoding="utf-8")
+            second.write_text("strings", encoding="utf-8")
+
+            count = core._temporarily_uninstall_editor_dir(str(editor))
+
+            self.assertEqual(count, 2)
+            self.assertFalse(first.exists())
+            self.assertFalse(second.exists())
+            stash = editor / core.L10N_STASH_DIR
+            self.assertTrue((stash / core.L10N_STASH_MANIFEST).is_file())
+
+            restored, conflicts = core._restore_localization_editor_dir(str(editor))
+
+            self.assertEqual((restored, conflicts), (2, 0))
+            self.assertEqual(first.read_text(encoding="utf-8"), "table")
+            self.assertEqual(second.read_text(encoding="utf-8"), "strings")
+            self.assertFalse(stash.exists())
+
+    def test_restore_backs_up_a_conflicting_new_file(self):
+        with tempfile.TemporaryDirectory() as directory:
+            editor = Path(directory) / "Editor"
+            target = editor / core.L10N_TABLE
+            target.parent.mkdir(parents=True)
+            target.write_text("original", encoding="utf-8")
+            core._temporarily_uninstall_editor_dir(str(editor))
+            target.write_text("new file", encoding="utf-8")
+
+            restored, conflicts = core._restore_localization_editor_dir(str(editor))
+
+            self.assertEqual((restored, conflicts), (1, 1))
+            self.assertEqual(target.read_text(encoding="utf-8"), "original")
+            backups = list(editor.glob(f"{core.L10N_TABLE}.bak.sc2ed_dpifix_*"))
+            self.assertEqual(len(backups), 1)
+            self.assertEqual(backups[0].read_text(encoding="utf-8"), "new file")
+
+    def test_restore_refuses_a_corrupt_stashed_file(self):
+        with tempfile.TemporaryDirectory() as directory:
+            editor = Path(directory) / "Editor"
+            target = editor / core.L10N_TABLE
+            target.parent.mkdir(parents=True)
+            target.write_text("original", encoding="utf-8")
+            core._temporarily_uninstall_editor_dir(str(editor))
+            stored = editor / core.L10N_STASH_DIR / "files" / core.L10N_TABLE
+            stored.write_text("corrupt", encoding="utf-8")
+
+            with self.assertRaises(core.PatchError):
+                core._restore_localization_editor_dir(str(editor))
+
+            self.assertFalse(target.exists())
+            self.assertTrue(stored.exists())
+
 
 if __name__ == "__main__":
     unittest.main()

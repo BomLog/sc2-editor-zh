@@ -15,6 +15,9 @@ try {
 & (Join-Path $Here 'build_l10n.ps1')
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
+& $Python (Join-Path $Here 'pack_localization.py')
+if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+
 Push-Location $Here
 try {
     & $Python -m PyInstaller --noconfirm --clean SC2DPIFix.spec

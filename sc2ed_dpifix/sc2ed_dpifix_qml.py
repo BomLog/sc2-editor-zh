@@ -36,6 +36,7 @@ Window {
     property string selMode: "crisp_fit"   // crisp_fit|pmv2|enhanced|bitmap  (DPI 修复模式)
     property int fontPct: 85               // 清晰适配的字体缩放 %(越小越紧)
     property bool l10nEnabled: true         // 官方依赖汉化可独立关闭
+    property bool l10nStashed: false        // 外置汉化已暂存，可恢复
     property color cAccent: mode==="ok" ? "#34d399" : mode==="err" ? "#fb7185" : "#22d3ee"
     property color cVio: "#8b5cf6"
     property color cBlue: "#4f7dff"
@@ -374,8 +375,8 @@ Window {
 
         // ---- 官方依赖汉化开关 ----
         Item {
-            id: l10nToggle; width: 270; height: 30
-            anchors.horizontalCenter: parent.horizontalCenter; y: 412
+            id: l10nToggle; width: 250; height: 30
+            x: 68; y: 412
             Row {
                 anchors.centerIn: parent; spacing: 10
                 Text {
@@ -398,6 +399,10 @@ Window {
                         anchors.fill: parent; cursorShape: Qt.PointingHandCursor
                         onClicked: {
                             if (root.mode === "busy") return
+                            if (root.l10nStashed) {
+                                statusTxt.setMsg("汉化已暂时卸载，请先恢复", "#fbbf24")
+                                return
+                            }
                             root.l10nEnabled = !root.l10nEnabled
                             statusTxt.setMsg(
                                 root.l10nEnabled ? "官方依赖汉化已启用" : "官方依赖汉化已关闭",
@@ -410,6 +415,34 @@ Window {
                     font.pixelSize: 11
                     color: root.l10nEnabled ? "#8eeef5" : "#71829e"
                     anchors.verticalCenter: parent.verticalCenter
+                }
+            }
+        }
+
+        Rectangle {
+            id: l10nManageBtn
+            x: 340; y: 412; width: 112; height: 30; radius: 6
+            color: l10nManageMa.containsMouse
+                   ? (root.l10nStashed ? "#123c36" : "#3a2230")
+                   : "#101a2b"
+            border.width: 1
+            border.color: root.l10nStashed ? "#34d399" : "#a8556d"
+            Text {
+                anchors.centerIn: parent
+                text: root.l10nStashed ? "恢复汉化" : "暂时卸载"
+                font.pixelSize: 11; font.bold: true
+                color: root.l10nStashed ? "#8ff0c8" : "#f4a6b8"
+            }
+            MouseArea {
+                id: l10nManageMa; anchors.fill: parent; hoverEnabled: true
+                cursorShape: Qt.PointingHandCursor
+                onClicked: {
+                    if (root.mode === "busy") return
+                    root.mode = "busy"; coreTxt.text = "···"
+                    statusTxt.setMsg(
+                        root.l10nStashed ? "正在校验并恢复汉化…" : "正在暂存汉化外置文件…",
+                        root.cAccent)
+                    backend.toggle_localization()
                 }
             }
         }
@@ -565,11 +598,17 @@ Window {
             else if (kind === "done") { root.mode = "ok"; coreTxt.text = "✓"; statusTxt.setMsg(msg, root.cAccent) }
             else if (kind === "fail") { root.mode = "err"; coreTxt.text = "!"; statusTxt.setMsg(msg, root.cAccent) }
             else if (kind === "path") root.setPath(msg)
+            else if (kind === "l10n_state") {
+                root.l10nStashed = msg === "1"
+                if (root.l10nStashed) root.l10nEnabled = false
+            }
         }
     }
     Component.onCompleted: {
         var p = backend.get_editor()
         setPath(p)
+        root.l10nStashed = backend.localization_stashed()
+        if (root.l10nStashed) root.l10nEnabled = false
         statusTxt.setMsg(p ? "已定位编辑器 · 准备就绪" : "未自动找到,请点下方选择",
                          p ? root.cAccent : "#fb7185")
     }
@@ -592,6 +631,10 @@ class Backend(QObject):
     def get_version(self):
         return core.app_version()
 
+    @Slot(result=bool)
+    def localization_stashed(self):
+        return core.localization_is_uninstalled(self.editor)
+
     @Slot()
     def pick(self):
         p, _ = QFileDialog.getOpenFileName(
@@ -600,6 +643,38 @@ class Backend(QObject):
         if p:
             self.editor = p
             self.status.emit("path", p)
+            self.status.emit(
+                "l10n_state", "1" if core.localization_is_uninstalled(p) else "0"
+            )
+
+    @Slot()
+    def toggle_localization(self):
+        threading.Thread(target=self._toggle_localization, daemon=True).start()
+
+    def _toggle_localization(self):
+        try:
+            if core.localization_is_uninstalled(self.editor):
+                count, conflicts = core.restore_localization(
+                    self.editor, lambda m: self.status.emit("status", m)
+                )
+                detail = f"已恢复 {count} 个汉化文件"
+                if conflicts:
+                    detail += f" · 备份 {conflicts} 个冲突文件"
+                self.status.emit("done", detail + " ✓")
+            else:
+                count = core.temporarily_uninstall_localization(
+                    self.editor, lambda m: self.status.emit("status", m)
+                )
+                self.status.emit("done", f"已暂时卸载 {count} 个汉化文件 · 可恢复 ✓")
+        except core.PatchError as exc:
+            self.status.emit("fail", str(exc))
+        except Exception as exc:  # noqa
+            self.status.emit("fail", f"错误: {exc}")
+        finally:
+            self.status.emit(
+                "l10n_state",
+                "1" if core.localization_is_uninstalled(self.editor) else "0",
+            )
 
     @Slot(str, int, bool)
     def launch(self, mode="crisp_fit", font_pct=85, localization=True):

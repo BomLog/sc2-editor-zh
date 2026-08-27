@@ -10,10 +10,13 @@
 """
 import ctypes
 import hashlib
+import json
+import lzma
 import os
 import shutil
 import string
 import sys
+import tempfile
 import threading
 import time
 import winreg
@@ -78,6 +81,10 @@ kernel32.GetExitCodeThread.argtypes = [wintypes.HANDLE, ctypes.POINTER(wintypes.
 L10N_DLL = "SC2EditorDependencyL10n.dll"
 L10N_TABLE = "OfficialDependencyNames.tsv"
 L10N_LOG = "SC2EditorDependencyL10n.log"
+L10N_BUNDLE_DIR = "bundle"
+L10N_BUNDLE_MANIFEST = "manifest.json"
+L10N_STASH_DIR = ".sc2ed_dpifix_localization_disabled"
+L10N_STASH_MANIFEST = "manifest.json"
 L10N_FILES = (
     "EditorCatalogStrings.txt",
     "EditorCategoryStrings.txt",
@@ -88,6 +95,7 @@ L10N_FILES = (
     os.path.join("LocalizedData", "GameStringsProduct.txt"),
     os.path.join("LocalizedData", "ObjectStringsProduct.txt"),
 )
+L10N_RESOURCES = (L10N_DLL, L10N_TABLE) + L10N_FILES
 
 
 class STARTUPINFOW(ctypes.Structure):
@@ -496,6 +504,10 @@ def _sha256(path):
     return digest.digest()
 
 
+def _sha256_hex(path):
+    return _sha256(path).hex()
+
+
 def _next_backup_path(target):
     version = app_version().replace("/", "_").replace("\\", "_")
     base = f"{target}.bak.sc2ed_dpifix_{version}"
@@ -537,6 +549,81 @@ def _external_resource_matches(source, target):
         return False
 
 
+def _resource_target_matches(record, target):
+    if os.path.basename(target).lower() == L10N_DLL.lower():
+        return _valid_hook_dll(target)
+    try:
+        return (
+            os.path.getsize(target) == record["size"]
+            and _sha256_hex(target) == record["sha256"]
+        )
+    except OSError:
+        return False
+
+
+def _load_localization_bundle(bundle_dir=None):
+    bundle_dir = bundle_dir or os.path.join(_resource_base(), "l10n", L10N_BUNDLE_DIR)
+    manifest_path = os.path.join(bundle_dir, L10N_BUNDLE_MANIFEST)
+    try:
+        with open(manifest_path, encoding="utf-8") as handle:
+            manifest = json.load(handle)
+    except (OSError, ValueError) as exc:
+        raise PatchError(f"无法读取汉化压缩包清单: {exc}") from exc
+    if manifest.get("format") != 1 or manifest.get("version") != app_version():
+        raise PatchError("汉化压缩包版本与启动器不一致，请重新构建或下载完整程序。")
+    records = {}
+    for raw in manifest.get("resources", []):
+        relative = str(raw.get("path", "")).replace("/", os.sep)
+        blob = str(raw.get("blob", ""))
+        digest = str(raw.get("sha256", "")).lower()
+        size = raw.get("size")
+        if (
+            relative not in L10N_RESOURCES
+            or relative in records
+            or not isinstance(size, int)
+            or size < 0
+            or len(digest) != 64
+            or any(char not in "0123456789abcdef" for char in digest)
+            or blob != f"{digest}.xz"
+            or os.path.basename(blob) != blob
+        ):
+            raise PatchError("汉化压缩包清单包含无效资源记录。")
+        records[relative] = {
+            "path": relative,
+            "blob": blob,
+            "sha256": digest,
+            "size": size,
+        }
+    if set(records) != set(L10N_RESOURCES):
+        raise PatchError("汉化压缩包资源不完整，请重新构建或下载完整程序。")
+    return bundle_dir, records
+
+
+def _extract_bundle_resource(bundle_dir, record, output_dir):
+    source = os.path.join(bundle_dir, record["blob"])
+    target = os.path.join(output_dir, record["sha256"])
+    digest = hashlib.sha256()
+    size = 0
+    try:
+        with lzma.open(source, "rb") as packed, open(target, "wb") as unpacked:
+            while True:
+                block = packed.read(1024 * 1024)
+                if not block:
+                    break
+                unpacked.write(block)
+                digest.update(block)
+                size += len(block)
+    except (OSError, lzma.LZMAError) as exc:
+        raise PatchError(f"汉化资源解压失败: {record['path']}: {exc}") from exc
+    if size != record["size"] or digest.hexdigest() != record["sha256"]:
+        try:
+            os.remove(target)
+        except OSError:
+            pass
+        raise PatchError(f"汉化资源解压校验失败: {record['path']}")
+    return target
+
+
 def _release_localization_file(source, target):
     """Validate an external resource and atomically release the bundle if needed."""
     if not os.path.isfile(source):
@@ -567,20 +654,35 @@ def _release_localization_file(source, target):
 
 
 def _prepare_localization(editor_path, log=lambda m: None):
-    source = os.path.join(_resource_base(), "l10n")
     editor_dir = os.path.join(os.path.dirname(os.path.dirname(editor_path)), "Editor")
+    if localization_is_uninstalled(editor_path):
+        raise PatchError("汉化当前处于暂时卸载状态，请先点击“恢复汉化”。")
     statuses = {"valid": 0, "released": 0, "replaced": 0}
-    for name in (L10N_DLL, L10N_TABLE):
-        status = _release_localization_file(
-            os.path.join(source, name), os.path.join(editor_dir, name)
-        )
-        statuses[status] += 1
-    for relative in L10N_FILES:
-        status = _release_localization_file(
-            os.path.join(source, "Editor", relative),
-            os.path.join(editor_dir, relative),
-        )
-        statuses[status] += 1
+    bundle_path = os.path.join(_resource_base(), "l10n", L10N_BUNDLE_DIR)
+    if os.path.isfile(os.path.join(bundle_path, L10N_BUNDLE_MANIFEST)):
+        bundle_dir, records = _load_localization_bundle(bundle_path)
+        with tempfile.TemporaryDirectory(prefix="sc2ed_dpifix_l10n_") as extracted:
+            for relative in L10N_RESOURCES:
+                target = os.path.join(editor_dir, relative)
+                record = records[relative]
+                if _resource_target_matches(record, target):
+                    status = "valid"
+                else:
+                    source = _extract_bundle_resource(bundle_dir, record, extracted)
+                    status = _release_localization_file(source, target)
+                statuses[status] += 1
+    else:
+        source = os.path.join(_resource_base(), "l10n")
+        for relative in L10N_RESOURCES:
+            source_path = (
+                os.path.join(source, relative)
+                if relative in (L10N_DLL, L10N_TABLE)
+                else os.path.join(source, "Editor", relative)
+            )
+            status = _release_localization_file(
+                source_path, os.path.join(editor_dir, relative)
+            )
+            statuses[status] += 1
     log(
         "汉化外置文件校验完成: "
         f"{statuses['valid']} 个一致 · {statuses['released']} 个缺失已释放 · "
@@ -594,6 +696,170 @@ def _prepare_localization(editor_path, log=lambda m: None):
     except OSError as exc:
         raise PatchError(f"无法重置汉化 Hook 日志: {exc}") from exc
     return os.path.join(editor_dir, L10N_DLL), log_path
+
+
+def _localization_editor_dir(editor_path):
+    return os.path.join(os.path.dirname(os.path.dirname(editor_path)), "Editor")
+
+
+def _localization_stash_path(editor_path):
+    return os.path.join(_localization_editor_dir(editor_path), L10N_STASH_DIR)
+
+
+def localization_is_uninstalled(editor_path):
+    if not editor_path:
+        return False
+    return os.path.isfile(
+        os.path.join(_localization_stash_path(editor_path), L10N_STASH_MANIFEST)
+    )
+
+
+def _write_json_atomic(path, value):
+    temporary = path + ".tmp"
+    with open(temporary, "w", encoding="utf-8", newline="\n") as handle:
+        json.dump(value, handle, ensure_ascii=False, indent=2, sort_keys=True)
+        handle.write("\n")
+    os.replace(temporary, path)
+
+
+def _temporarily_uninstall_editor_dir(editor_dir):
+    stash = os.path.join(editor_dir, L10N_STASH_DIR)
+    temporary = stash + ".tmp"
+    if os.path.exists(stash):
+        raise PatchError("汉化已经处于暂时卸载状态。")
+    if os.path.exists(temporary):
+        raise PatchError(f"发现未完成的汉化暂存目录，请先人工检查: {temporary}")
+    moved = []
+    try:
+        os.makedirs(temporary)
+        records = []
+        for relative in L10N_RESOURCES:
+            target = os.path.join(editor_dir, relative)
+            if not os.path.exists(target):
+                continue
+            if not os.path.isfile(target):
+                raise PatchError(f"汉化目标不是普通文件: {target}")
+            stored = os.path.join(temporary, "files", relative)
+            os.makedirs(os.path.dirname(stored), exist_ok=True)
+            record = {
+                "path": relative.replace(os.sep, "/"),
+                "size": os.path.getsize(target),
+                "sha256": _sha256_hex(target),
+            }
+            os.replace(target, stored)
+            moved.append((stored, target))
+            records.append(record)
+        if not records:
+            raise PatchError("未发现可暂时卸载的汉化外置文件。")
+        _write_json_atomic(
+            os.path.join(temporary, L10N_STASH_MANIFEST),
+            {
+                "format": 1,
+                "created": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
+                "files": records,
+            },
+        )
+        os.replace(temporary, stash)
+        return len(records)
+    except Exception:
+        for stored, target in reversed(moved):
+            if os.path.isfile(stored) and not os.path.exists(target):
+                os.makedirs(os.path.dirname(target), exist_ok=True)
+                os.replace(stored, target)
+        try:
+            shutil.rmtree(temporary)
+        except OSError:
+            pass
+        raise
+
+
+def _load_stash_manifest(editor_dir):
+    stash = os.path.join(editor_dir, L10N_STASH_DIR)
+    manifest_path = os.path.join(stash, L10N_STASH_MANIFEST)
+    try:
+        with open(manifest_path, encoding="utf-8") as handle:
+            manifest = json.load(handle)
+    except (OSError, ValueError) as exc:
+        raise PatchError(f"无法读取汉化恢复清单: {exc}") from exc
+    if manifest.get("format") != 1:
+        raise PatchError("汉化恢复清单版本无效。")
+    records = []
+    seen = set()
+    for raw in manifest.get("files", []):
+        relative = str(raw.get("path", "")).replace("/", os.sep)
+        digest = str(raw.get("sha256", "")).lower()
+        size = raw.get("size")
+        if (
+            relative not in L10N_RESOURCES
+            or relative in seen
+            or not isinstance(size, int)
+            or size < 0
+            or len(digest) != 64
+            or any(char not in "0123456789abcdef" for char in digest)
+        ):
+            raise PatchError("汉化恢复清单包含无效资源记录。")
+        seen.add(relative)
+        records.append({"path": relative, "size": size, "sha256": digest})
+    if not records:
+        raise PatchError("汉化恢复清单中没有文件。")
+    return stash, records
+
+
+def _restore_localization_editor_dir(editor_dir):
+    stash, records = _load_stash_manifest(editor_dir)
+    for record in records:
+        stored = os.path.join(stash, "files", record["path"])
+        if (
+            not os.path.isfile(stored)
+            or os.path.getsize(stored) != record["size"]
+            or _sha256_hex(stored) != record["sha256"]
+        ):
+            raise PatchError(f"暂存的汉化文件损坏，未执行恢复: {record['path']}")
+    conflicts = 0
+    for record in records:
+        stored = os.path.join(stash, "files", record["path"])
+        target = os.path.join(editor_dir, record["path"])
+        matches = (
+            os.path.isfile(target)
+            and os.path.getsize(target) == record["size"]
+            and _sha256_hex(target) == record["sha256"]
+        )
+        if not matches:
+            if os.path.exists(target):
+                if not os.path.isfile(target):
+                    raise PatchError(f"恢复目标不是普通文件: {target}")
+                shutil.copy2(target, _next_backup_path(target))
+                conflicts += 1
+            os.makedirs(os.path.dirname(target), exist_ok=True)
+            temporary = target + ".sc2ed_dpifix.restore.tmp"
+            shutil.copy2(stored, temporary)
+            os.replace(temporary, target)
+        if os.path.getsize(target) != record["size"] or _sha256_hex(target) != record["sha256"]:
+            raise PatchError(f"汉化文件恢复后校验失败: {target}")
+    shutil.rmtree(stash)
+    return len(records), conflicts
+
+
+def temporarily_uninstall_localization(editor_path, log=lambda m: None):
+    if is_editor_running():
+        raise PatchError("编辑器正在运行，请完全关闭后再暂时卸载汉化。")
+    if not editor_path or not os.path.isfile(editor_path):
+        raise PatchError("未找到编辑器 exe，请先选择 SC2Editor_x64.exe。")
+    count = _temporarily_uninstall_editor_dir(_localization_editor_dir(editor_path))
+    log(f"已暂时卸载 {count} 个汉化外置文件，可随时恢复。")
+    return count
+
+
+def restore_localization(editor_path, log=lambda m: None):
+    if is_editor_running():
+        raise PatchError("编辑器正在运行，请完全关闭后再恢复汉化。")
+    if not editor_path or not os.path.isfile(editor_path):
+        raise PatchError("未找到编辑器 exe，请先选择 SC2Editor_x64.exe。")
+    count, conflicts = _restore_localization_editor_dir(
+        _localization_editor_dir(editor_path)
+    )
+    log(f"已恢复 {count} 个汉化外置文件，冲突备份 {conflicts} 个。")
+    return count, conflicts
 
 
 def _inject_localization(hproc, dll_path, hook_log, log=lambda m: None):

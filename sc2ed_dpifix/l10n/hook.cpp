@@ -237,5 +237,5 @@ extern "C" __declspec(dllexport) std::size_t SC2L10nGetNameCount() noexcept {
 }
 
 extern "C" __declspec(dllexport) const char* SC2L10nGetHookVersion() noexcept {
-    return "SC2ED_DPIFIX_L10N_HOOK_VERSION=1.1.0";
+    return "SC2ED_DPIFIX_L10N_HOOK_VERSION=1.2.0";
 }

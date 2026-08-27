@@ -4,5 +4,6 @@
 /_qml_preview.png
 *.pyc
 /l10n/Editor/
+/l10n/bundle/
 /l10n/*.dll
 /l10n/*.report.json

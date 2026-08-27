@@ -4,6 +4,8 @@
 
 “官方依赖汉化”是独立可选功能。启用时，启动器会先校验游戏根目录下的 `Editor` 外置文件：文本和 TSV 使用严格 SHA-256，DLL 校验 PE 标志、必要导出和当前 Hook 版本。内容与内置版本一致则保留；文件缺失则释放内置副本；文件存在但不一致时先保存带版本号的备份，再原子替换并复核。随后挂起创建 `SC2Editor_x64.exe`、应用所选 DPI 修复、注入 `SC2EditorDependencyL10n.dll`，确认 Hook 安装成功后再恢复编辑器主线程。关闭汉化时不会校验或释放汉化文件，也不会注入 Hook。
 
+需要用编辑器打包时，可在完全关闭编辑器后点击“暂时卸载”。启动器会把 Hook、名称表和全部外置文本移入 `Editor/.sc2ed_dpifix_localization_disabled`，保留原目录结构、大小和 SHA-256 清单；按钮随后切换为“恢复汉化”。恢复时会先验证暂存内容，目标位置若出现新文件则先生成版本化备份，不会直接覆盖丢失。
+
 覆盖目录类型：演算体、行为、技能、效果、验证器、模型；触发器由 `Editor/LocalizedData/TriggerStrings.txt` 提供。名称表仅从游戏 CASC 的 `mods` 和 `campaigns` 生成，不读取 `D:\StarCraft II\Mods` 下的自定义包。
 
 ## 构建
@@ -15,7 +17,7 @@ cd E:\Code\sc2\Work\sc2ed_dpifix
 .\build.ps1
 ```
 
-生成器会重新扫描官方 CASC，刷新 `l10n/OfficialDependencyNames.tsv`、报告和随启动器打包的字符串资源。最终程序位于 `dist/SC2银河编辑器DPI修复.exe`。
+生成器会重新扫描官方 CASC，刷新 `l10n/OfficialDependencyNames.tsv` 和字符串资源；随后按内容去重并压缩为 LZMA 资源包。最终程序位于 `dist/SC2银河编辑器DPI修复.exe`。
 
 启动器不会无备份覆盖异常外置文件，也不会修改 `SC2Editor_x64.exe` 或任何官方依赖包。
 

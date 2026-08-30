@@ -7083,7 +7083,7 @@ ArtilleryMengskBombardmentDamage	轰炸-伤害
 ArtilleryMengskBombardmentDamageSearch	轰炸-伤害搜索
 ArtilleryMengskBombardmentDrop	轰炸-投放
 ArtilleryMengskBombardmentDropDelayCP	轰炸-投放延迟CP
-ArtilleryMengskBombardmentDummy	火炮蒙斯克-BombardMent-虚拟
+ArtilleryMengskBombardmentDummy	大地碎裂炮轰炸捕捉
 ArtilleryMengskBombardmentExplode	轰炸-爆炸
 ArtilleryMengskBombardmentLaunch	轰炸-发射
 ArtilleryMengskBombardmentRange	轰炸-范围
@@ -7094,17 +7094,17 @@ ArtilleryMengskBombardmentWithinRange	轰炸-范围内范围
 ArtilleryMengskBuild	大地碎裂炮-建造
 ArtilleryMengskCargo	大地碎裂炮-货物
 ArtilleryMengskCargoGlobal	大地碎裂炮-货物全局
-ArtilleryMengskCargoTrigger	火炮蒙斯克货物触发-ger
+ArtilleryMengskCargoTrigger	大地碎裂炮装载捕捉
 ArtilleryMengskCloudSickness	辐射打击
 ArtilleryMengskDeath	大地碎裂炮-死亡
-ArtilleryMengskExperimentalStrike	火炮蒙斯克实验打击
+ArtilleryMengskExperimentalStrike	辐射打击
 ArtilleryMengskExperimentalStrikeClearFacing	辐射打击-清除朝向
 ArtilleryMengskExperimentalStrikeCloud	辐射打击-云
 ArtilleryMengskExperimentalStrikeCloudCP	辐射打击-云CP
 ArtilleryMengskExperimentalStrikeCloudSearch	辐射打击-云搜索
 ArtilleryMengskExperimentalStrikeCouldSicknessAB	辐射打击-CouldSicknessAB
 ArtilleryMengskExperimentalStrikeDropDeplayCP	辐射打击-投放DeplayCP
-ArtilleryMengskExperimentalStrikeDummy	火炮蒙斯克实验打击虚拟
+ArtilleryMengskExperimentalStrikeDummy	辐射打击捕捉
 ArtilleryMengskExperimentalStrikeFaceTargetCP	辐射打击-面目标CP
 ArtilleryMengskExperimentalStrikeFearAB	辐射打击-恐惧AB
 ArtilleryMengskExperimentalStrikeImpact	辐射打击-轰击
@@ -7118,7 +7118,7 @@ ArtilleryMengskFear	恐惧
 ArtilleryMengskFearGlaze	恐惧-釉面
 ArtilleryMengskFearHit	恐惧-命中
 ArtilleryMengskGlobalExperimentalStrike	大地碎裂炮-全局实验打击
-ArtilleryMengskGlobalExperimentalStrikeDummy	火炮蒙斯克-Global-实验打击虚拟
+ArtilleryMengskGlobalExperimentalStrikeDummy	辐射打击全局打击捕捉
 ArtilleryMengskGlobalExperimentalStrikeSplat	大地碎裂炮-全局实验打击泼溅图
 ArtilleryMengskPlacement	大地碎裂炮-放置区
 ArtilleryMengskPortrait	大地碎裂炮-头像
@@ -8942,7 +8942,7 @@ BattlecruiserMengskVeterancyAB	帝国皇家卫队-AB
 BattlecruiserMengskVeterancyCappedAB	帝国皇家卫队-已达上限AB
 BattlecruiserMengskVeterancyController	帝国皇家卫队-控制器
 BattlecruiserMengskVeterancySwitch	帝国皇家卫队-切换
-BattlecruiserMengskYamato	战列巡洋舰蒙斯克大和炮
+BattlecruiserMengskYamato	蒙斯克大和炮
 BattlecruiserMengskYamatoAoEAttack	蒙斯克大和炮-AOE攻击
 BattlecruiserMengskYamatoAoEAttackImpact	蒙斯克大和炮-AOE攻击轰击
 BattlecruiserMengskYamatoAoEAttackImpactModel	蒙斯克大和炮-AOE攻击轰击模型
@@ -10612,7 +10612,7 @@ BunkerDepotMengskDeath	补给地堡-死亡
 BunkerDepotMengskDeathEmpty	补给地堡-死亡空
 BunkerDepotMengskDeathUpgrade	补给地堡-死亡升级
 BunkerDepotMengskDeathUpgradeEmpty	补给地堡-死亡升级空
-BunkerDepotMengskDrop	地堡补给站蒙斯克投放
+BunkerDepotMengskDrop	强制征召
 BunkerDepotMengskDropLights	强制征召-灯光
 BunkerDepotMengskDropMorph	强制征召-变形
 BunkerDepotMengskDropPod	强制征召-舱
@@ -15795,15 +15795,15 @@ DehakaConsumeEffectMassive	吞食：巨型效果
 DehakaConsumeEffectMassiveSet	吞食：巨型效果-设置
 DehakaConsumeEffectMechanical	吞食：机械效果
 DehakaConsumeEffectMechanicalSet	吞食：机械效果-设置
-DehakaConsumeEffectPsionic	吞食：灵能效果
+DehakaConsumeEffectPsionic	应用灵能效果行为
 DehakaConsumeEffectPsionicDamage	德哈卡灵能爆炸伤害
 DehakaConsumeEffectPsionicExplosionModel	吞食：灵能效果-爆炸模型
 DehakaConsumeEffectPsionicGlaze	吞食：灵能效果-釉面
 DehakaConsumeEffectPsionicSearch	德哈卡灵能爆炸搜索
-DehakaConsumeEffectPsionicSet	德哈卡-Con-合计-e-效果灵能设置
+DehakaConsumeEffectPsionicSet	德哈卡吞噬灵能单位集合
 DehakaConsumeImpact	吞食-轰击
 DehakaConsumeImpactEatDamage	吞食-轰击吞食伤害
-DehakaConsumeImpactEatDamageReal	德哈卡-Con-合计-e-轰击吞食伤害真实
+DehakaConsumeImpactEatDamageReal	德哈卡吞食伤害
 DehakaConsumeImpactHoldingSite	吞食-轰击保持场地
 DehakaConsumeImpactModel	吞食-轰击模型
 DehakaConsumeImpactModelVerticle	吞食-轰击模型Verticle
@@ -36258,9 +36258,9 @@ MengskVeterancyThorMengskCapped	蒙斯克-老兵黑色战锤已达上限
 MengskVeterancyVikingMengsk	蒙斯克-老兵维京战机蒙斯克
 MengskVeterancyVikingMengskCapped	蒙斯克-老兵维京战机蒙斯克已达上限
 MengskVeteranLevelUp	蒙斯克-老兵等级上
-MengskVeteranLevelUpDummy	蒙斯克老兵等级上虚拟
-MengskVeteranMaxedTrigger	蒙斯克老兵已满级触发-ger
-MengskVeteranTrigger	蒙斯克老兵触发-ger
+MengskVeteranLevelUpDummy	蒙斯克皇家卫队升级捕捉
+MengskVeteranMaxedTrigger	蒙斯克皇家卫队满级捕捉
+MengskVeteranTrigger	蒙斯克皇家卫队创建捕捉
 MengskVikingAssault	天空之怒
 MengskVikingAssaultAttack	天空之怒-攻击
 MengskVikingAssaultAttackImpact	天空之怒-攻击轰击
@@ -36303,15 +36303,15 @@ MengskWraithGroundAttackImpact	带翼梦魇-地面单位攻击轰击
 MengskWraithGroundAttackMissile	带翼梦魇-地面单位攻击导弹
 MengskWraithGroundWeapon	蒙斯克怨灵对地武器
 MengskZergCalldownAreaDummy	战争恶犬-区域假人
-MengskZergCalldownLevel1	蒙斯克异虫呼叫等级1
+MengskZergCalldownLevel1	战争恶犬1
 MengskZergCalldownLevel1On	战争恶犬-开启
-MengskZergCalldownLevel2	蒙斯克异虫呼叫等级2
+MengskZergCalldownLevel2	战争恶犬2
 MengskZergCalldownLevel2On	战争恶犬-开启
 MengskZergCalldownLevel2Set	战争恶犬-设置
-MengskZergCalldownLevel3	蒙斯克异虫呼叫等级3
+MengskZergCalldownLevel3	战争恶犬3
 MengskZergCalldownLevel3On	战争恶犬-开启
 MengskZergCalldownLevel3Set	战争恶犬-设置
-MengskZergCalldownLevel4	蒙斯克异虫呼叫等级4
+MengskZergCalldownLevel4	战争恶犬4
 MengskZergCalldownLevel4On	战争恶犬 (等级4)-开启
 MengskZergCalldownLevel4Set	战争恶犬 (等级4)-设置
 MengskZergSpawnDelay	蒙斯克-异虫孵化延迟
@@ -37011,7 +37011,7 @@ mnsf	演算体 - mnsf
 mnst	演算体 - mnst
 Model	模型
 ModelAddition	模型附加物
-ModelAdditionHarness	模型套具附加物
+ModelAdditionHarness	模型套具附加物 
 ModelAdditionNoAnims	模型附加物无动画
 ModelAdditionStatic	静止的模型附加物
 ModelAnimationStyleContinuous	连续的模型动画样式
@@ -43554,10 +43554,10 @@ nubw	演算体 - nubw
 nubw@1	武器1
 nubw@Portrait	nubw-头像
 NuclearAnnihilation_NukeDropWhistle_AS	核-歼灭聚变弹头投放哨声AS
-NuclearAnnihilationMengsk	核歼灭蒙斯克
+NuclearAnnihilationMengsk	核弹天劫
 NuclearAnnihilationMengskBigNukeDamageSearch	核弹天劫-大聚变弹头搜索
 NuclearAnnihilationMengskBigNukeDrop	核弹天劫-大聚变弹头投放
-NuclearAnnihilationMengskBigNukeDropDelayCP	核歼灭蒙斯克大核弹投放延迟创建持续效果
+NuclearAnnihilationMengskBigNukeDropDelayCP	核弹天劫开启捕捉
 NuclearAnnihilationMengskBigNukeExplode	核弹天劫-大聚变弹头爆炸
 NuclearAnnihilationMengskDamage	核弹天劫-伤害
 NuclearAnnihilationMengskSmallNukeDamage	核弹天劫-小型聚变弹头
@@ -63567,7 +63567,7 @@ TerrainObjectZhakulLibraryLargeDoodad	地形-对象扎库尔图书馆大型装�
 TerrainShockwaveSnow	地形-冲击波雪
 TerrainSquibAnimations	地形-弹药爆裂Animations
 TerrainSquibHarnessContinuous	地形 连续的爆裂套具
-TerrainSquibHarnessOneShot	地形 一次性爆裂套具
+TerrainSquibHarnessOneShot	地形 一次性爆裂套具 
 Terran_Industrial_Garage	人类工业车库
 Terran_Target_Splat	人类-目标泼溅图
 TerranAddOns	人类附属建筑

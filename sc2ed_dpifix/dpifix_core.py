@@ -80,6 +80,7 @@ kernel32.GetExitCodeThread.argtypes = [wintypes.HANDLE, ctypes.POINTER(wintypes.
 
 L10N_DLL = "SC2EditorDependencyL10n.dll"
 L10N_TABLE = "OfficialDependencyNames.tsv"
+L10N_RESOURCE_TABLE = "OfficialResourceNames.tsv"
 L10N_LOG = "SC2EditorDependencyL10n.log"
 L10N_BUNDLE_DIR = "bundle"
 L10N_BUNDLE_MANIFEST = "manifest.json"
@@ -95,7 +96,7 @@ L10N_FILES = (
     os.path.join("LocalizedData", "GameStringsProduct.txt"),
     os.path.join("LocalizedData", "ObjectStringsProduct.txt"),
 )
-L10N_RESOURCES = (L10N_DLL, L10N_TABLE) + L10N_FILES
+L10N_RESOURCES = (L10N_DLL, L10N_TABLE, L10N_RESOURCE_TABLE) + L10N_FILES
 
 
 class STARTUPINFOW(ctypes.Structure):
@@ -532,10 +533,13 @@ def _valid_hook_dll(path, version=None):
         return False
     markers = (
         b"SC2L10nGetNameCount",
+        b"SC2L10nGetResourceNameCount",
         b"SC2L10nGetHookVersion",
         _hook_version_marker(version),
         "OfficialDependencyNames.tsv".encode("utf-16le"),
+        "OfficialResourceNames.tsv".encode("utf-16le"),
         b"loaded official dependency names",
+        b"loaded official resource names",
     )
     return blob.startswith(b"MZ") and all(marker in blob for marker in markers)
 
@@ -676,7 +680,7 @@ def _prepare_localization(editor_path, log=lambda m: None):
         for relative in L10N_RESOURCES:
             source_path = (
                 os.path.join(source, relative)
-                if relative in (L10N_DLL, L10N_TABLE)
+                if relative in (L10N_DLL, L10N_TABLE, L10N_RESOURCE_TABLE)
                 else os.path.join(source, "Editor", relative)
             )
             status = _release_localization_file(

@@ -1,6 +1,7 @@
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 
+#include <cctype>
 #include <cstdint>
 #include <cstring>
 #include <fstream>
@@ -11,10 +12,13 @@ namespace {
 
 constexpr std::uintptr_t kFallbackRva = 0x297B70;
 constexpr std::uintptr_t kCallSiteRva = 0x404B57;
+constexpr std::uintptr_t kResourceRva = 0x1D4BFE0;
+constexpr std::uintptr_t kResourceCallSiteRva = 0x1D4A8C8;
 constexpr unsigned char kFallbackSignature[] = {
     0x48, 0x89, 0x5C, 0x24, 0x08, 0x57, 0x48, 0x83, 0xEC, 0x40,
 };
 constexpr unsigned char kCallSignature[] = {0xE8, 0x14, 0x30, 0xE9, 0xFF};
+constexpr unsigned char kResourceCallSignature[] = {0xE8, 0x13, 0x17, 0x00, 0x00};
 
 struct StringRange {
     const char* begin;
@@ -22,11 +26,15 @@ struct StringRange {
 };
 
 using FallbackName = void(__fastcall*)(void*, const StringRange*, void*);
+using ResourceName = std::int64_t(__fastcall*)(void*, std::uintptr_t, StringRange*);
 
 HMODULE g_module = nullptr;
 FallbackName g_original = nullptr;
 std::unordered_map<std::string, std::string> g_names;
+std::unordered_map<std::string, std::string> g_resource_names;
 std::wstring g_directory;
+ResourceName g_original_resource = nullptr;
+thread_local std::string g_resource_translation;
 
 std::wstring ModuleDirectory() {
     wchar_t path[MAX_PATH] = {};
@@ -97,6 +105,68 @@ bool LoadNames() {
     return true;
 }
 
+std::string CanonicalResourceKey(const char* begin, std::size_t length) {
+    std::string key;
+    key.reserve(length);
+    bool pending_space = false;
+    for (std::size_t index = 0; index < length; ++index) {
+        const unsigned char byte = static_cast<unsigned char>(begin[index]);
+        if (byte < 0x80 && std::isspace(byte)) {
+            pending_space = !key.empty();
+            continue;
+        }
+        if (pending_space) {
+            key.push_back(' ');
+            pending_space = false;
+        }
+        key.push_back(byte < 0x80 ? static_cast<char>(std::tolower(byte))
+                                  : static_cast<char>(byte));
+    }
+    while (!key.empty() && key.back() == ' ') {
+        key.pop_back();
+    }
+    return key;
+}
+
+bool LoadResourceNames() {
+    const std::wstring path = ModuleDirectory() + L"\\OfficialResourceNames.tsv";
+    std::ifstream input(path.c_str(), std::ios::binary);
+    if (!input) {
+        Log("cannot open OfficialResourceNames.tsv; resource hook disabled");
+        return false;
+    }
+
+    std::unordered_map<std::string, std::string> names;
+    names.reserve(40000);
+    std::string line;
+    while (std::getline(input, line)) {
+        if (!line.empty() && line.back() == '\r') {
+            line.pop_back();
+        }
+        if (line.empty() || line.front() == '#') {
+            continue;
+        }
+        const auto tab = line.find('\t');
+        if (tab == std::string::npos || tab == 0 || tab + 1 >= line.size()) {
+            Log("invalid resource mapping line");
+            return false;
+        }
+        const auto key = CanonicalResourceKey(line.data(), tab);
+        if (key.empty()) {
+            Log("empty resource mapping key");
+            return false;
+        }
+        names.emplace(key, line.substr(tab + 1));
+    }
+    if (names.size() < 100) {
+        Log("resource mapping table is unexpectedly small: " + std::to_string(names.size()));
+        return false;
+    }
+    g_resource_names = std::move(names);
+    Log("loaded official resource names: " + std::to_string(g_resource_names.size()));
+    return true;
+}
+
 void __fastcall HookFallbackName(void* context, const StringRange* id, void* output) noexcept {
     try {
         if (id && id->begin && id->end && id->end >= id->begin) {
@@ -116,6 +186,30 @@ void __fastcall HookFallbackName(void* context, const StringRange* id, void* out
         // Preserve the editor's original fallback on any lookup failure.
     }
     g_original(context, id, output);
+}
+
+std::int64_t __fastcall HookResourceName(
+    void* context, std::uintptr_t item, StringRange* input) noexcept {
+    try {
+        if (input && input->begin && input->end && input->end >= input->begin) {
+            const auto length = static_cast<std::size_t>(input->end - input->begin);
+            if (length > 0 && length <= 2048) {
+                const auto key = CanonicalResourceKey(input->begin, length);
+                const auto found = g_resource_names.find(key);
+                if (found != g_resource_names.end()) {
+                    g_resource_translation = found->second;
+                    StringRange translated{
+                        g_resource_translation.data(),
+                        g_resource_translation.data() + g_resource_translation.size(),
+                    };
+                    return g_original_resource(context, item, &translated);
+                }
+            }
+        }
+    } catch (...) {
+        // Preserve the editor's original resource rendering on lookup failure.
+    }
+    return g_original_resource(context, item, input);
 }
 
 bool BytesEqual(const void* address, const unsigned char* expected, std::size_t size) {
@@ -212,9 +306,65 @@ bool InstallHook() {
     return true;
 }
 
+bool InstallResourceHook() {
+    if (g_resource_names.empty()) {
+        return false;
+    }
+    auto* base = reinterpret_cast<unsigned char*>(GetModuleHandleW(nullptr));
+    if (!base) {
+        Log("main module not found for resource hook");
+        return false;
+    }
+    auto* resource = base + kResourceRva;
+    auto* call_site = base + kResourceCallSiteRva;
+    if (!BytesEqual(call_site, kResourceCallSignature, sizeof(kResourceCallSignature))) {
+        Log("resource call-site signature mismatch; hook refused");
+        return false;
+    }
+
+    auto* stub = static_cast<unsigned char*>(AllocateNear(call_site, 32));
+    if (!stub) {
+        Log("cannot allocate a near jump stub for resource hook");
+        return false;
+    }
+    const unsigned char jump_prefix[] = {0xFF, 0x25, 0x00, 0x00, 0x00, 0x00};
+    std::memcpy(stub, jump_prefix, sizeof(jump_prefix));
+    const auto hook_address = reinterpret_cast<std::uintptr_t>(&HookResourceName);
+    std::memcpy(stub + sizeof(jump_prefix), &hook_address, sizeof(hook_address));
+    FlushInstructionCache(GetCurrentProcess(), stub, 14);
+
+    const auto displacement64 = reinterpret_cast<std::intptr_t>(stub) -
+                                reinterpret_cast<std::intptr_t>(call_site + 5);
+    if (displacement64 < INT32_MIN || displacement64 > INT32_MAX) {
+        VirtualFree(stub, 0, MEM_RELEASE);
+        Log("resource near jump stub is outside rel32 range");
+        return false;
+    }
+    const auto displacement = static_cast<std::int32_t>(displacement64);
+    unsigned char patch[5] = {0xE8, 0, 0, 0, 0};
+    std::memcpy(patch + 1, &displacement, sizeof(displacement));
+
+    g_original_resource = reinterpret_cast<ResourceName>(resource);
+    DWORD old_protection = 0;
+    if (!VirtualProtect(call_site, sizeof(patch), PAGE_EXECUTE_READWRITE, &old_protection)) {
+        VirtualFree(stub, 0, MEM_RELEASE);
+        Log("VirtualProtect failed at resource call site");
+        return false;
+    }
+    std::memcpy(call_site, patch, sizeof(patch));
+    FlushInstructionCache(GetCurrentProcess(), call_site, sizeof(patch));
+    DWORD ignored = 0;
+    VirtualProtect(call_site, sizeof(patch), old_protection, &ignored);
+    Log("resource basename hook installed at SC2Editor_x64.exe+0x1D4A8C8");
+    return true;
+}
+
 DWORD WINAPI Initialize(void*) {
     if (LoadNames()) {
         InstallHook();
+    }
+    if (LoadResourceNames()) {
+        InstallResourceHook();
     }
     return 0;
 }
@@ -236,6 +386,10 @@ extern "C" __declspec(dllexport) std::size_t SC2L10nGetNameCount() noexcept {
     return g_names.size();
 }
 
+extern "C" __declspec(dllexport) std::size_t SC2L10nGetResourceNameCount() noexcept {
+    return g_resource_names.size();
+}
+
 extern "C" __declspec(dllexport) const char* SC2L10nGetHookVersion() noexcept {
-    return "SC2ED_DPIFIX_L10N_HOOK_VERSION=1.2.0";
+    return "SC2ED_DPIFIX_L10N_HOOK_VERSION=1.3.0";
 }

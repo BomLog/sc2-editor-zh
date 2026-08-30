@@ -51,10 +51,13 @@ class LocalizationReleaseTests(unittest.TestCase):
         markers = (
             b"MZ",
             b"SC2L10nGetNameCount",
+            b"SC2L10nGetResourceNameCount",
             b"SC2L10nGetHookVersion",
             core._hook_version_marker(),
             "OfficialDependencyNames.tsv".encode("utf-16le"),
+            "OfficialResourceNames.tsv".encode("utf-16le"),
             b"loaded official dependency names",
+            b"loaded official resource names",
         )
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -72,9 +75,12 @@ class LocalizationReleaseTests(unittest.TestCase):
         common_markers = (
             b"MZ",
             b"SC2L10nGetNameCount",
+            b"SC2L10nGetResourceNameCount",
             b"SC2L10nGetHookVersion",
             "OfficialDependencyNames.tsv".encode("utf-16le"),
+            "OfficialResourceNames.tsv".encode("utf-16le"),
             b"loaded official dependency names",
+            b"loaded official resource names",
         )
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

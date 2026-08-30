@@ -15,6 +15,7 @@ OUTPUT = L10N / "bundle"
 RESOURCE_PATHS = (
     "SC2EditorDependencyL10n.dll",
     "OfficialDependencyNames.tsv",
+    "OfficialResourceNames.tsv",
     "EditorCatalogStrings.txt",
     "EditorCategoryStrings.txt",
     "EditorStrings.txt",
@@ -27,7 +28,7 @@ RESOURCE_PATHS = (
 
 
 def source_path(relative):
-    if relative in RESOURCE_PATHS[:2]:
+    if relative in RESOURCE_PATHS[:3]:
         return L10N / relative
     return L10N / "Editor" / Path(relative)
 

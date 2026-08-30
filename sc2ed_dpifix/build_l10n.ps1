@@ -14,5 +14,6 @@ if (-not (Test-Path -LiteralPath $Compiler)) {
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
 Get-Item (Join-Path $L10n 'SC2EditorDependencyL10n.dll'), `
-    (Join-Path $L10n 'OfficialDependencyNames.tsv') |
+    (Join-Path $L10n 'OfficialDependencyNames.tsv'), `
+    (Join-Path $L10n 'OfficialResourceNames.tsv') |
     Select-Object FullName, Length, LastWriteTime

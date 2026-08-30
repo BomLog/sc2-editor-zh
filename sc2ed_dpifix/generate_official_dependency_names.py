@@ -136,12 +136,16 @@ def resource_aliases(value: str) -> set[str]:
         return set()
 
     text = basename.replace("_", " ").replace("-", " ")
-    text = re.sub(r"([a-z0-9])([A-Z])", r"\1 \2", text)
-    text = re.sub(r"([A-Z]+)([A-Z][a-z])", r"\1 \2", text)
+    # The editor uses both acronym spellings: ``ACDamage`` is common in
+    # localized catalog rows, while other views split it as ``AC Damage``.
+    # Preserve the intermediate pass before applying the acronym boundary
+    # rule so both forms are available to the native hook.
+    text_compact_acronyms = re.sub(r"([a-z0-9])([A-Z])", r"\1 \2", text)
+    text = re.sub(r"([A-Z]+)([A-Z][a-z])", r"\1 \2", text_compact_acronyms)
     text = re.sub(r"\s+", " ", text).strip()
     if not text:
         return set()
-    aliases = {basename, text}
+    aliases = {basename, text_compact_acronyms, text}
     lowered = text.lower()
     for prefix in ("terrain object ", "terrainobject ", "model "):
         if lowered.startswith(prefix):
@@ -303,11 +307,12 @@ def main() -> int:
                 classes[(kind, object_id)].add(class_name)
                 if class_name in {"CActorModel", "CModel"}:
                     resource_model_ids.add(object_id)
-                if kind == "Model":
+                if kind == "Model" or class_name == "CActorModel":
                     # The model tree can display the basename from ModelData.xml
-                    # instead of the catalog id. Preserve every file spelling;
-                    # aliases are resolved after the Chinese Product overlay is
-                    # applied below.
+                    # instead of the catalog id. Actor-backed models also point
+                    # at a CModel through their ``Model`` child, so preserve
+                    # those references as well; aliases are resolved after the
+                    # Chinese Product overlay is applied below.
                     for child in element.iter():
                         child_tag = local_tag(child.tag)
                         if child_tag not in {

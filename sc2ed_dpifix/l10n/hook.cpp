@@ -128,6 +128,56 @@ std::string CanonicalResourceKey(const char* begin, std::size_t length) {
     return key;
 }
 
+const std::string* FindResourceName(const std::string& key) {
+    const auto exact = g_resource_names.find(key);
+    if (exact != g_resource_names.end()) {
+        return &exact->second;
+    }
+
+    // Some resource-browser rows append their catalog group in parentheses,
+    // e.g. ``(Impact FX)``.  The generated table is keyed by the leaf model
+    // name, so retry without that presentation-only suffix.
+    const auto parenthesis = key.find(" (");
+    if (parenthesis != std::string::npos) {
+        const auto leaf = key.substr(0, parenthesis);
+        const auto found = g_resource_names.find(leaf);
+        if (found != g_resource_names.end()) {
+            return &found->second;
+        }
+    }
+
+    // Hierarchical resource views use an en/em dash between a category and
+    // the leaf (for example ``Stukov Infested – ...``).  Try the leaf after
+    // the Unicode dash before falling back to the original editor text.
+    for (const char* separator : {" \xE2\x80\x93 ", " \xE2\x80\x94 "}) {
+        const auto split = key.find(separator);
+        if (split != std::string::npos) {
+            const auto leaf = key.substr(split + std::strlen(separator));
+            const auto found = g_resource_names.find(leaf);
+            if (found != g_resource_names.end()) {
+                return &found->second;
+            }
+        }
+    }
+
+    // A few rows append a localized annotation directly to an ASCII model
+    // id (for example ``ZeratulShadowCleave攻击(未命名)``).  Preserve the
+    // leading ASCII token and use it as a final, deliberately conservative
+    // lookup candidate.
+    std::size_t ascii_end = 0;
+    while (ascii_end < key.size() &&
+           static_cast<unsigned char>(key[ascii_end]) < 0x80) {
+        ++ascii_end;
+    }
+    if (ascii_end > 0 && ascii_end < key.size()) {
+        const auto prefix = g_resource_names.find(key.substr(0, ascii_end));
+        if (prefix != g_resource_names.end()) {
+            return &prefix->second;
+        }
+    }
+    return nullptr;
+}
+
 bool LoadResourceNames() {
     const std::wstring path = ModuleDirectory() + L"\\OfficialResourceNames.tsv";
     std::ifstream input(path.c_str(), std::ios::binary);
@@ -195,9 +245,8 @@ std::int64_t __fastcall HookResourceName(
             const auto length = static_cast<std::size_t>(input->end - input->begin);
             if (length > 0 && length <= 2048) {
                 const auto key = CanonicalResourceKey(input->begin, length);
-                const auto found = g_resource_names.find(key);
-                if (found != g_resource_names.end()) {
-                    g_resource_translation = found->second;
+                if (const auto* found = FindResourceName(key)) {
+                    g_resource_translation = *found;
                     StringRange translated{
                         g_resource_translation.data(),
                         g_resource_translation.data() + g_resource_translation.size(),

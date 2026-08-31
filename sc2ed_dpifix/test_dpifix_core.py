@@ -3,6 +3,7 @@ import unittest
 from pathlib import Path
 
 import dpifix_core as core
+from generate_official_dependency_names import ac_display_stems, resource_aliases
 
 
 class LocalizationReleaseTests(unittest.TestCase):
@@ -51,6 +52,7 @@ class LocalizationReleaseTests(unittest.TestCase):
         markers = (
             b"MZ",
             b"SC2L10nGetNameCount",
+            b"SC2L10nGetDisplayAliasCount",
             b"SC2L10nGetResourceNameCount",
             b"SC2L10nGetHookVersion",
             core._hook_version_marker(),
@@ -75,6 +77,7 @@ class LocalizationReleaseTests(unittest.TestCase):
         common_markers = (
             b"MZ",
             b"SC2L10nGetNameCount",
+            b"SC2L10nGetDisplayAliasCount",
             b"SC2L10nGetResourceNameCount",
             b"SC2L10nGetHookVersion",
             "OfficialDependencyNames.tsv".encode("utf-16le"),
@@ -164,6 +167,23 @@ class LocalizationReleaseTests(unittest.TestCase):
 
             self.assertFalse(target.exists())
             self.assertTrue(stored.exists())
+
+
+class ResourceAliasTests(unittest.TestCase):
+    def test_resource_aliases_cover_editor_acronym_spellings(self):
+        aliases = resource_aliases("VoidShardACDamageFieldImpactFX")
+
+        self.assertIn("Void Shard ACDamage Field Impact FX", aliases)
+        self.assertIn("Void Shard AC Damage Field Impact FX", aliases)
+        self.assertIn("VoidShardACDamageFieldImpactFX", aliases)
+
+    def test_ac_display_stems_reproduce_parent_annotated_tree_name(self):
+        stems = ac_display_stems(
+            "Void Shard ACDamage Field Impact", {"Impact FX"}
+        )
+
+        self.assertIn("Void Shard Damage Field", stems)
+        self.assertIn("Void Shard Void Shard Damage Field", stems)
 
 
 if __name__ == "__main__":

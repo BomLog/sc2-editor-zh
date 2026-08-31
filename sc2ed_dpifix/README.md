@@ -6,7 +6,7 @@
 
 需要用编辑器打包时，可在完全关闭编辑器后点击“暂时卸载”。启动器会把 Hook、名称表和全部外置文本移入 `Editor/.sc2ed_dpifix_localization_disabled`，保留原目录结构、大小和 SHA-256 清单；按钮随后切换为“恢复汉化”。恢复时会先验证暂存内容，目标位置若出现新文件则先生成版本化备份，不会直接覆盖丢失。
 
-覆盖目录类型：演算体、行为、技能、效果、验证器、模型；触发器由 `Editor/LocalizedData/TriggerStrings.txt` 提供。名称表仅从游戏 CASC 的 `mods` 和 `campaigns` 生成，不读取 `D:\StarCraft II\Mods` 下的自定义包。生成时会优先合并 `localized_output/编辑器翻译包2024.6.6` 的人工中文覆盖，避免自动补全覆盖原译名。模型/资源树另生成 `OfficialResourceNames.tsv`，将 `ModelData.xml` 的文件 basename（含地形装饰物的空格形式）映射到同一中文名。
+覆盖目录类型：演算体、行为、技能、效果、验证器、模型；六类都生成对象 ID、英文名称和前后缀组合的规范化显示别名，并各有独立构建回归检查。触发器由 `Editor/LocalizedData/TriggerStrings.txt` 提供。名称表仅从游戏 CASC 的 `mods` 和 `campaigns` 生成，不读取 `D:\StarCraft II\Mods` 下的自定义包。生成时会优先合并 `localized_output/编辑器翻译包2024.6.6` 的人工中文覆盖，避免自动补全覆盖原译名。模型/资源树另生成 `OfficialResourceNames.tsv`，同时覆盖对象 ID、`ModelData.xml` 文件 basename、英文 `Name`、`EditorPrefix`、`EditorSuffix`、父模型类型括号和协作任务 `AC` 展示变体；Hook 还会兼容 Unicode 空格、层级破折号、路径和中文未命名注释。
 
 ## 构建
 

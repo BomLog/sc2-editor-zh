@@ -533,6 +533,7 @@ def _valid_hook_dll(path, version=None):
         return False
     markers = (
         b"SC2L10nGetNameCount",
+        b"SC2L10nGetDisplayAliasCount",
         b"SC2L10nGetResourceNameCount",
         b"SC2L10nGetHookVersion",
         _hook_version_marker(version),

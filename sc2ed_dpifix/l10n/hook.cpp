@@ -31,6 +31,7 @@ using ResourceName = std::int64_t(__fastcall*)(void*, std::uintptr_t, StringRang
 HMODULE g_module = nullptr;
 FallbackName g_original = nullptr;
 std::unordered_map<std::string, std::string> g_names;
+std::unordered_map<std::string, std::string> g_display_names;
 std::unordered_map<std::string, std::string> g_resource_names;
 std::wstring g_directory;
 ResourceName g_original_resource = nullptr;
@@ -80,7 +81,9 @@ bool LoadNames() {
     }
 
     std::unordered_map<std::string, std::string> names;
+    std::unordered_map<std::string, std::string> display_names;
     names.reserve(100000);
+    display_names.reserve(100000);
     std::string line;
     while (std::getline(input, line)) {
         if (!line.empty() && line.back() == '\r') {
@@ -94,14 +97,25 @@ bool LoadNames() {
             Log("invalid mapping line");
             return false;
         }
-        names.emplace(line.substr(0, tab), line.substr(tab + 1));
+        const auto source = line.substr(0, tab);
+        constexpr char display_prefix[] = "@display:";
+        if (source.rfind(display_prefix, 0) == 0) {
+            display_names.emplace(
+                source.substr(sizeof(display_prefix) - 1), line.substr(tab + 1)
+            );
+        } else {
+            names.emplace(source, line.substr(tab + 1));
+        }
     }
     if (names.size() < 50000) {
         Log("mapping table is unexpectedly small: " + std::to_string(names.size()));
         return false;
     }
     g_names = std::move(names);
+    g_display_names = std::move(display_names);
     Log("loaded official dependency names: " + std::to_string(g_names.size()));
+    Log("loaded official dependency display aliases: " +
+        std::to_string(g_display_names.size()));
     return true;
 }
 
@@ -111,6 +125,22 @@ std::string CanonicalResourceKey(const char* begin, std::size_t length) {
     bool pending_space = false;
     for (std::size_t index = 0; index < length; ++index) {
         const unsigned char byte = static_cast<unsigned char>(begin[index]);
+        // Normalize the UTF-8 non-breaking and ideographic spaces that are
+        // emitted by some localized resource-tree views.  The table itself
+        // deliberately stays ASCII-space separated so it remains portable.
+        if (byte == 0xC2 && index + 1 < length &&
+            static_cast<unsigned char>(begin[index + 1]) == 0xA0) {
+            pending_space = !key.empty();
+            ++index;
+            continue;
+        }
+        if (byte == 0xE3 && index + 2 < length &&
+            static_cast<unsigned char>(begin[index + 1]) == 0x80 &&
+            static_cast<unsigned char>(begin[index + 2]) == 0x80) {
+            pending_space = !key.empty();
+            index += 2;
+            continue;
+        }
         if (byte < 0x80 && std::isspace(byte)) {
             pending_space = !key.empty();
             continue;
@@ -128,34 +158,99 @@ std::string CanonicalResourceKey(const char* begin, std::size_t length) {
     return key;
 }
 
-const std::string* FindResourceName(const std::string& key) {
-    const auto exact = g_resource_names.find(key);
-    if (exact != g_resource_names.end()) {
-        return &exact->second;
+const std::string* FindPresentedName(
+    const std::unordered_map<std::string, std::string>& names,
+    const std::string& key) {
+    auto exact = [&](const std::string& candidate) -> const std::string* {
+        const auto found = names.find(candidate);
+        return found == names.end() ? nullptr : &found->second;
+    };
+    if (const auto* found = exact(key)) {
+        return found;
+    }
+
+    // A path occasionally reaches this callback instead of its basename.
+    // Retry the final slash-delimited component before applying presentation
+    // suffix rules.
+    const auto slash = key.find_last_of("\\/");
+    if (slash != std::string::npos && slash + 1 < key.size()) {
+        if (const auto* found = exact(key.substr(slash + 1))) {
+            return found;
+        }
     }
 
     // Some resource-browser rows append their catalog group in parentheses,
     // e.g. ``(Impact FX)``.  The generated table is keyed by the leaf model
-    // name, so retry without that presentation-only suffix.
-    const auto parenthesis = key.find(" (");
-    if (parenthesis != std::string::npos) {
-        const auto leaf = key.substr(0, parenthesis);
-        const auto found = g_resource_names.find(leaf);
-        if (found != g_resource_names.end()) {
-            return &found->second;
+    // name, so retry without that presentation-only suffix.  Handle both
+    // spaced and directly attached parentheses and strip nested annotations.
+    std::string without_annotation = key;
+    for (;;) {
+        const auto parenthesis = without_annotation.rfind('(');
+        if (parenthesis == std::string::npos) {
+            break;
+        }
+        without_annotation.resize(parenthesis);
+        while (!without_annotation.empty() && without_annotation.back() == ' ') {
+            without_annotation.pop_back();
+        }
+        if (const auto* found = exact(without_annotation)) {
+            return found;
         }
     }
 
-    // Hierarchical resource views use an en/em dash between a category and
-    // the leaf (for example ``Stukov Infested – ...``).  Try the leaf after
-    // the Unicode dash before falling back to the original editor text.
-    for (const char* separator : {" \xE2\x80\x93 ", " \xE2\x80\x94 "}) {
-        const auto split = key.find(separator);
-        if (split != std::string::npos) {
-            const auto leaf = key.substr(split + std::strlen(separator));
-            const auto found = g_resource_names.find(leaf);
-            if (found != g_resource_names.end()) {
-                return &found->second;
+    // Hierarchical resource views use a dash between a category and the
+    // leaf.  Accept all common Unicode dash encodings, with or without spaces,
+    // and the ASCII hyphen variant used by older editor builds.  Search from
+    // left to right so a category containing a dash can still fall through to
+    // the deepest matching leaf.
+    const char* separators[] = {
+        "-", "\xE2\x80\x90", "\xE2\x80\x91", "\xE2\x80\x92",
+        "\xE2\x80\x93", "\xE2\x80\x94", "\xE2\x80\x95",
+    };
+    for (const char* separator : separators) {
+        std::size_t split = 0;
+        while ((split = key.find(separator, split)) != std::string::npos) {
+            auto leaf = key.substr(split + std::strlen(separator));
+            while (!leaf.empty() && leaf.front() == ' ') {
+                leaf.erase(leaf.begin());
+            }
+            if (const auto* found = exact(leaf)) {
+                return found;
+            }
+            ++split;
+        }
+    }
+
+    // Colon and slash are also used as hierarchy separators by a few debug
+    // builds.  They are not generated aliases themselves, so only use the
+    // suffix as a fallback after exact matching has failed.
+    for (const char* separator : {":", ">", "/", "\\"}) {
+        const auto split = key.rfind(separator);
+        if (split != std::string::npos && split + 1 < key.size()) {
+            auto leaf = key.substr(split + 1);
+            while (!leaf.empty() && leaf.front() == ' ') {
+                leaf.erase(leaf.begin());
+            }
+            if (const auto* found = exact(leaf)) {
+                return found;
+            }
+        }
+    }
+
+    if (without_annotation != key) {
+        // Apply hierarchy stripping to the annotation-free form as well.
+        for (const char* separator : separators) {
+            std::size_t split = 0;
+            while ((split = without_annotation.find(separator, split)) !=
+                   std::string::npos) {
+                auto leaf = without_annotation.substr(split + std::strlen(separator));
+                while (!leaf.empty() && leaf.front() == ' ') {
+                    leaf.erase(leaf.begin());
+                }
+                if (const auto* found = exact(leaf)) {
+                    return found;
+                }
+                ++split;
             }
         }
     }
@@ -170,8 +265,8 @@ const std::string* FindResourceName(const std::string& key) {
         ++ascii_end;
     }
     if (ascii_end > 0 && ascii_end < key.size()) {
-        const auto prefix = g_resource_names.find(key.substr(0, ascii_end));
-        if (prefix != g_resource_names.end()) {
+        const auto prefix = names.find(key.substr(0, ascii_end));
+        if (prefix != names.end()) {
             return &prefix->second;
         }
     }
@@ -222,10 +317,19 @@ void __fastcall HookFallbackName(void* context, const StringRange* id, void* out
         if (id && id->begin && id->end && id->end >= id->begin) {
             const auto length = static_cast<std::size_t>(id->end - id->begin);
             if (length > 0 && length <= 512) {
-                const auto found = g_names.find(std::string(id->begin, length));
+                const std::string source(id->begin, length);
+                const auto found = g_names.find(source);
                 if (found != g_names.end()) {
                     const StringRange translated{
                         found->second.data(), found->second.data() + found->second.size()
+                    };
+                    g_original(context, &translated, output);
+                    return;
+                }
+                const auto key = CanonicalResourceKey(source.data(), source.size());
+                if (const auto* displayed = FindPresentedName(g_display_names, key)) {
+                    const StringRange translated{
+                        displayed->data(), displayed->data() + displayed->size()
                     };
                     g_original(context, &translated, output);
                     return;
@@ -245,7 +349,7 @@ std::int64_t __fastcall HookResourceName(
             const auto length = static_cast<std::size_t>(input->end - input->begin);
             if (length > 0 && length <= 2048) {
                 const auto key = CanonicalResourceKey(input->begin, length);
-                if (const auto* found = FindResourceName(key)) {
+                if (const auto* found = FindPresentedName(g_resource_names, key)) {
                     g_resource_translation = *found;
                     StringRange translated{
                         g_resource_translation.data(),
@@ -435,10 +539,14 @@ extern "C" __declspec(dllexport) std::size_t SC2L10nGetNameCount() noexcept {
     return g_names.size();
 }
 
+extern "C" __declspec(dllexport) std::size_t SC2L10nGetDisplayAliasCount() noexcept {
+    return g_display_names.size();
+}
+
 extern "C" __declspec(dllexport) std::size_t SC2L10nGetResourceNameCount() noexcept {
     return g_resource_names.size();
 }
 
 extern "C" __declspec(dllexport) const char* SC2L10nGetHookVersion() noexcept {
-    return "SC2ED_DPIFIX_L10N_HOOK_VERSION=1.3.0";
+    return "SC2ED_DPIFIX_L10N_HOOK_VERSION=1.3.1";
 }

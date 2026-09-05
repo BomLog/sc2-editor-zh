@@ -1,99 +1,28 @@
-# Python 环境与缓存
-.venv/
-.uvpy/
-.uvpy_local/
-.uvcache/
-.uvcache_local/
-.uvcache2/
+# ============================================================
+# 仓库根目录只保留 sc2ed_dpifix/ 项目，其余一律忽略。
+# ============================================================
+
+# 忽略根目录下所有文件和目录
+/*
+
+# 只保留项目目录和根 README / .gitignore
+!sc2ed_dpifix/
+!README.md
+!.gitignore
+
+# Python 缓存
 __pycache__/
 *.pyc
-
-# 无关项目/实验
-s2/
-esp_dll/
-dds_viewer/
-zlj/
-test/
-test2/
-build/
-dist/
-.mcp/
-collector/
-temp_install/
-minecraftlog/
-assets/
-_draft/
-_tmp_sc2dep/
-sc2 text/
-.claude/
-.agents/
-.vscode/
-third_party/
-ida-pro-mcp-src/
-wireshark-mcp-src/
-claude-marketplace-src/
-
-# 可从官方重新提取的数据（casc_extract2.py 可再生成）
-casc_export/
-
-# 8v1 项目的大型依赖/导出产物（可由工具重新生成）
-8v1bankedit/8v1map/Mods/
-8v1bankedit/8v1map/8vs1_text_export/
-8v1bankedit/__pycache__/
 
 # 备份与临时文件
 *.bak
 *.bak.*
 *.orig
 
-# 非汉化相关项目/工具（地图脚本、银行编辑器、SC2 工具箱、MPQ 工具）
-8v1bankedit/
-map/
-replay_tools/
-jurassic_collector/
-zergsurvivors_bankeditor/
-*.SC2Map
-*.sc2map
-*.spec
+# 二进制产物（项目内 .gitignore 有例外）
 *.dll
 *.exe
-*.SC2Bank
-SC2BankEditor.py
-sc2_bank_gui.py
-sc2_bank_modifier.py
-sc2_toolbox_gui.py
-sc2_toolbox_self_check.json
-sc2_dependency_auto_resolver.py
-sc2_dependency_gui_qt.py
-vault_bruteforce.c
-deobfuscate.py
-galaxy_deobfuscator.py
-galaxy_syntax_check.py
-galaxy_to_triggers_xml.py
-sc2_deob_worker.py
-mpyq_standalone.py
-pympq_mpq_writer_helper.py
-stormlib_mpq.py
-
-# 非汉化文件（地图 MPQ 解包产物、易语言库、压缩包、解密文件等）
-MapScript.galaxy
-Triggers*
-DocumentInfo
-NativeLib.TriggerLib
-ref_map_triggers.xml
-PreloadAssetDB.txt
-ntve_func_db.json
-_tmp_actual_Triggers
-admin.sj.decrypted.bin
-dp1.fne
-dp1_strings.txt
-krnln.fnr
+*.SC2Map
+*.sc2map
 *.rar
 *.zip
-
-# 临时嵌套仓库
-esp_dll_tmp/
-
-# DPI 修复与汉化整合项目纳入 Git；生成产物由项目内 .gitignore 管理。
-!sc2ed_dpifix/
-!sc2ed_dpifix/**

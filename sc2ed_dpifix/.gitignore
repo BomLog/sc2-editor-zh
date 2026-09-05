@@ -1,5 +1,8 @@
 /build/
+/build_*/
 /dist/
+/dist_*/
+/deploy/
 /__pycache__/
 /_qml_preview.png
 *.pyc
@@ -7,3 +10,5 @@
 /l10n/bundle/
 /l10n/*.dll
 /l10n/*.report.json
+/tools/*.bak.*
+/tools/polish_unmatched.txt

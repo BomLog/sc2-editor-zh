@@ -1,0 +1,11 @@
+{
+  "format": 1,
+  "name": "hook",
+  "target": "deploy",
+  "description": "Hook 汉化资源：注入 DLL 与运行时翻译表，释放到框架本地 deploy 目录。",
+  "files": [
+    { "path": "SC2EditorDependencyL10n.dll", "policy": "managed" },
+    { "path": "OfficialDependencyNames.tsv", "policy": "editable" },
+    { "path": "OfficialResourceNames.tsv", "policy": "editable" }
+  ]
+}

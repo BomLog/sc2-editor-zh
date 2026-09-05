@@ -1,0 +1,1433 @@
+@display:abathur -	阿巴瑟-
+@display:abathur - overlord -	阿巴瑟-领主-
+@display:aberration - weapon	畸变体-武器
+@display:adept - shade phase shift cancel caster behavior rb	使徒-暗影相位转移取消施法者行为-RB
+@display:adept - shade phase shift cancel rb	使徒-暗影相位转移取消-RB
+@display:aether storm create persistent	乙太风暴创建持续
+@display:aether storm damage	乙太风暴伤害
+@display:aether storm dummy weapon	乙太风暴假人武器
+@display:aether storm dummy weapon damage	乙太风暴假人武器伤害
+@display:aether storm search	乙太风暴搜索
+@display:agria	阿格瑞亚
+@display:aiur creep	艾尔菌毯
+@display:aiur overmind height 0	艾尔主宰高度0
+@display:aiur overmind height 1	艾尔主宰高度1
+@display:aiur overmind height 2	艾尔主宰高度2
+@display:aiur overmind height 3	艾尔主宰高度3
+@display:alarak - ac -	阿拉纳克-AC-
+@display:alarak - ac - trigger dummy	阿拉纳克-AC-触发器假人
+@display:alarak - force bolt damage	阿拉纳克-力量闪电伤害
+@display:alarak - force bolt damage set	阿拉纳克-力量闪电伤害设置
+@display:alarak - force bolt split damage	阿拉纳克-力量闪电分裂伤害
+@display:alarak - force bolt split damage set	阿拉纳克-力量闪电分裂伤害设置
+@display:alarak - weapon search	阿拉纳克-武器搜索
+@display:alarak ac -	阿拉纳克AC-
+@display:alarak psi orb final upgraded	阿拉纳克灵能宝珠最终升级
+@display:alarak soul steal modify	阿拉纳克窃魂修改
+@display:alarm bot alarm active	警报机器人警报激活
+@display:amon tentacle	埃蒙触手
+@display:amon tentacle battack	埃蒙触手攻击
+@display:amon tentacle cimpact root damage	埃蒙触手碰撞根须伤害
+@display:amon tentacle cimpact root stun	埃蒙触手碰撞根须眩晕
+@display:amon tentacle cp	埃蒙触手-CP
+@display:amon tentacle dground slam delay shows aoe create persistent	埃蒙触手裂地延迟显示AOE创建持续
+@display:amon tentacle lm	埃蒙触手-LM
+@display:ancient xel naga artifact power	古代萨尔纳加神器能量
+@display:ancient xel naga artifact shield	古代萨尔纳加神器护盾
+@display:annihilator - ground particle disruptors damage	歼灭者-地面粒子干扰炮伤害
+@display:annihilator - ground particle disruptors lm	歼灭者-地面粒子干扰炮-LM
+@display:arbitermp cloaking field apply	仲裁者-隐形力场应用
+@display:arbitermp cloaking field search	仲裁者-隐形力场搜索
+@display:arbitermp recall apply post-recall behavior	召回施加召回后行为
+@display:arbitermp recall apply pre-recall behavior	召回施加召回前行为
+@display:arbitermp recall search	召回搜索
+@display:arbitermp recall set	召回设置
+@display:arbitermp recall teleport	召回传送
+@display:arbitermp stasis field apply	静滞力场施加
+@display:arbitermp stasis field search	静滞力场搜索
+@display:arbitermp stasis field set	静滞力场设置
+@display:arbitermp stasis field timer apply	静滞力场-计时器应用
+@display:arc node spawn shadow of the void	电弧节点生成虚空之影
+@display:artanis hallucination army dragoon	阿塔尼斯幻象部队龙骑士
+@display:artanis hallucination army zealot	阿塔尼斯幻象部队狂热者
+@display:artanis psi blast 1 damage	阿塔尼斯灵能冲击1伤害
+@display:artanis psi blast 1 persistent delay	阿塔尼斯灵能冲击1持续延迟
+@display:artanis psi blast 1 search	阿塔尼斯灵能冲击1搜索
+@display:artanis psi blast 1 set	阿塔尼斯灵能冲击1设置
+@display:artanis psi blast 2 damage	阿塔尼斯灵能冲击2伤害
+@display:artanis psi blast 2 persistent delay	阿塔尼斯灵能冲击2持续延迟
+@display:artanis psi blast 2 search	阿塔尼斯灵能冲击2搜索
+@display:artanis psi blast 2 set	阿塔尼斯灵能冲击2设置
+@display:artanis psi blast 3 damage	阿塔尼斯灵能冲击3伤害
+@display:artanis psi blast 3 persistent delay	阿塔尼斯灵能冲击3持续延迟
+@display:artanis psi blast 3 search	阿塔尼斯灵能冲击3搜索
+@display:artanis psi blast 3 set	阿塔尼斯灵能冲击3设置
+@display:artanis psi blast 4 damage	阿塔尼斯灵能冲击4伤害
+@display:artanis psi blast 4 persistent delay	阿塔尼斯灵能冲击4持续延迟
+@display:artanis psi blast 4 search	阿塔尼斯灵能冲击4搜索
+@display:artanis psi blast 4 set	阿塔尼斯灵能冲击4设置
+@display:artanis psi blast 5 damage	阿塔尼斯灵能冲击5伤害
+@display:artanis psi blast 5 set	阿塔尼斯灵能冲击5设置
+@display:artanis psi blast apply marker	阿塔尼斯灵能冲击施加标记
+@display:artanis resurgence enemy impact	阿塔尼斯复兴敌方撞击
+@display:artifact dig site	神器挖掘场
+@display:auto harvest vespene 4	自动采集瓦斯4
+@display:auto-turret - twin autocannons damage	自动炮塔-双联自动机炮伤害
+@display:avernus	阿弗纳斯
+@display:avernus gas refinery height 1	阿弗纳斯瓦斯精炼厂高度1
+@display:avernus gas refinery height 2	阿弗纳斯瓦斯精炼厂高度2
+@display:avernus gas refinery height 3	阿弗纳斯瓦斯精炼厂高度3
+@display:avernus glass floor height 1	阿弗纳斯玻璃地板高度1
+@display:avernus glass floor height 2	阿弗纳斯玻璃地板高度2
+@display:avernus glass floor height 3	阿弗纳斯玻璃地板高度3
+@display:avernus grid floor height 1	阿弗纳斯网格地板高度1
+@display:avernus grid floor height 2	阿弗纳斯网格地板高度2
+@display:avernus grid floor height 3	阿弗纳斯网格地板高度3
+@display:avernus mining chamber height 1	阿弗纳斯采矿室高度1
+@display:avernus mining chamber height 2	阿弗纳斯采矿室高度2
+@display:avernus mining chamber height 3	阿弗纳斯采矿室高度3
+@display:avernus spectre chamber height 1	阿弗纳斯幽魂囚室高度1
+@display:avernus spectre chamber height 2	阿弗纳斯幽魂囚室高度2
+@display:avernus spectre chamber height 3	阿弗纳斯幽魂囚室高度3
+@display:baneling - suicide remove buff	爆虫-自爆移除增益
+@display:battlecruiser - ata laser battery damage	战列巡航舰-ATA激光炮组伤害
+@display:battlecruiser - ata laser battery launch missile	战列巡航舰-ATA激光炮组发射导弹
+@display:battlecruiser - ats laser battery damage	战列巡航舰-ATS激光炮组伤害
+@display:battlecruiser - ats laser battery launch missile	战列巡航舰-ATS激光炮组发射导弹
+@display:battlecruiser - yamato cannon damage	战列巡航舰-大和炮伤害
+@display:battlecruiser - yamato cannon missile	战列巡航舰-大和炮导弹
+@display:battlecruiser anti-air	战列巡航舰-对空
+@display:battlecruiser helios - helios damage dummy impact	赫利俄斯战列巡航舰-赫利俄斯伤害假人撞击
+@display:battlecruiser hero - helios damage create persistent	英雄战列巡航舰-赫利俄斯伤害创建持续
+@display:belshir	贝尔什尔
+@display:biomass buff1 to10	生物质增益1至10
+@display:biomass buff10 to100	生物质增益10至100
+@display:blast crater 1 height 1	爆坑1高度1
+@display:blast crater 1 height 2	爆坑1高度2
+@display:blast crater 1 height 3	爆坑1高度3
+@display:blast crater 2 height 1	爆坑2高度1
+@display:blast crater 2 height 2	爆坑2高度2
+@display:blast crater 2 height 3	爆坑2高度3
+@display:blast crater 3 height 1	爆坑3高度1
+@display:blast crater 3 height 2	爆坑3高度2
+@display:blast crater 3 height 3	爆坑3高度3
+@display:blast crater 4 height 1	爆坑4高度1
+@display:blast crater 4 height 2	爆坑4高度2
+@display:blast crater 4 height 3	爆坑4高度3
+@display:block b - p38 'scythe' gauss pistol create persistent	B区-P38“镰刀”高斯手枪创建持续
+@display:block b - p38 'scythe' gauss pistol damage	B区-P38“镰刀”高斯手枪伤害
+@display:brakk - acidic projection damage	布拉克-酸液投影伤害
+@display:brakk - acidic projection launch	布拉克-酸液投影发射
+@display:brakk - acidic projection search	布拉克-酸液投影搜索
+@display:brakk - serrated talons damage	布拉克-锯齿利爪伤害
+@display:braxis alpha	布拉西斯·阿尔法
+@display:braxis alpha bridge arrow 1 height 1	布拉西斯·阿尔法桥箭头1高度1
+@display:braxis alpha bridge arrow 1 height 2	布拉西斯·阿尔法桥箭头1高度2
+@display:braxis alpha bridge arrow 1 height 3	布拉西斯·阿尔法桥箭头1高度3
+@display:braxis alpha bridge arrow 2 height 1	布拉西斯·阿尔法桥箭头2高度1
+@display:braxis alpha bridge arrow 2 height 2	布拉西斯·阿尔法桥箭头2高度2
+@display:braxis alpha bridge arrow 2 height 3	布拉西斯·阿尔法桥箭头2高度3
+@display:braxis alpha reactor height 1	布拉西斯·阿尔法反应堆高度1
+@display:braxis alpha reactor height 2	布拉西斯·阿尔法反应堆高度2
+@display:braxis alpha reactor height 3	布拉西斯·阿尔法反应堆高度3
+@display:broken cliff doodad	破损悬崖装饰物
+@display:burrow charge create	潜地冲锋创建
+@display:carrier - interceptor - interceptor beam persistent damage	航母-拦截机-拦截机光束持续伤害
+@display:carrier - interceptors create persistent	航母-拦截机创建持续
+@display:carrier - interceptors create upgraded persistent	航母-拦截机创建升级持续
+@display:carrier - launch interceptor magazine	航母-发射拦截机弹匣
+@display:carrier hero - interceptor - pulse cannon	英雄航母-拦截机-脉冲炮
+@display:carrier hero - interceptor burst	英雄航母-拦截机齐射
+@display:carrier interceptor bomb	航母拦截机炸弹
+@display:carrier interceptor launch terrazine shadow	航母拦截机发射泰拉臻之影
+@display:castanar bridge diagonal height 1	卡斯塔纳大桥-对角高度1
+@display:castanar bridge diagonal height 2	卡斯塔纳大桥-对角高度2
+@display:castanar bridge horizontal large	卡斯塔纳横向大桥-大型
+@display:castanar bridge horizontal large destroyed	卡斯塔纳横向大桥-大型-摧毁
+@display:castanar bridge horizontal small	卡斯塔纳横向大桥-小型
+@display:castanar bridge horizontal small destroyed	卡斯塔纳横向大桥-小型-摧毁
+@display:castanar bridge vertical large	卡斯塔纳纵向大桥-大型
+@display:castanar bridge vertical large destroyed	卡斯塔纳纵向大桥-大型-摧毁
+@display:castanar bridge vertical small	卡斯塔纳纵向大桥-小型
+@display:castanar bridge vertical small destroyed	卡斯塔纳纵向大桥-小型-摧毁
+@display:castanar bruta cage height 1	卡斯塔纳残暴兽笼高度1
+@display:castanar bruta cage height 2	卡斯塔纳残暴兽笼高度2
+@display:castanar bruta cage height 3	卡斯塔纳残暴兽笼高度3
+@display:castanar brutalisk cage height 1	卡斯塔纳残暴兽笼高度1
+@display:castanar brutalisk cage height 2	卡斯塔纳残暴兽笼高度2
+@display:castanar brutalisk cage height 3	卡斯塔纳残暴兽笼高度3
+@display:castanar power generator height 1	卡斯塔纳发电机高度1
+@display:castanar power generator height 2	卡斯塔纳发电机高度2
+@display:castanar power generator height 3	卡斯塔纳发电机高度3
+@display:caustic level 1 damage	腐蚀性-等级1伤害
+@display:caustic level 2 damage	腐蚀性-等级2伤害
+@display:caustic spray level 1 launch missile	腐蚀喷液-等级1发射导弹
+@display:caustic spray level 1 persistent	腐蚀喷液-等级1持续
+@display:caustic spray level 2 launch missile	腐蚀喷液-等级2发射导弹
+@display:caustic spray level 2 persistent	腐蚀喷液-等级2持续
+@display:celestial beam cp 2	天界光束-CP2
+@display:celestial beam power cp 2	天界光束充能-CP2
+@display:char	查尔
+@display:char acid	查尔酸液
+@display:char nydus nest empty height 1	查尔坑道虫巢空置高度1
+@display:char nydus nest empty height 2	查尔坑道虫巢空置高度2
+@display:char nydus nest empty height 3	查尔坑道虫巢空置高度3
+@display:char nydus nest height 1	查尔坑道虫巢高度1
+@display:char nydus nest height 2	查尔坑道虫巢高度2
+@display:char nydus nest height 3	查尔坑道虫巢高度3
+@display:char2	查尔2
+@display:civilian - throw molotov launch missile unit	平民-投掷燃烧瓶发射导弹单位
+@display:collapsible rock tower ramp/diagonal conjoined dummy	岩堆坡道/对角连体假人
+@display:collapsible rock tower ramp/diagonal conjoined search	岩堆坡道/对角连体搜索
+@display:collapsible terran tower ramp/diagonal conjoined dummy	可折叠人族塔坡道/对角连体假人
+@display:collapsible terran tower ramp/diagonal conjoined search	可折叠人族塔坡道/对角连体搜索
+@display:collapsiblerocktowerdiagonalmakeinvulnerable	岩堆对角无敌化
+@display:collapsing ice large height 1	崩塌冰面-大型高度1
+@display:collapsing ice large height 2	崩塌冰面-大型高度2
+@display:collapsing ice large height 3	崩塌冰面-大型高度3
+@display:collapsing ice medium height 1	崩塌冰面-中型高度1
+@display:collapsing ice medium height 2	崩塌冰面-中型高度2
+@display:collapsing ice medium height 3	崩塌冰面-中型高度3
+@display:colonist vehicle - park	殖民者载具-停放
+@display:colonist vehicle - start	殖民者载具-启动
+@display:colony infestation apply behavior	移民地感染施加行为
+@display:colony infestation create persistent	移民地感染创建持续
+@display:colony infestation launch missile	移民地感染发射导弹
+@display:colossus taldarim thermal lances	塔达林巨像热能射线
+@display:colossus taldarim thermal lances damage	塔达林巨像热能射线伤害
+@display:colossus taldarim thermal lances damage delay	塔达林巨像热能射线伤害延迟
+@display:colossus taldarim thermal lances forward	塔达林巨像热能射线正向
+@display:colossus taldarim thermal lances reverse	塔达林巨像热能射线反向
+@display:colossus taldarim thermal lances search	塔达林巨像热能射线搜索
+@display:colossus taldarim thermal lances search reverse	塔达林巨像热能射线搜索反向
+@display:command center - remove cargo on death damage	指挥中心-死亡时卸下载货伤害
+@display:concussive grenade damage	震荡手雷伤害
+@display:coolant pipes 1 height 1	冷却管道1高度1
+@display:coolant pipes 1 height 2	冷却管道1高度2
+@display:coolant pipes 1 height 3	冷却管道1高度3
+@display:coolant pipes 2 height 1	冷却管道2高度1
+@display:coolant pipes 2 height 2	冷却管道2高度2
+@display:coolant pipes 2 height 3	冷却管道2高度3
+@display:coop -	合作-
+@display:create stasis cocoon controller target	创建静滞茧控制目标
+@display:creep tumor used	菌毯肿瘤已使用
+@display:d-8 cluster bomb create persistant	D-8集束炸弹创建持续
+@display:d-8 cluster bomb create unit	D-8集束炸弹创建单位
+@display:d-8 cluster bomb explode	D-8集束炸弹爆炸
+@display:d-8 cluster bomb explode damage	D-8集束炸弹爆炸伤害
+@display:d-8 cluster bomb launch	D-8集束炸弹发射
+@display:d-8 cluster bomb launch missile	D-8集束炸弹发射导弹
+@display:dark inertia ab	黑暗惯性-AB
+@display:dark inertia damage	黑暗惯性伤害
+@display:dark inertia damage dummy	黑暗惯性伤害假人
+@display:dark inertia search area	黑暗惯性搜索区域
+@display:dark inertia set	黑暗惯性设置
+@display:default	默认
+@display:default effect ceffect	默认效果-CEffect
+@display:default effect ceffectapplybehavior	默认效果-CEffectApplyBehavior
+@display:default effect ceffectapplyforce	默认效果-CEffectApplyForce
+@display:default effect ceffectcreatepersistent	默认效果-CEffectCreatePersistent
+@display:default effect ceffectcreateunit	默认效果-CEffectCreateUnit
+@display:default effect ceffectenumarea	默认效果-CEffectEnumArea
+@display:default effect ceffectenumtransport	默认效果-CEffectEnumTransport
+@display:default effect ceffectissueorder	默认效果-CEffectIssueOrder
+@display:default effect ceffectlaunchmissile	默认效果-CEffectLaunchMissile
+@display:default effect ceffectmodifyunit	默认效果-CEffectModifyUnit
+@display:default effect ceffectremovebehavior	默认效果-CEffectRemoveBehavior
+@display:default effect ceffectset	默认效果-CEffectSet
+@display:default effect ceffectswitch	默认效果-CEffectSwitch
+@display:default effect ceffectteleport	默认效果-CEffectTeleport
+@display:default effect ceffecttransferbehavior	默认效果-CEffectTransferBehavior
+@display:default effect ceffectusemagazine	默认效果-CEffectUseMagazine
+@display:default effect ceffectuserdata	默认效果-CEffectUserData
+@display:defense droid damage	防御机器人伤害
+@display:defense droid launch missile	防御机器人发射导弹
+@display:defensive wall 45 1h merge 1	防御墙45度1H合并1
+@display:defensive wall 45 1h merge 1 mirror	防御墙45度1H合并1镜像
+@display:defensive wall 45 1h merge 2	防御墙45度1H合并2
+@display:defensive wall 45 1h merge 2 mirror	防御墙45度1H合并2镜像
+@display:defensive wall 45 2h merge 1	防御墙45度2H合并1
+@display:defensive wall 45 2h merge 1 mirror	防御墙45度2H合并1镜像
+@display:defensive wall 90 1h merge 1	防御墙90度1H合并1
+@display:defensive wall 90 1h merge 2	防御墙90度1H合并2
+@display:defensive wall 90 1h merge 2 mirror	防御墙90度1H合并2镜像
+@display:defensive wall 90 2h merge 1	防御墙90度2H合并1
+@display:defensive wall 90 2h merge 1 mirror	防御墙90度2H合并1镜像
+@display:defensive wall901 hmerge10 mirror	防御墙90度1H合并10镜像
+@display:dematerialize ab	瓦解-AB
+@display:devil dog - flame thrower create persistent	恶魔犬-喷火器创建持续
+@display:devil dog - flame thrower damage	恶魔犬-喷火器伤害
+@display:devil dog - flame thrower search area	恶魔犬-喷火器搜索区域
+@display:devil dog - flame thrower set	恶魔犬-喷火器设置
+@display:diamondback - eviscerator beam	响尾蛇-剖割者光束
+@display:diamondback - eviscerator set	响尾蛇-剖割者设置
+@display:dragoon champion - power shield apply	龙骑士勇士-能量护盾施加
+@display:dreadnought ag damage	无畏舰对地伤害
+@display:dreadnought ag damage set	无畏舰对地伤害设置
+@display:dreadnought ag missile lm	无畏舰对地导弹-LM
+@display:dreadnought missile burst persistent	无畏舰导弹齐射持续
+@display:dreadnought missile damage	无畏舰导弹伤害
+@display:dreadnought missile dummy	无畏舰导弹假人
+@display:dreadnought missile launchers persistent	无畏舰导弹发射器持续
+@display:dreadnought missile lm	无畏舰导弹-LM
+@display:dreadnought target aa morph order	无畏舰对空目标变形命令
+@display:dreadnought target aa morph order set	无畏舰对空目标变形命令设置
+@display:dreadnought target aa morph rb	无畏舰对空目标变形-RB
+@display:dreadnought target morph ab	无畏舰目标变形-AB
+@display:dreadnought target morph ag order	无畏舰对地目标变形命令
+@display:dreadnought target morph delay persistent	无畏舰目标变形延迟持续
+@display:dreadnought target morph order initial set	无畏舰目标变形命令初始设置
+@display:dreadnought target morph persistent	无畏舰目标变形持续
+@display:dreadnought target morph search area	无畏舰目标变形搜索区域
+@display:duke's revenge - ata damage	杜克的复仇-ATA伤害
+@display:duke's revenge - ata launch missile	杜克的复仇-ATA发射导弹
+@display:duke's revenge - ats damage	杜克的复仇-ATS伤害
+@display:duke's revenge - ats launch missile	杜克的复仇-ATS发射导弹
+@display:duke's revenge - cannons air	杜克的复仇-火炮对空
+@display:duke's revenge - cannons ground	杜克的复仇-火炮对地
+@display:enable drag move in selection mode	在框选模式下启用拖动
+@display:endless swarm 1	无尽虫群1
+@display:endless swarm 1 cu	无尽虫群1-CU
+@display:endless swarm 1 rb	无尽虫群1-RB
+@display:endless swarm 2	无尽虫群2
+@display:endless swarm 2 cu	无尽虫群2-CU
+@display:endless swarm 2 rb	无尽虫群2-RB
+@display:endless swarm 3	无尽虫群3
+@display:endless swarm 3 cu	无尽虫群3-CU
+@display:endless swarm 3 rb	无尽虫群3-RB
+@display:endless swarm 4	无尽虫群4
+@display:endless swarm 4 cu	无尽虫群4-CU
+@display:endless swarm 4 rb	无尽虫群4-RB
+@display:endless swarm 5	无尽虫群5
+@display:endless swarm 5 cu	无尽虫群5-CU
+@display:endless swarm 5 rb	无尽虫群5-RB
+@display:energy arc tower 1 damage	能量-弧塔1伤害
+@display:energy arc tower 1 persistent delay	能量-弧塔1持续延迟
+@display:energy arc tower 1 search	能量-弧塔1搜索
+@display:energy arc tower 1 set	能量-弧塔1设置
+@display:energy arc tower 2 damage	能量-弧塔2伤害
+@display:energy arc tower 2 persistent delay	能量-弧塔2持续延迟
+@display:energy arc tower 2 search	能量-弧塔2搜索
+@display:energy arc tower 2 set	能量-弧塔2设置
+@display:energy arc tower 3 damage	能量-弧塔3伤害
+@display:energy arc tower 3 set	能量-弧塔3设置
+@display:energy nova dot aiur06 damage	能量新星Dot艾尔06伤害
+@display:energy nova dot aiur06 persistent	能量新星Dot艾尔06持续
+@display:energy nova dot aiur06 search	能量新星Dot艾尔06搜索
+@display:executed by trigger	(由触发器执行)
+@display:expedition gate height 1	远征之门高度1
+@display:expedition gate height 2	远征之门高度2
+@display:expedition gate height 3	远征之门高度3
+@display:extend bridge extending bridge ne wide 10 out	延伸桥梁 向东北伸展桥梁 宽度10 结束
+@display:extend bridge extending bridge ne wide 12 out	延伸桥梁 向东北伸展桥梁 宽度12 结束
+@display:extend bridge extending bridge ne wide 8 out	延伸桥梁 向东北伸展桥梁 宽度8 结束
+@display:extend bridge extending bridge nw wide 10 out	延伸桥梁 向东北伸展桥梁 宽度10 结束
+@display:extend bridge extending bridge nw wide 12 out	延伸桥梁 向东北伸展桥梁 宽度12 结束
+@display:extend bridge extending bridge nw wide 8 out	延伸桥梁 向东北伸展桥梁 宽度8 结束
+@display:fenix charge damage	菲尼克斯冲锋伤害
+@display:fenix charge stop	菲尼克斯冲锋停止
+@display:fenixsoa charge	震慑冲锋
+@display:fenixsoa charge stun apply	菲尼克斯亚顿之矛冲锋眩晕施加
+@display:fenixsoa charge stun caster remove	震慑冲锋-眩晕施法者移除
+@display:fenixsoa charge stun search	震慑冲锋-眩晕搜索
+@display:fenixsoa charge stun target	震慑冲锋-眩晕目标
+@display:fenixsoa create unit	菲尼克斯-创建单位
+@display:fenixsoa weapon damage	净化者之刃-伤害
+@display:fenixsoa weapon set	净化者之刃-设置
+@display:firebat - flame thrower apply dot behavior	火蝠-喷火器施加持续伤害行为
+@display:firebat - flame thrower damage	火蝠-喷火器伤害
+@display:firebat - flame thrower enum area	火蝠-喷火器区域枚举
+@display:firebat - flame thrower persistent	火蝠-喷火器持续
+@display:firebat - flame thrower set	火蝠-喷火器设置
+@display:firebat - flame thrower viral plasma dot damage	火蝠-喷火器病毒血浆持续伤害
+@display:flash freeze level 0 apply behavior	寒冰期施加行为
+@display:flash freeze level 0 initial set	寒冰期初始设置
+@display:flash freeze level 0 remove behavior	寒冰期移除行为
+@display:flash freeze level 1 apply behavior	寒冰期施加行为
+@display:flash freeze level 1 initial set	寒冰期初始设置
+@display:flash freeze level 1 remove behavior	寒冰期移除行为
+@display:flash freeze level 2 apply behavior	寒冰期施加行为
+@display:flash freeze level 2 initial set	寒冰期初始设置
+@display:flash freeze level 2 remove behavior	寒冰期移除行为
+@display:flash freeze level 3 apply behavior	寒冰期施加行为
+@display:flash freeze level 3 damage	寒冰期伤害
+@display:flash freeze level 3 initial set	寒冰期初始设置
+@display:flash freeze level 3 remove behavior	寒冰期移除行为
+@display:frozen lake height 1	冰冻湖面高度1
+@display:frozen lake height 2	冰冻湖面高度2
+@display:frozen lake height 3	冰冻湖面高度3
+@display:game time greater than 5 seconds	游戏时间大于5秒
+@display:general	(通用)
+@display:ghost - c-10 canister rifle damage	幽灵-C-10穿甲步枪伤害
+@display:goliath - hellfire missile pack damage	歌利亚-地狱火导弹组伤害
+@display:goliath - hellfire missile pack persistent	歌利亚-地狱火导弹组持续
+@display:goliath - twin autocannons damage	歌利亚-双联自动机炮伤害
+@display:grenadier - concussive grenade burst	掷弹兵-震荡手雷齐射
+@display:grenadier - concussive grenade damage	掷弹兵-震荡手雷伤害
+@display:grenadier - concussive grenade missile	掷弹兵-震荡手雷导弹
+@display:grenadier - concussive grenade set	掷弹兵-震荡手雷设置
+@display:gun tower b lm	机炮塔B-LM
+@display:gun tower c lm	机炮塔C-LM
+@display:gun tower d lm	机炮塔D-LM
+@display:hammer security - concussive grenade damage	巨锤安保-震荡手雷伤害
+@display:hammer security - concussive grenade set	巨锤安保-震荡手雷设置
+@display:haven	避难所
+@display:haven creep	避难所菌毯
+@display:hel's angel - halo rockets damage	地狱天使-光环火箭弹伤害
+@display:hel's angel - halo rockets launch missile	地狱天使-光环火箭弹发射导弹
+@display:hel's angel - halo rockets persistent	地狱天使-光环火箭弹持续
+@display:hel's angel - twin gatling cannon damage	地狱天使-双联加特林机炮伤害
+@display:helios	赫利俄斯
+@display:high templar - feedback damage target based on energy	高阶圣堂武士-反馈按能量伤害目标
+@display:high templar - feedback remove target energy	高阶圣堂武士-反馈移除目标能量
+@display:high templar - mind blast damage	高阶圣堂武士-心灵冲击伤害
+@display:high templar - psi orb damage	高阶圣堂武士-灵能宝珠伤害
+@display:high templar - psi orb destroy persistent	高阶圣堂武士-灵能宝珠毁灭持续
+@display:high templar - psi orb final damage	高阶圣堂武士-灵能宝珠最终伤害
+@display:high templar - psi orb final search	高阶圣堂武士-灵能宝珠最终搜索
+@display:high templar - psi orb initial persistent	高阶圣堂武士-灵能宝珠初始持续
+@display:high templar - psi orb launch missile	高阶圣堂武士-灵能宝珠发射导弹
+@display:high templar - psi orb persistent	高阶圣堂武士-灵能宝珠持续
+@display:high templar - psi orb search	高阶圣堂武士-灵能宝珠搜索
+@display:high templar - psi orb set	高阶圣堂武士-灵能宝珠设置
+@display:high templar - weapon cripple ab	高阶圣堂武士-武器瘫痪-AB
+@display:high templar weapon launch missile	高阶圣堂武士武器发射导弹
+@display:hots - char lava flow height 1	虫群之心-查尔熔岩流高度1
+@display:hots - char lava flow height 2	虫群之心-查尔熔岩流高度2
+@display:hots - char lava flow height 3	虫群之心-查尔熔岩流高度3
+@display:hots baneling healer dummy	虫群之心爆虫治疗者假人
+@display:hots leviathan weapon1 ab	虫群之心利维坦 武器1-施加行为
+@display:hots leviathan weapon1 rb	虫群之心利维坦 武器1-RB
+@display:hots leviathan weapon2 ab	虫群之心利维坦 武器2-施加行为
+@display:hots leviathan weapon2 rb	虫群之心利维坦 武器2-RB
+@display:hots leviathan weapon3 ab	虫群之心利维坦 武器3-施加行为
+@display:hots leviathan weapon3 rb	虫群之心利维坦 武器3-RB
+@display:hots leviathan weapon4 ab	虫群之心利维坦 武器4-施加行为
+@display:hots leviathan weapon4 rb	虫群之心利维坦 武器4-RB
+@display:hots raptor charge lm	跳跃-发射弹道
+@display:hots splitterling death big	虫群之心分裂虫死亡大型
+@display:hots splitterling suicide remove buff	虫群之心分裂虫自杀移除增益
+@display:hots splitterling suicide target friendly switch	虫群之心分裂虫自杀目标友好切换
+@display:hots splitterling volatile burst building damage big	虫群之心分裂虫不稳定爆裂建筑伤害大
+@display:hots splitterling volatile burst building switch	虫群之心分裂虫不稳定爆裂建筑切换
+@display:hots splitterling volatile burst friendly building switch	虫群之心分裂虫不稳定爆裂友好建筑切换
+@display:hots splitterling volatile burst friendly unit switch	虫群之心分裂虫不稳定爆裂友好单位切换
+@display:hots splitterling volatile burst set	虫群之心分裂虫不稳定爆裂设置
+@display:hots splitterling volatile burst unit damage big	虫群之心分裂虫不稳定爆裂单位伤害大
+@display:hots splitterling volatile burst unit switch	虫群之心分裂虫不稳定爆裂单位切换
+@display:hots splitterling volatile burst viscous discharge apply behavior	虫群之心分裂虫不稳定爆裂黏稠分泌物施加行为
+@display:hots splitterling volatile burst viscous discharge search	虫群之心分裂虫不稳定爆裂黏稠分泌物搜索
+@display:hunter killer - melee damage	猎杀者-近战伤害
+@display:hunter killer - needle spines missile	猎杀者-针刺脊针导弹
+@display:hybrid dominator - plasma blast damage	混合体支配者-等离子冲击伤害
+@display:hybrid dominator - plasma blast launch missile	混合体支配者-等离子冲击发射导弹
+@display:hybrid dominator - psychic clones apply caster behavior	混合体支配者-灵能克隆施加施法者行为
+@display:hybrid dominator - psychic clones apply spawn behavior	混合体支配者-灵能克隆施加生成行为
+@display:hybrid dominator - psychic clones create persistent	混合体支配者-灵能克隆创建持续
+@display:hybrid dominator - psychic clones create unit	混合体支配者-灵能克隆创建单位
+@display:hybrid dominator - psychic clones remove caster behavior	混合体支配者-灵能克隆移除施法者行为
+@display:hybrid gas vent height 1	混合体排气口高度1
+@display:hybrid gas vent height 2	混合体排气口高度2
+@display:hybrid gas vent height 3	混合体排气口高度3
+@display:hybrid glass floor 1 height 1	混合体玻璃地板1高度1
+@display:hybrid glass floor 1 height 2	混合体玻璃地板1高度2
+@display:hybrid glass floor 1 height 3	混合体玻璃地板1高度3
+@display:hybrid glass floor 2 height 1	混合体玻璃地板2高度1
+@display:hybrid glass floor 2 height 2	混合体玻璃地板2高度2
+@display:hybrid glass floor 2 height 3	混合体玻璃地板2高度3
+@display:hybrid lab brutalisk cage height 1	混合体实验室残暴兽笼高度1
+@display:hybrid lab brutalisk cage height 2	混合体实验室残暴兽笼高度2
+@display:hybrid lab brutalisk cage height 3	混合体实验室残暴兽笼高度3
+@display:hybridc - hybridc plasma blast damage	混合体C-等离子冲击伤害
+@display:hybridc - hybridc plasma blast launch missile	混合体C-等离子冲击发射导弹
+@display:hybridc damage	灵能冲击-伤害
+@display:hybridd - shockd damage	混合体D-震荡伤害
+@display:hybridd - shockd launch missile	混合体D-震荡发射导弹
+@display:hybride - shocke damage	混合体E-震荡伤害
+@display:hybride - shocke persistent	混合体E-震荡持续
+@display:hybridf - consume dna create persistant	混合体F-吞噬DNA创建持续
+@display:hybridf - hybrid - consume zerg create persistent	混合体F-吞噬虫族创建持续
+@display:hybridf - hybrid - consume zerg damage	混合体F-吞噬虫族伤害
+@display:hybridf - hybrid - consume zerg launch missile	混合体F-吞噬虫族发射导弹
+@display:hybridf - hybrid - consume zerg launch set	混合体F-吞噬虫族发射设置
+@display:hybridf - hybrid - consume zerg modify unit	混合体F-吞噬虫族修改单位
+@display:hybridf - hybrid - consume zerg set	混合体F-吞噬虫族设置
+@display:hybridf plasma blast damage	等离子冲击波-伤害
+@display:hybridf plasma blast launch missile	等离子冲击波-发射导弹
+@display:hyperion korhal out of combat 2 ab	休伯利安号克哈 脱离战斗2-施加行为
+@display:hyperion korhal regen	休伯利安号克哈 恢复
+@display:immortal - barrier ab base immortal	不朽者-屏障-AB基础不朽者
+@display:immortal - stasis heal apply	不朽者-静滞治疗施加
+@display:immortal - stasis heal heal	不朽者-静滞治疗治疗
+@display:immortal - stasis heal remove	不朽者-静滞治疗移除
+@display:immortal - stasis heal set	不朽者-静滞治疗设置
+@display:immortal - super cannons apply	不朽者-超级火炮施加
+@display:immortal - super cannons remove	不朽者-超级火炮移除
+@display:infested terran campaign - infested rifle	感染人类战役-感染步枪
+@display:instant morph unburrow	瞬间变形钻出
+@display:interceptor - pulse cannon damage	拦截机-脉冲炮伤害
+@display:interceptor create	拦截机创建
+@display:jelly grab impact	水母抓取撞击
+@display:jelly grab impact air	水母抓取撞击对空
+@display:jelly grab impact ground	水母抓取撞击对地
+@display:karax - master phase-smith attack ab	凯拉克斯-相位匠大师攻击-AB
+@display:karax - master phase-smith production ab	凯拉克斯-相位匠大师生产-AB
+@display:karax - master phase-smith search	凯拉克斯-相位匠大师搜索
+@display:karax - master phase-smith set	凯拉克斯-相位匠大师设置
+@display:karax - servitor strike damage a - electric	凯拉克斯-仆从打击伤害A-电击
+@display:karax - servitor strike damage b - fire	凯拉克斯-仆从打击伤害B-火焰
+@display:kel-morian - ab	凯莫瑞安--AB
+@display:kelmorian miner - gauss rifle damage	凯莫瑞安矿工-高斯步枪伤害
+@display:kerrigan ability efficiency	凯瑞甘技能专精
+@display:kerrigan epilogue03 line dash attack stop	凯瑞甘尾声03直线冲刺攻击停止
+@display:kerrigan epilogue03 strike amon dummy caster	凯瑞甘尾声03打击埃蒙假人施法者
+@display:kerrigan void coop econ drop 1 achievement behavior	资源拾取-成就行为
+@display:kerrigan void coop econ drop 1 pickup	资源拾取-拾取
+@display:kerrigan void coop econ drop 1 pickup set	资源拾取-拾取设置
+@display:kerrigan void coop econ drop 1 set	资源拾取-设置
+@display:kerrigan void coop econ drop 2 achievement behavior	资源拾取-成就行为
+@display:kerrigan void coop econ drop 2 pickup	资源拾取-拾取
+@display:kerrigan void coop econ drop 2 pickup set	资源拾取-拾取设置
+@display:kerrigan void coop econ drop 2 set	资源拾取-设置
+@display:kerrigan void coop econ drop 3 achievement behavior	资源拾取-成就行为
+@display:kerrigan void coop econ drop 3 pickup	资源拾取-拾取
+@display:kerrigan void coop econ drop 3 pickup set	资源拾取-拾取设置
+@display:kerrigan void coop econ drop 3 set	资源拾取-设置
+@display:kerrigan void coop econ drop 4 achievement behavior	资源拾取-成就行为
+@display:kerrigan void coop econ drop 4 pickup	资源拾取-拾取
+@display:kerrigan void coop econ drop 4 pickup set	资源拾取-拾取设置
+@display:kerrigan void coop econ drop 4 set	资源拾取-设置
+@display:kerrigan void coop econ drop 5 achievement behavior	资源拾取-成就行为
+@display:kerrigan void coop econ drop 5 pickup	资源拾取-拾取
+@display:kerrigan void coop econ drop 5 pickup set	资源拾取-拾取设置
+@display:kerrigan void coop econ drop 5 set	资源拾取-设置
+@display:kerrigan void coop econ drop 6 set	凯瑞甘-合作经济投放6设置
+@display:kerrigan void coop econ drop <1 achievement behavior	凯瑞甘虚空合作经济空投<1成就行为
+@display:kerrigan void coop econ drop <1 pickup	凯瑞甘虚空合作经济空投<1拾取
+@display:kerrigan void coop econ drop <1 pickup set	凯瑞甘虚空合作经济空投<1拾取设置
+@display:kerrigan void coop econ drop <1 set	凯瑞甘虚空合作经济空投<1设置
+@display:korhal	克哈
+@display:korhal bile launcher bombardment damage	克哈胆汁发射器轰炸伤害
+@display:korhal bile launcher bombardment delay persistent	克哈胆汁发射器轰炸延迟持续
+@display:korhal bile launcher bombardment launch missile	克哈胆汁发射器轰炸发射导弹
+@display:korhal bile launcher damage	克哈胆汁发射器伤害
+@display:korhal bile launcher delay persistent	克哈胆汁发射器延迟持续
+@display:korhal bile launcher launch missile	克哈胆汁发射器发射导弹
+@display:korhal hole	克哈弹坑
+@display:kraith - crashing charge abort apply behavior	克莱斯-坠击冲锋中止施加行为
+@display:kraith - crashing charge caster apply force	克莱斯-坠击冲锋施法者施加力
+@display:kraith - crashing charge caster move persistent	克莱斯-坠击冲锋施法者移动持续
+@display:kraith - crashing charge caster set	克莱斯-坠击冲锋施法者设置
+@display:kraith - crashing charge check target persistent	克莱斯-坠击冲锋检查目标持续
+@display:kraith - crashing charge knockback apply behavior	克莱斯-坠击冲锋击退施加行为
+@display:kraith - crashing charge knockback apply force	克莱斯-坠击冲锋击退施加力
+@display:kraith - crashing charge knockback persistent	克莱斯-坠击冲锋击退持续
+@display:kraith - crashing charge knockback remove behavior	克莱斯-坠击冲锋击退移除行为
+@display:kraith - crashing charge persistent	克莱斯-坠击冲锋持续
+@display:kraith - crashing charge speed apply behavior	克莱斯-坠击冲锋速度施加行为
+@display:kraith - crashing charge speed remove behavior	克莱斯-坠击冲锋速度移除行为
+@display:kraith - falling rocks create damage persistent	克莱斯-落石创建伤害持续
+@display:kraith - falling rocks unload apply behavior	克莱斯-落石卸载施加行为
+@display:laser drill tripod - laser beam final damage	激光钻机三脚架-激光束最终伤害
+@display:laser drill tripod - laser beam initial damage	激光钻机三脚架-激光束初始伤害
+@display:laser drill tripod - laser beam initial persistant	激光钻机三脚架-激光束初始持续
+@display:lightning shooter	闪电射击者
+@display:locust create lm a	蝗虫创建LM-A
+@display:locust create lm b	蝗虫创建LM-B
+@display:locust creeper create lm a	蝗虫菌毯创建LM-A
+@display:locust creeper create lm b	蝗虫菌毯创建LM-B
+@display:locust flying create lm a	蝗虫飞行创建LM-A
+@display:locust flying create lm b	蝗虫飞行创建LM-B
+@display:locust mp create lm a	蝗虫MP创建LM-A
+@display:locust mp create lm b	蝗虫MP创建LM-B
+@display:locust mp lm	蝗虫MP-LM
+@display:locust timed life	蝗虫限时生命
+@display:loki - armageddon cannon left damage	洛基-末日火炮左侧伤害
+@display:loki - armageddon cannon right damage	洛基-末日火炮右侧伤害
+@display:loki - armageddon cannons persistent	洛基-末日火炮持续
+@display:loki - hurricane missile left missile	洛基-飓风导弹左侧导弹
+@display:loki - hurricane missile right missile	洛基-飓风导弹右侧导弹
+@display:loki - yamato cannon damage	洛基-大和炮伤害
+@display:loki - yamato cannon missile	洛基-大和炮导弹
+@display:marauder - stim pack apply buff	掠夺者-兴奋剂施加增益
+@display:marine - stim pack apply buff	陆战队员-兴奋剂施加增益
+@display:marsara	玛·萨拉
+@display:meinhoff	梅恩霍夫
+@display:mengsk bc a damage	空对空激光炮组-伤害
+@display:mengsk bc a lm	蒙斯克战列巡航舰A-LM
+@display:mengsk bc g damage	空对地激光炮组-伤害
+@display:mengsk bc g lm	蒙斯克战列巡航舰G-LM
+@display:mengsk goliath a lm	蒙斯克歌利亚A-LM
+@display:mengsk thor 250mm strike cannons apply behavior	250毫米口径弹幕火炮-应用行为
+@display:mengsk thor 250mm strike cannons create persistent	250毫米口径弹幕火炮-创建持续
+@display:mengsk thor 250mm strike cannons damage	250毫米口径弹幕火炮-伤害
+@display:mengsk thor 250mm strike cannons dummy	250毫米口径弹幕火炮-假人
+@display:mengsk thor 250mm strike cannons set	250毫米口径弹幕火炮-设置
+@display:mercenary fortress - fortress cannons	雇佣兵堡垒-堡垒火炮
+@display:missile turret - hellstorm missile pods create persistent	导弹塔-地狱风暴导弹巢创建持续
+@display:missile turret - hellstorm missile pods damage	导弹塔-地狱风暴导弹巢伤害
+@display:missile turret - hellstorm missile pods launch missile	导弹塔-地狱风暴导弹巢发射导弹
+@display:mitosaurus b lm	毒裂兽B-LM
+@display:mitosaurus c lm	毒裂兽C-LM
+@display:morph to tech reactor	搭建为科技反应堆
+@display:mothership - birth	母舰-诞生
+@display:mothership aiur 06 beam damage	母舰-射线伤害
+@display:mothership aiur 06 beam dummy	母舰-射线假人
+@display:mothership aiur 06 beam persistent	母舰-射线持续
+@display:mothership aiur 06 beam set	母舰-射线设置
+@display:mothership aiur 06 planet cracker damage	母舰-行星碎裂炮 伤害
+@display:mothership aiur 06 planet cracker search area	母舰-行星碎裂炮 搜索区域
+@display:mothership aiur 06 secondary beam persistent	母舰-副射线持续
+@display:mothership core - light of aiur	母舰核心-艾尔之光
+@display:mothershipcore teleport	传送
+@display:mutator	突变
+@display:mutator -	突变-
+@display:mutator - trigger notice	突变-触发器通知
+@display:mutator amon enemy hero - karax -	突变-埃蒙敌方英雄-凯拉克斯-
+@display:mutator amon enemy hero - karax - - electric	突变-埃蒙敌方英雄-凯拉克斯-电击
+@display:narud epilogue low	纳鲁德尾声低阶
+@display:narud epilogue spawn shade of narud create unit	召唤虚空撕裂者-创建单位
+@display:needle spines	针刺脊针
+@display:new folsom prison floor left height 1	新佛森监狱地板左侧高度1
+@display:new folsom prison floor left height 2	新佛森监狱地板左侧高度2
+@display:new folsom prison floor left height 3	新佛森监狱地板左侧高度3
+@display:new folsom prison floor right height 1	新佛森监狱地板右侧高度1
+@display:new folsom prison floor right height 2	新佛森监狱地板右侧高度2
+@display:new folsom prison floor right height 3	新佛森监狱地板右侧高度3
+@display:niflheim	尼福尔海姆
+@display:nova - weapon damage	诺娃-武器伤害
+@display:novaarmorblinksuitblinkteleport	诺娃装甲闪现服传送
+@display:odin - anti air	奥丁-对空
+@display:odin - anti air damage	奥丁-对空伤害
+@display:odin - anti air launch missile	奥丁-对空发射导弹
+@display:odin - hand gun	奥丁-手炮
+@display:odin - hand gun damage	奥丁-手炮伤害
+@display:odin - hand gun damage left	奥丁-手炮伤害左侧
+@display:odin - hand gun damage right	奥丁-手炮伤害右侧
+@display:omegalisk - superzerg blades cleave	欧米伽雷兽-超级虫族利刃顺劈
+@display:omegalisk - superzerg blades cleave damage	欧米伽雷兽-超级虫族利刃顺劈伤害
+@display:omegalisk - superzerg blades damage	欧米伽雷兽-超级虫族利刃伤害
+@display:omegalisk - superzerg blades set	欧米伽雷兽-超级虫族利刃设置
+@display:oracle stasis ward	预言者静滞守卫
+@display:oracle stasis ward activate ab	预言者静滞守卫激活-AB
+@display:oracle stasis ward activate search	预言者静滞守卫激活搜索
+@display:oracle stasis ward activate set	预言者静滞守卫激活设置
+@display:oracle stasis ward build beam off	预言者静滞守卫建造光束关闭
+@display:oracle stasis ward build beam on	预言者静滞守卫建造光束开启
+@display:oracle stasis ward cu	预言者静滞守卫-CU
+@display:oracle stasis ward reveal	预言者静滞守卫显形
+@display:parasitic domination apply behavior	寄生支配施加行为
+@display:parasitic domination launch missile	寄生支配发射导弹
+@display:phoenix - anti gravity apply behavior	凤凰-反重力施加行为
+@display:phoenix - anti gravity cancel burrow	凤凰-反重力取消潜地
+@display:phoenix - anti gravity cancel lurker burrow	凤凰-反重力取消潜伏者潜地
+@display:phoenix - anti gravity caster energy drain	凤凰-反重力施法者能量汲取
+@display:phoenix - anti gravity height behavior	凤凰-反重力高度行为
+@display:phoenix - anti gravity initial set	凤凰-反重力初始设置
+@display:phoenix - anti gravity issue lurker order	凤凰-反重力下达潜伏者命令
+@display:phoenix - anti gravity issue order	凤凰-反重力下达命令
+@display:phoenix - anti gravity periodic set	凤凰-反重力周期设置
+@display:phoenix - anti gravity persistent	凤凰-反重力持续
+@display:phoenix - anti gravity visibility dummy	凤凰-反重力可见性假人
+@display:phoenix - issue order	凤凰-下达命令
+@display:phoenix aiur - graviton beam ab - void campaign	艾尔凤凰-重力光束-AB-虚空战役
+@display:phoenix aiur - graviton beam cp - void campaign	艾尔凤凰-重力光束-CP-虚空战役
+@display:phoenix aiur - graviton beam damage - void campaign	艾尔凤凰-重力光束伤害-虚空战役
+@display:phoenix aiur - graviton beam height ab - void campaign	艾尔凤凰-重力光束高度-AB-虚空战役
+@display:phoenix aiur - graviton beam initial set - void campaign	艾尔凤凰-重力光束初始设置-虚空战役
+@display:phoenix aiur - graviton beam set - void campaign	艾尔凤凰-重力光束设置-虚空战役
+@display:photon cannon teleport build start	光子炮传送建造开始
+@display:photon cannon teleport caster start	光子炮传送施法者开始
+@display:photon cannon teleport match life	光子炮传送匹配生命
+@display:pickup ex2 gas 100	拾取-EX2瓦斯100
+@display:pickup ex2 gas 200	拾取-EX2瓦斯200
+@display:pickup ex2 gas 25	拾取-EX2瓦斯25
+@display:pickup ex2 gas 50	拾取-EX2瓦斯50
+@display:pit alarak shield regen dummy damage 2	灵能光环-假人伤害2
+@display:pit malash fight lm ab	皮特马拉什战斗LM-AB
+@display:pit malash shield regen dummy damage 2	马拉什-盾恢复-假人伤害2
+@display:pit malash super move charge damage	皮特马拉什超级技能冲锋伤害
+@display:pit malash super move cp	皮特马拉什超级技能-CP
+@display:point defense drone - point defense laser apply behavior	点防御无人机-点防御激光施加行为
+@display:point defense drone - point defense laser remove energy	点防御无人机-点防御激光移除能量
+@display:point defense drone - point defense laser search	点防御无人机-点防御激光搜索
+@display:point defense drone - point defense laser visibility dummy	点防御无人机-点防御激光可见性假人
+@display:port zion crusher height 1	锡安港碾压者高度1
+@display:port zion crusher height 2	锡安港碾压者高度2
+@display:port zion crusher height 3	锡安港碾压者高度3
+@display:port zion grid floor circle height 1	锡安港网格地板圆高度1
+@display:port zion grid floor circle height 2	锡安港网格地板圆高度2
+@display:port zion grid floor circle height 3	锡安港网格地板圆高度3
+@display:port zion grid floor height 1	锡安港网格地板高度1
+@display:port zion grid floor height 2	锡安港网格地板高度2
+@display:port zion grid floor height 3	锡安港网格地板高度3
+@display:portzion	锡安港
+@display:predator - robot claws ph damage	掠夺者-机械爪[占位]伤害
+@display:predator retribution field set	掠夺者惩戒力场设置
+@display:primal egg power 1 damage	原始虫卵能量1伤害
+@display:primal egg power 1 dummy	原始虫卵能量1假人
+@display:primal egg power 1 heal	原始虫卵能量1治疗
+@display:primal lurker	原始潜伏者
+@display:primal lurker dummy search	原始潜伏者假人搜索
+@display:primal lurker search	原始潜伏者搜索
+@display:primal lurker set	原始潜伏者设置
+@display:primal slash damage	原始咆哮伤害
+@display:protoss docking bay height 1	星灵泊位高度1
+@display:protoss docking bay height 2	星灵泊位高度2
+@display:protoss docking bay height 3	星灵泊位高度3
+@display:psi destroyer damage	灵能毁灭者伤害
+@display:psi destroyer damage ab	灵能毁灭者伤害-AB
+@display:psi destroyer search	灵能毁灭者搜索
+@display:psi disintegrator height 1	灵能瓦解器高度1
+@display:psi disintegrator height 2	灵能瓦解器高度2
+@display:psi disintegrator height 3	灵能瓦解器高度3
+@display:psi shield apply behavior	灵能护盾施加行为
+@display:psi shield apply dummy	灵能护盾施加假人
+@display:psi shield modify unit	灵能护盾修改单位
+@display:psi shield remove dummy	灵能护盾移除假人
+@display:psi shield set	灵能护盾设置
+@display:purification nova targetted	净化新星已定目标
+@display:purifier03 - station transformer create push unit	净化者03-平台变压器创建推进单位
+@display:queen burst heal	虫后爆发治疗
+@display:queen channel lm b	虫后引导LM-B
+@display:queen channel lm c	虫后引导LM-C
+@display:quillgor corpse	奎尔戈尸体
+@display:quillgor corpse set	奎尔戈尸体设置
+@display:quillgor medium	奎尔戈中型
+@display:quillgor medium damage	奎尔戈中型伤害
+@display:quillgor small	奎尔戈小型
+@display:quillgor small damage	奎尔戈小型伤害
+@display:raven - seeker damage	渡鸦-搜猎导弹伤害
+@display:raven - seeker launch missile	渡鸦-搜猎导弹发射导弹
+@display:raynor - gauss rifle damage traynor01	雷诺-高斯步枪伤害TRaynor01
+@display:raynor - gauss rifle horner05s	雷诺-高斯步枪Horner05S
+@display:reaper - d-8 charge	死神-D-8炸药
+@display:reaper - d-8 charge damage	死神-D-8炸药伤害
+@display:reaper - d-8 charge explode	死神-D-8炸药爆炸
+@display:reaper - d-8 charge explode damage	死神-D-8炸药爆炸伤害
+@display:reaper - d-8 charge launch	死神-D-8炸药发射
+@display:reaper - d-8 charge launch missile	死神-D-8炸药发射导弹
+@display:reaper - p-38 scythe guass pistol create persistent	死神-P-38“镰刀”高斯手枪创建持续
+@display:reaper - p-38 scythe guass pistol damage	死神-P-38“镰刀”高斯手枪伤害
+@display:reaper kd8 knockback ph lm	死神KD8炸药击退占位-LM
+@display:redstone	红石
+@display:replicant create unit	复制体创建单位
+@display:replicant create unit caster	复制体创建单位施法者
+@display:replicant create unit stun	复制体创建单位眩晕
+@display:replicant void create unit	虚空复制体创建单位
+@display:replicant void create unit caster	虚空复制体创建单位施法者
+@display:replicant void create unit stun	虚空复制体创建单位眩晕
+@display:repulser field 10 search area	斥力场(10)搜索区域
+@display:repulser field 12 search area	斥力场(12)搜索区域
+@display:repulser field 6 search area	斥力场(6)搜索区域
+@display:repulser field 8 search area	斥力场(8)搜索区域
+@display:resource stun additional targets search	晶体矿护盾追加目标搜索
+@display:resource stun final search	晶体矿护盾最终搜索
+@display:resource stun issue order	晶体矿护盾下达命令
+@display:rip field initial damage dummy	撕裂力场初始伤害假人
+@display:roach - acid saliva hots upgrade set	蟑螂-酸液唾液虫群之心升级设置
+@display:roach - needle spines missile	蟑螂-针刺脊针导弹
+@display:rooftop broken height 1	破损屋顶高度1
+@display:rooftop broken height 2	破损屋顶高度2
+@display:rooftop broken height 3	破损屋顶高度3
+@display:sacred jelly beast	神圣水母兽
+@display:scout air	反物质飞弹
+@display:scout air lm left	反物质飞弹-发射弹道左
+@display:scout air lm right	反物质飞弹-发射弹道右
+@display:scout air u	侦察机对空-U
+@display:scout ground	光子冲击炮
+@display:screecher missiles create persistent	鸣啸导弹创建持续
+@display:screecher missiles damage	鸣啸导弹伤害
+@display:screecher missiles launch missile	鸣啸导弹发射导弹
+@display:scryer create persistent 0 dot 5	预言者创建持续0.5
+@display:scryer create persistent 1 dot 0	预言-创建持续1持续伤害0
+@display:scryer create persistent 1 dot 5	预言者创建持续1.5
+@display:scryer create persistent 2 dot 0	预言-创建持续2持续伤害0
+@display:scryer create persistent 2 dot 5	预言者创建持续2.5
+@display:scryer create persistent 3 dot 0	预言-创建持续3持续伤害0
+@display:seeker missile launch	搜猎导弹发射
+@display:sentry gun burrow issue order	岗哨机枪潜地下达命令
+@display:sentry mine void delay remove	哨兵地雷虚空延迟移除
+@display:shakuras	夏库拉斯
+@display:shakuras archives	夏库拉斯档案馆
+@display:shakuras hero gate height 1	夏库拉斯英雄之门高度1
+@display:shakuras hero gate height 2	夏库拉斯英雄之门高度2
+@display:shakuras hero gate height 3	夏库拉斯英雄之门高度3
+@display:shooter - ss_battlecruiser attack create launcher unit	射手-SS战列巡航舰攻击创建发射器单位
+@display:shooter - ss_battlecruiser attack launch missile	射手-SS战列巡航舰攻击发射导弹
+@display:shooter - ss_battlecruiser attack offset persistent	射手-SS战列巡航舰攻击偏移持续
+@display:shooter - ss_battlecruiser attack persistent	射手-SS战列巡航舰攻击持续
+@display:shooter - ss_battlecruiser collision check circle	射手-SS战列巡航舰碰撞检测圈
+@display:shooter - ss_battlecruiser hunter seeker attack launch missile	射手-SS战列巡航舰搜猎攻击发射导弹
+@display:shooter - ss_carrier boss attack issue order	射手-SS航母首领攻击下达命令
+@display:shooter - ss_carrier boss attack launch missile	射手-SS航母首领攻击发射导弹
+@display:shooter - ss_carrier boss attack persistent	射手-SS航母首领攻击持续
+@display:shooter - ss_carrier boss collision check circle	射手-SS航母首领碰撞检测圈
+@display:shooter - ss_carrier collision check circle	射手-SS航母碰撞检测圈
+@display:shooter - ss_carrier spawn interceptor create unit	射手-SS航母生成拦截机创建单位
+@display:shooter - ss_carrier spawn interceptor launch missile	射手-SS航母生成拦截机发射导弹
+@display:shooter - ss_carrier spawn interceptor set	射手-SS航母生成拦截机设置
+@display:shooter - ss_collision damage to enemy	射手-SS碰撞伤害敌方
+@display:shooter - ss_collision set	射手-SS碰撞设置
+@display:shooter - ss_corruptor attack launch missile	射手-SS腐蚀者攻击发射导弹
+@display:shooter - ss_corruptor collision check circle	射手-SS腐蚀者碰撞检测圈
+@display:shooter - ss_corruptor missile target check circle	射手-SS腐蚀者导弹目标检测圈
+@display:shooter - ss_figher drone damage response apply behavior	射手-SS战机僚机伤害响应施加行为
+@display:shooter - ss_fighter bomb apply missile death behavior	射手-SS战机炸弹施加导弹死亡行为
+@display:shooter - ss_fighter bomb make fighter invulnerable	射手-SS战机炸弹使战机无敌
+@display:shooter - ss_fighter bomb search for missiles	射手-SS战机炸弹搜索导弹
+@display:shooter - ss_fighter bomb search for units	射手-SS战机炸弹搜索单位
+@display:shooter - ss_fighter bomb set	射手-SS战机炸弹设置
+@display:shooter - ss_fighter bomb unit damage	射手-SS战机炸弹单位伤害
+@display:shooter - ss_fighter drone damage response remove behavior 1	射手-SS战机僚机伤害响应移除行为1
+@display:shooter - ss_fighter drone damage response remove behavior 2	射手-SS战机僚机伤害响应移除行为2
+@display:shooter - ss_fighter drone damage response switch	射手-SS战机僚机伤害响应切换
+@display:shooter - ss_fighter lm left	射手-SS战机左发射导弹
+@display:shooter - ss_fighter lm left diagonal 1	射手-SS战机左发射导弹对角1
+@display:shooter - ss_fighter lm left diagonal 2	射手-SS战机左发射导弹对角2
+@display:shooter - ss_fighter lm right	射手-SS战机右发射导弹
+@display:shooter - ss_fighter lm right diagonal 1	射手-SS战机右发射导弹对角1
+@display:shooter - ss_fighter lm right diagonal 2	射手-SS战机右发射导弹对角2
+@display:shooter - ss_fighter lm strong 1	射手-SS战机发射导弹强化1
+@display:shooter - ss_fighter lm strong 2	射手-SS战机发射导弹强化2
+@display:shooter - ss_fighter shooting	射手-SS战机射击
+@display:shooter - ss_fighter shooting diagonal 1	射手-SS战机射击对角1
+@display:shooter - ss_fighter shooting diagonal 2	射手-SS战机射击对角2
+@display:shooter - ss_fighter shooting drone 1 launch missile	射手-SS战机射击僚机1发射导弹
+@display:shooter - ss_fighter shooting drone 1 search	射手-SS战机射击僚机1搜索
+@display:shooter - ss_fighter shooting drone 2 launch missile	射手-SS战机射击僚机2发射导弹
+@display:shooter - ss_fighter shooting drone 2 search	射手-SS战机射击僚机2搜索
+@display:shooter - ss_fighter shooting straight	射手-SS战机直线射击
+@display:shooter - ss_fighter shooting strong 1	射手-SS战机射击强化1
+@display:shooter - ss_fighter shooting strong 2	射手-SS战机射击强化2
+@display:shooter - ss_interceptor attack launch missile	射手-SS拦截机攻击发射导弹
+@display:shooter - ss_interceptor collision check circle	射手-SS拦截机碰撞检测圈
+@display:shooter - ss_leviathan bomb collision check circle	射手-SS利维坦炸弹碰撞检测圈
+@display:shooter - ss_leviathan bomb explode launch missile	射手-SS利维坦炸弹爆炸发射导弹
+@display:shooter - ss_leviathan bomb explode persistent	射手-SS利维坦炸弹爆炸持续
+@display:shooter - ss_leviathan bomb missile target check circle	射手-SS利维坦炸弹导弹目标检测圈
+@display:shooter - ss_leviathan collision check circle	射手-SS利维坦碰撞检测圈
+@display:shooter - ss_leviathan spawn bombs create unit	射手-SS利维坦生成炸弹创建单位
+@display:shooter - ss_leviathan spawn bombs launch missile	射手-SS利维坦生成炸弹发射导弹
+@display:shooter - ss_leviathan spawn bombs persistent	射手-SS利维坦生成炸弹持续
+@display:shooter - ss_leviathan spawn bombs set	射手-SS利维坦生成炸弹设置
+@display:shooter - ss_leviathan tentacle attack apply new scan	射手-SS利维坦触手攻击施加新扫描
+@display:shooter - ss_leviathan tentacle attack l1 anim delay	射手-SS利维坦触手攻击L1动作延迟
+@display:shooter - ss_leviathan tentacle attack l1 create target	射手-SS利维坦触手攻击L1创建目标
+@display:shooter - ss_leviathan tentacle attack l1 launch missile	射手-SS利维坦触手攻击L1发射导弹
+@display:shooter - ss_leviathan tentacle attack l2 anim delay	射手-SS利维坦触手攻击L2动作延迟
+@display:shooter - ss_leviathan tentacle attack l2 create target	射手-SS利维坦触手攻击L2创建目标
+@display:shooter - ss_leviathan tentacle attack l2 launch missile	射手-SS利维坦触手攻击L2发射导弹
+@display:shooter - ss_leviathan tentacle attack missile impact set	射手-SS利维坦触手攻击导弹撞击设置
+@display:shooter - ss_leviathan tentacle attack missile scan swap delay	射手-SS利维坦触手攻击导弹扫描交换延迟
+@display:shooter - ss_leviathan tentacle attack r1 anim delay	射手-SS利维坦触手攻击R1动作延迟
+@display:shooter - ss_leviathan tentacle attack r1 create target	射手-SS利维坦触手攻击R1创建目标
+@display:shooter - ss_leviathan tentacle attack r1 launch missile	射手-SS利维坦触手攻击R1发射导弹
+@display:shooter - ss_leviathan tentacle attack r2 anim delay	射手-SS利维坦触手攻击R2动作延迟
+@display:shooter - ss_leviathan tentacle attack r2 create target	射手-SS利维坦触手攻击R2创建目标
+@display:shooter - ss_leviathan tentacle attack r2 launch missile	射手-SS利维坦触手攻击R2发射导弹
+@display:shooter - ss_leviathan tentacle attack remove old scan	射手-SS利维坦触手攻击移除旧扫描
+@display:shooter - ss_leviathan tentacle attack target death delay	射手-SS利维坦触手攻击目标死亡延迟
+@display:shooter - ss_leviathan tentacle missile target check circle	射手-SS利维坦触手导弹目标检测圈
+@display:shooter - ss_leviathan tentacle missile target check persistent	射手-SS利维坦触手导弹目标检测持续
+@display:shooter - ss_leviathan tentacle missile target check persistent inverted	射手-SS利维坦触手导弹目标检测持续反转
+@display:shooter - ss_lightning projector collision check circle	射手-SS闪电投射器碰撞检测圈
+@display:shooter - ss_lightning projector line aoe persistent	射手-SS闪电投射器直线AOE持续
+@display:shooter - ss_lightning projector persistent	射手-SS闪电投射器持续
+@display:shooter - ss_lightning projector search area	射手-SS闪电投射器搜索区域
+@display:shooter - ss_missile damage	射手-SS导弹伤害
+@display:shooter - ss_missile damage drone	射手-SS导弹伤害僚机
+@display:shooter - ss_missile damage strong 1	射手-SS导弹伤害强化1
+@display:shooter - ss_missile damage strong 2	射手-SS导弹伤害强化2
+@display:shooter - ss_missile damage viking	射手-SS导弹伤害维京
+@display:shooter - ss_missile target check circle	射手-SS导弹目标检测圈
+@display:shooter - ss_missile target check circle drone	射手-SS导弹目标检测圈僚机
+@display:shooter - ss_missile target check circle strong 1	射手-SS导弹目标检测圈强化1
+@display:shooter - ss_missile target check circle strong 2	射手-SS导弹目标检测圈强化2
+@display:shooter - ss_missile target check circle viking	射手-SS导弹目标检测圈维京
+@display:shooter - ss_missile target check viking	射手-SS导弹目标检测维京
+@display:shooter - ss_missile target check viking drone	射手-SS导弹目标检测维京僚机
+@display:shooter - ss_missile target check viking strong 1	射手-SS导弹目标检测维京强化1
+@display:shooter - ss_missile target check viking strong 2	射手-SS导弹目标检测维京强化2
+@display:shooter - ss_missile target set	射手-SS导弹目标设置
+@display:shooter - ss_missile target set drone	射手-SS导弹目标设置僚机
+@display:shooter - ss_missile target set strong 1	射手-SS导弹目标设置强化1
+@display:shooter - ss_missile target set strong 2	射手-SS导弹目标设置强化2
+@display:shooter - ss_missile target set viking	射手-SS导弹目标设置维京
+@display:shooter - ss_phoenix attack launch diagonal missile left	射手-SS凤凰攻击发射对角导弹左
+@display:shooter - ss_phoenix attack launch diagonal missile right	射手-SS凤凰攻击发射对角导弹右
+@display:shooter - ss_phoenix attack launch straight missile left	射手-SS凤凰攻击发射直线导弹左
+@display:shooter - ss_phoenix attack launch straight missile right	射手-SS凤凰攻击发射直线导弹右
+@display:shooter - ss_phoenix attack persistent	射手-SS凤凰攻击持续
+@display:shooter - ss_phoenix collision check circle	射手-SS凤凰碰撞检测圈
+@display:shooter - ss_powerupmorph start pulse	射手-SS强化变形开始脉冲
+@display:shooter - ss_science vessel attack launch missile	射手-SS科学船攻击发射导弹
+@display:shooter - ss_science vessel attack persistent	射手-SS科学船攻击持续
+@display:shooter - ss_science vessel collision check circle	射手-SS科学船碰撞检测圈
+@display:shooter - ss_science vessel teleport apply behavior	射手-SS科学船传送施加行为
+@display:shooter - ss_science vessel teleport persistent	射手-SS科学船传送持续
+@display:shooter - ss_science vessel teleport remove behavior	射手-SS科学船传送移除行为
+@display:shooter - ss_science vessel teleport teleport	射手-SS科学船传送传送
+@display:shooter - ss_scourge collision check circle	射手-SS自爆蚊碰撞检测圈
+@display:shooter - ss_scourge death launch missile	射手-SS自爆蚊死亡发射导弹
+@display:shooter - ss_scourge death persistent	射手-SS自爆蚊死亡持续
+@display:shooter - ss_scourge death remove behavior	射手-SS自爆蚊死亡移除行为
+@display:shooter - ss_scourge missile target check circle	射手-SS自爆蚊导弹目标检测圈
+@display:shooter - ss_scout attack launch missile	射手-SS侦察机攻击发射导弹
+@display:shooter - ss_scout collision check circle	射手-SS侦察机碰撞检测圈
+@display:shooter - ss_swarm guardian attack launch missile	射手-SS虫群守卫者攻击发射导弹
+@display:shooter - ss_swarm guardian attack persistent	射手-SS虫群守卫者攻击持续
+@display:shooter - ss_swarm guardian collision check circle	射手-SS虫群守卫者碰撞检测圈
+@display:shooter - ss_terra tron arm attack launch missile	射手-SS泰拉创手臂攻击发射导弹
+@display:shooter - ss_terra tron arm attack offset persistent	射手-SS泰拉创手臂攻击偏移持续
+@display:shooter - ss_terra tron arm missile target check circle	射手-SS泰拉创手臂导弹目标检测圈
+@display:shooter - ss_terra tron beam attack line aoe persistent	射手-SS泰拉创光束攻击直线AOE持续
+@display:shooter - ss_terra tron beam attack persistent	射手-SS泰拉创光束攻击持续
+@display:shooter - ss_terra tron beam attack search area	射手-SS泰拉创光束攻击搜索区域
+@display:shooter - ss_terra tron collision check circle	射手-SS泰拉创碰撞检测圈
+@display:shooter - ss_terra tron head tracking dummy effect	射手-SS泰拉创头部跟踪假人效果
+@display:shooter - ss_terra tron missile spinner attack launch missile	射手-SS泰拉创导弹旋臂攻击发射导弹
+@display:shooter - ss_terra tron missile spinner attack offset persistent	射手-SS泰拉创导弹旋臂攻击偏移持续
+@display:shooter - ss_terra tron missile spinner collision check circle	射手-SS泰拉创导弹旋臂碰撞检测圈
+@display:shooter - ss_terra tron saw attack anim delay	射手-SS泰拉创锯攻击动作延迟
+@display:shooter - ss_terra tron saw attack spawn saw	射手-SS泰拉创锯攻击生成锯
+@display:shooter - ss_terra tron saw collision check circle	射手-SS泰拉创锯碰撞检测圈
+@display:shooter - ss_wraith attack launch missile	射手-SS幽魂攻击发射导弹
+@display:shooter - ss_wraith collision check circle	射手-SS幽魂碰撞检测圈
+@display:show selection details shift+k	显示选择详情Shift+K
+@display:shrine guardian anti grav	圣坛守护者反重力
+@display:siege breaker - arclite cannon damage	破城者-弧光炮伤害
+@display:siege tank - arclite cannon damage	攻城坦克-弧光炮伤害
+@display:sj hyperion blink	休伯利安号闪现
+@display:sj hyperion fighters charge refund	休伯利安号战斗机费用退还
+@display:sj hyperion ion thrusters	休伯利安号离子推进器
+@display:sj merc aatower lm	天条之塔-发射弹道
+@display:skylight height 1	天窗高度1
+@display:skylight height 2	天窗高度2
+@display:skylight height 3	天窗高度3
+@display:soa mothership v4 beam damage	母舰-射线伤害
+@display:soa mothership v4 beam dummy	母舰-射线假人
+@display:soa mothership v4 beam persistent	母舰-射线持续
+@display:soa mothership v4 beam set	母舰-射线设置
+@display:soa mothership v4 secondary beam persistent	母舰-副射线持续
+@display:soa mothership v4 warp away ab	母舰-折跃远离-施加行为
+@display:soa super power field ab	矩阵过载-AB
+@display:soa super power field powered ab	矩阵过载-已供能-AB
+@display:soa super power field powered search	矩阵过载-已供能搜索
+@display:soa super power field restore shields	矩阵过载-恢复护盾
+@display:soa super power field search	矩阵过载-搜索
+@display:soa temporal field heroic unit	亚顿之矛时间力场英雄单位
+@display:soa temporal field transport set	亚顿之矛时间力场运输设置
+@display:soamothership line attack caster	亚顿之矛母舰直线攻击施法者
+@display:soamothership line attack initial	亚顿之矛母舰直线攻击初始
+@display:soamothership line attack scan	亚顿之矛母舰直线攻击扫描
+@display:soaorbital strike	亚顿之矛轨道打击
+@display:soaplanet cracker	亚顿之矛裂星炮
+@display:soawarp in reinforcements	正在折跃
+@display:soawarp in reinforcements zealot sentinel	亚顿之矛折跃增援狂热者哨兵
+@display:soul steal dummy	窃魂假人
+@display:space elevator height 1	太空电梯高度1
+@display:space elevator height 2	太空电梯高度2
+@display:space elevator height 3	太空电梯高度3
+@display:space platform destructible cliff large	太空平台可破坏悬崖-大型
+@display:space prison grid floor height 1	太空监狱网格地板高度1
+@display:space prison grid floor height 2	太空监狱网格地板高度2
+@display:space prison grid floor height 3	太空监狱网格地板高度3
+@display:spawn shadow of the void ab	生成虚空之影-AB
+@display:spawn shadow of the void create banshee	生成虚空之影创建女妖
+@display:spawn shadow of the void create battlecruiser	生成虚空之影创建战列巡航舰
+@display:spawn shadow of the void create colossus	生成虚空之影创建巨像
+@display:spawn shadow of the void create create zealot	生成虚空之影创建狂热者
+@display:spawn shadow of the void create ghost	生成虚空之影创建幽灵
+@display:spawn shadow of the void create hydralisk	生成虚空之影创建刺蛇
+@display:spawn shadow of the void create marine	生成虚空之影创建陆战队员
+@display:spawn shadow of the void create mutalisk	生成虚空之影创建飞龙
+@display:spawn shadow of the void create overseer	生成虚空之影创建监察王虫
+@display:spawn shadow of the void create stalker	生成虚空之影创建追猎者
+@display:spawn shadow of the void create ultralisk	生成虚空之影创建雷兽
+@display:spawn shadow of the void create void ray	生成虚空之影创建虚空战舰
+@display:spawn shadow of the void create zergling	生成虚空之影创建异化虫
+@display:spawn shadow of the void cu set	生成虚空之影-CU-设置
+@display:spawn shadow of the void impact set	生成虚空之影撞击设置
+@display:spawn shadow of the void launch missile	生成虚空之影发射导弹
+@display:spear of adun aoe blast damage	亚顿之矛AOE爆破伤害
+@display:spear of adun aoe blast search	亚顿之矛AOE爆破搜索
+@display:spear of adun line aoe damage	亚顿之矛直线AOE伤害
+@display:spear of adun line aoe dummy damage	亚顿之矛直线AOE假人伤害
+@display:spear of adun line aoe initial persistent	亚顿之矛直线AOE初始持续
+@display:spear of adun line aoe persistent	亚顿之矛直线AOE持续
+@display:spear of adun line aoe search	亚顿之矛直线AOE搜索
+@display:spear of adun line aoe set	亚顿之矛直线AOE设置
+@display:spear of adun single target damage	亚顿之矛单体目标伤害
+@display:spear of adun single target launch missile	亚顿之矛单体目标发射导弹
+@display:spectre - agr-14 gauss rifle damage	幽魂特工-AGR-14高斯步枪伤害
+@display:ss_battlecruiserhunterseekerattacklaunch	SS战列巡航舰搜猎攻击发射
+@display:stalker - entropy lance impact set	追猎者-熵之长枪撞击设置
+@display:stalker - entropy lance lm	追猎者-熵之长枪-LM
+@display:stalker - novaarmorblinksuitblinkteleport	追猎者-诺娃装甲闪现服传送
+@display:stalker beam air	追猎者光束对空
+@display:starship floor plate 12x12 height 1	星舰地板12x12-高度1
+@display:starship floor plate 12x12 height 2	星舰地板12x12-高度2
+@display:starship floor plate 12x12 height 3	星舰地板12x12-高度3
+@display:starship floor plate 6x6 height 1	星舰地板6x6-高度1
+@display:starship floor plate 6x6 height 2	星舰地板6x6-高度2
+@display:starship floor plate 6x6 height 3	星舰地板6x6-高度3
+@display:starship floor plate 8x8 height 1	星舰地板8x8-高度1
+@display:starship floor plate 8x8 height 2	星舰地板8x8-高度2
+@display:starship floor plate 8x8 height 3	星舰地板8x8-高度3
+@display:starship flora pod a height 1	星舰植物舱A高度1
+@display:starship flora pod a height 2	星舰植物舱A高度2
+@display:starship flora pod a height 3	星舰植物舱A高度3
+@display:starship flora pod b height 1	星舰植物舱B高度1
+@display:starship flora pod b height 2	星舰植物舱B高度2
+@display:starship flora pod b height 3	星舰植物舱B高度3
+@display:starship flora pod c height 1	星舰植物舱C高度1
+@display:starship flora pod c height 2	星舰植物舱C高度2
+@display:starship flora pod c height 3	星舰植物舱C高度3
+@display:starship flora pod d height 1	星舰植物舱D高度1
+@display:starship flora pod d height 2	星舰植物舱D高度2
+@display:starship flora pod d height 3	星舰植物舱D高度3
+@display:starship flora pod e height 1	星舰植物舱E高度1
+@display:starship flora pod e height 2	星舰植物舱E高度2
+@display:starship flora pod e height 3	星舰植物舱E高度3
+@display:starship flora pod f height 1	星舰植物舱F高度1
+@display:starship flora pod f height 2	星舰植物舱F高度2
+@display:starship flora pod f height 3	星舰植物舱F高度3
+@display:starship flora pod g height 1	星舰植物舱G高度1
+@display:starship flora pod g height 2	星舰植物舱G高度2
+@display:starship flora pod g height 3	星舰植物舱G高度3
+@display:starship flora pod h height 1	星舰植物舱H高度1
+@display:starship flora pod h height 2	星舰植物舱H高度2
+@display:starship flora pod h height 3	星舰植物舱H高度3
+@display:stasis cocoon movement speed bonus 0.05 ab	静滞茧移动速度加成0.05-AB
+@display:stasis cocoon movement speed bonus 0.10 ab	静滞茧移动速度加成0.10-AB
+@display:stasis cocoon movement speed bonus 0.15 ab	静滞茧移动速度加成0.15-AB
+@display:stasis cocoon movement speed bonus 0.20 ab	静滞茧移动速度加成0.20-AB
+@display:stasis cocoon movement speed bonus 0.25 ab	静滞茧移动速度加成0.25-AB
+@display:stasis cocoon movement speed bonus 0.30 ab	静滞茧移动速度加成0.30-AB
+@display:stukov - coop -	斯图科夫-合作-
+@display:stukov - corrosive blast damage	斯图科夫-腐蚀冲击伤害
+@display:stukov infested -	斯图科夫感染体-
+@display:subway entrance right	地铁右入口
+@display:suicide	自杀
+@display:supply 1 rb	补给1-RB
+@display:supply 1 set	补给1设置
+@display:supply 2 rb	补给2-RB
+@display:supply 2 set	补给2设置
+@display:supply 3 rb	补给3-RB
+@display:supply 3 set	补给3设置
+@display:supply 4 rb	补给4-RB
+@display:supply 4 set	补给4设置
+@display:supply 5 rb	补给5-RB
+@display:supply 5 set	补给5设置
+@display:supply 6 rb	补给6-RB
+@display:supply 6 set	补给6设置
+@display:supply <1 rb	补给<1-RB
+@display:supply <1 set	补给<1设置
+@display:swann - concussive grenade create persistent	斯旺-震荡手雷创建持续
+@display:swann - concussive grenade damage	斯旺-震荡手雷伤害
+@display:swann - concussive grenade launch missile	斯旺-震荡手雷发射导弹
+@display:swann - place turret create unit	斯旺-放置炮塔创建单位
+@display:swann - place turret timed life	斯旺-放置炮塔时限
+@display:swann turret - flame thrower create persistent	斯旺炮塔-喷火器创建持续
+@display:swann turret - flame thrower damage	斯旺炮塔-喷火器伤害
+@display:swann turret - flame thrower search area	斯旺炮塔-喷火器搜索区域
+@display:swann turret - flame thrower set	斯旺炮塔-喷火器设置
+@display:swarm host egg animation mp ab	虫群宿主虫卵动画MP-AB
+@display:swarm queen - regeneration aura search	虫群女王-再生光环搜索
+@display:swarm queen - regeneration aura target	虫群女王-再生光环目标
+@display:swarmling claws	虫群利爪
+@display:tarsonis	塔桑尼斯
+@display:taunt apply behavior	嘲讽 (搜索)施加行为
+@display:taunt search	嘲讽 (搜索)搜索
+@display:terrain object fallen asteroids height 1	地形物件坠落小行星高度1
+@display:terrain object fallen asteroids height 2	地形物件坠落小行星高度2
+@display:terrain object fallen asteroids height 3	地形物件坠落小行星高度3
+@display:terrain object fallen asteroids scattered height 1	地形物件坠落小行星散布高度1
+@display:terrain object fallen asteroids scattered height 2	地形物件坠落小行星散布高度2
+@display:terrain object fallen asteroids scattered height 3	地形物件坠落小行星散布高度3
+@display:terrain object holding pen1	地形物件拘留栏1
+@display:terrain object holding pen2	地形物件拘留栏2
+@display:terrain object holding pen3	地形物件拘留栏3
+@display:terrain object hybrid holding cell height 1	地形物件混合体囚室高度1
+@display:terrain object hybrid holding cell height 2	地形物件混合体囚室高度2
+@display:terrain object hybrid holding cell height 3	地形物件混合体囚室高度3
+@display:terrain object space prison floor1	地形物件太空监狱地板1
+@display:terrain object space prison floor2	地形物件太空监狱地板2
+@display:terrain object space prison floor3	地形物件太空监狱地板3
+@display:terrain object trench b1 variation 0 height 1	地形物件战壕B1变体0高度1
+@display:terrain object trench b1 variation 1 height 1	地形物件战壕B1变体1高度1
+@display:terrain object trench b1 variation 2 height 1	地形物件战壕B1变体2高度1
+@display:terrain object trench b2 variation 0 height 2	地形物件战壕B2变体0高度2
+@display:terrain object trench b2 variation 1 height 2	地形物件战壕B2变体1高度2
+@display:terrain object trench b2 variation 2 height 2	地形物件战壕B2变体2高度2
+@display:terrain object trench b3 variation 0 height 3	地形物件战壕B3变体0高度3
+@display:terrain object trench b3 variation 1 height 3	地形物件战壕B3变体1高度3
+@display:terrain object trench b3 variation 2 height 3	地形物件战壕B3变体2高度3
+@display:terrain object trench diagonal height 1	地形物件战壕对角高度1
+@display:terrain object trench diagonal height 2	地形物件战壕对角高度2
+@display:terrain object trench diagonal height 3	地形物件战壕对角高度3
+@display:terrain object trench height 1	地形物件战壕高度1
+@display:terrain object trench height 2	地形物件战壕高度2
+@display:terrain object trench height 3	地形物件战壕高度3
+@display:terrain object xel naga artifact temple height 1	地形物件萨尔纳加神器神庙高度1
+@display:terrain object xel naga artifact temple height 2	地形物件萨尔纳加神器神庙高度2
+@display:terrain object xel naga artifact temple height 3	地形物件萨尔纳加神器神庙高度3
+@display:terrain object xel naga ship bay height 1	地形物件萨尔纳加飞船泊湾高度1
+@display:terrain object xel naga ship bay height 2	地形物件萨尔纳加飞船泊湾高度2
+@display:terrain object xel naga ship bay height 3	地形物件萨尔纳加飞船泊湾高度3
+@display:terrainobjectxelnagawedges4x4_1_1	萨尔纳加楔形地形4x4_1_1
+@display:terrainobjectxelnagawedges4x4_1_2	萨尔纳加楔形地形4x4_1_2
+@display:terrainobjectxelnagawedges4x4_1_3	萨尔纳加楔形地形4x4_1_3
+@display:terrainobjectxelnagawedges4x4_2_1	萨尔纳加楔形地形4x4_2_1
+@display:terrainobjectxelnagawedges4x4_2_2	萨尔纳加楔形地形4x4_2_2
+@display:terrainobjectxelnagawedges4x4_2_3	萨尔纳加楔形地形4x4_2_3
+@display:terrainobjectxelnagawedges4x4_3_1	萨尔纳加楔形地形4x4_3_1
+@display:terrainobjectxelnagawedges4x4_3_2	萨尔纳加楔形地形4x4_3_2
+@display:terrainobjectxelnagawedges4x4_3_3	萨尔纳加楔形地形4x4_3_3
+@display:terrainobjectxelnagawedges4x4_4_1	萨尔纳加楔形地形4x4_4_1
+@display:terrainobjectxelnagawedges4x4_4_2	萨尔纳加楔形地形4x4_4_2
+@display:terrainobjectxelnagawedges4x4_4_3	萨尔纳加楔形地形4x4_4_3
+@display:terrainobjectxelnagawedges4x4_5_1	萨尔纳加楔形地形4x4_5_1
+@display:terrainobjectxelnagawedges4x4_5_2	萨尔纳加楔形地形4x4_5_2
+@display:terrainobjectxelnagawedges4x4_5_3	萨尔纳加楔形地形4x4_5_3
+@display:terrainobjectxelnagawedges4x4_6_1	萨尔纳加楔形地形4x4_6_1
+@display:terrainobjectxelnagawedges4x4_6_2	萨尔纳加楔形地形4x4_6_2
+@display:terrainobjectxelnagawedges4x4_6_3	萨尔纳加楔形地形4x4_6_3
+@display:terrainobjectxelnagawedges4x4_7_1	萨尔纳加楔形地形4x4_7_1
+@display:terrainobjectxelnagawedges4x4_7_2	萨尔纳加楔形地形4x4_7_2
+@display:terrainobjectxelnagawedges4x4_7_3	萨尔纳加楔形地形4x4_7_3
+@display:terrainobjectxelnagawedges6x6_1_1	萨尔纳加楔形地形6x6_1_1
+@display:terrainobjectxelnagawedges6x6_1_2	萨尔纳加楔形地形6x6_1_2
+@display:terrainobjectxelnagawedges6x6_1_3	萨尔纳加楔形地形6x6_1_3
+@display:terrainobjectxelnagawedges6x6_2_1	萨尔纳加楔形地形6x6_2_1
+@display:terrainobjectxelnagawedges6x6_2_2	萨尔纳加楔形地形6x6_2_2
+@display:terrainobjectxelnagawedges6x6_2_3	萨尔纳加楔形地形6x6_2_3
+@display:terrainobjectxelnagawedges6x6_3_1	萨尔纳加楔形地形6x6_3_1
+@display:terrainobjectxelnagawedges6x6_3_2	萨尔纳加楔形地形6x6_3_2
+@display:terrainobjectxelnagawedges6x6_3_3	萨尔纳加楔形地形6x6_3_3
+@display:terrainobjectxelnagawedges8x4_1_1	萨尔纳加楔形地形8x4_1_1
+@display:terrainobjectxelnagawedges8x4_1_2	萨尔纳加楔形地形8x4_1_2
+@display:terrainobjectxelnagawedges8x4_1_3	萨尔纳加楔形地形8x4_1_3
+@display:terrainobjectxelnagawedges8x4_2_1	萨尔纳加楔形地形8x4_2_1
+@display:terrainobjectxelnagawedges8x4_2_2	萨尔纳加楔形地形8x4_2_2
+@display:terrainobjectxelnagawedges8x4_2_3	萨尔纳加楔形地形8x4_2_3
+@display:terrainobjectxelnagawedges8x6_1_1	萨尔纳加楔形地形8x6_1_1
+@display:terrainobjectxelnagawedges8x6_1_2	萨尔纳加楔形地形8x6_1_2
+@display:terrainobjectxelnagawedges8x6_1_3	萨尔纳加楔形地形8x6_1_3
+@display:terrainobjectxelnagawedges8x6_2_1	萨尔纳加楔形地形8x6_2_1
+@display:terrainobjectxelnagawedges8x6_2_2	萨尔纳加楔形地形8x6_2_2
+@display:terrainobjectxelnagawedges8x6_2_3	萨尔纳加楔形地形8x6_2_3
+@display:terrainobjectxelnagawedges8x6_3_1	萨尔纳加楔形地形8x6_3_1
+@display:terrainobjectxelnagawedges8x6_3_2	萨尔纳加楔形地形8x6_3_2
+@display:terrainobjectxelnagawedges8x6_3_3	萨尔纳加楔形地形8x6_3_3
+@display:thermal lances freindly cp	热能射线友方-CP
+@display:thermal lances freindly cp air	热能射线友方-CP对空
+@display:thor - anti air damage	雷神-对空伤害
+@display:thor - anti air launch missile	雷神-对空发射导弹
+@display:thor - anti air persistent	雷神-对空持续
+@display:thor - arm cannons persistent	雷神-臂炮持续
+@display:thor hand gun splash damage target	雷神手炮溅射伤害目标
+@display:titan mech missile launch missile	泰坦机甲导弹发射导弹
+@display:titan mech missile persistent	泰坦机甲导弹持续
+@display:to valhalla aircraft elevator height 1	瓦尔哈拉飞行器电梯高度1
+@display:to valhalla aircraft elevator height 2	瓦尔哈拉飞行器电梯高度2
+@display:to valhalla aircraft elevator height 3	瓦尔哈拉飞行器电梯高度3
+@display:tornadomissile cp	龙卷风导弹-CP
+@display:tosh - z assassin rifle damage	托什-Z刺客步枪伤害
+@display:trigger effect	(触发器效果)
+@display:ttychus03 - queen of blades - razor swarm create persistent	泰凯斯03-刀锋女王-利刃虫群创建持续
+@display:ttychus03 - queen of blades - razor swarm damage	泰凯斯03-刀锋女王-利刃虫群伤害
+@display:ttychus03 - queen of blades - razor swarm search area	泰凯斯03-刀锋女王-利刃虫群搜索区域
+@display:ttychus03 queen of blades - search apply behavior	泰凯斯03刀锋女王-搜索施加行为
+@display:ttychus03 queen of blades - search create persistent	泰凯斯03刀锋女王-搜索创建持续
+@display:ttychus03 queen of blades - search dummy impact	泰凯斯03刀锋女王-搜索假人撞击
+@display:ttychus03 queen of blades - search remove behavior	泰凯斯03刀锋女王-搜索移除行为
+@display:tvalerian03 - queen of blades - psi blast persistent	瓦伦里安03-刀锋女王-灵能冲击持续
+@display:tvalerian03 - queen of blades - razor swarm create persistent	瓦伦里安03-刀锋女王-利刃虫群创建持续
+@display:tvalerian03 - queen of blades - razor swarm damage	瓦伦里安03-刀锋女王-利刃虫群伤害
+@display:tvalerian03 - queen of blades - razor swarm search area	瓦伦里安03-刀锋女王-利刃虫群搜索区域
+@display:tychusspectreextendedpulsegun	泰凯斯幽魂延伸脉冲枪
+@display:tychusspectresuperultrasonicpulse	泰凯斯幽魂超级超声波脉冲
+@display:tychuswarhoundautoturrettimedlife	泰凯斯战狼自动炮塔定时生命
+@display:ultralisk - head attack damage	雷兽-头部攻击伤害
+@display:umojanlabplatformcellmassive height 1	尤摩扬实验室平台巨型舱-高度1
+@display:umojanlabplatformcellmassive height 2	尤摩扬实验室平台巨型舱-高度2
+@display:umojanlabplatformcellmassive height 3	尤摩扬实验室平台巨型舱-高度3
+@display:unit knockback by12 apply behavior	单位击退12-施加行为
+@display:unit knockback by12 impact	单位击退12-撞击
+@display:unit knockback by12 place holder launch missilehlm	单位击退12-占位发射导弹HLM
+@display:unit knockback by12 remove behavior	单位击退12-移除行为
+@display:unit knockback by2 apply behavior	单位击退2-施加行为
+@display:unit knockback by2 impact	单位击退2-撞击
+@display:unit knockback by2 place holder launch missile	单位击退2-占位发射导弹
+@display:unit knockback by2 remove behavior	单位击退2-移除行为
+@display:unit knockback by3 apply behavior	单位击退3-施加行为
+@display:unit knockback by3 impact	单位击退3-撞击
+@display:unit knockback by3 place holder launch missile	单位击退3-占位发射导弹
+@display:unit knockback by3 remove behavior	单位击退3-移除行为
+@display:unit knockback by4 apply behavior	单位击退4-施加行为
+@display:unit knockback by4 impact	单位击退4-撞击
+@display:unit knockback by4 place holder launch missile	单位击退4-占位发射导弹
+@display:unit knockback by4 remove behavior	单位击退4-移除行为
+@display:unit knockback by5 apply behavior	单位击退5-施加行为
+@display:unit knockback by5 impact	单位击退5-撞击
+@display:unit knockback by5 place holder launch missile	单位击退5-占位发射导弹
+@display:unit knockback by5 remove behavior	单位击退5-移除行为
+@display:unit knockback by6 apply behavior	单位击退6-施加行为
+@display:unit knockback by6 impact	单位击退6-撞击
+@display:unit knockback by6 place holder launch missile	单位击退6-占位发射导弹
+@display:unit knockback by6 remove behavior	单位击退6-移除行为
+@display:unit knockback by7 apply behavior	单位击退7-施加行为
+@display:unit knockback by7 impact	单位击退7-撞击
+@display:unit knockback by7 place holder launch missile	单位击退7-占位发射导弹
+@display:unit knockback by7 remove behavior	单位击退7-移除行为
+@display:unused	(未使用)
+@display:valhalla glass floor height 1	瓦尔哈拉玻璃地板高度1
+@display:valhalla glass floor height 2	瓦尔哈拉玻璃地板高度2
+@display:valhalla glass floor height 3	瓦尔哈拉玻璃地板高度3
+@display:valhalla grid 45 floor height 1	瓦尔哈拉45度网格地板高度1
+@display:valhalla grid 45 floor height 2	瓦尔哈拉45度网格地板高度2
+@display:valhalla grid 45 floor height 3	瓦尔哈拉45度网格地板高度3
+@display:valhalla grid floor height 1	瓦尔哈拉网格地板高度1
+@display:valhalla grid floor height 2	瓦尔哈拉网格地板高度2
+@display:valhalla grid floor height 3	瓦尔哈拉网格地板高度3
+@display:viking - halo rockets damage	维京-光环火箭弹伤害
+@display:viking - halo rockets launch missile	维京-光环火箭弹发射导弹
+@display:viking - halo rockets persistent	维京-光环火箭弹持续
+@display:viking - twin gatling cannon damage	维京-双联加特林机炮伤害
+@display:viper - abduct apply behavior	毒蛇-绑架施加行为
+@display:viper - abduct apply tentacle behavior	毒蛇-绑架施加触手行为
+@display:viper - abduct launch missile	毒蛇-绑架发射导弹
+@display:viper - abduct launch target	毒蛇-绑架发射目标
+@display:viper - abduct set	毒蛇-绑架设置
+@display:viper - abduct teleport	毒蛇-绑架传送
+@display:void - heroic aura modify - artanis aiur 01	虚空-英雄光环(修改)-阿塔尼斯艾尔01
+@display:void - heroic aura search - artanis aiur 01	虚空-英雄光环(搜索)-阿塔尼斯艾尔01
+@display:void - xelnaga obelisk energy channel modify unit	虚空-萨尔纳加方尖碑能量引导修改单位
+@display:void - xelnaga obelisk energy channel persistent	虚空-萨尔纳加方尖碑能量引导持续
+@display:void carrier bombing	虚空航母轰炸
+@display:void carrier bombing bombs	虚空航母轰炸炸弹
+@display:void carrier interceptor bombs	虚空航母拦截机炸弹
+@display:void coop hyperion -	(虚空合作)休伯利安号-
+@display:void coop hyperion air damage	(虚空合作)休伯利安号-对空伤害
+@display:void coop hyperion air lm	(虚空合作)休伯利安号-对空-LM
+@display:void coop hyperion air lm set	(虚空合作)休伯利安号-对空-LM-设置
+@display:void coop hyperion air pause secondary	(虚空合作)休伯利安号-对空暂停副武器
+@display:void coop hyperion air secondary weapon search	(虚空合作)休伯利安号-对空副武器搜索
+@display:void coop hyperion ground damage	(虚空合作)休伯利安号-对地伤害
+@display:void coop hyperion ground lm	(虚空合作)休伯利安号-对地-LM
+@display:void coop hyperion ground lmset	(虚空合作)休伯利安号-对地-LM设置
+@display:void coop hyperion hyperjump create precursor	(虚空合作)休伯利安号-跃迁创建前兆
+@display:void coop hyperion hyperjump teleport	(虚空合作)休伯利安号-跃迁传送
+@display:void coop hyperion hyperjump teleport ab	(虚空合作)休伯利安号-跃迁传送-AB
+@display:void coop hyperion hyperjump teleport in	(虚空合作)休伯利安号-跃迁传送进入
+@display:void coop hyperion hyperjump teleport out	(虚空合作)休伯利安号-跃迁传送离开
+@display:void coop hyperion hyperjump teleport set	(虚空合作)休伯利安号-跃迁传送-设置
+@display:void coop hyperion pause secondary ab	(虚空合作)休伯利安号-暂停副武器-AB
+@display:void coop hyperion secondary weapon search	(虚空合作)休伯利安号-副武器搜索
+@display:void coop hyperion spawn ab	(虚空合作)休伯利安号-生成-AB
+@display:void coop hyperion timed life expire ab	(虚空合作)休伯利安号-时限到期-AB
+@display:void coop hyperion yamato cannon cp	(虚空合作)休伯利安号-大和炮-CP
+@display:void coop hyperion yamato cannon damage	(虚空合作)休伯利安号-大和炮伤害
+@display:void coop hyperion yamato cannon lm	(虚空合作)休伯利安号-大和炮-LM
+@display:void dark templar shadow fury apply aoe	虚空黑暗圣堂武士暗影之怒施加AOE
+@display:void dark templar shadow fury damage aoe	虚空黑暗圣堂武士暗影之怒伤害AOE
+@display:void dark templar shadow fury damage persistent aoe	虚空黑暗圣堂武士暗影之怒伤害持续AOE
+@display:void dark templar shadow fury impact set aoe	虚空黑暗圣堂武士暗影之怒撞击设置AOE
+@display:void dark templar shadow fury persistent aoe	虚空黑暗圣堂武士暗影之怒持续AOE
+@display:void dark templar shadow fury search aoe	虚空黑暗圣堂武士暗影之怒搜索AOE
+@display:void dark templar shadow fury set aoe	虚空黑暗圣堂武士暗影之怒设置AOE
+@display:void dark templar shadow fury target	虚空黑暗圣堂武士暗影之怒目标
+@display:void dark templar shadow fury teleport aoe	虚空黑暗圣堂武士暗影之怒传送AOE
+@display:void dark templar shadow fury teleport final aoe	虚空黑暗圣堂武士暗影之怒传送最终AOE
+@display:void dark templar shadow fury teleport final cp aoe	虚空黑暗圣堂武士暗影之怒传送最终CPAOE
+@display:void novaweaponblazefirebladeshadowfurycp aoe	虚空诺娃炎刃暗影之怒CP AOE
+@display:void novaweaponblazefirebladeshadowfurydamage aoe	虚空诺娃炎刃暗影之怒伤害AOE
+@display:void novaweaponblazefirebladeshadowfuryfinal aoe	虚空诺娃炎刃暗影之怒最终AOE
+@display:void novaweaponblazefirebladeshadowfuryimpactset aoe	虚空诺娃炎刃暗影之怒撞击设置AOE
+@display:void novaweaponblazefirebladeshadowfurypersistent aoe	虚空诺娃炎刃暗影之怒持续AOE
+@display:void novaweaponblazefirebladeshadowfurysearch aoe	虚空诺娃炎刃暗影之怒搜索AOE
+@display:void novaweaponblazefirebladeshadowfuryteleport aoe	虚空诺娃炎刃暗影之怒传送AOE
+@display:void ray charge beam bounce caster	虚空战舰充能光束弹射施法者
+@display:void ray charge beam bounce phase2	虚空战舰充能光束弹射阶段2
+@display:void ray charge beam bounce phase3	虚空战舰充能光束弹射阶段3
+@display:void ray charge beam caster	虚空战舰充能光束施法者
+@display:void ray charge beam range caster	虚空战舰充能光束射程施法者
+@display:void ray hero - void ray charge chain	英雄虚空战舰-虚空战舰充能连锁
+@display:void ray hero - void ray charge effect 01	英雄虚空战舰-虚空战舰充能效果01
+@display:void ray hero - void ray charge effect 02	英雄虚空战舰-虚空战舰充能效果02
+@display:void ray hero - void ray charge effect 03	英雄虚空战舰-虚空战舰充能效果03
+@display:void ray hero - void ray charge initial	英雄虚空战舰-虚空战舰充能初始
+@display:void ray hero - void ray mu initial	英雄虚空战舰-虚空战舰MU初始
+@display:void ray mu base	虚空战舰MU基础
+@display:void shard unstable energy search	虚空碎片不稳定能量搜索
+@display:void shard unstable energy spawn effect	虚空碎片不稳定能量生成效果
+@display:void shard void zone root damage	虚空碎片虚空区域根须伤害
+@display:void thrasher - disable abilities apply	虚空撕裂者-禁用技能施加
+@display:void thrasher - fireball create persistent	虚空撕裂者-火球创建持续
+@display:void thrasher - fireball damage	虚空撕裂者-火球伤害
+@display:void thrasher - fireball launch missile	虚空撕裂者-火球发射导弹
+@display:void thrasher - lightning aoe create persistent	虚空撕裂者-闪电AOE创建持续
+@display:void thrasher - lightning aoe damage	虚空撕裂者-闪电AOE伤害
+@display:void thrasher - lightning aoe search	虚空撕裂者-闪电AOE搜索
+@display:void thrasher - scourge missile damage	虚空撕裂者-自爆蚊导弹伤害
+@display:void thrasher - scourge missile launch	虚空撕裂者-自爆蚊导弹发射
+@display:void thrasher - scourge missile persistent	虚空撕裂者-自爆蚊导弹持续
+@display:void thrasher - spawn baneling create	虚空撕裂者-生成爆虫创建
+@display:void thrasher - spawn baneling impact set	虚空撕裂者-生成爆虫撞击设置
+@display:void thrasher - spawn baneling launch missile	虚空撕裂者-生成爆虫发射导弹
+@display:void thrasher - spawn baneling launch set	虚空撕裂者-生成爆虫发射设置
+@display:void thrasher - spawn hydralisk create	虚空撕裂者-生成刺蛇创建
+@display:void thrasher - spawn hydralisk impact set	虚空撕裂者-生成刺蛇撞击设置
+@display:void thrasher - spawn hydralisk launch missile	虚空撕裂者-生成刺蛇发射导弹
+@display:void thrasher - spawn hydralisk launch set	虚空撕裂者-生成刺蛇发射设置
+@display:void thrasher - spawn roach create	虚空撕裂者-生成蟑螂创建
+@display:void thrasher - spawn roach impact set	虚空撕裂者-生成蟑螂撞击设置
+@display:void thrasher - spawn roach launch missile	虚空撕裂者-生成蟑螂发射导弹
+@display:void thrasher - spawn roach launch set	虚空撕裂者-生成蟑螂发射设置
+@display:void thrasher - spawn zergling create	虚空撕裂者-生成异化虫创建
+@display:void thrasher - spawn zergling impact set	虚空撕裂者-生成异化虫撞击设置
+@display:void thrasher - spawn zergling launch missile	虚空撕裂者-生成异化虫发射导弹
+@display:void thrasher - spawn zergling launch set	虚空撕裂者-生成异化虫发射设置
+@display:void thrasher - thrasher wave search	虚空撕裂者-撕裂波搜索
+@display:void thrasher baneling missile create persistent	虚空撕裂者爆虫导弹创建持续
+@display:void thrasher baneling missile damage	虚空撕裂者爆虫导弹伤害
+@display:void thrasher baneling missile destroy persistent	虚空撕裂者爆虫导弹毁灭持续
+@display:void thrasher baneling missile dummy	虚空撕裂者爆虫导弹假人
+@display:void thrasher baneling missile impact set	虚空撕裂者爆虫导弹撞击设置
+@display:void thrasher baneling missile launch	虚空撕裂者爆虫导弹发射
+@display:void thrasher baneling missile launch set	虚空撕裂者爆虫导弹发射设置
+@display:void thrasher deep tunnel teleport destroy buildings	虚空撕裂者深槽传送摧毁建筑
+@display:void thrasher deep tunnel teleport destroy buildings search	虚空撕裂者深槽传送摧毁建筑搜索
+@display:void thrasher shield fireball damage	虚空撕裂者护盾火球伤害
+@display:void thrasher shield fireball launch missile	虚空撕裂者护盾火球发射导弹
+@display:void zealot shadow charge slow target ab	虚空狂热者暗影冲锋目标减速-AB
+@display:void zealot shadow charge stun target ab	虚空狂热者暗影冲锋目标眩晕-AB
+@display:volitile burst viscous discharge apply behavior	挥发爆发黏稠分泌物施加行为
+@display:volitile burst viscous discharge search	挥发爆发黏稠分泌物搜索
+@display:vorazun commander dark templar recalling	(沃拉尊指挥官)黑暗圣堂武士召回
+@display:vortex kill damage	漩涡击杀伤害
+@display:vulcan champion - karax champion scraper apply	伏尔甘勇士-凯拉克斯勇士铲刃施加
+@display:vulcan champion - karax champion scraper modify	伏尔甘勇士-凯拉克斯勇士铲刃修改
+@display:vulcan champion - karax champion scraper search	伏尔甘勇士-凯拉克斯勇士铲刃搜索
+@display:vulcan champion - karax champion shield restore apply	伏尔甘勇士-凯拉克斯勇士护盾恢复施加
+@display:vulcan champion - karax champion shield restore heal switch	伏尔甘勇士-凯拉克斯勇士护盾恢复治疗切换
+@display:vulcan champion - karax champion shield restore mechanical modify	伏尔甘勇士-凯拉克斯勇士护盾恢复机械修改
+@display:vulcan champion - karax champion shield restore modify	伏尔甘勇士-凯拉克斯勇士护盾恢复修改
+@display:vulcan champion - karax champion shield restore set	伏尔甘勇士-凯拉克斯勇士护盾恢复设置
+@display:vulcan champion - karax champion shield restore shock damage	伏尔甘勇士-凯拉克斯勇士护盾恢复冲击伤害
+@display:vulcan champion - karax champion shield restore shock search	伏尔甘勇士-凯拉克斯勇士护盾恢复冲击搜索
+@display:vulcan champion - karax champion weapon damage	伏尔甘勇士-凯拉克斯勇士武器伤害
+@display:vulcan champion - karax champion weapon launch missile	伏尔甘勇士-凯拉克斯勇士武器发射导弹
+@display:vulture - fragmentation grenade missile	秃鹫-破片手雷导弹
+@display:vulture - replenish nano-constructor modify constructor charge count	秃鹫-补充纳米建造器修改建造者充能次数
+@display:warbot b lm	武装机器人B-LM
+@display:warbot c	武装机器人C
+@display:warbot c cp	武装机器人C-CP
+@display:warbot c e	武装机器人C-E
+@display:weapon search area	武器搜索区域
+@display:wraith - hurricane laser damage	幽魂战机-飓风激光伤害
+@display:wraith - hurricane laser launch missile	幽魂战机-飓风激光发射导弹
+@display:wraith - hurricane missiles damage	幽魂战机-飓风导弹伤害
+@display:wraith - hurricane missiles launch missile left	幽魂战机-飓风导弹发射导弹左
+@display:wraith - hurricane missiles launch missile right	幽魂战机-飓风导弹发射导弹右
+@display:wraith - hurricane missiles persistent	幽魂战机-飓风导弹持续
+@display:xel'naga charged crystal damage	萨尔纳加充能水晶伤害
+@display:xel'naga crystal kill prison	萨尔纳加水晶摧毁监狱
+@display:xel'naga crystal search	萨尔纳加水晶搜索
+@display:xel'naga prison height 1 north facing	萨尔纳加监狱高度1朝北
+@display:xel'naga prison height 1 south facing	萨尔纳加监狱高度1朝南
+@display:xel'naga prison height 2 north facing	萨尔纳加监狱高度2朝北
+@display:xel'naga prison height 2 south facing	萨尔纳加监狱高度2朝南
+@display:xel'naga shadow step apply in	萨尔纳加暗影步施加进入
+@display:xel'naga shadow step apply out	萨尔纳加暗影步施加离开
+@display:xel'naga shadow step launch missile	萨尔纳加暗影步发射导弹
+@display:xel'naga shadow step set	萨尔纳加暗影步设置
+@display:xel'naga ship alarm apply behavior	萨尔纳加飞船警报施加行为
+@display:xel'naga ship alarm remove behavior	萨尔纳加飞船警报移除行为
+@display:xel'naga ship alarm search	萨尔纳加飞船警报搜索
+@display:xil	希尔
+@display:zagara baneling barrage cp	扎加拉爆虫弹幕-CP
+@display:zagara baneling barrage explode search set	扎加拉爆虫弹幕爆炸搜索设置
+@display:zagara baneling barrage explode search structure	扎加拉爆虫弹幕爆炸搜索建筑
+@display:zagara baneling barrage explode search unit	扎加拉爆虫弹幕爆炸搜索单位
+@display:zagara baneling barrage impact dummy set	扎加拉爆虫弹幕撞击假人设置
+@display:zagara baneling barrage lm	扎加拉爆虫弹幕-LM
+@display:zagara baneling barrage missile scan	扎加拉爆虫弹幕导弹扫描
+@display:zagara baneling barrage missile scan persistent	扎加拉爆虫弹幕导弹扫描持续
+@display:zagara baneling barrage missile scan persistent destroy	扎加拉爆虫弹幕导弹扫描持续毁灭
+@display:zagara baneling barrage missile scan set	扎加拉爆虫弹幕导弹扫描设置
+@display:zagara baneling barrage unpathable scan persistent	扎加拉爆虫弹幕不可通行扫描持续
+@display:zagara infested pods	扎加拉感染荚苞
+@display:zagara infested pods impact	扎加拉感染荚苞撞击
+@display:zagara infested pods impact damage	扎加拉感染荚苞撞击伤害
+@display:zagara infested pods impact search	扎加拉感染荚苞撞击搜索
+@display:zagara infested pods impact set	扎加拉感染荚苞撞击设置
+@display:zagara infested pods timed life	扎加拉感染荚苞时限
+@display:zagara spawn hunter killers	扎加拉生成猎杀者
+@display:zagara spawn hunter killers create set	扎加拉生成猎杀者创建设置
+@display:zagara spawn hunter killers initial set	扎加拉生成猎杀者初始设置
+@display:zagara spawn hunter killers link destroy persistent	扎加拉生成猎杀者链接毁灭持续
+@display:zagara spawn hunter killers link persistent	扎加拉生成猎杀者链接持续
+@display:zagara spawn hunter killers timed life	扎加拉生成猎杀者时限
+@display:zagara void coop devouring maw worm	扎加拉虚空合作吞噬巨口蠕虫
+@display:zagara void coop infest broodlings death	扎加拉虚空合作感染巢虫死亡
+@display:zagara void coop transfusion wave 1 delay	扎加拉-哺液波次1延迟
+@display:zagara void coop transfusion wave 1 search	扎加拉-哺液波次1搜索
+@display:zagara void coop transfusion wave 2 delay	扎加拉-哺液波次2延迟
+@display:zagara void coop transfusion wave 2 search	扎加拉-哺液波次2搜索
+@display:zagara void coop transfusion wave 3 delay	扎加拉-哺液波次3延迟
+@display:zagara void coop transfusion wave 3 search	扎加拉-哺液波次3搜索
+@display:zagara void coop transfusion wave 4 delay	扎加拉-哺液波次4延迟
+@display:zagara void coop transfusion wave 4 search	扎加拉-哺液波次4搜索
+@display:zagara void coop transfusion wave set 1	哺液洪流-设置1
+@display:zagara void coop transfusion wave set 2	哺液洪流-设置2
+@display:zagara void coop transfusion wave set 3	哺液洪流-设置3
+@display:zagara void coop transfusion wave set 4	哺液洪流-设置4
+@display:zagara void coop transfusion wave set 5	哺液洪流-设置5
+@display:zealot - terazine fury invulnerable apply	狂热者-泰拉臻之怒无敌施加
+@display:zealot - terazine fury shield restore	狂热者-泰拉臻之怒护盾恢复
+@display:zealot - terazine fury weakness apply	狂热者-泰拉臻之怒虚弱施加
+@display:zealot respawn	狂热者重生
+@display:zenith stone death search 1	泽尼斯巨石-死亡搜索1
+@display:zenith stone death search 2	泽尼斯巨石-死亡搜索2
+@display:zenith stone death search 3	泽尼斯巨石-死亡搜索3
+@display:zeratul - master psi blades	泽拉图-大师灵能刃
+@display:zeratul - phasemine blast persistent	泽拉图-相位矿爆炸持续
+@display:zeratulreflectionshieldapplybehaviormarker	泽拉图反射护盾应用行为标记
+@display:zerg building spawn broodling 6	异虫建筑生成巢虫6
+@display:zerg building spawn broodling 6 delay	异虫建筑生成巢虫6延迟
+@display:zerg building spawn broodling 9	异虫建筑生成巢虫9
+@display:zerg building spawn broodling 9 delay	异虫建筑生成巢虫9延迟
+@display:zerg general - post morph healing effect	虫族将领-变形后治疗效果
+@display:zerg hole large height 1	虫洞-大型高度1
+@display:zerg hole large height 2	虫洞-大型高度2
+@display:zerg hole large height 3	虫洞-大型高度3
+@display:zerg hole small height 1	虫洞-小型高度1
+@display:zerg hole small height 2	虫洞-小型高度2
+@display:zerg hole small height 3	虫洞-小型高度3
+@display:zerg tunnel entrance - spawn corruptor create corruptor	虫族隧道入口-生成腐蚀者创建腐蚀者
+@display:zerg tunnel entrance - spawn corruptor create egg unit	虫族隧道入口-生成腐蚀者创建卵单位
+@display:zerg tunnel entrance - spawn corruptor persistent for random offset	虫族隧道入口-生成腐蚀者随机偏移持续
+@display:zerg tunnel entrance - spawn corruptor spawn set	虫族隧道入口-生成腐蚀者生成设置
+@display:zerus pool	泽鲁斯水池
+@display:zhakul'das	扎库尔达斯
+@display:zhakul'das bridge 45 left height 1	扎库尔达斯45度左桥高度1
+@display:zhakul'das bridge 45 left height 2	扎库尔达斯45度左桥高度2
+@display:zhakul'das library pit height 1	扎库尔达斯图书馆深坑高度1
+@display:zhakul'das library pit height 2	扎库尔达斯图书馆深坑高度2
+@display:zhakul'das library pit height 3	扎库尔达斯图书馆深坑高度3
+@display:zhakul'das library pit variation 1 height 1	扎库尔达斯图书馆深坑变体1高度1
+@display:zhakul'das library pit variation 1 height 2	扎库尔达斯图书馆深坑变体1高度2
+@display:zhakul'das library pit variation 1 height 3	扎库尔达斯图书馆深坑变体1高度3
+@display:zhakul'das library pit variation 2 height 1	扎库尔达斯图书馆深坑变体2高度1
+@display:zhakul'das library pit variation 2 height 2	扎库尔达斯图书馆深坑变体2高度2
+@display:zhakul'das library pit variation 2 height 3	扎库尔达斯图书馆深坑变体2高度3
+@display:zz test chasm	测试-裂隙
+@display:zz test hybrid lab	测试-混合体实验室
+@display:zz test robot	测试-机器人
+@display:zz test truck stop	测试-卡车站
+@display:zz test zerg pens height 1	测试-虫族围栏高度1
+@display:zz test zerg pens height 2	测试-虫族围栏高度2
+@display:zzerus01 meat attacked ab	泽鲁斯01肉体受击-AB

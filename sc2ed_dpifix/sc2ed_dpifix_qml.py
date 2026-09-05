@@ -28,13 +28,14 @@ import QtQuick.Particles
 
 Window {
     id: root
-    width: 520; height: 660
+    width: 520; height: 690
     visible: true
     flags: Qt.FramelessWindowHint | Qt.Window
     color: "transparent"                   // 透明 -> 配合圆角面板得到圆角窗口, frameless 无投影
     property string mode: "idle"           // idle|busy|ok|err  (UI 动画状态)
-    property string selMode: "crisp_fit"   // crisp_fit|pmv2|enhanced|bitmap  (DPI 修复模式)
+    property string selMode: "enhanced"   // crisp_fit|pmv2|enhanced|bitmap  (DPI 修复模式, 默认=系统增强)
     property int fontPct: 85               // 清晰适配的字体缩放 %(越小越紧)
+    property bool dpiEnabled: true          // DPI 修复可独立关闭
     property bool l10nEnabled: true         // 官方依赖汉化可独立关闭
     property bool l10nStashed: false        // 外置汉化已暂存，可恢复
     property color cAccent: mode==="ok" ? "#34d399" : mode==="err" ? "#fb7185" : "#22d3ee"
@@ -328,10 +329,88 @@ Window {
             }
         }
 
-        // ================= 模式选择(可随时切换对比)=================
+        // ================= 功能开关行 =================
+        Row {
+            id: featureRow
+            anchors.horizontalCenter: parent.horizontalCenter; y: 322; spacing: 28
+
+            // ---- DPI 修复开关 ----
+            Row {
+                spacing: 8
+                Text {
+                    text: "清晰度修复"; font.pixelSize: 12; color: "#8ea3c8"
+                    anchors.verticalCenter: parent.verticalCenter
+                }
+                Rectangle {
+                    width: 42; height: 22; radius: 11
+                    color: root.dpiEnabled ? "#168ba0" : "#26364f"
+                    border.width: 1
+                    border.color: root.dpiEnabled ? "#62e8f5" : "#50617d"
+                    Behavior on color { ColorAnimation { duration: 150 } }
+                    Rectangle {
+                        width: 16; height: 16; radius: 8; y: 3
+                        x: root.dpiEnabled ? 23 : 3
+                        color: root.dpiEnabled ? "#d9fbff" : "#8494ad"
+                        Behavior on x { NumberAnimation { duration: 150; easing.type: Easing.OutCubic } }
+                    }
+                    MouseArea {
+                        anchors.fill: parent; cursorShape: Qt.PointingHandCursor
+                        onClicked: {
+                            if (root.mode === "busy") return
+                            root.dpiEnabled = !root.dpiEnabled
+                            statusTxt.setMsg(
+                                root.dpiEnabled ? "清晰度修复已启用" : "清晰度修复已关闭 · 仅启动编辑器",
+                                root.cAccent)
+                        }
+                    }
+                }
+            }
+
+            // 分隔竖线
+            Rectangle { width: 1; height: 22; color: "#22314a"; anchors.verticalCenter: parent.verticalCenter }
+
+            // ---- 官方依赖汉化开关 ----
+            Row {
+                spacing: 8
+                Text {
+                    text: "官方依赖汉化"; font.pixelSize: 12; color: "#8ea3c8"
+                    anchors.verticalCenter: parent.verticalCenter
+                }
+                Rectangle {
+                    width: 42; height: 22; radius: 11
+                    color: root.l10nEnabled ? "#168ba0" : "#26364f"
+                    border.width: 1
+                    border.color: root.l10nEnabled ? "#62e8f5" : "#50617d"
+                    Behavior on color { ColorAnimation { duration: 150 } }
+                    Rectangle {
+                        width: 16; height: 16; radius: 8; y: 3
+                        x: root.l10nEnabled ? 23 : 3
+                        color: root.l10nEnabled ? "#d9fbff" : "#8494ad"
+                        Behavior on x { NumberAnimation { duration: 150; easing.type: Easing.OutCubic } }
+                    }
+                    MouseArea {
+                        anchors.fill: parent; cursorShape: Qt.PointingHandCursor
+                        onClicked: {
+                            if (root.mode === "busy") return
+                            if (root.l10nStashed) {
+                                statusTxt.setMsg("汉化已暂时卸载，请先恢复", "#fbbf24")
+                                return
+                            }
+                            root.l10nEnabled = !root.l10nEnabled
+                            statusTxt.setMsg(
+                                root.l10nEnabled ? "官方依赖汉化已启用" : "官方依赖汉化已关闭",
+                                root.cAccent)
+                        }
+                    }
+                }
+            }
+        }
+
+        // ================= DPI 模式选择(仅 DPI 开启时显示)=================
         Row {
             id: modeRow
-            anchors.horizontalCenter: parent.horizontalCenter; y: 322; spacing: 8
+            visible: root.dpiEnabled
+            anchors.horizontalCenter: parent.horizontalCenter; y: 358; spacing: 8
             Repeater {
                 model: [
                     { k: "crisp_fit", t: "清晰适配", d: "原生清晰·缩字贴合" },
@@ -373,85 +452,11 @@ Window {
             }
         }
 
-        // ---- 官方依赖汉化开关 ----
-        Item {
-            id: l10nToggle; width: 250; height: 30
-            x: 68; y: 412
-            Row {
-                anchors.centerIn: parent; spacing: 10
-                Text {
-                    text: "官方依赖汉化"; font.pixelSize: 12; color: "#8ea3c8"
-                    anchors.verticalCenter: parent.verticalCenter
-                }
-                Rectangle {
-                    width: 42; height: 22; radius: 11
-                    color: root.l10nEnabled ? "#168ba0" : "#26364f"
-                    border.width: 1
-                    border.color: root.l10nEnabled ? "#62e8f5" : "#50617d"
-                    Behavior on color { ColorAnimation { duration: 150 } }
-                    Rectangle {
-                        width: 16; height: 16; radius: 8; y: 3
-                        x: root.l10nEnabled ? 23 : 3
-                        color: root.l10nEnabled ? "#d9fbff" : "#8494ad"
-                        Behavior on x { NumberAnimation { duration: 150; easing.type: Easing.OutCubic } }
-                    }
-                    MouseArea {
-                        anchors.fill: parent; cursorShape: Qt.PointingHandCursor
-                        onClicked: {
-                            if (root.mode === "busy") return
-                            if (root.l10nStashed) {
-                                statusTxt.setMsg("汉化已暂时卸载，请先恢复", "#fbbf24")
-                                return
-                            }
-                            root.l10nEnabled = !root.l10nEnabled
-                            statusTxt.setMsg(
-                                root.l10nEnabled ? "官方依赖汉化已启用" : "官方依赖汉化已关闭",
-                                root.cAccent)
-                        }
-                    }
-                }
-                Text {
-                    text: root.l10nEnabled ? "启用" : "关闭"
-                    font.pixelSize: 11
-                    color: root.l10nEnabled ? "#8eeef5" : "#71829e"
-                    anchors.verticalCenter: parent.verticalCenter
-                }
-            }
-        }
-
-        Rectangle {
-            id: l10nManageBtn
-            x: 340; y: 412; width: 112; height: 30; radius: 6
-            color: l10nManageMa.containsMouse
-                   ? (root.l10nStashed ? "#123c36" : "#3a2230")
-                   : "#101a2b"
-            border.width: 1
-            border.color: root.l10nStashed ? "#34d399" : "#a8556d"
-            Text {
-                anchors.centerIn: parent
-                text: root.l10nStashed ? "恢复汉化" : "暂时卸载"
-                font.pixelSize: 11; font.bold: true
-                color: root.l10nStashed ? "#8ff0c8" : "#f4a6b8"
-            }
-            MouseArea {
-                id: l10nManageMa; anchors.fill: parent; hoverEnabled: true
-                cursorShape: Qt.PointingHandCursor
-                onClicked: {
-                    if (root.mode === "busy") return
-                    root.mode = "busy"; coreTxt.text = "···"
-                    statusTxt.setMsg(
-                        root.l10nStashed ? "正在校验并恢复汉化…" : "正在暂存汉化外置文件…",
-                        root.cAccent)
-                    backend.toggle_localization()
-                }
-            }
-        }
-
-        // ---- 清晰适配: 字体档位(仅该模式显示)----
+        // ---- 清晰适配: 字体档位(仅该模式且 DPI 开启时显示)----
         Row {
             id: fontRow
-            visible: root.selMode === "crisp_fit"
-            anchors.horizontalCenter: parent.horizontalCenter; y: 376; spacing: 6
+            visible: root.dpiEnabled && root.selMode === "crisp_fit"
+            anchors.horizontalCenter: parent.horizontalCenter; y: 410; spacing: 6
             Text { text: "字体"; font.pixelSize: 12; color: "#8ea3c8"
                    anchors.verticalCenter: parent.verticalCenter }
             Repeater {
@@ -480,10 +485,42 @@ Window {
             }
         }
 
+        // ---- 汉化管理按钮(暂时卸载/恢复)----
+        Rectangle {
+            id: l10nManageBtn
+            anchors.horizontalCenter: parent.horizontalCenter
+            y: root.dpiEnabled && root.selMode === "crisp_fit" ? 444 : 416
+            width: 112; height: 30; radius: 6
+            color: l10nManageMa.containsMouse
+                   ? (root.l10nStashed ? "#123c36" : "#3a2230")
+                   : "#101a2b"
+            border.width: 1
+            border.color: root.l10nStashed ? "#34d399" : "#a8556d"
+            Text {
+                anchors.centerIn: parent
+                text: root.l10nStashed ? "恢复汉化" : "暂时卸载"
+                font.pixelSize: 11; font.bold: true
+                color: root.l10nStashed ? "#8ff0c8" : "#f4a6b8"
+            }
+            MouseArea {
+                id: l10nManageMa; anchors.fill: parent; hoverEnabled: true
+                cursorShape: Qt.PointingHandCursor
+                onClicked: {
+                    if (root.mode === "busy") return
+                    root.mode = "busy"; coreTxt.text = "···"
+                    statusTxt.setMsg(
+                        root.l10nStashed ? "正在校验并恢复汉化…" : "正在暂存汉化外置文件…",
+                        root.cAccent)
+                    backend.toggle_localization()
+                }
+            }
+        }
+
         // ================= 按钮 =================
         Item {
             id: btn; width: 300; height: 54
-            anchors.horizontalCenter: parent.horizontalCenter; y: 452
+            anchors.horizontalCenter: parent.horizontalCenter
+            y: root.dpiEnabled && root.selMode === "crisp_fit" ? 484 : 456
             scale: btnMa.pressed ? 0.98 : (btnMa.containsMouse && root.mode!=="busy" ? 1.03 : 1.0)
             Behavior on scale { NumberAnimation { duration: 150; easing.type: Easing.OutCubic } }
 
@@ -533,7 +570,10 @@ Window {
                         RotationAnimator on rotation { from:0; to:360; duration:800
                             loops: Animation.Infinite; running: root.mode==="busy" }
                     }
-                    Text { text: root.mode==="busy" ? "PATCHING…" : "▶  启动修复版编辑器"
+                    Text { text: root.mode==="busy" ? "PATCHING…"
+                                 : root.dpiEnabled ? "▶  启动修复版编辑器"
+                                 : root.l10nEnabled ? "▶  启动汉化版编辑器"
+                                 : "▶  启动编辑器"
                            font.pixelSize: 15; font.bold: true
                            color: root.mode==="busy" ? "#9fc0e0" : "#04121e" }
                 }
@@ -543,16 +583,22 @@ Window {
                 cursorShape: Qt.PointingHandCursor
                 onClicked: {
                     if (root.mode==="busy") return
+                    if (!root.dpiEnabled && !root.l10nEnabled) {
+                        statusTxt.setMsg("清晰度修复和汉化都已关闭，没有需要修补的功能", "#fbbf24")
+                        return
+                    }
                     root.mode = "busy"; coreTxt.text = "···"
                     statusTxt.setMsg("初始化补丁引擎…", root.cAccent)
-                    backend.launch(root.selMode, root.fontPct, root.l10nEnabled)
+                    backend.launch(root.dpiEnabled ? root.selMode : "none",
+                                   root.fontPct, root.l10nEnabled)
                 }
             }
         }
 
         // ================= 状态 =================
         Text {
-            id: statusTxt; anchors.horizontalCenter: parent.horizontalCenter; y: 520
+            id: statusTxt; anchors.horizontalCenter: parent.horizontalCenter
+            y: root.dpiEnabled && root.selMode === "crisp_fit" ? 552 : 524
             font.pixelSize: 13; color: root.cMuted; text: "初始化…"
             Behavior on opacity { NumberAnimation { duration: 300 } }
             function setMsg(m, c) { opacity = 0; _m = m; _c = c; fadeTimer.restart() }
@@ -583,11 +629,26 @@ Window {
                         onClicked: { if (root.mode!=="busy") backend.pick() } }
         }
 
-        Text {
+        // ================= 署名 =================
+        Column {
             anchors.horizontalCenter: parent.horizontalCenter
-            anchors.bottom: parent.bottom; anchors.bottomMargin: 12
-            text: "原汉化：头目 · hgzerg · OB"
-            font.pixelSize: 10; color: "#4f6384"
+            anchors.bottom: parent.bottom; anchors.bottomMargin: 10
+            spacing: 3
+            Text {
+                text: "原汉化：头目 · hgzerg · OB"
+                font.pixelSize: 11; font.bold: true; color: "#7b93b8"
+                anchors.horizontalCenter: parent.horizontalCenter
+                layer.enabled: true
+                layer.effect: MultiEffect {
+                    shadowEnabled: true; shadowColor: "#22d3ee"
+                    shadowBlur: 0.6; shadowVerticalOffset: 0; shadowHorizontalOffset: 0
+                }
+            }
+            Text {
+                text: "DPI 修复 · 依赖汉化 · 工具开发：BoomFirst"
+                font.pixelSize: 10; color: "#5e7899"
+                anchors.horizontalCenter: parent.horizontalCenter
+            }
         }
     }
 
@@ -687,6 +748,7 @@ class Backend(QObject):
     def _work(self, mode="crisp_fit", font_pct=85, localization=True):
         l10n_status = "官方依赖汉化已加载" if localization else "未启用汉化"
         done = {
+            "none": f"已启动 · {l10n_status} · 不修复 DPI ✓",
             "crisp_fit": f"已启动 · {l10n_status} · 清晰适配 字体{font_pct}% ✓",
             "pmv2": f"已启动 · {l10n_status} · PMv2 物理像素渲染 ✓",
             "enhanced": f"已启动 · {l10n_status} · 系统增强矢量缩放 ✓",

@@ -1,0 +1,1433 @@
+none	(Executed By Trigger)	(由触发器执行)
+none	(General)	(通用)
+none	(Trigger Effect)	(触发器效果)
+none	(Unused)	(未使用)
+hand	(Void Coop) Hyperion -	(虚空合作)休伯利安号-
+hand	(Void Coop) Hyperion Air Damage	(虚空合作)休伯利安号-对空伤害
+hand	(Void Coop) Hyperion Air LM	(虚空合作)休伯利安号-对空-LM
+hand	(Void Coop) Hyperion Air LM Set	(虚空合作)休伯利安号-对空-LM-设置
+hand	(Void Coop) Hyperion Air Pause Secondary	(虚空合作)休伯利安号-对空暂停副武器
+hand	(Void Coop) Hyperion Air Secondary Weapon Search	(虚空合作)休伯利安号-对空副武器搜索
+hand	(Void Coop) Hyperion Ground Damage	(虚空合作)休伯利安号-对地伤害
+hand	(Void Coop) Hyperion Ground LM	(虚空合作)休伯利安号-对地-LM
+hand	(Void Coop) Hyperion Ground LMSet	(虚空合作)休伯利安号-对地-LM设置
+hand	(Void Coop) Hyperion Hyperjump Create Precursor	(虚空合作)休伯利安号-跃迁创建前兆
+hand	(Void Coop) Hyperion Hyperjump Teleport	(虚空合作)休伯利安号-跃迁传送
+hand	(Void Coop) Hyperion Hyperjump Teleport AB	(虚空合作)休伯利安号-跃迁传送-AB
+hand	(Void Coop) Hyperion Hyperjump Teleport In	(虚空合作)休伯利安号-跃迁传送进入
+hand	(Void Coop) Hyperion Hyperjump Teleport Out	(虚空合作)休伯利安号-跃迁传送离开
+hand	(Void Coop) Hyperion Hyperjump Teleport Set	(虚空合作)休伯利安号-跃迁传送-设置
+hand	(Void Coop) Hyperion Pause Secondary AB	(虚空合作)休伯利安号-暂停副武器-AB
+hand	(Void Coop) Hyperion Secondary Weapon Search	(虚空合作)休伯利安号-副武器搜索
+hand	(Void Coop) Hyperion Spawn AB	(虚空合作)休伯利安号-生成-AB
+hand	(Void Coop) Hyperion Timed Life Expire AB	(虚空合作)休伯利安号-时限到期-AB
+hand	(Void Coop) Hyperion Yamato Cannon CP	(虚空合作)休伯利安号-大和炮-CP
+hand	(Void Coop) Hyperion Yamato Cannon Damage	(虚空合作)休伯利安号-大和炮伤害
+hand	(Void Coop) Hyperion Yamato Cannon LM	(虚空合作)休伯利安号-大和炮-LM
+hand	(Vorazun Commander) Dark Templar Recalling	(沃拉尊指挥官)黑暗圣堂武士召回
+hand	Abathur -	阿巴瑟-
+hand	Abathur - Overlord -	阿巴瑟-领主-
+hand	Aberration - Weapon	畸变体-武器
+hand	Adept - Shade Phase Shift Cancel Caster Behavior RB	使徒-暗影相位转移取消施法者行为-RB
+hand	Adept - Shade Phase Shift Cancel RB	使徒-暗影相位转移取消-RB
+hand_comp	Aether Storm (Create Persistent)	乙太风暴创建持续
+hand_comp	Aether Storm (Damage)	乙太风暴伤害
+hand_comp	Aether Storm (Search)	乙太风暴搜索
+hand	Aether Storm Dummy Weapon	乙太风暴假人武器
+hand_comp	Aether Storm Dummy Weapon (Damage)	乙太风暴假人武器伤害
+hand	Agria	阿格瑞亚
+hand	Aiur Creep	艾尔菌毯
+hand_comp	Aiur Overmind (Height 0)	艾尔主宰高度0
+hand_comp	Aiur Overmind (Height 1)	艾尔主宰高度1
+hand_comp	Aiur Overmind (Height 2)	艾尔主宰高度2
+hand_comp	Aiur Overmind (Height 3)	艾尔主宰高度3
+hand	Alarak - AC -	阿拉纳克-AC-
+hand_comp	Alarak - AC -  (Trigger Dummy)	阿拉纳克-AC-触发器假人
+hand_comp	Alarak - Force Bolt (Damage)	阿拉纳克-力量闪电伤害
+hand	Alarak - Force Bolt Damage Set	阿拉纳克-力量闪电伤害设置
+hand	Alarak - Force Bolt Split Damage	阿拉纳克-力量闪电分裂伤害
+hand	Alarak - Force Bolt Split Damage Set	阿拉纳克-力量闪电分裂伤害设置
+hand	Alarak - Weapon Search	阿拉纳克-武器搜索
+hand	Alarak AC -	阿拉纳克AC-
+hand	Alarak Psi Orb Final Upgraded	阿拉纳克灵能宝珠最终升级
+hand	Alarak Soul Steal Modify	阿拉纳克窃魂修改
+hand	Alarm Bot Alarm Active	警报机器人警报激活
+hand	Amon Tentacle	埃蒙触手
+hand	Amon Tentacle BAttack	埃蒙触手攻击
+hand	Amon Tentacle CImpact Root Damage	埃蒙触手碰撞根须伤害
+hand	Amon Tentacle CImpact Root Stun	埃蒙触手碰撞根须眩晕
+hand	Amon Tentacle CP	埃蒙触手-CP
+hand	Amon Tentacle DGround Slam Delay Shows AoE Create Persistent	埃蒙触手裂地延迟显示AOE创建持续
+hand	Amon Tentacle LM	埃蒙触手-LM
+hand	Ancient Xel Naga Artifact Power	古代萨尔纳加神器能量
+hand	Ancient Xel Naga Artifact Shield	古代萨尔纳加神器护盾
+hand_comp	Annihilator - Ground Particle Disruptors (Damage)	歼灭者-地面粒子干扰炮伤害
+hand_comp	Annihilator - Ground Particle Disruptors (LM)	歼灭者-地面粒子干扰炮-LM
+ids	ArbiterMP Cloaking Field (Apply)	仲裁者-隐形力场应用
+ids	ArbiterMP Cloaking Field (Search)	仲裁者-隐形力场搜索
+ids_comp	ArbiterMP Recall (Apply Post-Recall Behavior)	召回施加召回后行为
+ids_comp	ArbiterMP Recall (Apply Pre-Recall Behavior)	召回施加召回前行为
+ids_comp	ArbiterMP Recall (Search)	召回搜索
+ids_comp	ArbiterMP Recall (Set)	召回设置
+ids_comp	ArbiterMP Recall (Teleport)	召回传送
+ids_comp	ArbiterMP Stasis Field (Apply)	静滞力场施加
+ids_comp	ArbiterMP Stasis Field (Search)	静滞力场搜索
+ids_comp	ArbiterMP Stasis Field (Set)	静滞力场设置
+ids	ArbiterMP Stasis Field Timer (Apply)	静滞力场-计时器应用
+hand	Arc Node Spawn Shadow Of The Void	电弧节点生成虚空之影
+hand	Artanis Hallucination Army Dragoon	阿塔尼斯幻象部队龙骑士
+hand	Artanis Hallucination Army Zealot	阿塔尼斯幻象部队狂热者
+hand_comp	Artanis Psi Blast (Apply Marker)	阿塔尼斯灵能冲击施加标记
+hand_comp	Artanis Psi Blast 1 (Damage)	阿塔尼斯灵能冲击1伤害
+hand_comp	Artanis Psi Blast 1 (Persistent Delay)	阿塔尼斯灵能冲击1持续延迟
+hand_comp	Artanis Psi Blast 1 (Search)	阿塔尼斯灵能冲击1搜索
+hand_comp	Artanis Psi Blast 1 (Set)	阿塔尼斯灵能冲击1设置
+hand_comp	Artanis Psi Blast 2 (Damage)	阿塔尼斯灵能冲击2伤害
+hand_comp	Artanis Psi Blast 2 (Persistent Delay)	阿塔尼斯灵能冲击2持续延迟
+hand_comp	Artanis Psi Blast 2 (Search)	阿塔尼斯灵能冲击2搜索
+hand_comp	Artanis Psi Blast 2 (Set)	阿塔尼斯灵能冲击2设置
+hand_comp	Artanis Psi Blast 3 (Damage)	阿塔尼斯灵能冲击3伤害
+hand_comp	Artanis Psi Blast 3 (Persistent Delay)	阿塔尼斯灵能冲击3持续延迟
+hand_comp	Artanis Psi Blast 3 (Search)	阿塔尼斯灵能冲击3搜索
+hand_comp	Artanis Psi Blast 3 (Set)	阿塔尼斯灵能冲击3设置
+hand_comp	Artanis Psi Blast 4 (Damage)	阿塔尼斯灵能冲击4伤害
+hand_comp	Artanis Psi Blast 4 (Persistent Delay)	阿塔尼斯灵能冲击4持续延迟
+hand_comp	Artanis Psi Blast 4 (Search)	阿塔尼斯灵能冲击4搜索
+hand_comp	Artanis Psi Blast 4 (Set)	阿塔尼斯灵能冲击4设置
+hand_comp	Artanis Psi Blast 5 (Damage)	阿塔尼斯灵能冲击5伤害
+hand_comp	Artanis Psi Blast 5 (Set)	阿塔尼斯灵能冲击5设置
+hand	Artanis Resurgence Enemy Impact	阿塔尼斯复兴敌方撞击
+hand	Artifact Dig Site	神器挖掘场
+ids	Auto Harvest Vespene 4	自动采集瓦斯4
+hand_comp	Auto-Turret - Twin Autocannons (Damage)	自动炮塔-双联自动机炮伤害
+hand	Avernus	阿弗纳斯
+hand_comp	Avernus Gas Refinery (Height 1)	阿弗纳斯瓦斯精炼厂高度1
+hand_comp	Avernus Gas Refinery (Height 2)	阿弗纳斯瓦斯精炼厂高度2
+hand_comp	Avernus Gas Refinery (Height 3)	阿弗纳斯瓦斯精炼厂高度3
+hand_comp	Avernus Glass Floor (Height 1)	阿弗纳斯玻璃地板高度1
+hand_comp	Avernus Glass Floor (Height 2)	阿弗纳斯玻璃地板高度2
+hand_comp	Avernus Glass Floor (Height 3)	阿弗纳斯玻璃地板高度3
+hand_comp	Avernus Grid Floor (Height 1)	阿弗纳斯网格地板高度1
+hand_comp	Avernus Grid Floor (Height 2)	阿弗纳斯网格地板高度2
+hand_comp	Avernus Grid Floor (Height 3)	阿弗纳斯网格地板高度3
+hand_comp	Avernus Mining Chamber (Height 1)	阿弗纳斯采矿室高度1
+hand_comp	Avernus Mining Chamber (Height 2)	阿弗纳斯采矿室高度2
+hand_comp	Avernus Mining Chamber (Height 3)	阿弗纳斯采矿室高度3
+hand_comp	Avernus Spectre Chamber (Height 1)	阿弗纳斯幽魂囚室高度1
+hand_comp	Avernus Spectre Chamber (Height 2)	阿弗纳斯幽魂囚室高度2
+hand_comp	Avernus Spectre Chamber (Height 3)	阿弗纳斯幽魂囚室高度3
+hand_comp	Baneling - Suicide (Remove Buff)	爆虫-自爆移除增益
+hand_comp	Battlecruiser - ATA Laser Battery (Damage)	战列巡航舰-ATA激光炮组伤害
+hand_comp	Battlecruiser - ATA Laser Battery (Launch Missile)	战列巡航舰-ATA激光炮组发射导弹
+hand_comp	Battlecruiser - ATS Laser Battery (Damage)	战列巡航舰-ATS激光炮组伤害
+hand_comp	Battlecruiser - ATS Laser Battery (Launch Missile)	战列巡航舰-ATS激光炮组发射导弹
+hand_comp	Battlecruiser - Yamato Cannon (Damage)	战列巡航舰-大和炮伤害
+hand_comp	Battlecruiser - Yamato Cannon (Missile)	战列巡航舰-大和炮导弹
+hand	Battlecruiser Anti-Air	战列巡航舰-对空
+hand_comp	Battlecruiser Helios - Helios Damage (Dummy Impact)	赫利俄斯战列巡航舰-赫利俄斯伤害假人撞击
+hand_comp	Battlecruiser Hero - Helios Damage (Create Persistent)	英雄战列巡航舰-赫利俄斯伤害创建持续
+hand	BelShir	贝尔什尔
+hand	Biomass Buff1 To10	生物质增益1至10
+hand	Biomass Buff10 To100	生物质增益10至100
+hand_comp	Blast Crater 1 (Height 1)	爆坑1高度1
+hand_comp	Blast Crater 1 (Height 2)	爆坑1高度2
+hand_comp	Blast Crater 1 (Height 3)	爆坑1高度3
+hand_comp	Blast Crater 2 (Height 1)	爆坑2高度1
+hand_comp	Blast Crater 2 (Height 2)	爆坑2高度2
+hand_comp	Blast Crater 2 (Height 3)	爆坑2高度3
+hand_comp	Blast Crater 3 (Height 1)	爆坑3高度1
+hand_comp	Blast Crater 3 (Height 2)	爆坑3高度2
+hand_comp	Blast Crater 3 (Height 3)	爆坑3高度3
+hand_comp	Blast Crater 4 (Height 1)	爆坑4高度1
+hand_comp	Blast Crater 4 (Height 2)	爆坑4高度2
+hand_comp	Blast Crater 4 (Height 3)	爆坑4高度3
+hand_comp	Block B - P38 'Scythe' Gauss Pistol (Create Persistent)	B区-P38“镰刀”高斯手枪创建持续
+hand_comp	Block B - P38 'Scythe' Gauss Pistol (Damage)	B区-P38“镰刀”高斯手枪伤害
+hand_comp	Brakk - Acidic Projection (Damage)	布拉克-酸液投影伤害
+hand_comp	Brakk - Acidic Projection (Launch)	布拉克-酸液投影发射
+hand_comp	Brakk - Acidic Projection (Search)	布拉克-酸液投影搜索
+hand_comp	Brakk - Serrated Talons (Damage)	布拉克-锯齿利爪伤害
+hand	Braxis Alpha	布拉西斯·阿尔法
+hand_comp	Braxis Alpha Bridge Arrow 1 (Height 1)	布拉西斯·阿尔法桥箭头1高度1
+hand_comp	Braxis Alpha Bridge Arrow 1 (Height 2)	布拉西斯·阿尔法桥箭头1高度2
+hand_comp	Braxis Alpha Bridge Arrow 1 (Height 3)	布拉西斯·阿尔法桥箭头1高度3
+hand_comp	Braxis Alpha Bridge Arrow 2 (Height 1)	布拉西斯·阿尔法桥箭头2高度1
+hand_comp	Braxis Alpha Bridge Arrow 2 (Height 2)	布拉西斯·阿尔法桥箭头2高度2
+hand_comp	Braxis Alpha Bridge Arrow 2 (Height 3)	布拉西斯·阿尔法桥箭头2高度3
+hand_comp	Braxis Alpha Reactor (Height 1)	布拉西斯·阿尔法反应堆高度1
+hand_comp	Braxis Alpha Reactor (Height 2)	布拉西斯·阿尔法反应堆高度2
+hand_comp	Braxis Alpha Reactor (Height 3)	布拉西斯·阿尔法反应堆高度3
+hand	Broken Cliff Doodad	破损悬崖装饰物
+hand	Burrow Charge Create	潜地冲锋创建
+hand_comp	Carrier - Interceptor - Interceptor Beam (Persistent Damage)	航母-拦截机-拦截机光束持续伤害
+hand_comp	Carrier - Interceptors (Create Persistent)	航母-拦截机创建持续
+hand_comp	Carrier - Interceptors (Create Upgraded Persistent)	航母-拦截机创建升级持续
+hand_comp	Carrier - Launch Interceptor (Magazine)	航母-发射拦截机弹匣
+hand	Carrier Hero - Interceptor - Pulse Cannon	英雄航母-拦截机-脉冲炮
+hand	Carrier Hero - Interceptor Burst	英雄航母-拦截机齐射
+hand	Carrier Interceptor Bomb	航母拦截机炸弹
+hand	Carrier Interceptor Launch Terrazine Shadow	航母拦截机发射泰拉臻之影
+hand_comp	Castanar Bridge Diagonal (Height 1)	卡斯塔纳大桥-对角高度1
+hand_comp	Castanar Bridge Diagonal (Height 2)	卡斯塔纳大桥-对角高度2
+hand	Castanar Bridge Horizontal Large	卡斯塔纳横向大桥-大型
+hand	Castanar Bridge Horizontal Large Destroyed	卡斯塔纳横向大桥-大型-摧毁
+hand	Castanar Bridge Horizontal Small	卡斯塔纳横向大桥-小型
+hand	Castanar Bridge Horizontal Small Destroyed	卡斯塔纳横向大桥-小型-摧毁
+hand	Castanar Bridge Vertical Large	卡斯塔纳纵向大桥-大型
+hand	Castanar Bridge Vertical Large Destroyed	卡斯塔纳纵向大桥-大型-摧毁
+hand	Castanar Bridge Vertical Small	卡斯塔纳纵向大桥-小型
+hand	Castanar Bridge Vertical Small Destroyed	卡斯塔纳纵向大桥-小型-摧毁
+hand_comp	Castanar Bruta Cage (Height 1)	卡斯塔纳残暴兽笼高度1
+hand_comp	Castanar Bruta Cage (Height 2)	卡斯塔纳残暴兽笼高度2
+hand_comp	Castanar Bruta Cage (Height 3)	卡斯塔纳残暴兽笼高度3
+hand_comp	Castanar Brutalisk Cage (Height 1)	卡斯塔纳残暴兽笼高度1
+hand_comp	Castanar Brutalisk Cage (Height 2)	卡斯塔纳残暴兽笼高度2
+hand_comp	Castanar Brutalisk Cage (Height 3)	卡斯塔纳残暴兽笼高度3
+hand_comp	Castanar Power Generator (Height 1)	卡斯塔纳发电机高度1
+hand_comp	Castanar Power Generator (Height 2)	卡斯塔纳发电机高度2
+hand_comp	Castanar Power Generator (Height 3)	卡斯塔纳发电机高度3
+ids	Caustic Level 1 Damage	腐蚀性-等级1伤害
+ids	Caustic Level 2 Damage	腐蚀性-等级2伤害
+ids	Caustic Spray Level 1 Launch Missile	腐蚀喷液-等级1发射导弹
+ids	Caustic Spray Level 1 Persistent	腐蚀喷液-等级1持续
+ids	Caustic Spray Level 2 Launch Missile	腐蚀喷液-等级2发射导弹
+ids	Caustic Spray Level 2 Persistent	腐蚀喷液-等级2持续
+hand	Celestial Beam CP 2	天界光束-CP2
+hand	Celestial Beam Power CP 2	天界光束充能-CP2
+hand	Char	查尔
+hand	Char Acid	查尔酸液
+hand_comp	Char Nydus Nest (Height 1)	查尔坑道虫巢高度1
+hand_comp	Char Nydus Nest (Height 2)	查尔坑道虫巢高度2
+hand_comp	Char Nydus Nest (Height 3)	查尔坑道虫巢高度3
+hand_comp	Char Nydus Nest Empty (Height 1)	查尔坑道虫巢空置高度1
+hand_comp	Char Nydus Nest Empty (Height 2)	查尔坑道虫巢空置高度2
+hand_comp	Char Nydus Nest Empty (Height 3)	查尔坑道虫巢空置高度3
+hand	Char2	查尔2
+hand_comp	Civilian - Throw Molotov (Launch Missile) (Unit)	平民-投掷燃烧瓶发射导弹单位
+hand_comp	Collapsible Rock Tower Ramp/Diagonal (Conjoined Dummy)	岩堆坡道/对角连体假人
+hand_comp	Collapsible Rock Tower Ramp/Diagonal (Conjoined Search)	岩堆坡道/对角连体搜索
+hand_comp	Collapsible Terran Tower Ramp/Diagonal (Conjoined Dummy)	可折叠人族塔坡道/对角连体假人
+hand_comp	Collapsible Terran Tower Ramp/Diagonal (Conjoined Search)	可折叠人族塔坡道/对角连体搜索
+hand	CollapsibleRockTowerDiagonalMakeInvulnerable	岩堆对角无敌化
+hand_comp	Collapsing Ice Large (Height 1)	崩塌冰面-大型高度1
+hand_comp	Collapsing Ice Large (Height 2)	崩塌冰面-大型高度2
+hand_comp	Collapsing Ice Large (Height 3)	崩塌冰面-大型高度3
+hand_comp	Collapsing Ice Medium (Height 1)	崩塌冰面-中型高度1
+hand_comp	Collapsing Ice Medium (Height 2)	崩塌冰面-中型高度2
+hand_comp	Collapsing Ice Medium (Height 3)	崩塌冰面-中型高度3
+hand	Colonist Vehicle - Park	殖民者载具-停放
+hand	Colonist Vehicle - Start	殖民者载具-启动
+ids_comp	Colony Infestation (Apply Behavior)	移民地感染施加行为
+ids_comp	Colony Infestation (Create Persistent)	移民地感染创建持续
+ids_comp	Colony Infestation (Launch Missile)	移民地感染发射导弹
+hand	Colossus Taldarim Thermal Lances	塔达林巨像热能射线
+hand	Colossus Taldarim Thermal Lances Damage	塔达林巨像热能射线伤害
+hand	Colossus Taldarim Thermal Lances Damage Delay	塔达林巨像热能射线伤害延迟
+hand	Colossus Taldarim Thermal Lances Forward	塔达林巨像热能射线正向
+hand	Colossus Taldarim Thermal Lances Reverse	塔达林巨像热能射线反向
+hand	Colossus Taldarim Thermal Lances Search	塔达林巨像热能射线搜索
+hand	Colossus Taldarim Thermal Lances Search Reverse	塔达林巨像热能射线搜索反向
+hand_comp	Command Center - Remove Cargo on Death (Damage)	指挥中心-死亡时卸下载货伤害
+hand_comp	Concussive Grenade (Damage)	震荡手雷伤害
+hand_comp	Coolant Pipes 1 (Height 1)	冷却管道1高度1
+hand_comp	Coolant Pipes 1 (Height 2)	冷却管道1高度2
+hand_comp	Coolant Pipes 1 (Height 3)	冷却管道1高度3
+hand_comp	Coolant Pipes 2 (Height 1)	冷却管道2高度1
+hand_comp	Coolant Pipes 2 (Height 2)	冷却管道2高度2
+hand_comp	Coolant Pipes 2 (Height 3)	冷却管道2高度3
+hand	Coop -	合作-
+hand	Create Stasis Cocoon Controller Target	创建静滞茧控制目标
+ids	Creep Tumor Used	菌毯肿瘤已使用
+hand_comp	D-8 Cluster Bomb (Launch Missile)	D-8集束炸弹发射导弹
+hand	D-8 Cluster Bomb Create Persistant	D-8集束炸弹创建持续
+hand	D-8 Cluster Bomb Create Unit	D-8集束炸弹创建单位
+hand	D-8 Cluster Bomb Explode	D-8集束炸弹爆炸
+hand	D-8 Cluster Bomb Explode Damage	D-8集束炸弹爆炸伤害
+hand	D-8 Cluster Bomb Launch	D-8集束炸弹发射
+hand_comp	Dark Inertia (AB)	黑暗惯性-AB
+hand_comp	Dark Inertia (Damage)	黑暗惯性伤害
+hand_comp	Dark Inertia (Search Area)	黑暗惯性搜索区域
+hand_comp	Dark Inertia (Set)	黑暗惯性设置
+hand	Dark Inertia Damage Dummy	黑暗惯性伤害假人
+hand	Default	默认
+hand_comp	Default Effect (CEffect)	默认效果-CEffect
+hand_comp	Default Effect (CEffectApplyBehavior)	默认效果-CEffectApplyBehavior
+hand_comp	Default Effect (CEffectApplyForce)	默认效果-CEffectApplyForce
+hand_comp	Default Effect (CEffectCreatePersistent)	默认效果-CEffectCreatePersistent
+hand_comp	Default Effect (CEffectCreateUnit)	默认效果-CEffectCreateUnit
+hand_comp	Default Effect (CEffectEnumArea)	默认效果-CEffectEnumArea
+hand_comp	Default Effect (CEffectEnumTransport)	默认效果-CEffectEnumTransport
+hand_comp	Default Effect (CEffectIssueOrder)	默认效果-CEffectIssueOrder
+hand_comp	Default Effect (CEffectLaunchMissile)	默认效果-CEffectLaunchMissile
+hand_comp	Default Effect (CEffectModifyUnit)	默认效果-CEffectModifyUnit
+hand_comp	Default Effect (CEffectRemoveBehavior)	默认效果-CEffectRemoveBehavior
+hand_comp	Default Effect (CEffectSet)	默认效果-CEffectSet
+hand_comp	Default Effect (CEffectSwitch)	默认效果-CEffectSwitch
+hand_comp	Default Effect (CEffectTeleport)	默认效果-CEffectTeleport
+hand_comp	Default Effect (CEffectTransferBehavior)	默认效果-CEffectTransferBehavior
+hand_comp	Default Effect (CEffectUseMagazine)	默认效果-CEffectUseMagazine
+hand_comp	Default Effect (CEffectUserData)	默认效果-CEffectUserData
+hand_comp	Defense Droid  (Damage)	防御机器人伤害
+hand_comp	Defense Droid (Launch Missile)	防御机器人发射导弹
+hand	Defensive Wall 45 1H Merge 1	防御墙45度1H合并1
+hand	Defensive Wall 45 1H Merge 1 Mirror	防御墙45度1H合并1镜像
+hand	Defensive Wall 45 1H Merge 2	防御墙45度1H合并2
+hand	Defensive Wall 45 1H Merge 2 Mirror	防御墙45度1H合并2镜像
+hand	Defensive Wall 45 2H Merge 1	防御墙45度2H合并1
+hand	Defensive Wall 45 2H Merge 1 Mirror	防御墙45度2H合并1镜像
+hand	Defensive Wall 90 1H Merge 1	防御墙90度1H合并1
+hand	Defensive Wall 90 1H Merge 2	防御墙90度1H合并2
+hand	Defensive Wall 90 1H Merge 2 Mirror	防御墙90度1H合并2镜像
+hand	Defensive Wall 90 2H Merge 1	防御墙90度2H合并1
+hand	Defensive Wall 90 2H Merge 1 Mirror	防御墙90度2H合并1镜像
+hand	Defensive Wall901 HMerge10 Mirror	防御墙90度1H合并10镜像
+hand_comp	Dematerialize (AB)	瓦解-AB
+hand_comp	Devil Dog - Flame Thrower (Create Persistent)	恶魔犬-喷火器创建持续
+hand_comp	Devil Dog - Flame Thrower (Damage)	恶魔犬-喷火器伤害
+hand_comp	Devil Dog - Flame Thrower (Search Area)	恶魔犬-喷火器搜索区域
+hand_comp	Devil Dog - Flame Thrower (Set)	恶魔犬-喷火器设置
+hand_comp	Diamondback - Eviscerator (Beam)	响尾蛇-剖割者光束
+hand_comp	Diamondback - Eviscerator (Set)	响尾蛇-剖割者设置
+hand_comp	Dragoon Champion - Power Shield (Apply)	龙骑士勇士-能量护盾施加
+hand	Dreadnought AG Damage	无畏舰对地伤害
+hand	Dreadnought AG Damage Set	无畏舰对地伤害设置
+hand	Dreadnought AG Missile LM	无畏舰对地导弹-LM
+hand	Dreadnought Missile Burst Persistent	无畏舰导弹齐射持续
+hand	Dreadnought Missile Damage	无畏舰导弹伤害
+hand	Dreadnought Missile Dummy	无畏舰导弹假人
+hand	Dreadnought Missile LM	无畏舰导弹-LM
+hand	Dreadnought Missile Launchers Persistent	无畏舰导弹发射器持续
+hand	Dreadnought Target AA Morph Order	无畏舰对空目标变形命令
+hand	Dreadnought Target AA Morph Order Set	无畏舰对空目标变形命令设置
+hand	Dreadnought Target AA Morph RB	无畏舰对空目标变形-RB
+hand	Dreadnought Target Morph AB	无畏舰目标变形-AB
+hand	Dreadnought Target Morph AG Order	无畏舰对地目标变形命令
+hand	Dreadnought Target Morph Delay Persistent	无畏舰目标变形延迟持续
+hand	Dreadnought Target Morph Order Initial Set	无畏舰目标变形命令初始设置
+hand	Dreadnought Target Morph Persistent	无畏舰目标变形持续
+hand	Dreadnought Target Morph Search Area	无畏舰目标变形搜索区域
+hand	Duke's Revenge - ATA Damage	杜克的复仇-ATA伤害
+hand	Duke's Revenge - ATA Launch Missile	杜克的复仇-ATA发射导弹
+hand	Duke's Revenge - ATS Damage	杜克的复仇-ATS伤害
+hand	Duke's Revenge - ATS Launch Missile	杜克的复仇-ATS发射导弹
+hand_comp	Duke's Revenge - Cannons (Air)	杜克的复仇-火炮对空
+hand_comp	Duke's Revenge - Cannons (Ground)	杜克的复仇-火炮对地
+hand	Enable Drag Move In Selection Mode	在框选模式下启用拖动
+ids	Endless Swarm 1	无尽虫群1
+ids	Endless Swarm 1 CU	无尽虫群1-CU
+ids	Endless Swarm 1 RB	无尽虫群1-RB
+ids	Endless Swarm 2	无尽虫群2
+ids	Endless Swarm 2 CU	无尽虫群2-CU
+ids	Endless Swarm 2 RB	无尽虫群2-RB
+ids	Endless Swarm 3	无尽虫群3
+ids	Endless Swarm 3 CU	无尽虫群3-CU
+ids	Endless Swarm 3 RB	无尽虫群3-RB
+ids	Endless Swarm 4	无尽虫群4
+ids	Endless Swarm 4 CU	无尽虫群4-CU
+ids	Endless Swarm 4 RB	无尽虫群4-RB
+ids	Endless Swarm 5	无尽虫群5
+ids	Endless Swarm 5 CU	无尽虫群5-CU
+ids	Endless Swarm 5 RB	无尽虫群5-RB
+ids	Energy Arc Tower 1 (Damage)	能量-弧塔1伤害
+ids	Energy Arc Tower 1 (Persistent Delay)	能量-弧塔1持续延迟
+ids	Energy Arc Tower 1 (Search)	能量-弧塔1搜索
+ids	Energy Arc Tower 1 (Set)	能量-弧塔1设置
+ids	Energy Arc Tower 2 (Damage)	能量-弧塔2伤害
+ids	Energy Arc Tower 2 (Persistent Delay)	能量-弧塔2持续延迟
+ids	Energy Arc Tower 2 (Search)	能量-弧塔2搜索
+ids	Energy Arc Tower 2 (Set)	能量-弧塔2设置
+ids	Energy Arc Tower 3 (Damage)	能量-弧塔3伤害
+ids	Energy Arc Tower 3 (Set)	能量-弧塔3设置
+hand	Energy Nova DoT Aiur06 Damage	能量新星Dot艾尔06伤害
+hand	Energy Nova DoT Aiur06 Persistent	能量新星Dot艾尔06持续
+hand	Energy Nova DoT Aiur06 Search	能量新星Dot艾尔06搜索
+hand_comp	Expedition Gate (Height 1)	远征之门高度1
+hand_comp	Expedition Gate (Height 2)	远征之门高度2
+hand_comp	Expedition Gate (Height 3)	远征之门高度3
+ids	Extend Bridge Extending Bridge NE Wide 10 Out	延伸桥梁 向东北伸展桥梁 宽度10 结束
+ids	Extend Bridge Extending Bridge NE Wide 12 Out	延伸桥梁 向东北伸展桥梁 宽度12 结束
+ids	Extend Bridge Extending Bridge NE Wide 8 Out	延伸桥梁 向东北伸展桥梁 宽度8 结束
+ids	Extend Bridge Extending Bridge NW Wide 10 Out	延伸桥梁 向东北伸展桥梁 宽度10 结束
+ids	Extend Bridge Extending Bridge NW Wide 12 Out	延伸桥梁 向东北伸展桥梁 宽度12 结束
+ids	Extend Bridge Extending Bridge NW Wide 8 Out	延伸桥梁 向东北伸展桥梁 宽度8 结束
+hand	Fenix Charge Damage	菲尼克斯冲锋伤害
+hand	Fenix Charge Stop	菲尼克斯冲锋停止
+ids	FenixSOA Charge	震慑冲锋
+hand	FenixSOA Charge Stun Apply	菲尼克斯亚顿之矛冲锋眩晕施加
+ids	FenixSOA Charge Stun Caster Remove	震慑冲锋-眩晕施法者移除
+ids	FenixSOA Charge Stun Search	震慑冲锋-眩晕搜索
+ids	FenixSOA Charge Stun Target	震慑冲锋-眩晕目标
+ids	FenixSOA Create Unit	菲尼克斯-创建单位
+ids	FenixSOA Weapon Damage	净化者之刃-伤害
+ids	FenixSOA Weapon Set	净化者之刃-设置
+hand_comp	Firebat - Flame Thrower (Apply DoT Behavior)	火蝠-喷火器施加持续伤害行为
+hand_comp	Firebat - Flame Thrower (Damage)	火蝠-喷火器伤害
+hand_comp	Firebat - Flame Thrower (Enum Area)	火蝠-喷火器区域枚举
+hand_comp	Firebat - Flame Thrower (Persistent)	火蝠-喷火器持续
+hand_comp	Firebat - Flame Thrower (Set)	火蝠-喷火器设置
+hand_comp	Firebat - Flame Thrower (Viral Plasma DoT Damage)	火蝠-喷火器病毒血浆持续伤害
+ids_comp	Flash Freeze Level 0 (Apply Behavior)	寒冰期施加行为
+ids_comp	Flash Freeze Level 0 (Initial Set)	寒冰期初始设置
+ids_comp	Flash Freeze Level 0 (Remove Behavior)	寒冰期移除行为
+ids_comp	Flash Freeze Level 1 (Initial Set)	寒冰期初始设置
+ids_comp	Flash Freeze Level 1 (Remove Behavior)	寒冰期移除行为
+ids_comp	Flash Freeze Level 1(Apply Behavior)	寒冰期施加行为
+ids_comp	Flash Freeze Level 2 (Apply Behavior)	寒冰期施加行为
+ids_comp	Flash Freeze Level 2 (Initial Set)	寒冰期初始设置
+ids_comp	Flash Freeze Level 2 (Remove Behavior)	寒冰期移除行为
+ids_comp	Flash Freeze Level 3 (Apply Behavior)	寒冰期施加行为
+ids_comp	Flash Freeze Level 3 (Damage)	寒冰期伤害
+ids_comp	Flash Freeze Level 3 (Initial Set)	寒冰期初始设置
+ids_comp	Flash Freeze Level 3 (Remove Behavior)	寒冰期移除行为
+hand_comp	Frozen Lake (Height 1)	冰冻湖面高度1
+hand_comp	Frozen Lake (Height 2)	冰冻湖面高度2
+hand_comp	Frozen Lake (Height 3)	冰冻湖面高度3
+ids	Game Time Greater than 5 Seconds	游戏时间大于5秒
+hand_comp	Ghost - C-10 Canister Rifle (Damage)	幽灵-C-10穿甲步枪伤害
+hand_comp	Goliath - Hellfire Missile Pack (Damage)	歌利亚-地狱火导弹组伤害
+hand_comp	Goliath - Hellfire Missile Pack (Persistent)	歌利亚-地狱火导弹组持续
+hand_comp	Goliath - Twin Autocannons (Damage)	歌利亚-双联自动机炮伤害
+hand_comp	Grenadier - Concussive Grenade (Burst)	掷弹兵-震荡手雷齐射
+hand_comp	Grenadier - Concussive Grenade (Damage)	掷弹兵-震荡手雷伤害
+hand_comp	Grenadier - Concussive Grenade (Missile)	掷弹兵-震荡手雷导弹
+hand_comp	Grenadier - Concussive Grenade (Set)	掷弹兵-震荡手雷设置
+hand	Gun Tower B LM	机炮塔B-LM
+hand	Gun Tower C LM	机炮塔C-LM
+hand	Gun Tower D LM	机炮塔D-LM
+hand_comp	Hammer Security - Concussive Grenade (Damage)	巨锤安保-震荡手雷伤害
+hand_comp	Hammer Security - Concussive Grenade (Set)	巨锤安保-震荡手雷设置
+hand	Haven	避难所
+hand	Haven Creep	避难所菌毯
+hand_comp	Hel's Angel - Halo Rockets (Damage)	地狱天使-光环火箭弹伤害
+hand_comp	Hel's Angel - Halo Rockets (Launch Missile)	地狱天使-光环火箭弹发射导弹
+hand_comp	Hel's Angel - Halo Rockets (Persistent)	地狱天使-光环火箭弹持续
+hand_comp	Hel's Angel - Twin Gatling Cannon (Damage)	地狱天使-双联加特林机炮伤害
+hand	Helios	赫利俄斯
+hand_comp	High Templar - Feedback (Damage Target based on Energy)	高阶圣堂武士-反馈按能量伤害目标
+hand_comp	High Templar - Feedback (Remove Target Energy)	高阶圣堂武士-反馈移除目标能量
+hand	High Templar - Mind Blast Damage	高阶圣堂武士-心灵冲击伤害
+hand_comp	High Templar - Psi Orb (Damage)	高阶圣堂武士-灵能宝珠伤害
+hand_comp	High Templar - Psi Orb (Destroy Persistent)	高阶圣堂武士-灵能宝珠毁灭持续
+hand_comp	High Templar - Psi Orb (Final Damage)	高阶圣堂武士-灵能宝珠最终伤害
+hand_comp	High Templar - Psi Orb (Final Search)	高阶圣堂武士-灵能宝珠最终搜索
+hand_comp	High Templar - Psi Orb (Initial Persistent)	高阶圣堂武士-灵能宝珠初始持续
+hand_comp	High Templar - Psi Orb (Launch Missile)	高阶圣堂武士-灵能宝珠发射导弹
+hand_comp	High Templar - Psi Orb (Persistent)	高阶圣堂武士-灵能宝珠持续
+hand_comp	High Templar - Psi Orb (Search)	高阶圣堂武士-灵能宝珠搜索
+hand_comp	High Templar - Psi Orb (Set)	高阶圣堂武士-灵能宝珠设置
+hand	High Templar - Weapon Cripple AB	高阶圣堂武士-武器瘫痪-AB
+hand	High Templar Weapon Launch Missile	高阶圣堂武士武器发射导弹
+hand_comp	HotS - Char Lava Flow (Height 1)	虫群之心-查尔熔岩流高度1
+hand_comp	HotS - Char Lava Flow (Height 2)	虫群之心-查尔熔岩流高度2
+hand_comp	HotS - Char Lava Flow (Height 3)	虫群之心-查尔熔岩流高度3
+hand	HotS Baneling Healer Dummy	虫群之心爆虫治疗者假人
+ids	HotS Leviathan Weapon1 AB	虫群之心利维坦 武器1-施加行为
+ids	HotS Leviathan Weapon1 RB	虫群之心利维坦 武器1-RB
+ids	HotS Leviathan Weapon2 AB	虫群之心利维坦 武器2-施加行为
+ids	HotS Leviathan Weapon2 RB	虫群之心利维坦 武器2-RB
+ids	HotS Leviathan Weapon3 AB	虫群之心利维坦 武器3-施加行为
+ids	HotS Leviathan Weapon3 RB	虫群之心利维坦 武器3-RB
+ids	HotS Leviathan Weapon4 AB	虫群之心利维坦 武器4-施加行为
+ids	HotS Leviathan Weapon4 RB	虫群之心利维坦 武器4-RB
+ids	HotS Raptor Charge LM	跳跃-发射弹道
+ids	HotS Splitterling Death Big	虫群之心分裂虫死亡大型
+hand	HotS Splitterling Suicide Remove Buff	虫群之心分裂虫自杀移除增益
+hand	HotS Splitterling Suicide Target Friendly Switch	虫群之心分裂虫自杀目标友好切换
+hand	HotS Splitterling Volatile Burst Building Damage Big	虫群之心分裂虫不稳定爆裂建筑伤害大
+hand	HotS Splitterling Volatile Burst Building Switch	虫群之心分裂虫不稳定爆裂建筑切换
+hand	HotS Splitterling Volatile Burst Friendly Building Switch	虫群之心分裂虫不稳定爆裂友好建筑切换
+hand	HotS Splitterling Volatile Burst Friendly Unit Switch	虫群之心分裂虫不稳定爆裂友好单位切换
+hand	HotS Splitterling Volatile Burst Set	虫群之心分裂虫不稳定爆裂设置
+hand	HotS Splitterling Volatile Burst Unit Damage Big	虫群之心分裂虫不稳定爆裂单位伤害大
+hand	HotS Splitterling Volatile Burst Unit Switch	虫群之心分裂虫不稳定爆裂单位切换
+hand	HotS Splitterling Volatile Burst Viscous Discharge Apply Behavior	虫群之心分裂虫不稳定爆裂黏稠分泌物施加行为
+hand	HotS Splitterling Volatile Burst Viscous Discharge Search	虫群之心分裂虫不稳定爆裂黏稠分泌物搜索
+hand_comp	Hunter Killer - Melee (Damage)	猎杀者-近战伤害
+hand_comp	Hunter Killer - Needle Spines (Missile)	猎杀者-针刺脊针导弹
+hand_comp	Hybrid Dominator - Plasma Blast (Damage)	混合体支配者-等离子冲击伤害
+hand_comp	Hybrid Dominator - Plasma Blast (Launch Missile)	混合体支配者-等离子冲击发射导弹
+hand_comp	Hybrid Dominator - Psychic Clones (Apply Caster Behavior)	混合体支配者-灵能克隆施加施法者行为
+hand_comp	Hybrid Dominator - Psychic Clones (Apply Spawn Behavior)	混合体支配者-灵能克隆施加生成行为
+hand_comp	Hybrid Dominator - Psychic Clones (Create Persistent)	混合体支配者-灵能克隆创建持续
+hand_comp	Hybrid Dominator - Psychic Clones (Create Unit)	混合体支配者-灵能克隆创建单位
+hand_comp	Hybrid Dominator - Psychic Clones (Remove Caster Behavior)	混合体支配者-灵能克隆移除施法者行为
+hand_comp	Hybrid Gas Vent (Height 1)	混合体排气口高度1
+hand_comp	Hybrid Gas Vent (Height 2)	混合体排气口高度2
+hand_comp	Hybrid Gas Vent (Height 3)	混合体排气口高度3
+hand_comp	Hybrid Glass Floor 1 (Height 1)	混合体玻璃地板1高度1
+hand_comp	Hybrid Glass Floor 1 (Height 2)	混合体玻璃地板1高度2
+hand_comp	Hybrid Glass Floor 1 (Height 3)	混合体玻璃地板1高度3
+hand_comp	Hybrid Glass Floor 2 (Height 1)	混合体玻璃地板2高度1
+hand_comp	Hybrid Glass Floor 2 (Height 2)	混合体玻璃地板2高度2
+hand_comp	Hybrid Glass Floor 2 (Height 3)	混合体玻璃地板2高度3
+hand_comp	Hybrid Lab Brutalisk Cage (Height 1)	混合体实验室残暴兽笼高度1
+hand_comp	Hybrid Lab Brutalisk Cage (Height 2)	混合体实验室残暴兽笼高度2
+hand_comp	Hybrid Lab Brutalisk Cage (Height 3)	混合体实验室残暴兽笼高度3
+hand	HybridC - HybridC Plasma Blast Damage	混合体C-等离子冲击伤害
+hand	HybridC - HybridC Plasma Blast Launch Missile	混合体C-等离子冲击发射导弹
+ids	HybridC Damage	灵能冲击-伤害
+hand_comp	HybridD - ShockD (Launch Missile)	混合体D-震荡发射导弹
+hand	HybridD - ShockD Damage	混合体D-震荡伤害
+hand_comp	HybridE - ShockE (Persistent)	混合体E-震荡持续
+hand	HybridE - ShockE Damage	混合体E-震荡伤害
+hand	HybridF - Consume DNA Create Persistant	混合体F-吞噬DNA创建持续
+hand_comp	HybridF - Hybrid - Consume Zerg (Create Persistent)	混合体F-吞噬虫族创建持续
+hand_comp	HybridF - Hybrid - Consume Zerg (Damage)	混合体F-吞噬虫族伤害
+hand_comp	HybridF - Hybrid - Consume Zerg (Launch Missile)	混合体F-吞噬虫族发射导弹
+hand_comp	HybridF - Hybrid - Consume Zerg (Launch Set)	混合体F-吞噬虫族发射设置
+hand_comp	HybridF - Hybrid - Consume Zerg (Modify Unit)	混合体F-吞噬虫族修改单位
+hand_comp	HybridF - Hybrid - Consume Zerg (Set)	混合体F-吞噬虫族设置
+ids	HybridF Plasma Blast Damage	等离子冲击波-伤害
+ids	HybridF Plasma Blast Launch Missile	等离子冲击波-发射导弹
+ids	Hyperion Korhal Out Of Combat 2 AB	休伯利安号克哈 脱离战斗2-施加行为
+ids	Hyperion Korhal Regen	休伯利安号克哈 恢复
+hand_comp	Immortal - Barrier AB (Base Immortal)	不朽者-屏障-AB基础不朽者
+hand_comp	Immortal - Stasis Heal (Apply)	不朽者-静滞治疗施加
+hand_comp	Immortal - Stasis Heal (Heal)	不朽者-静滞治疗治疗
+hand_comp	Immortal - Stasis Heal (Remove)	不朽者-静滞治疗移除
+hand_comp	Immortal - Stasis Heal (Set)	不朽者-静滞治疗设置
+hand_comp	Immortal - Super Cannons (Apply)	不朽者-超级火炮施加
+hand_comp	Immortal - Super Cannons (Remove)	不朽者-超级火炮移除
+hand	Infested Terran Campaign - Infested Rifle	感染人类战役-感染步枪
+hand	Instant Morph Unburrow	瞬间变形钻出
+hand_comp	Interceptor - Pulse Cannon (Damage)	拦截机-脉冲炮伤害
+hand	Interceptor Create	拦截机创建
+hand	Jelly Grab Impact	水母抓取撞击
+hand	Jelly Grab Impact Air	水母抓取撞击对空
+hand	Jelly Grab Impact Ground	水母抓取撞击对地
+hand	Karax - Master Phase-smith Attack AB	凯拉克斯-相位匠大师攻击-AB
+hand	Karax - Master Phase-smith Production AB	凯拉克斯-相位匠大师生产-AB
+hand	Karax - Master Phase-smith Search	凯拉克斯-相位匠大师搜索
+hand	Karax - Master Phase-smith Set	凯拉克斯-相位匠大师设置
+hand	Karax - Servitor Strike Damage A - Electric	凯拉克斯-仆从打击伤害A-电击
+hand	Karax - Servitor Strike Damage B - Fire	凯拉克斯-仆从打击伤害B-火焰
+hand_comp	Kel-Morian -  (AB)	凯莫瑞安--AB
+hand_comp	Kelmorian Miner - Gauss Rifle (Damage)	凯莫瑞安矿工-高斯步枪伤害
+ids	Kerrigan Ability Efficiency	凯瑞甘技能专精
+hand	Kerrigan Epilogue03 Line Dash Attack Stop	凯瑞甘尾声03直线冲刺攻击停止
+hand	Kerrigan Epilogue03 Strike Amon Dummy Caster	凯瑞甘尾声03打击埃蒙假人施法者
+ids	Kerrigan Void Coop Econ Drop 1 Achievement Behavior	资源拾取-成就行为
+ids	Kerrigan Void Coop Econ Drop 1 Pickup	资源拾取-拾取
+ids	Kerrigan Void Coop Econ Drop 1 Pickup Set	资源拾取-拾取设置
+ids	Kerrigan Void Coop Econ Drop 1 Set	资源拾取-设置
+ids	Kerrigan Void Coop Econ Drop 2 Achievement Behavior	资源拾取-成就行为
+ids	Kerrigan Void Coop Econ Drop 2 Pickup	资源拾取-拾取
+ids	Kerrigan Void Coop Econ Drop 2 Pickup Set	资源拾取-拾取设置
+ids	Kerrigan Void Coop Econ Drop 2 Set	资源拾取-设置
+ids	Kerrigan Void Coop Econ Drop 3 Achievement Behavior	资源拾取-成就行为
+ids	Kerrigan Void Coop Econ Drop 3 Pickup	资源拾取-拾取
+ids	Kerrigan Void Coop Econ Drop 3 Pickup Set	资源拾取-拾取设置
+ids	Kerrigan Void Coop Econ Drop 3 Set	资源拾取-设置
+ids	Kerrigan Void Coop Econ Drop 4 Achievement Behavior	资源拾取-成就行为
+ids	Kerrigan Void Coop Econ Drop 4 Pickup	资源拾取-拾取
+ids	Kerrigan Void Coop Econ Drop 4 Pickup Set	资源拾取-拾取设置
+ids	Kerrigan Void Coop Econ Drop 4 Set	资源拾取-设置
+ids	Kerrigan Void Coop Econ Drop 5 Achievement Behavior	资源拾取-成就行为
+ids	Kerrigan Void Coop Econ Drop 5 Pickup	资源拾取-拾取
+ids	Kerrigan Void Coop Econ Drop 5 Pickup Set	资源拾取-拾取设置
+ids	Kerrigan Void Coop Econ Drop 5 Set	资源拾取-设置
+ids	Kerrigan Void Coop Econ Drop 6 Set	凯瑞甘-合作经济投放6设置
+hand	Kerrigan Void Coop Econ Drop <1 Achievement Behavior	凯瑞甘虚空合作经济空投<1成就行为
+hand	Kerrigan Void Coop Econ Drop <1 Pickup	凯瑞甘虚空合作经济空投<1拾取
+hand	Kerrigan Void Coop Econ Drop <1 Pickup Set	凯瑞甘虚空合作经济空投<1拾取设置
+hand	Kerrigan Void Coop Econ Drop <1 Set	凯瑞甘虚空合作经济空投<1设置
+hand	Korhal	克哈
+hand_comp	Korhal Bile Launcher (Damage)	克哈胆汁发射器伤害
+hand_comp	Korhal Bile Launcher (Delay Persistent)	克哈胆汁发射器延迟持续
+hand_comp	Korhal Bile Launcher (Launch Missile)	克哈胆汁发射器发射导弹
+hand_comp	Korhal Bile Launcher Bombardment (Damage)	克哈胆汁发射器轰炸伤害
+hand_comp	Korhal Bile Launcher Bombardment (Delay Persistent)	克哈胆汁发射器轰炸延迟持续
+hand_comp	Korhal Bile Launcher Bombardment (Launch Missile)	克哈胆汁发射器轰炸发射导弹
+hand	Korhal Hole	克哈弹坑
+hand_comp	Kraith - Crashing Charge (Persistent)	克莱斯-坠击冲锋持续
+hand_comp	Kraith - Crashing Charge Abort (Apply Behavior)	克莱斯-坠击冲锋中止施加行为
+hand_comp	Kraith - Crashing Charge Caster (Apply Force)	克莱斯-坠击冲锋施法者施加力
+hand_comp	Kraith - Crashing Charge Caster (Set)	克莱斯-坠击冲锋施法者设置
+hand_comp	Kraith - Crashing Charge Caster Move (Persistent)	克莱斯-坠击冲锋施法者移动持续
+hand_comp	Kraith - Crashing Charge Check Target (Persistent)	克莱斯-坠击冲锋检查目标持续
+hand_comp	Kraith - Crashing Charge Knockback (Apply Behavior)	克莱斯-坠击冲锋击退施加行为
+hand_comp	Kraith - Crashing Charge Knockback (Apply Force)	克莱斯-坠击冲锋击退施加力
+hand_comp	Kraith - Crashing Charge Knockback (Persistent)	克莱斯-坠击冲锋击退持续
+hand_comp	Kraith - Crashing Charge Knockback (Remove Behavior)	克莱斯-坠击冲锋击退移除行为
+hand_comp	Kraith - Crashing Charge Speed (Apply Behavior)	克莱斯-坠击冲锋速度施加行为
+hand_comp	Kraith - Crashing Charge Speed (Remove Behavior)	克莱斯-坠击冲锋速度移除行为
+hand_comp	Kraith - Falling Rocks (Create Damage Persistent)	克莱斯-落石创建伤害持续
+hand_comp	Kraith - Falling Rocks Unload (Apply Behavior)	克莱斯-落石卸载施加行为
+hand_comp	Laser Drill Tripod -  Laser Beam (Final Damage)	激光钻机三脚架-激光束最终伤害
+hand_comp	Laser Drill Tripod -  Laser Beam (Initial Damage)	激光钻机三脚架-激光束初始伤害
+hand_comp	Laser Drill Tripod -  Laser Beam (Initial Persistant)	激光钻机三脚架-激光束初始持续
+ids	Lightning Shooter	闪电射击者
+hand	Locust Create LM A	蝗虫创建LM-A
+hand	Locust Create LM B	蝗虫创建LM-B
+hand	Locust Creeper Create LM A	蝗虫菌毯创建LM-A
+hand	Locust Creeper Create LM B	蝗虫菌毯创建LM-B
+hand	Locust Flying Create LM A	蝗虫飞行创建LM-A
+hand	Locust Flying Create LM B	蝗虫飞行创建LM-B
+hand	Locust MP Create LM A	蝗虫MP创建LM-A
+hand	Locust MP Create LM B	蝗虫MP创建LM-B
+hand	Locust MP LM	蝗虫MP-LM
+ids	Locust Timed Life	蝗虫限时生命
+hand_comp	Loki -  Armageddon Cannon Left (Damage)	洛基-末日火炮左侧伤害
+hand_comp	Loki -  Armageddon Cannon Right (Damage)	洛基-末日火炮右侧伤害
+hand_comp	Loki -  Armageddon Cannons (Persistent)	洛基-末日火炮持续
+hand_comp	Loki - Hurricane Missile Left (Missile)	洛基-飓风导弹左侧导弹
+hand_comp	Loki - Hurricane Missile Right (Missile)	洛基-飓风导弹右侧导弹
+hand_comp	Loki - Yamato Cannon (Damage)	洛基-大和炮伤害
+hand_comp	Loki - Yamato Cannon (Missile)	洛基-大和炮导弹
+hand	MarSara	玛·萨拉
+hand_comp	Marauder - Stim Pack (Apply Buff)	掠夺者-兴奋剂施加增益
+hand_comp	Marine - Stim Pack (Apply Buff)	陆战队员-兴奋剂施加增益
+hand	Meinhoff	梅恩霍夫
+ids	Mengsk BC A Damage	空对空激光炮组-伤害
+hand	Mengsk BC A LM	蒙斯克战列巡航舰A-LM
+ids	Mengsk BC G Damage	空对地激光炮组-伤害
+hand	Mengsk BC G LM	蒙斯克战列巡航舰G-LM
+hand	Mengsk Goliath A LM	蒙斯克歌利亚A-LM
+ids	Mengsk Thor 250mm Strike Cannons Apply Behavior	250毫米口径弹幕火炮-应用行为
+ids	Mengsk Thor 250mm Strike Cannons Create Persistent	250毫米口径弹幕火炮-创建持续
+ids	Mengsk Thor 250mm Strike Cannons Damage	250毫米口径弹幕火炮-伤害
+ids	Mengsk Thor 250mm Strike Cannons Dummy	250毫米口径弹幕火炮-假人
+ids	Mengsk Thor 250mm Strike Cannons Set	250毫米口径弹幕火炮-设置
+hand	Mercenary Fortress - Fortress Cannons	雇佣兵堡垒-堡垒火炮
+hand_comp	Missile Turret - Hellstorm Missile Pods (Create Persistent)	导弹塔-地狱风暴导弹巢创建持续
+hand_comp	Missile Turret - Hellstorm Missile Pods (Damage)	导弹塔-地狱风暴导弹巢伤害
+hand_comp	Missile Turret - Hellstorm Missile Pods (Launch Missile)	导弹塔-地狱风暴导弹巢发射导弹
+hand	Mitosaurus B LM	毒裂兽B-LM
+hand	Mitosaurus C LM	毒裂兽C-LM
+ids	Morph To Tech Reactor	搭建为科技反应堆
+hand	Mothership - Birth	母舰-诞生
+ids	Mothership Aiur 06 Beam Damage	母舰-射线伤害
+ids	Mothership Aiur 06 Beam Dummy	母舰-射线假人
+ids	Mothership Aiur 06 Beam Persistent	母舰-射线持续
+ids	Mothership Aiur 06 Beam Set	母舰-射线设置
+ids	Mothership Aiur 06 Planet Cracker Damage	母舰-行星碎裂炮 伤害
+ids	Mothership Aiur 06 Planet Cracker Search Area	母舰-行星碎裂炮 搜索区域
+ids	Mothership Aiur 06 Secondary Beam Persistent	母舰-副射线持续
+hand	Mothership Core - Light of Aiur	母舰核心-艾尔之光
+ids	MothershipCore Teleport	传送
+hand	Mutator	突变
+hand	Mutator -	突变-
+hand_comp	Mutator -  (Trigger Notice)	突变-触发器通知
+hand	Mutator Amon Enemy Hero - Karax -	突变-埃蒙敌方英雄-凯拉克斯-
+hand	Mutator Amon Enemy Hero - Karax -  - Electric	突变-埃蒙敌方英雄-凯拉克斯-电击
+hand	Narud Epilogue Low	纳鲁德尾声低阶
+ids	Narud Epilogue Spawn Shade of Narud Create Unit	召唤虚空撕裂者-创建单位
+hand	Needle Spines	针刺脊针
+hand_comp	New Folsom Prison Floor Left (Height 1)	新佛森监狱地板左侧高度1
+hand_comp	New Folsom Prison Floor Left (Height 2)	新佛森监狱地板左侧高度2
+hand_comp	New Folsom Prison Floor Left (Height 3)	新佛森监狱地板左侧高度3
+hand_comp	New Folsom Prison Floor Right (Height 1)	新佛森监狱地板右侧高度1
+hand_comp	New Folsom Prison Floor Right (Height 2)	新佛森监狱地板右侧高度2
+hand_comp	New Folsom Prison Floor Right (Height 3)	新佛森监狱地板右侧高度3
+hand	Niflheim	尼福尔海姆
+hand	Nova - Weapon Damage	诺娃-武器伤害
+hand	NovaArmorBlinkSuitBlinkTeleport	诺娃装甲闪现服传送
+hand	Odin - Anti Air	奥丁-对空
+hand_comp	Odin - Anti Air (Damage)	奥丁-对空伤害
+hand_comp	Odin - Anti Air (Launch Missile)	奥丁-对空发射导弹
+hand	Odin - Hand Gun	奥丁-手炮
+hand_comp	Odin - Hand Gun (Damage Left)	奥丁-手炮伤害左侧
+hand_comp	Odin - Hand Gun (Damage Right)	奥丁-手炮伤害右侧
+hand_comp	Odin - Hand Gun (Damage)	奥丁-手炮伤害
+hand_comp	Omegalisk - Superzerg Blades (Cleave Damage)	欧米伽雷兽-超级虫族利刃顺劈伤害
+hand_comp	Omegalisk - Superzerg Blades (Cleave)	欧米伽雷兽-超级虫族利刃顺劈
+hand_comp	Omegalisk - Superzerg Blades (Damage)	欧米伽雷兽-超级虫族利刃伤害
+hand_comp	Omegalisk - Superzerg Blades (Set)	欧米伽雷兽-超级虫族利刃设置
+hand	Oracle Stasis Ward	预言者静滞守卫
+hand	Oracle Stasis Ward Activate AB	预言者静滞守卫激活-AB
+hand	Oracle Stasis Ward Activate Search	预言者静滞守卫激活搜索
+hand	Oracle Stasis Ward Activate Set	预言者静滞守卫激活设置
+hand	Oracle Stasis Ward Build Beam Off	预言者静滞守卫建造光束关闭
+hand	Oracle Stasis Ward Build Beam On	预言者静滞守卫建造光束开启
+hand	Oracle Stasis Ward CU	预言者静滞守卫-CU
+hand	Oracle Stasis Ward Reveal	预言者静滞守卫显形
+hand_comp	Parasitic Domination (Apply Behavior)	寄生支配施加行为
+hand_comp	Parasitic Domination (Launch Missile)	寄生支配发射导弹
+hand_comp	Phoenix -  (Issue Order)	凤凰-下达命令
+hand_comp	Phoenix - Anti Gravity (Apply Behavior)	凤凰-反重力施加行为
+hand_comp	Phoenix - Anti Gravity (Cancel Burrow)	凤凰-反重力取消潜地
+hand_comp	Phoenix - Anti Gravity (Cancel Lurker Burrow)	凤凰-反重力取消潜伏者潜地
+hand_comp	Phoenix - Anti Gravity (Caster Energy Drain)	凤凰-反重力施法者能量汲取
+hand_comp	Phoenix - Anti Gravity (Height Behavior)	凤凰-反重力高度行为
+hand_comp	Phoenix - Anti Gravity (Initial Set)	凤凰-反重力初始设置
+hand_comp	Phoenix - Anti Gravity (Issue Lurker Order)	凤凰-反重力下达潜伏者命令
+hand_comp	Phoenix - Anti Gravity (Issue Order)	凤凰-反重力下达命令
+hand_comp	Phoenix - Anti Gravity (Periodic Set)	凤凰-反重力周期设置
+hand_comp	Phoenix - Anti Gravity (Persistent)	凤凰-反重力持续
+hand_comp	Phoenix - Anti Gravity (Visibility Dummy)	凤凰-反重力可见性假人
+hand	Phoenix Aiur - Graviton Beam AB - Void Campaign	艾尔凤凰-重力光束-AB-虚空战役
+hand	Phoenix Aiur - Graviton Beam CP - Void Campaign	艾尔凤凰-重力光束-CP-虚空战役
+hand	Phoenix Aiur - Graviton Beam Damage - Void Campaign	艾尔凤凰-重力光束伤害-虚空战役
+hand	Phoenix Aiur - Graviton Beam Height AB - Void Campaign	艾尔凤凰-重力光束高度-AB-虚空战役
+hand	Phoenix Aiur - Graviton Beam Initial Set - Void Campaign	艾尔凤凰-重力光束初始设置-虚空战役
+hand	Phoenix Aiur - Graviton Beam Set - Void Campaign	艾尔凤凰-重力光束设置-虚空战役
+hand	Photon Cannon Teleport Build Start	光子炮传送建造开始
+hand	Photon Cannon Teleport Caster Start	光子炮传送施法者开始
+hand	Photon Cannon Teleport Match Life	光子炮传送匹配生命
+ids	Pickup EX2 Gas 100	拾取-EX2瓦斯100
+ids	Pickup EX2 Gas 200	拾取-EX2瓦斯200
+ids	Pickup EX2 Gas 25	拾取-EX2瓦斯25
+ids	Pickup EX2 Gas 50	拾取-EX2瓦斯50
+ids	Pit Alarak Shield Regen Dummy Damage 2	灵能光环-假人伤害2
+hand	Pit Malash Fight LM AB	皮特马拉什战斗LM-AB
+ids	Pit Malash Shield Regen Dummy Damage 2	马拉什-盾恢复-假人伤害2
+hand	Pit Malash Super Move CP	皮特马拉什超级技能-CP
+hand	Pit Malash Super Move Charge Damage	皮特马拉什超级技能冲锋伤害
+hand_comp	Point Defense Drone - Point Defense Laser (Apply Behavior)	点防御无人机-点防御激光施加行为
+hand_comp	Point Defense Drone - Point Defense Laser (Remove Energy)	点防御无人机-点防御激光移除能量
+hand_comp	Point Defense Drone - Point Defense Laser (Search)	点防御无人机-点防御激光搜索
+hand_comp	Point Defense Drone - Point Defense Laser (Visibility Dummy)	点防御无人机-点防御激光可见性假人
+hand_comp	Port Zion Crusher (Height 1)	锡安港碾压者高度1
+hand_comp	Port Zion Crusher (Height 2)	锡安港碾压者高度2
+hand_comp	Port Zion Crusher (Height 3)	锡安港碾压者高度3
+hand_comp	Port Zion Grid Floor (Height 1)	锡安港网格地板高度1
+hand_comp	Port Zion Grid Floor (Height 2)	锡安港网格地板高度2
+hand_comp	Port Zion Grid Floor (Height 3)	锡安港网格地板高度3
+hand_comp	Port Zion Grid Floor Circle (Height 1)	锡安港网格地板圆高度1
+hand_comp	Port Zion Grid Floor Circle (Height 2)	锡安港网格地板圆高度2
+hand_comp	Port Zion Grid Floor Circle (Height 3)	锡安港网格地板圆高度3
+hand	PortZion	锡安港
+hand_comp	Predator - ROBOT CLAWS [PH] (Damage)	掠夺者-机械爪[占位]伤害
+hand	Predator Retribution Field Set	掠夺者惩戒力场设置
+ids_comp	Primal Egg Power 1 (Damage)	原始虫卵能量1伤害
+ids_comp	Primal Egg Power 1 (Dummy)	原始虫卵能量1假人
+ids_comp	Primal Egg Power 1 (Heal)	原始虫卵能量1治疗
+hand	Primal Lurker	原始潜伏者
+hand_comp	Primal Lurker (Set)	原始潜伏者设置
+hand	Primal Lurker Dummy Search	原始潜伏者假人搜索
+hand	Primal Lurker Search	原始潜伏者搜索
+ids_comp	Primal Slash (Damage)	原始咆哮伤害
+hand_comp	Protoss Docking Bay (Height 1)	星灵泊位高度1
+hand_comp	Protoss Docking Bay (Height 2)	星灵泊位高度2
+hand_comp	Protoss Docking Bay (Height 3)	星灵泊位高度3
+hand	Psi Destroyer Damage	灵能毁灭者伤害
+hand	Psi Destroyer Damage AB	灵能毁灭者伤害-AB
+hand	Psi Destroyer Search	灵能毁灭者搜索
+hand_comp	Psi Disintegrator (Height 1)	灵能瓦解器高度1
+hand_comp	Psi Disintegrator (Height 2)	灵能瓦解器高度2
+hand_comp	Psi Disintegrator (Height 3)	灵能瓦解器高度3
+hand_comp	Psi Shield (Apply Behavior)	灵能护盾施加行为
+hand_comp	Psi Shield (Apply Dummy)	灵能护盾施加假人
+hand_comp	Psi Shield (Modify Unit)	灵能护盾修改单位
+hand_comp	Psi Shield (Remove Dummy)	灵能护盾移除假人
+hand_comp	Psi Shield (Set)	灵能护盾设置
+hand	Purification Nova Targetted	净化新星已定目标
+hand	Purifier03 - Station Transformer Create Push Unit	净化者03-平台变压器创建推进单位
+ids	Queen Burst Heal	虫后爆发治疗
+hand	Queen Channel LM B	虫后引导LM-B
+hand	Queen Channel LM C	虫后引导LM-C
+hand	Quillgor Corpse	奎尔戈尸体
+hand	Quillgor Corpse Set	奎尔戈尸体设置
+hand	Quillgor Medium	奎尔戈中型
+hand	Quillgor Medium Damage	奎尔戈中型伤害
+hand	Quillgor Small	奎尔戈小型
+hand	Quillgor Small Damage	奎尔戈小型伤害
+hand_comp	Raven - Seeker (Damage)	渡鸦-搜猎导弹伤害
+hand_comp	Raven - Seeker (Launch Missile)	渡鸦-搜猎导弹发射导弹
+hand_comp	Raynor - Gauss Rifle (Damage) (TRaynor01)	雷诺-高斯步枪伤害TRaynor01
+hand_comp	Raynor - Gauss Rifle (Horner05S)	雷诺-高斯步枪Horner05S
+hand	Reaper - D-8 Charge	死神-D-8炸药
+hand_comp	Reaper - D-8 Charge (Damage)	死神-D-8炸药伤害
+hand_comp	Reaper - D-8 Charge (Launch Missile)	死神-D-8炸药发射导弹
+hand	Reaper - D-8 Charge Explode	死神-D-8炸药爆炸
+hand	Reaper - D-8 Charge Explode Damage	死神-D-8炸药爆炸伤害
+hand	Reaper - D-8 Charge Launch	死神-D-8炸药发射
+hand_comp	Reaper - P-38 Scythe Guass Pistol (Create Persistent)	死神-P-38“镰刀”高斯手枪创建持续
+hand_comp	Reaper - P-38 Scythe Guass Pistol (Damage)	死神-P-38“镰刀”高斯手枪伤害
+hand	Reaper KD8 Knockback PH LM	死神KD8炸药击退占位-LM
+hand	Redstone	红石
+hand	Replicant Create Unit	复制体创建单位
+hand	Replicant Create Unit Caster	复制体创建单位施法者
+hand	Replicant Create Unit Stun	复制体创建单位眩晕
+hand	Replicant Void Create Unit	虚空复制体创建单位
+hand	Replicant Void Create Unit Caster	虚空复制体创建单位施法者
+hand	Replicant Void Create Unit Stun	虚空复制体创建单位眩晕
+ids_comp	Repulser Field 10 (Search Area)	斥力场(10)搜索区域
+ids_comp	Repulser Field 12 (Search Area)	斥力场(12)搜索区域
+ids_comp	Repulser Field 6 (Search Area)	斥力场(6)搜索区域
+ids_comp	Repulser Field 8 (Search Area)	斥力场(8)搜索区域
+ids_comp	Resource Stun (Additional Targets Search)	晶体矿护盾追加目标搜索
+ids_comp	Resource Stun (Final Search)	晶体矿护盾最终搜索
+ids_comp	Resource Stun (Issue Order)	晶体矿护盾下达命令
+hand_comp	Rip Field (Initial Damage) (Dummy)	撕裂力场初始伤害假人
+hand_comp	Roach - Acid Saliva (HotS Upgrade Set)	蟑螂-酸液唾液虫群之心升级设置
+hand_comp	Roach - Needle Spines (Missile)	蟑螂-针刺脊针导弹
+hand_comp	Rooftop Broken (Height 1)	破损屋顶高度1
+hand_comp	Rooftop Broken (Height 2)	破损屋顶高度2
+hand_comp	Rooftop Broken (Height 3)	破损屋顶高度3
+ids	SJ Hyperion Blink	休伯利安号闪现
+ids	SJ Hyperion Fighters Charge Refund	休伯利安号战斗机费用退还
+ids	SJ Hyperion Ion Thrusters	休伯利安号离子推进器
+ids	SJ Merc AATower LM	天条之塔-发射弹道
+ids	SOA Mothership v4 Beam Damage	母舰-射线伤害
+ids	SOA Mothership v4 Beam Dummy	母舰-射线假人
+ids	SOA Mothership v4 Beam Persistent	母舰-射线持续
+ids	SOA Mothership v4 Beam Set	母舰-射线设置
+ids	SOA Mothership v4 Secondary Beam Persistent	母舰-副射线持续
+ids	SOA Mothership v4 Warp Away AB	母舰-折跃远离-施加行为
+hand	SOA Temporal Field Heroic Unit	亚顿之矛时间力场英雄单位
+hand	SOA Temporal Field Transport Set	亚顿之矛时间力场运输设置
+hand	SOAMothership Line Attack Caster	亚顿之矛母舰直线攻击施法者
+hand	SOAMothership Line Attack Initial	亚顿之矛母舰直线攻击初始
+hand	SOAMothership Line Attack Scan	亚顿之矛母舰直线攻击扫描
+hand	SOAOrbital Strike	亚顿之矛轨道打击
+hand	SOAPlanet Cracker	亚顿之矛裂星炮
+ids	SOAWarp In Reinforcements	正在折跃
+hand	SOAWarp In Reinforcements Zealot Sentinel	亚顿之矛折跃增援狂热者哨兵
+hand	SS_BattlecruiserHunterSeekerAttackLaunch	SS战列巡航舰搜猎攻击发射
+hand	Sacred Jelly Beast	神圣水母兽
+ids	Scout Air	反物质飞弹
+ids	Scout Air LM Left	反物质飞弹-发射弹道左
+ids	Scout Air LM Right	反物质飞弹-发射弹道右
+hand	Scout Air U	侦察机对空-U
+ids	Scout Ground	光子冲击炮
+hand_comp	Screecher Missiles (Create Persistent)	鸣啸导弹创建持续
+hand_comp	Screecher Missiles (Damage)	鸣啸导弹伤害
+hand_comp	Screecher Missiles (Launch Missile)	鸣啸导弹发射导弹
+hand	Scryer Create Persistent 0 Dot 5	预言者创建持续0.5
+ids	Scryer Create Persistent 1 Dot 0	预言-创建持续1持续伤害0
+hand	Scryer Create Persistent 1 Dot 5	预言者创建持续1.5
+ids	Scryer Create Persistent 2 Dot 0	预言-创建持续2持续伤害0
+hand	Scryer Create Persistent 2 Dot 5	预言者创建持续2.5
+ids	Scryer Create Persistent 3 Dot 0	预言-创建持续3持续伤害0
+hand	Seeker Missile Launch	搜猎导弹发射
+ids_comp	Sentry Gun Burrow (Issue Order)	岗哨机枪潜地下达命令
+hand	Sentry Mine Void Delay Remove	哨兵地雷虚空延迟移除
+hand	Shakuras	夏库拉斯
+hand	Shakuras Archives	夏库拉斯档案馆
+hand_comp	Shakuras Hero Gate (Height 1)	夏库拉斯英雄之门高度1
+hand_comp	Shakuras Hero Gate (Height 2)	夏库拉斯英雄之门高度2
+hand_comp	Shakuras Hero Gate (Height 3)	夏库拉斯英雄之门高度3
+hand_comp	Shooter - SS_Battlecruiser Attack (Create Launcher Unit)	射手-SS战列巡航舰攻击创建发射器单位
+hand_comp	Shooter - SS_Battlecruiser Attack (Launch Missile)	射手-SS战列巡航舰攻击发射导弹
+hand_comp	Shooter - SS_Battlecruiser Attack (Offset Persistent)	射手-SS战列巡航舰攻击偏移持续
+hand_comp	Shooter - SS_Battlecruiser Attack (Persistent)	射手-SS战列巡航舰攻击持续
+hand	Shooter - SS_Battlecruiser Collision Check Circle	射手-SS战列巡航舰碰撞检测圈
+hand_comp	Shooter - SS_Battlecruiser Hunter Seeker Attack (Launch Missile)	射手-SS战列巡航舰搜猎攻击发射导弹
+hand_comp	Shooter - SS_Carrier Boss Attack (Issue Order)	射手-SS航母首领攻击下达命令
+hand_comp	Shooter - SS_Carrier Boss Attack (Launch Missile)	射手-SS航母首领攻击发射导弹
+hand_comp	Shooter - SS_Carrier Boss Attack (Persistent)	射手-SS航母首领攻击持续
+hand	Shooter - SS_Carrier Boss Collision Check Circle	射手-SS航母首领碰撞检测圈
+hand	Shooter - SS_Carrier Collision Check Circle	射手-SS航母碰撞检测圈
+hand_comp	Shooter - SS_Carrier Spawn Interceptor (Create Unit)	射手-SS航母生成拦截机创建单位
+hand_comp	Shooter - SS_Carrier Spawn Interceptor (Launch Missile)	射手-SS航母生成拦截机发射导弹
+hand_comp	Shooter - SS_Carrier Spawn Interceptor (Set)	射手-SS航母生成拦截机设置
+hand	Shooter - SS_Collision Damage To Enemy	射手-SS碰撞伤害敌方
+hand	Shooter - SS_Collision Set	射手-SS碰撞设置
+hand_comp	Shooter - SS_Corruptor Attack (Launch Missile)	射手-SS腐蚀者攻击发射导弹
+hand	Shooter - SS_Corruptor Collision Check Circle	射手-SS腐蚀者碰撞检测圈
+hand	Shooter - SS_Corruptor Missile Target Check Circle	射手-SS腐蚀者导弹目标检测圈
+hand_comp	Shooter - SS_Figher Drone Damage Response (Apply Behavior)	射手-SS战机僚机伤害响应施加行为
+hand_comp	Shooter - SS_Fighter Bomb (Apply Missile Death Behavior)	射手-SS战机炸弹施加导弹死亡行为
+hand_comp	Shooter - SS_Fighter Bomb (Make Fighter Invulnerable)	射手-SS战机炸弹使战机无敌
+hand_comp	Shooter - SS_Fighter Bomb (Search For Missiles)	射手-SS战机炸弹搜索导弹
+hand_comp	Shooter - SS_Fighter Bomb (Search For Units)	射手-SS战机炸弹搜索单位
+hand_comp	Shooter - SS_Fighter Bomb (Set)	射手-SS战机炸弹设置
+hand_comp	Shooter - SS_Fighter Bomb (Unit Damage)	射手-SS战机炸弹单位伤害
+hand_comp	Shooter - SS_Fighter Drone Damage Response (Remove Behavior 1)	射手-SS战机僚机伤害响应移除行为1
+hand_comp	Shooter - SS_Fighter Drone Damage Response (Remove Behavior 2)	射手-SS战机僚机伤害响应移除行为2
+hand_comp	Shooter - SS_Fighter Drone Damage Response (Switch)	射手-SS战机僚机伤害响应切换
+hand	Shooter - SS_Fighter LM Left	射手-SS战机左发射导弹
+hand	Shooter - SS_Fighter LM Left Diagonal 1	射手-SS战机左发射导弹对角1
+hand	Shooter - SS_Fighter LM Left Diagonal 2	射手-SS战机左发射导弹对角2
+hand	Shooter - SS_Fighter LM Right	射手-SS战机右发射导弹
+hand	Shooter - SS_Fighter LM Right Diagonal 1	射手-SS战机右发射导弹对角1
+hand	Shooter - SS_Fighter LM Right Diagonal 2	射手-SS战机右发射导弹对角2
+hand	Shooter - SS_Fighter LM Strong 1	射手-SS战机发射导弹强化1
+hand	Shooter - SS_Fighter LM Strong 2	射手-SS战机发射导弹强化2
+hand	Shooter - SS_Fighter Shooting	射手-SS战机射击
+hand	Shooter - SS_Fighter Shooting Diagonal 1	射手-SS战机射击对角1
+hand	Shooter - SS_Fighter Shooting Diagonal 2	射手-SS战机射击对角2
+hand_comp	Shooter - SS_Fighter Shooting Drone 1 (Launch Missile)	射手-SS战机射击僚机1发射导弹
+hand_comp	Shooter - SS_Fighter Shooting Drone 1 (Search)	射手-SS战机射击僚机1搜索
+hand_comp	Shooter - SS_Fighter Shooting Drone 2 (Launch Missile)	射手-SS战机射击僚机2发射导弹
+hand_comp	Shooter - SS_Fighter Shooting Drone 2 (Search)	射手-SS战机射击僚机2搜索
+hand	Shooter - SS_Fighter Shooting Straight	射手-SS战机直线射击
+hand	Shooter - SS_Fighter Shooting Strong 1	射手-SS战机射击强化1
+hand	Shooter - SS_Fighter Shooting Strong 2	射手-SS战机射击强化2
+hand_comp	Shooter - SS_Interceptor Attack (Launch Missile)	射手-SS拦截机攻击发射导弹
+hand	Shooter - SS_Interceptor Collision Check Circle	射手-SS拦截机碰撞检测圈
+hand	Shooter - SS_Leviathan Bomb Collision Check Circle	射手-SS利维坦炸弹碰撞检测圈
+hand_comp	Shooter - SS_Leviathan Bomb Explode (Launch Missile)	射手-SS利维坦炸弹爆炸发射导弹
+hand_comp	Shooter - SS_Leviathan Bomb Explode (Persistent)	射手-SS利维坦炸弹爆炸持续
+hand	Shooter - SS_Leviathan Bomb Missile Target Check Circle	射手-SS利维坦炸弹导弹目标检测圈
+hand	Shooter - SS_Leviathan Collision Check Circle	射手-SS利维坦碰撞检测圈
+hand_comp	Shooter - SS_Leviathan Spawn Bombs (Create Unit)	射手-SS利维坦生成炸弹创建单位
+hand_comp	Shooter - SS_Leviathan Spawn Bombs (Launch Missile)	射手-SS利维坦生成炸弹发射导弹
+hand_comp	Shooter - SS_Leviathan Spawn Bombs (Persistent)	射手-SS利维坦生成炸弹持续
+hand_comp	Shooter - SS_Leviathan Spawn Bombs (Set)	射手-SS利维坦生成炸弹设置
+hand_comp	Shooter - SS_Leviathan Tentacle Attack (Apply New Scan)	射手-SS利维坦触手攻击施加新扫描
+hand_comp	Shooter - SS_Leviathan Tentacle Attack (Missile Impact Set)	射手-SS利维坦触手攻击导弹撞击设置
+hand_comp	Shooter - SS_Leviathan Tentacle Attack (Missile Scan Swap Delay)	射手-SS利维坦触手攻击导弹扫描交换延迟
+hand_comp	Shooter - SS_Leviathan Tentacle Attack (Remove Old Scan)	射手-SS利维坦触手攻击移除旧扫描
+hand_comp	Shooter - SS_Leviathan Tentacle Attack (Target Death Delay)	射手-SS利维坦触手攻击目标死亡延迟
+hand_comp	Shooter - SS_Leviathan Tentacle Attack L1 (Anim Delay)	射手-SS利维坦触手攻击L1动作延迟
+hand_comp	Shooter - SS_Leviathan Tentacle Attack L1 (Create Target)	射手-SS利维坦触手攻击L1创建目标
+hand_comp	Shooter - SS_Leviathan Tentacle Attack L1 (Launch Missile)	射手-SS利维坦触手攻击L1发射导弹
+hand_comp	Shooter - SS_Leviathan Tentacle Attack L2 (Anim Delay)	射手-SS利维坦触手攻击L2动作延迟
+hand_comp	Shooter - SS_Leviathan Tentacle Attack L2 (Create Target)	射手-SS利维坦触手攻击L2创建目标
+hand_comp	Shooter - SS_Leviathan Tentacle Attack L2 (Launch Missile)	射手-SS利维坦触手攻击L2发射导弹
+hand_comp	Shooter - SS_Leviathan Tentacle Attack R1 (Anim Delay)	射手-SS利维坦触手攻击R1动作延迟
+hand_comp	Shooter - SS_Leviathan Tentacle Attack R1 (Create Target)	射手-SS利维坦触手攻击R1创建目标
+hand_comp	Shooter - SS_Leviathan Tentacle Attack R1 (Launch Missile)	射手-SS利维坦触手攻击R1发射导弹
+hand_comp	Shooter - SS_Leviathan Tentacle Attack R2 (Anim Delay)	射手-SS利维坦触手攻击R2动作延迟
+hand_comp	Shooter - SS_Leviathan Tentacle Attack R2 (Create Target)	射手-SS利维坦触手攻击R2创建目标
+hand_comp	Shooter - SS_Leviathan Tentacle Attack R2 (Launch Missile)	射手-SS利维坦触手攻击R2发射导弹
+hand	Shooter - SS_Leviathan Tentacle Missile Target Check Circle	射手-SS利维坦触手导弹目标检测圈
+hand	Shooter - SS_Leviathan Tentacle Missile Target Check Persistent	射手-SS利维坦触手导弹目标检测持续
+hand	Shooter - SS_Leviathan Tentacle Missile Target Check Persistent Inverted	射手-SS利维坦触手导弹目标检测持续反转
+hand_comp	Shooter - SS_Lightning Projector (Line AOE Persistent)	射手-SS闪电投射器直线AOE持续
+hand_comp	Shooter - SS_Lightning Projector (Persistent)	射手-SS闪电投射器持续
+hand_comp	Shooter - SS_Lightning Projector (Search Area)	射手-SS闪电投射器搜索区域
+hand	Shooter - SS_Lightning Projector Collision Check Circle	射手-SS闪电投射器碰撞检测圈
+hand	Shooter - SS_Missile Damage	射手-SS导弹伤害
+hand	Shooter - SS_Missile Damage Drone	射手-SS导弹伤害僚机
+hand	Shooter - SS_Missile Damage Strong 1	射手-SS导弹伤害强化1
+hand	Shooter - SS_Missile Damage Strong 2	射手-SS导弹伤害强化2
+hand	Shooter - SS_Missile Damage Viking	射手-SS导弹伤害维京
+hand	Shooter - SS_Missile Target Check Circle	射手-SS导弹目标检测圈
+hand	Shooter - SS_Missile Target Check Circle Drone	射手-SS导弹目标检测圈僚机
+hand	Shooter - SS_Missile Target Check Circle Strong 1	射手-SS导弹目标检测圈强化1
+hand	Shooter - SS_Missile Target Check Circle Strong 2	射手-SS导弹目标检测圈强化2
+hand	Shooter - SS_Missile Target Check Circle Viking	射手-SS导弹目标检测圈维京
+hand	Shooter - SS_Missile Target Check Viking	射手-SS导弹目标检测维京
+hand	Shooter - SS_Missile Target Check Viking Drone	射手-SS导弹目标检测维京僚机
+hand	Shooter - SS_Missile Target Check Viking Strong 1	射手-SS导弹目标检测维京强化1
+hand	Shooter - SS_Missile Target Check Viking Strong 2	射手-SS导弹目标检测维京强化2
+hand	Shooter - SS_Missile Target Set	射手-SS导弹目标设置
+hand	Shooter - SS_Missile Target Set Drone	射手-SS导弹目标设置僚机
+hand	Shooter - SS_Missile Target Set Strong 1	射手-SS导弹目标设置强化1
+hand	Shooter - SS_Missile Target Set Strong 2	射手-SS导弹目标设置强化2
+hand	Shooter - SS_Missile Target Set Viking	射手-SS导弹目标设置维京
+hand_comp	Shooter - SS_Phoenix Attack (Launch Diagonal Missile Left)	射手-SS凤凰攻击发射对角导弹左
+hand_comp	Shooter - SS_Phoenix Attack (Launch Diagonal Missile Right)	射手-SS凤凰攻击发射对角导弹右
+hand_comp	Shooter - SS_Phoenix Attack (Launch Straight Missile Left)	射手-SS凤凰攻击发射直线导弹左
+hand_comp	Shooter - SS_Phoenix Attack (Launch Straight Missile Right)	射手-SS凤凰攻击发射直线导弹右
+hand_comp	Shooter - SS_Phoenix Attack (Persistent)	射手-SS凤凰攻击持续
+hand	Shooter - SS_Phoenix Collision Check Circle	射手-SS凤凰碰撞检测圈
+hand_comp	Shooter - SS_PowerupMorph (Start Pulse)	射手-SS强化变形开始脉冲
+hand_comp	Shooter - SS_Science Vessel Attack (Launch Missile)	射手-SS科学船攻击发射导弹
+hand_comp	Shooter - SS_Science Vessel Attack (Persistent)	射手-SS科学船攻击持续
+hand	Shooter - SS_Science Vessel Collision Check Circle	射手-SS科学船碰撞检测圈
+hand_comp	Shooter - SS_Science Vessel Teleport (Apply Behavior)	射手-SS科学船传送施加行为
+hand_comp	Shooter - SS_Science Vessel Teleport (Persistent)	射手-SS科学船传送持续
+hand_comp	Shooter - SS_Science Vessel Teleport (Remove Behavior)	射手-SS科学船传送移除行为
+hand_comp	Shooter - SS_Science Vessel Teleport (Teleport)	射手-SS科学船传送传送
+hand	Shooter - SS_Scourge Collision Check Circle	射手-SS自爆蚊碰撞检测圈
+hand_comp	Shooter - SS_Scourge Death (Launch Missile)	射手-SS自爆蚊死亡发射导弹
+hand_comp	Shooter - SS_Scourge Death (Persistent)	射手-SS自爆蚊死亡持续
+hand_comp	Shooter - SS_Scourge Death (Remove Behavior)	射手-SS自爆蚊死亡移除行为
+hand	Shooter - SS_Scourge Missile Target Check Circle	射手-SS自爆蚊导弹目标检测圈
+hand_comp	Shooter - SS_Scout Attack (Launch Missile)	射手-SS侦察机攻击发射导弹
+hand	Shooter - SS_Scout Collision Check Circle	射手-SS侦察机碰撞检测圈
+hand_comp	Shooter - SS_Swarm Guardian Attack (Launch Missile)	射手-SS虫群守卫者攻击发射导弹
+hand_comp	Shooter - SS_Swarm Guardian Attack (Persistent)	射手-SS虫群守卫者攻击持续
+hand	Shooter - SS_Swarm Guardian Collision Check Circle	射手-SS虫群守卫者碰撞检测圈
+hand_comp	Shooter - SS_Terra Tron Arm Attack (Launch Missile)	射手-SS泰拉创手臂攻击发射导弹
+hand_comp	Shooter - SS_Terra Tron Arm Attack (Offset Persistent)	射手-SS泰拉创手臂攻击偏移持续
+hand	Shooter - SS_Terra Tron Arm Missile Target Check Circle	射手-SS泰拉创手臂导弹目标检测圈
+hand_comp	Shooter - SS_Terra Tron Beam Attack (Line AOE Persistent)	射手-SS泰拉创光束攻击直线AOE持续
+hand_comp	Shooter - SS_Terra Tron Beam Attack (Persistent)	射手-SS泰拉创光束攻击持续
+hand_comp	Shooter - SS_Terra Tron Beam Attack (Search Area)	射手-SS泰拉创光束攻击搜索区域
+hand	Shooter - SS_Terra Tron Collision Check Circle	射手-SS泰拉创碰撞检测圈
+hand	Shooter - SS_Terra Tron Head Tracking Dummy Effect	射手-SS泰拉创头部跟踪假人效果
+hand_comp	Shooter - SS_Terra Tron Missile Spinner Attack (Launch Missile)	射手-SS泰拉创导弹旋臂攻击发射导弹
+hand_comp	Shooter - SS_Terra Tron Missile Spinner Attack (Offset Persistent)	射手-SS泰拉创导弹旋臂攻击偏移持续
+hand	Shooter - SS_Terra Tron Missile Spinner Collision Check Circle	射手-SS泰拉创导弹旋臂碰撞检测圈
+hand_comp	Shooter - SS_Terra Tron Saw Attack (Anim Delay)	射手-SS泰拉创锯攻击动作延迟
+hand_comp	Shooter - SS_Terra Tron Saw Attack (Spawn Saw)	射手-SS泰拉创锯攻击生成锯
+hand	Shooter - SS_Terra Tron Saw Collision Check Circle	射手-SS泰拉创锯碰撞检测圈
+hand_comp	Shooter - SS_Wraith Attack (Launch Missile)	射手-SS幽魂攻击发射导弹
+hand	Shooter - SS_Wraith Collision Check Circle	射手-SS幽魂碰撞检测圈
+hand_comp	Show Selection Details (Shift+K)	显示选择详情Shift+K
+ids	Shrine Guardian Anti Grav	圣坛守护者反重力
+hand_comp	Siege Breaker - Arclite Cannon (Damage)	破城者-弧光炮伤害
+hand_comp	Siege Tank - Arclite Cannon (Damage)	攻城坦克-弧光炮伤害
+hand_comp	Skylight (Height 1)	天窗高度1
+hand_comp	Skylight (Height 2)	天窗高度2
+hand_comp	Skylight (Height 3)	天窗高度3
+hand	SoA Super Power Field AB	矩阵过载-AB
+hand	SoA Super Power Field Powered AB	矩阵过载-已供能-AB
+hand	SoA Super Power Field Powered Search	矩阵过载-已供能搜索
+hand	SoA Super Power Field Restore Shields	矩阵过载-恢复护盾
+hand	SoA Super Power Field Search	矩阵过载-搜索
+hand_comp	Soul Steal (Dummy)	窃魂假人
+hand_comp	Space Elevator (Height 1)	太空电梯高度1
+hand_comp	Space Elevator (Height 2)	太空电梯高度2
+hand_comp	Space Elevator (Height 3)	太空电梯高度3
+hand	Space Platform Destructible Cliff Large	太空平台可破坏悬崖-大型
+hand_comp	Space Prison Grid Floor (Height 1)	太空监狱网格地板高度1
+hand_comp	Space Prison Grid Floor (Height 2)	太空监狱网格地板高度2
+hand_comp	Space Prison Grid Floor (Height 3)	太空监狱网格地板高度3
+hand	Spawn Shadow of the Void AB	生成虚空之影-AB
+hand	Spawn Shadow of the Void CU Set	生成虚空之影-CU-设置
+hand	Spawn Shadow of the Void Create Banshee	生成虚空之影创建女妖
+hand	Spawn Shadow of the Void Create Battlecruiser	生成虚空之影创建战列巡航舰
+hand	Spawn Shadow of the Void Create Colossus	生成虚空之影创建巨像
+hand	Spawn Shadow of the Void Create Create Zealot	生成虚空之影创建狂热者
+hand	Spawn Shadow of the Void Create Ghost	生成虚空之影创建幽灵
+hand	Spawn Shadow of the Void Create Hydralisk	生成虚空之影创建刺蛇
+hand	Spawn Shadow of the Void Create Marine	生成虚空之影创建陆战队员
+hand	Spawn Shadow of the Void Create Mutalisk	生成虚空之影创建飞龙
+hand	Spawn Shadow of the Void Create Overseer	生成虚空之影创建监察王虫
+hand	Spawn Shadow of the Void Create Stalker	生成虚空之影创建追猎者
+hand	Spawn Shadow of the Void Create Ultralisk	生成虚空之影创建雷兽
+hand	Spawn Shadow of the Void Create Void Ray	生成虚空之影创建虚空战舰
+hand	Spawn Shadow of the Void Create Zergling	生成虚空之影创建异化虫
+hand	Spawn Shadow of the Void Impact Set	生成虚空之影撞击设置
+hand	Spawn Shadow of the Void Launch Missile	生成虚空之影发射导弹
+hand_comp	Spear of Adun AOE Blast (Damage)	亚顿之矛AOE爆破伤害
+hand_comp	Spear of Adun AOE Blast (Search)	亚顿之矛AOE爆破搜索
+hand_comp	Spear of Adun Line AOE (Damage)	亚顿之矛直线AOE伤害
+hand_comp	Spear of Adun Line AOE (Dummy Damage)	亚顿之矛直线AOE假人伤害
+hand_comp	Spear of Adun Line AOE (Initial Persistent)	亚顿之矛直线AOE初始持续
+hand_comp	Spear of Adun Line AOE (Persistent)	亚顿之矛直线AOE持续
+hand_comp	Spear of Adun Line AOE (Search)	亚顿之矛直线AOE搜索
+hand_comp	Spear of Adun Line AOE (Set)	亚顿之矛直线AOE设置
+hand_comp	Spear of Adun Single Target (Damage)	亚顿之矛单体目标伤害
+hand_comp	Spear of Adun Single Target (Launch Missile)	亚顿之矛单体目标发射导弹
+hand_comp	Spectre - AGR-14 Gauss Rifle (Damage)	幽魂特工-AGR-14高斯步枪伤害
+hand_comp	Stalker - Entropy Lance (Impact Set)	追猎者-熵之长枪撞击设置
+hand_comp	Stalker - Entropy Lance (LM)	追猎者-熵之长枪-LM
+hand	Stalker - NovaArmorBlinkSuitBlinkTeleport	追猎者-诺娃装甲闪现服传送
+hand	Stalker Beam Air	追猎者光束对空
+hand	Starship Floor Plate 12x12 Height 1	星舰地板12x12-高度1
+hand	Starship Floor Plate 12x12 Height 2	星舰地板12x12-高度2
+hand	Starship Floor Plate 12x12 Height 3	星舰地板12x12-高度3
+hand	Starship Floor Plate 6x6 Height 1	星舰地板6x6-高度1
+hand	Starship Floor Plate 6x6 Height 2	星舰地板6x6-高度2
+hand	Starship Floor Plate 6x6 Height 3	星舰地板6x6-高度3
+hand	Starship Floor Plate 8x8 Height 1	星舰地板8x8-高度1
+hand	Starship Floor Plate 8x8 Height 2	星舰地板8x8-高度2
+hand	Starship Floor Plate 8x8 Height 3	星舰地板8x8-高度3
+hand_comp	Starship Flora Pod (A) (Height 1)	星舰植物舱A高度1
+hand_comp	Starship Flora Pod (A) (Height 2)	星舰植物舱A高度2
+hand_comp	Starship Flora Pod (A) (Height 3)	星舰植物舱A高度3
+hand_comp	Starship Flora Pod (B) (Height 1)	星舰植物舱B高度1
+hand_comp	Starship Flora Pod (B) (Height 2)	星舰植物舱B高度2
+hand_comp	Starship Flora Pod (B) (Height 3)	星舰植物舱B高度3
+hand_comp	Starship Flora Pod (C) (Height 1)	星舰植物舱C高度1
+hand_comp	Starship Flora Pod (C) (Height 2)	星舰植物舱C高度2
+hand_comp	Starship Flora Pod (C) (Height 3)	星舰植物舱C高度3
+hand_comp	Starship Flora Pod (D) (Height 1)	星舰植物舱D高度1
+hand_comp	Starship Flora Pod (D) (Height 2)	星舰植物舱D高度2
+hand_comp	Starship Flora Pod (D) (Height 3)	星舰植物舱D高度3
+hand_comp	Starship Flora Pod (E) (Height 1)	星舰植物舱E高度1
+hand_comp	Starship Flora Pod (E) (Height 2)	星舰植物舱E高度2
+hand_comp	Starship Flora Pod (E) (Height 3)	星舰植物舱E高度3
+hand_comp	Starship Flora Pod (F) (Height 1)	星舰植物舱F高度1
+hand_comp	Starship Flora Pod (F) (Height 2)	星舰植物舱F高度2
+hand_comp	Starship Flora Pod (F) (Height 3)	星舰植物舱F高度3
+hand_comp	Starship Flora Pod (G) (Height 1)	星舰植物舱G高度1
+hand_comp	Starship Flora Pod (G) (Height 2)	星舰植物舱G高度2
+hand_comp	Starship Flora Pod (G) (Height 3)	星舰植物舱G高度3
+hand_comp	Starship Flora Pod (H) (Height 1)	星舰植物舱H高度1
+hand_comp	Starship Flora Pod (H) (Height 2)	星舰植物舱H高度2
+hand_comp	Starship Flora Pod (H) (Height 3)	星舰植物舱H高度3
+hand	Stasis Cocoon Movement Speed Bonus 0.05 AB	静滞茧移动速度加成0.05-AB
+hand	Stasis Cocoon Movement Speed Bonus 0.10 AB	静滞茧移动速度加成0.10-AB
+hand	Stasis Cocoon Movement Speed Bonus 0.15 AB	静滞茧移动速度加成0.15-AB
+hand	Stasis Cocoon Movement Speed Bonus 0.20 AB	静滞茧移动速度加成0.20-AB
+hand	Stasis Cocoon Movement Speed Bonus 0.25 AB	静滞茧移动速度加成0.25-AB
+hand	Stasis Cocoon Movement Speed Bonus 0.30 AB	静滞茧移动速度加成0.30-AB
+hand	Stukov - Coop -	斯图科夫-合作-
+hand	Stukov - Corrosive Blast Damage	斯图科夫-腐蚀冲击伤害
+hand	Stukov Infested -	斯图科夫感染体-
+hand	Subway Entrance Right	地铁右入口
+ids	Suicide	自杀
+ids	Supply 1 RB	补给1-RB
+ids	Supply 1 Set	补给1设置
+ids	Supply 2 RB	补给2-RB
+ids	Supply 2 Set	补给2设置
+ids	Supply 3 RB	补给3-RB
+ids	Supply 3 Set	补给3设置
+ids	Supply 4 RB	补给4-RB
+ids	Supply 4 Set	补给4设置
+ids	Supply 5 RB	补给5-RB
+ids	Supply 5 Set	补给5设置
+ids	Supply 6 RB	补给6-RB
+ids	Supply 6 Set	补给6设置
+hand	Supply <1 RB	补给<1-RB
+hand	Supply <1 Set	补给<1设置
+hand_comp	Swann - Concussive Grenade (Create Persistent)	斯旺-震荡手雷创建持续
+hand_comp	Swann - Concussive Grenade (Damage)	斯旺-震荡手雷伤害
+hand_comp	Swann - Concussive Grenade (Launch Missile)	斯旺-震荡手雷发射导弹
+hand_comp	Swann - Place Turret (Create Unit)	斯旺-放置炮塔创建单位
+hand_comp	Swann - Place Turret (Timed Life)	斯旺-放置炮塔时限
+hand_comp	Swann Turret - Flame Thrower (Create Persistent)	斯旺炮塔-喷火器创建持续
+hand_comp	Swann Turret - Flame Thrower (Damage)	斯旺炮塔-喷火器伤害
+hand_comp	Swann Turret - Flame Thrower (Search Area)	斯旺炮塔-喷火器搜索区域
+hand_comp	Swann Turret - Flame Thrower (Set)	斯旺炮塔-喷火器设置
+hand	Swarm Host Egg Animation MP AB	虫群宿主虫卵动画MP-AB
+hand_comp	Swarm Queen - Regeneration Aura (Search)	虫群女王-再生光环搜索
+hand_comp	Swarm Queen - Regeneration Aura (Target)	虫群女王-再生光环目标
+hand	Swarmling Claws	虫群利爪
+hand_comp	TO Valhalla Aircraft Elevator (Height 1)	瓦尔哈拉飞行器电梯高度1
+hand_comp	TO Valhalla Aircraft Elevator (Height 2)	瓦尔哈拉飞行器电梯高度2
+hand_comp	TO Valhalla Aircraft Elevator (Height 3)	瓦尔哈拉飞行器电梯高度3
+hand_comp	TTychus03 - Queen Of Blades - Razor Swarm (Create Persistent)	泰凯斯03-刀锋女王-利刃虫群创建持续
+hand_comp	TTychus03 - Queen Of Blades - Razor Swarm (Damage)	泰凯斯03-刀锋女王-利刃虫群伤害
+hand_comp	TTychus03 - Queen Of Blades - Razor Swarm (Search Area)	泰凯斯03-刀锋女王-利刃虫群搜索区域
+hand_comp	TTychus03 Queen of Blades - Search (Apply Behavior)	泰凯斯03刀锋女王-搜索施加行为
+hand_comp	TTychus03 Queen of Blades - Search (Create Persistent)	泰凯斯03刀锋女王-搜索创建持续
+hand_comp	TTychus03 Queen of Blades - Search (Dummy Impact)	泰凯斯03刀锋女王-搜索假人撞击
+hand_comp	TTychus03 Queen of Blades - Search (Remove Behavior)	泰凯斯03刀锋女王-搜索移除行为
+hand_comp	TValerian03 - Queen Of Blades - Psi Blast (Persistent)	瓦伦里安03-刀锋女王-灵能冲击持续
+hand_comp	TValerian03 - Queen Of Blades - Razor Swarm (Create Persistent)	瓦伦里安03-刀锋女王-利刃虫群创建持续
+hand_comp	TValerian03 - Queen Of Blades - Razor Swarm (Damage)	瓦伦里安03-刀锋女王-利刃虫群伤害
+hand_comp	TValerian03 - Queen Of Blades - Razor Swarm (Search Area)	瓦伦里安03-刀锋女王-利刃虫群搜索区域
+hand	Tarsonis	塔桑尼斯
+ids_comp	Taunt (Apply Behavior)	嘲讽 (搜索)施加行为
+ids_comp	Taunt (Search)	嘲讽 (搜索)搜索
+hand_comp	Terrain Object Fallen Asteroids (Height 1)	地形物件坠落小行星高度1
+hand_comp	Terrain Object Fallen Asteroids (Height 2)	地形物件坠落小行星高度2
+hand_comp	Terrain Object Fallen Asteroids (Height 3)	地形物件坠落小行星高度3
+hand_comp	Terrain Object Fallen Asteroids Scattered (Height 1)	地形物件坠落小行星散布高度1
+hand_comp	Terrain Object Fallen Asteroids Scattered (Height 2)	地形物件坠落小行星散布高度2
+hand_comp	Terrain Object Fallen Asteroids Scattered (Height 3)	地形物件坠落小行星散布高度3
+hand	Terrain Object Holding Pen1	地形物件拘留栏1
+hand	Terrain Object Holding Pen2	地形物件拘留栏2
+hand	Terrain Object Holding Pen3	地形物件拘留栏3
+hand_comp	Terrain Object Hybrid Holding Cell (Height 1)	地形物件混合体囚室高度1
+hand_comp	Terrain Object Hybrid Holding Cell (Height 2)	地形物件混合体囚室高度2
+hand_comp	Terrain Object Hybrid Holding Cell (Height 3)	地形物件混合体囚室高度3
+hand	Terrain Object Space Prison Floor1	地形物件太空监狱地板1
+hand	Terrain Object Space Prison Floor2	地形物件太空监狱地板2
+hand	Terrain Object Space Prison Floor3	地形物件太空监狱地板3
+hand_comp	Terrain Object Trench (Height 1)	地形物件战壕高度1
+hand_comp	Terrain Object Trench (Height 2)	地形物件战壕高度2
+hand_comp	Terrain Object Trench (Height 3)	地形物件战壕高度3
+hand_comp	Terrain Object Trench B1 (Variation 0) (Height 1)	地形物件战壕B1变体0高度1
+hand_comp	Terrain Object Trench B1 (Variation 1) (Height 1)	地形物件战壕B1变体1高度1
+hand_comp	Terrain Object Trench B1 (Variation 2) (Height 1)	地形物件战壕B1变体2高度1
+hand_comp	Terrain Object Trench B2 (Variation 0) (Height 2)	地形物件战壕B2变体0高度2
+hand_comp	Terrain Object Trench B2 (Variation 1) (Height 2)	地形物件战壕B2变体1高度2
+hand_comp	Terrain Object Trench B2 (Variation 2) (Height 2)	地形物件战壕B2变体2高度2
+hand_comp	Terrain Object Trench B3 (Variation 0) (Height 3)	地形物件战壕B3变体0高度3
+hand_comp	Terrain Object Trench B3 (Variation 1) (Height 3)	地形物件战壕B3变体1高度3
+hand_comp	Terrain Object Trench B3 (Variation 2) (Height 3)	地形物件战壕B3变体2高度3
+hand_comp	Terrain Object Trench Diagonal (Height 1)	地形物件战壕对角高度1
+hand_comp	Terrain Object Trench Diagonal (Height 2)	地形物件战壕对角高度2
+hand_comp	Terrain Object Trench Diagonal (Height 3)	地形物件战壕对角高度3
+hand_comp	Terrain Object Xel Naga Artifact Temple (Height 1)	地形物件萨尔纳加神器神庙高度1
+hand_comp	Terrain Object Xel Naga Artifact Temple (Height 2)	地形物件萨尔纳加神器神庙高度2
+hand_comp	Terrain Object Xel Naga Artifact Temple (Height 3)	地形物件萨尔纳加神器神庙高度3
+hand_comp	Terrain Object Xel Naga Ship Bay (Height 1)	地形物件萨尔纳加飞船泊湾高度1
+hand_comp	Terrain Object Xel Naga Ship Bay (Height 2)	地形物件萨尔纳加飞船泊湾高度2
+hand_comp	Terrain Object Xel Naga Ship Bay (Height 3)	地形物件萨尔纳加飞船泊湾高度3
+hand	TerrainObjectXelNagaWedges4x4_1_1	萨尔纳加楔形地形4x4_1_1
+hand	TerrainObjectXelNagaWedges4x4_1_2	萨尔纳加楔形地形4x4_1_2
+hand	TerrainObjectXelNagaWedges4x4_1_3	萨尔纳加楔形地形4x4_1_3
+hand	TerrainObjectXelNagaWedges4x4_2_1	萨尔纳加楔形地形4x4_2_1
+hand	TerrainObjectXelNagaWedges4x4_2_2	萨尔纳加楔形地形4x4_2_2
+hand	TerrainObjectXelNagaWedges4x4_2_3	萨尔纳加楔形地形4x4_2_3
+hand	TerrainObjectXelNagaWedges4x4_3_1	萨尔纳加楔形地形4x4_3_1
+hand	TerrainObjectXelNagaWedges4x4_3_2	萨尔纳加楔形地形4x4_3_2
+hand	TerrainObjectXelNagaWedges4x4_3_3	萨尔纳加楔形地形4x4_3_3
+hand	TerrainObjectXelNagaWedges4x4_4_1	萨尔纳加楔形地形4x4_4_1
+hand	TerrainObjectXelNagaWedges4x4_4_2	萨尔纳加楔形地形4x4_4_2
+hand	TerrainObjectXelNagaWedges4x4_4_3	萨尔纳加楔形地形4x4_4_3
+hand	TerrainObjectXelNagaWedges4x4_5_1	萨尔纳加楔形地形4x4_5_1
+hand	TerrainObjectXelNagaWedges4x4_5_2	萨尔纳加楔形地形4x4_5_2
+hand	TerrainObjectXelNagaWedges4x4_5_3	萨尔纳加楔形地形4x4_5_3
+hand	TerrainObjectXelNagaWedges4x4_6_1	萨尔纳加楔形地形4x4_6_1
+hand	TerrainObjectXelNagaWedges4x4_6_2	萨尔纳加楔形地形4x4_6_2
+hand	TerrainObjectXelNagaWedges4x4_6_3	萨尔纳加楔形地形4x4_6_3
+hand	TerrainObjectXelNagaWedges4x4_7_1	萨尔纳加楔形地形4x4_7_1
+hand	TerrainObjectXelNagaWedges4x4_7_2	萨尔纳加楔形地形4x4_7_2
+hand	TerrainObjectXelNagaWedges4x4_7_3	萨尔纳加楔形地形4x4_7_3
+hand	TerrainObjectXelNagaWedges6x6_1_1	萨尔纳加楔形地形6x6_1_1
+hand	TerrainObjectXelNagaWedges6x6_1_2	萨尔纳加楔形地形6x6_1_2
+hand	TerrainObjectXelNagaWedges6x6_1_3	萨尔纳加楔形地形6x6_1_3
+hand	TerrainObjectXelNagaWedges6x6_2_1	萨尔纳加楔形地形6x6_2_1
+hand	TerrainObjectXelNagaWedges6x6_2_2	萨尔纳加楔形地形6x6_2_2
+hand	TerrainObjectXelNagaWedges6x6_2_3	萨尔纳加楔形地形6x6_2_3
+hand	TerrainObjectXelNagaWedges6x6_3_1	萨尔纳加楔形地形6x6_3_1
+hand	TerrainObjectXelNagaWedges6x6_3_2	萨尔纳加楔形地形6x6_3_2
+hand	TerrainObjectXelNagaWedges6x6_3_3	萨尔纳加楔形地形6x6_3_3
+hand	TerrainObjectXelNagaWedges8x4_1_1	萨尔纳加楔形地形8x4_1_1
+hand	TerrainObjectXelNagaWedges8x4_1_2	萨尔纳加楔形地形8x4_1_2
+hand	TerrainObjectXelNagaWedges8x4_1_3	萨尔纳加楔形地形8x4_1_3
+hand	TerrainObjectXelNagaWedges8x4_2_1	萨尔纳加楔形地形8x4_2_1
+hand	TerrainObjectXelNagaWedges8x4_2_2	萨尔纳加楔形地形8x4_2_2
+hand	TerrainObjectXelNagaWedges8x4_2_3	萨尔纳加楔形地形8x4_2_3
+hand	TerrainObjectXelNagaWedges8x6_1_1	萨尔纳加楔形地形8x6_1_1
+hand	TerrainObjectXelNagaWedges8x6_1_2	萨尔纳加楔形地形8x6_1_2
+hand	TerrainObjectXelNagaWedges8x6_1_3	萨尔纳加楔形地形8x6_1_3
+hand	TerrainObjectXelNagaWedges8x6_2_1	萨尔纳加楔形地形8x6_2_1
+hand	TerrainObjectXelNagaWedges8x6_2_2	萨尔纳加楔形地形8x6_2_2
+hand	TerrainObjectXelNagaWedges8x6_2_3	萨尔纳加楔形地形8x6_2_3
+hand	TerrainObjectXelNagaWedges8x6_3_1	萨尔纳加楔形地形8x6_3_1
+hand	TerrainObjectXelNagaWedges8x6_3_2	萨尔纳加楔形地形8x6_3_2
+hand	TerrainObjectXelNagaWedges8x6_3_3	萨尔纳加楔形地形8x6_3_3
+hand	Thermal Lances Freindly CP	热能射线友方-CP
+hand_comp	Thermal Lances Freindly CP (Air)	热能射线友方-CP对空
+hand_comp	Thor - Anti Air (Damage)	雷神-对空伤害
+hand_comp	Thor - Anti Air (Launch Missile)	雷神-对空发射导弹
+hand_comp	Thor - Anti Air (Persistent)	雷神-对空持续
+hand_comp	Thor - Arm Cannons (Persistent)	雷神-臂炮持续
+hand	Thor Hand Gun Splash Damage Target	雷神手炮溅射伤害目标
+hand_comp	Titan Mech Missile (Launch Missile)	泰坦机甲导弹发射导弹
+hand_comp	Titan Mech Missile (Persistent)	泰坦机甲导弹持续
+ids	TornadoMissile CP	龙卷风导弹-CP
+hand_comp	Tosh - Z Assassin Rifle (Damage)	托什-Z刺客步枪伤害
+ids	TychusSpectreExtendedPulseGun	泰凯斯幽魂延伸脉冲枪
+ids	TychusSpectreSuperUltrasonicPulse	泰凯斯幽魂超级超声波脉冲
+ids	TychusWarhoundAutoTurretTimedLife	泰凯斯战狼自动炮塔定时生命
+hand_comp	Ultralisk - Head Attack (Damage)	雷兽-头部攻击伤害
+hand	UmojanLabPlatformCellMassive Height 1	尤摩扬实验室平台巨型舱-高度1
+hand	UmojanLabPlatformCellMassive Height 2	尤摩扬实验室平台巨型舱-高度2
+hand	UmojanLabPlatformCellMassive Height 3	尤摩扬实验室平台巨型舱-高度3
+hand	Unit Knockback By12 Apply Behavior	单位击退12-施加行为
+hand	Unit Knockback By12 Impact	单位击退12-撞击
+hand	Unit Knockback By12 Place Holder Launch MissileHLM	单位击退12-占位发射导弹HLM
+hand	Unit Knockback By12 Remove Behavior	单位击退12-移除行为
+hand	Unit Knockback By2 Apply Behavior	单位击退2-施加行为
+hand	Unit Knockback By2 Impact	单位击退2-撞击
+hand	Unit Knockback By2 Place Holder Launch Missile	单位击退2-占位发射导弹
+hand	Unit Knockback By2 Remove Behavior	单位击退2-移除行为
+hand	Unit Knockback By3 Apply Behavior	单位击退3-施加行为
+hand	Unit Knockback By3 Impact	单位击退3-撞击
+hand	Unit Knockback By3 Place Holder Launch Missile	单位击退3-占位发射导弹
+hand	Unit Knockback By3 Remove Behavior	单位击退3-移除行为
+hand	Unit Knockback By4 Apply Behavior	单位击退4-施加行为
+hand	Unit Knockback By4 Impact	单位击退4-撞击
+hand	Unit Knockback By4 Place Holder Launch Missile	单位击退4-占位发射导弹
+hand	Unit Knockback By4 Remove Behavior	单位击退4-移除行为
+hand	Unit Knockback By5 Apply Behavior	单位击退5-施加行为
+hand	Unit Knockback By5 Impact	单位击退5-撞击
+hand	Unit Knockback By5 Place Holder Launch Missile	单位击退5-占位发射导弹
+hand	Unit Knockback By5 Remove Behavior	单位击退5-移除行为
+hand	Unit Knockback By6 Apply Behavior	单位击退6-施加行为
+hand	Unit Knockback By6 Impact	单位击退6-撞击
+hand	Unit Knockback By6 Place Holder Launch Missile	单位击退6-占位发射导弹
+hand	Unit Knockback By6 Remove Behavior	单位击退6-移除行为
+hand	Unit Knockback By7 Apply Behavior	单位击退7-施加行为
+hand	Unit Knockback By7 Impact	单位击退7-撞击
+hand	Unit Knockback By7 Place Holder Launch Missile	单位击退7-占位发射导弹
+hand	Unit Knockback By7 Remove Behavior	单位击退7-移除行为
+hand_comp	Valhalla Glass Floor (Height 1)	瓦尔哈拉玻璃地板高度1
+hand_comp	Valhalla Glass Floor (Height 2)	瓦尔哈拉玻璃地板高度2
+hand_comp	Valhalla Glass Floor (Height 3)	瓦尔哈拉玻璃地板高度3
+hand_comp	Valhalla Grid 45 Floor (Height 1)	瓦尔哈拉45度网格地板高度1
+hand_comp	Valhalla Grid 45 Floor (Height 2)	瓦尔哈拉45度网格地板高度2
+hand_comp	Valhalla Grid 45 Floor (Height 3)	瓦尔哈拉45度网格地板高度3
+hand_comp	Valhalla Grid Floor (Height 1)	瓦尔哈拉网格地板高度1
+hand_comp	Valhalla Grid Floor (Height 2)	瓦尔哈拉网格地板高度2
+hand_comp	Valhalla Grid Floor (Height 3)	瓦尔哈拉网格地板高度3
+hand_comp	Viking - Halo Rockets (Damage)	维京-光环火箭弹伤害
+hand_comp	Viking - Halo Rockets (Launch Missile)	维京-光环火箭弹发射导弹
+hand_comp	Viking - Halo Rockets (Persistent)	维京-光环火箭弹持续
+hand_comp	Viking - Twin Gatling Cannon (Damage)	维京-双联加特林机炮伤害
+hand_comp	Viper - Abduct (Apply Behavior)	毒蛇-绑架施加行为
+hand_comp	Viper - Abduct (Apply Tentacle Behavior)	毒蛇-绑架施加触手行为
+hand_comp	Viper - Abduct (Launch Missile)	毒蛇-绑架发射导弹
+hand_comp	Viper - Abduct (Launch Target)	毒蛇-绑架发射目标
+hand_comp	Viper - Abduct (Set)	毒蛇-绑架设置
+hand_comp	Viper - Abduct (Teleport)	毒蛇-绑架传送
+hand_comp	Void - Heroic Aura (Modify) - Artanis (Aiur 01)	虚空-英雄光环(修改)-阿塔尼斯艾尔01
+hand_comp	Void - Heroic Aura (Search) - Artanis (Aiur 01)	虚空-英雄光环(搜索)-阿塔尼斯艾尔01
+hand_comp	Void - XelNaga Obelisk Energy Channel (Modify Unit)	虚空-萨尔纳加方尖碑能量引导修改单位
+hand_comp	Void - XelNaga Obelisk Energy Channel (Persistent)	虚空-萨尔纳加方尖碑能量引导持续
+hand	Void Carrier Bombing	虚空航母轰炸
+hand	Void Carrier Bombing Bombs	虚空航母轰炸炸弹
+hand	Void Carrier Interceptor Bombs	虚空航母拦截机炸弹
+hand	Void Dark Templar Shadow Fury Apply AOE	虚空黑暗圣堂武士暗影之怒施加AOE
+hand	Void Dark Templar Shadow Fury Damage AOE	虚空黑暗圣堂武士暗影之怒伤害AOE
+hand	Void Dark Templar Shadow Fury Damage Persistent AOE	虚空黑暗圣堂武士暗影之怒伤害持续AOE
+hand	Void Dark Templar Shadow Fury Impact Set AOE	虚空黑暗圣堂武士暗影之怒撞击设置AOE
+hand	Void Dark Templar Shadow Fury Persistent AOE	虚空黑暗圣堂武士暗影之怒持续AOE
+hand	Void Dark Templar Shadow Fury Search AOE	虚空黑暗圣堂武士暗影之怒搜索AOE
+hand	Void Dark Templar Shadow Fury Set AOE	虚空黑暗圣堂武士暗影之怒设置AOE
+hand	Void Dark Templar Shadow Fury Target	虚空黑暗圣堂武士暗影之怒目标
+hand	Void Dark Templar Shadow Fury Teleport AOE	虚空黑暗圣堂武士暗影之怒传送AOE
+hand	Void Dark Templar Shadow Fury Teleport Final AOE	虚空黑暗圣堂武士暗影之怒传送最终AOE
+hand	Void Dark Templar Shadow Fury Teleport Final CP AOE	虚空黑暗圣堂武士暗影之怒传送最终CPAOE
+hand	Void NovaWeaponBlazefireBladeShadowFuryCP AOE	虚空诺娃炎刃暗影之怒CP AOE
+hand	Void NovaWeaponBlazefireBladeShadowFuryDamage AOE	虚空诺娃炎刃暗影之怒伤害AOE
+hand	Void NovaWeaponBlazefireBladeShadowFuryFinal AOE	虚空诺娃炎刃暗影之怒最终AOE
+hand	Void NovaWeaponBlazefireBladeShadowFuryImpactSet AOE	虚空诺娃炎刃暗影之怒撞击设置AOE
+hand	Void NovaWeaponBlazefireBladeShadowFuryPersistent AOE	虚空诺娃炎刃暗影之怒持续AOE
+hand	Void NovaWeaponBlazefireBladeShadowFurySearch AOE	虚空诺娃炎刃暗影之怒搜索AOE
+hand	Void NovaWeaponBlazefireBladeShadowFuryTeleport AOE	虚空诺娃炎刃暗影之怒传送AOE
+hand	Void Ray Charge Beam Bounce Caster	虚空战舰充能光束弹射施法者
+hand	Void Ray Charge Beam Bounce Phase2	虚空战舰充能光束弹射阶段2
+hand	Void Ray Charge Beam Bounce Phase3	虚空战舰充能光束弹射阶段3
+hand	Void Ray Charge Beam Caster	虚空战舰充能光束施法者
+hand	Void Ray Charge Beam Range Caster	虚空战舰充能光束射程施法者
+hand	Void Ray Hero - Void Ray Charge Chain	英雄虚空战舰-虚空战舰充能连锁
+hand	Void Ray Hero - Void Ray Charge Effect 01	英雄虚空战舰-虚空战舰充能效果01
+hand	Void Ray Hero - Void Ray Charge Effect 02	英雄虚空战舰-虚空战舰充能效果02
+hand	Void Ray Hero - Void Ray Charge Effect 03	英雄虚空战舰-虚空战舰充能效果03
+hand	Void Ray Hero - Void Ray Charge Initial	英雄虚空战舰-虚空战舰充能初始
+hand	Void Ray Hero - Void Ray MU Initial	英雄虚空战舰-虚空战舰MU初始
+hand	Void Ray MU Base	虚空战舰MU基础
+hand	Void Shard Unstable Energy Search	虚空碎片不稳定能量搜索
+hand	Void Shard Unstable Energy Spawn Effect	虚空碎片不稳定能量生成效果
+hand	Void Shard Void Zone Root Damage	虚空碎片虚空区域根须伤害
+hand_comp	Void Thrasher - Disable Abilities (Apply)	虚空撕裂者-禁用技能施加
+hand_comp	Void Thrasher - Fireball (Create Persistent)	虚空撕裂者-火球创建持续
+hand_comp	Void Thrasher - Fireball (Damage)	虚空撕裂者-火球伤害
+hand_comp	Void Thrasher - Fireball (Launch Missile)	虚空撕裂者-火球发射导弹
+hand_comp	Void Thrasher - Lightning AoE (Create Persistent)	虚空撕裂者-闪电AOE创建持续
+hand_comp	Void Thrasher - Lightning AoE (Damage)	虚空撕裂者-闪电AOE伤害
+hand_comp	Void Thrasher - Lightning AoE (Search)	虚空撕裂者-闪电AOE搜索
+hand_comp	Void Thrasher - Scourge Missile (Damage)	虚空撕裂者-自爆蚊导弹伤害
+hand_comp	Void Thrasher - Scourge Missile (Launch)	虚空撕裂者-自爆蚊导弹发射
+hand_comp	Void Thrasher - Scourge Missile (Persistent)	虚空撕裂者-自爆蚊导弹持续
+hand_comp	Void Thrasher - Spawn Baneling (Create)	虚空撕裂者-生成爆虫创建
+hand_comp	Void Thrasher - Spawn Baneling (Impact Set)	虚空撕裂者-生成爆虫撞击设置
+hand_comp	Void Thrasher - Spawn Baneling (Launch Missile)	虚空撕裂者-生成爆虫发射导弹
+hand_comp	Void Thrasher - Spawn Baneling (Launch Set)	虚空撕裂者-生成爆虫发射设置
+hand_comp	Void Thrasher - Spawn Hydralisk (Create)	虚空撕裂者-生成刺蛇创建
+hand_comp	Void Thrasher - Spawn Hydralisk (Impact Set)	虚空撕裂者-生成刺蛇撞击设置
+hand_comp	Void Thrasher - Spawn Hydralisk (Launch Missile)	虚空撕裂者-生成刺蛇发射导弹
+hand_comp	Void Thrasher - Spawn Hydralisk (Launch Set)	虚空撕裂者-生成刺蛇发射设置
+hand_comp	Void Thrasher - Spawn Roach (Create)	虚空撕裂者-生成蟑螂创建
+hand_comp	Void Thrasher - Spawn Roach (Impact Set)	虚空撕裂者-生成蟑螂撞击设置
+hand_comp	Void Thrasher - Spawn Roach (Launch Missile)	虚空撕裂者-生成蟑螂发射导弹
+hand_comp	Void Thrasher - Spawn Roach (Launch Set)	虚空撕裂者-生成蟑螂发射设置
+hand_comp	Void Thrasher - Spawn Zergling (Create)	虚空撕裂者-生成异化虫创建
+hand_comp	Void Thrasher - Spawn Zergling (Impact Set)	虚空撕裂者-生成异化虫撞击设置
+hand_comp	Void Thrasher - Spawn Zergling (Launch Missile)	虚空撕裂者-生成异化虫发射导弹
+hand_comp	Void Thrasher - Spawn Zergling (Launch Set)	虚空撕裂者-生成异化虫发射设置
+hand_comp	Void Thrasher - Thrasher Wave (Search)	虚空撕裂者-撕裂波搜索
+hand_comp	Void Thrasher Baneling Missile (Create Persistent)	虚空撕裂者爆虫导弹创建持续
+hand_comp	Void Thrasher Baneling Missile (Damage)	虚空撕裂者爆虫导弹伤害
+hand_comp	Void Thrasher Baneling Missile (Destroy Persistent)	虚空撕裂者爆虫导弹毁灭持续
+hand_comp	Void Thrasher Baneling Missile (Dummy)	虚空撕裂者爆虫导弹假人
+hand_comp	Void Thrasher Baneling Missile (Impact Set)	虚空撕裂者爆虫导弹撞击设置
+hand_comp	Void Thrasher Baneling Missile (Launch Set)	虚空撕裂者爆虫导弹发射设置
+hand_comp	Void Thrasher Baneling Missile (Launch)	虚空撕裂者爆虫导弹发射
+hand	Void Thrasher Deep Tunnel Teleport Destroy Buildings	虚空撕裂者深槽传送摧毁建筑
+hand	Void Thrasher Deep Tunnel Teleport Destroy Buildings Search	虚空撕裂者深槽传送摧毁建筑搜索
+hand	Void Thrasher Shield Fireball Damage	虚空撕裂者护盾火球伤害
+hand	Void Thrasher Shield Fireball Launch Missile	虚空撕裂者护盾火球发射导弹
+hand	Void Zealot Shadow Charge Slow Target AB	虚空狂热者暗影冲锋目标减速-AB
+hand	Void Zealot Shadow Charge Stun Target AB	虚空狂热者暗影冲锋目标眩晕-AB
+hand_comp	Volitile Burst (Viscous Discharge Apply Behavior)	挥发爆发黏稠分泌物施加行为
+hand_comp	Volitile Burst (Viscous Discharge Search)	挥发爆发黏稠分泌物搜索
+hand	Vortex Kill Damage	漩涡击杀伤害
+hand_comp	Vulcan Champion - Karax Champion Scraper (Apply)	伏尔甘勇士-凯拉克斯勇士铲刃施加
+hand_comp	Vulcan Champion - Karax Champion Scraper (Modify)	伏尔甘勇士-凯拉克斯勇士铲刃修改
+hand_comp	Vulcan Champion - Karax Champion Scraper (Search)	伏尔甘勇士-凯拉克斯勇士铲刃搜索
+hand_comp	Vulcan Champion - Karax Champion Shield Restore (Apply)	伏尔甘勇士-凯拉克斯勇士护盾恢复施加
+hand_comp	Vulcan Champion - Karax Champion Shield Restore (Heal Switch)	伏尔甘勇士-凯拉克斯勇士护盾恢复治疗切换
+hand_comp	Vulcan Champion - Karax Champion Shield Restore (Modify)	伏尔甘勇士-凯拉克斯勇士护盾恢复修改
+hand_comp	Vulcan Champion - Karax Champion Shield Restore (Set)	伏尔甘勇士-凯拉克斯勇士护盾恢复设置
+hand_comp	Vulcan Champion - Karax Champion Shield Restore Mechanical (Modify)	伏尔甘勇士-凯拉克斯勇士护盾恢复机械修改
+hand_comp	Vulcan Champion - Karax Champion Shield Restore Shock (Damage)	伏尔甘勇士-凯拉克斯勇士护盾恢复冲击伤害
+hand_comp	Vulcan Champion - Karax Champion Shield Restore Shock (Search)	伏尔甘勇士-凯拉克斯勇士护盾恢复冲击搜索
+hand_comp	Vulcan Champion - Karax Champion Weapon (Damage)	伏尔甘勇士-凯拉克斯勇士武器伤害
+hand_comp	Vulcan Champion - Karax Champion Weapon (Launch Missile)	伏尔甘勇士-凯拉克斯勇士武器发射导弹
+hand_comp	Vulture - Fragmentation Grenade (Missile)	秃鹫-破片手雷导弹
+hand_comp	Vulture - Replenish Nano-Constructor (Modify Constructor charge count)	秃鹫-补充纳米建造器修改建造者充能次数
+hand	Warbot B LM	武装机器人B-LM
+hand	Warbot C	武装机器人C
+hand	Warbot C CP	武装机器人C-CP
+hand	Warbot C E	武装机器人C-E
+hand	Weapon Search Area	武器搜索区域
+hand_comp	Wraith - Hurricane Laser (Damage)	幽魂战机-飓风激光伤害
+hand_comp	Wraith - Hurricane Laser (Launch Missile)	幽魂战机-飓风激光发射导弹
+hand_comp	Wraith - Hurricane Missiles (Damage)	幽魂战机-飓风导弹伤害
+hand_comp	Wraith - Hurricane Missiles (Launch Missile)(Left)	幽魂战机-飓风导弹发射导弹左
+hand_comp	Wraith - Hurricane Missiles (Launch Missile)(Right)	幽魂战机-飓风导弹发射导弹右
+hand_comp	Wraith - Hurricane Missiles (Persistent)	幽魂战机-飓风导弹持续
+hand	Xel'Naga Charged Crystal Damage	萨尔纳加充能水晶伤害
+hand_comp	Xel'Naga Crystal (Kill Prison)	萨尔纳加水晶摧毁监狱
+hand_comp	Xel'Naga Crystal (Search)	萨尔纳加水晶搜索
+hand_comp	Xel'Naga Prison (Height 1) (North Facing)	萨尔纳加监狱高度1朝北
+hand_comp	Xel'Naga Prison (Height 1) (South Facing)	萨尔纳加监狱高度1朝南
+hand_comp	Xel'Naga Prison (Height 2) (North Facing)	萨尔纳加监狱高度2朝北
+hand_comp	Xel'Naga Prison (Height 2) (South Facing)	萨尔纳加监狱高度2朝南
+hand_comp	Xel'Naga Shadow Step (Apply In)	萨尔纳加暗影步施加进入
+hand_comp	Xel'Naga Shadow Step (Apply Out)	萨尔纳加暗影步施加离开
+hand_comp	Xel'Naga Shadow Step (Launch Missile)	萨尔纳加暗影步发射导弹
+hand_comp	Xel'Naga Shadow Step (Set)	萨尔纳加暗影步设置
+hand_comp	Xel'Naga Ship Alarm (Apply Behavior)	萨尔纳加飞船警报施加行为
+hand_comp	Xel'Naga Ship Alarm (Remove Behavior)	萨尔纳加飞船警报移除行为
+hand_comp	Xel'Naga Ship Alarm (Search)	萨尔纳加飞船警报搜索
+hand	Xil	希尔
+hand	ZZerus01 Meat Attacked AB	泽鲁斯01肉体受击-AB
+hand	Zagara Baneling Barrage CP	扎加拉爆虫弹幕-CP
+hand	Zagara Baneling Barrage Explode Search Set	扎加拉爆虫弹幕爆炸搜索设置
+hand	Zagara Baneling Barrage Explode Search Structure	扎加拉爆虫弹幕爆炸搜索建筑
+hand	Zagara Baneling Barrage Explode Search Unit	扎加拉爆虫弹幕爆炸搜索单位
+hand	Zagara Baneling Barrage Impact Dummy Set	扎加拉爆虫弹幕撞击假人设置
+hand	Zagara Baneling Barrage LM	扎加拉爆虫弹幕-LM
+hand	Zagara Baneling Barrage Missile Scan	扎加拉爆虫弹幕导弹扫描
+hand	Zagara Baneling Barrage Missile Scan Persistent	扎加拉爆虫弹幕导弹扫描持续
+hand	Zagara Baneling Barrage Missile Scan Persistent Destroy	扎加拉爆虫弹幕导弹扫描持续毁灭
+hand	Zagara Baneling Barrage Missile Scan Set	扎加拉爆虫弹幕导弹扫描设置
+hand	Zagara Baneling Barrage Unpathable Scan Persistent	扎加拉爆虫弹幕不可通行扫描持续
+hand	Zagara Infested Pods	扎加拉感染荚苞
+hand	Zagara Infested Pods Impact	扎加拉感染荚苞撞击
+hand	Zagara Infested Pods Impact Damage	扎加拉感染荚苞撞击伤害
+hand	Zagara Infested Pods Impact Search	扎加拉感染荚苞撞击搜索
+hand	Zagara Infested Pods Impact Set	扎加拉感染荚苞撞击设置
+hand	Zagara Infested Pods Timed Life	扎加拉感染荚苞时限
+hand	Zagara Spawn Hunter Killers	扎加拉生成猎杀者
+hand	Zagara Spawn Hunter Killers Create Set	扎加拉生成猎杀者创建设置
+hand	Zagara Spawn Hunter Killers Initial Set	扎加拉生成猎杀者初始设置
+hand	Zagara Spawn Hunter Killers Link Destroy Persistent	扎加拉生成猎杀者链接毁灭持续
+hand	Zagara Spawn Hunter Killers Link Persistent	扎加拉生成猎杀者链接持续
+hand	Zagara Spawn Hunter Killers Timed Life	扎加拉生成猎杀者时限
+hand	Zagara Void Coop Devouring Maw Worm	扎加拉虚空合作吞噬巨口蠕虫
+hand	Zagara Void Coop Infest Broodlings Death	扎加拉虚空合作感染巢虫死亡
+ids	Zagara Void Coop Transfusion Wave 1 Delay	扎加拉-哺液波次1延迟
+ids	Zagara Void Coop Transfusion Wave 1 Search	扎加拉-哺液波次1搜索
+ids	Zagara Void Coop Transfusion Wave 2 Delay	扎加拉-哺液波次2延迟
+ids	Zagara Void Coop Transfusion Wave 2 Search	扎加拉-哺液波次2搜索
+ids	Zagara Void Coop Transfusion Wave 3 Delay	扎加拉-哺液波次3延迟
+ids	Zagara Void Coop Transfusion Wave 3 Search	扎加拉-哺液波次3搜索
+ids	Zagara Void Coop Transfusion Wave 4 Delay	扎加拉-哺液波次4延迟
+ids	Zagara Void Coop Transfusion Wave 4 Search	扎加拉-哺液波次4搜索
+ids	Zagara Void Coop Transfusion Wave Set 1	哺液洪流-设置1
+ids	Zagara Void Coop Transfusion Wave Set 2	哺液洪流-设置2
+ids	Zagara Void Coop Transfusion Wave Set 3	哺液洪流-设置3
+ids	Zagara Void Coop Transfusion Wave Set 4	哺液洪流-设置4
+ids	Zagara Void Coop Transfusion Wave Set 5	哺液洪流-设置5
+hand	Zealot - Terazine Fury Invulnerable Apply	狂热者-泰拉臻之怒无敌施加
+hand	Zealot - Terazine Fury Shield Restore	狂热者-泰拉臻之怒护盾恢复
+hand	Zealot - Terazine Fury Weakness Apply	狂热者-泰拉臻之怒虚弱施加
+hand	Zealot Respawn	狂热者重生
+ids	Zenith Stone Death Search 1	泽尼斯巨石-死亡搜索1
+ids	Zenith Stone Death Search 2	泽尼斯巨石-死亡搜索2
+ids	Zenith Stone Death Search 3	泽尼斯巨石-死亡搜索3
+hand	Zeratul - Master Psi Blades	泽拉图-大师灵能刃
+hand_comp	Zeratul - PhaseMine Blast (Persistent)	泽拉图-相位矿爆炸持续
+ids	ZeratulReflectionShieldApplyBehaviorMarker	泽拉图反射护盾应用行为标记
+hand	Zerg Building Spawn Broodling 6	异虫建筑生成巢虫6
+hand_comp	Zerg Building Spawn Broodling 6 (Delay)	异虫建筑生成巢虫6延迟
+hand	Zerg Building Spawn Broodling 9	异虫建筑生成巢虫9
+hand_comp	Zerg Building Spawn Broodling 9 (Delay)	异虫建筑生成巢虫9延迟
+hand_comp	Zerg General - Post Morph (Healing Effect)	虫族将领-变形后治疗效果
+hand_comp	Zerg Hole Large (Height 1)	虫洞-大型高度1
+hand_comp	Zerg Hole Large (Height 2)	虫洞-大型高度2
+hand_comp	Zerg Hole Large (Height 3)	虫洞-大型高度3
+hand_comp	Zerg Hole Small (Height 1)	虫洞-小型高度1
+hand_comp	Zerg Hole Small (Height 2)	虫洞-小型高度2
+hand_comp	Zerg Hole Small (Height 3)	虫洞-小型高度3
+hand_comp	Zerg Tunnel Entrance - Spawn Corruptor (Create Corruptor)	虫族隧道入口-生成腐蚀者创建腐蚀者
+hand_comp	Zerg Tunnel Entrance - Spawn Corruptor (Create Egg Unit)	虫族隧道入口-生成腐蚀者创建卵单位
+hand_comp	Zerg Tunnel Entrance - Spawn Corruptor (Persistent For Random Offset)	虫族隧道入口-生成腐蚀者随机偏移持续
+hand_comp	Zerg Tunnel Entrance - Spawn Corruptor (Spawn Set)	虫族隧道入口-生成腐蚀者生成设置
+hand	Zerus Pool	泽鲁斯水池
+hand	Zhakul'Das	扎库尔达斯
+hand_comp	Zhakul'Das Bridge 45 Left (Height 1)	扎库尔达斯45度左桥高度1
+hand_comp	Zhakul'Das Bridge 45 Left (Height 2)	扎库尔达斯45度左桥高度2
+hand_comp	Zhakul'Das Library Pit (Height 1)	扎库尔达斯图书馆深坑高度1
+hand_comp	Zhakul'Das Library Pit (Height 2)	扎库尔达斯图书馆深坑高度2
+hand_comp	Zhakul'Das Library Pit (Height 3)	扎库尔达斯图书馆深坑高度3
+hand_comp	Zhakul'Das Library Pit (Variation 1) (Height 1)	扎库尔达斯图书馆深坑变体1高度1
+hand_comp	Zhakul'Das Library Pit (Variation 1) (Height 2)	扎库尔达斯图书馆深坑变体1高度2
+hand_comp	Zhakul'Das Library Pit (Variation 1) (Height 3)	扎库尔达斯图书馆深坑变体1高度3
+hand_comp	Zhakul'Das Library Pit (Variation 2) (Height 1)	扎库尔达斯图书馆深坑变体2高度1
+hand_comp	Zhakul'Das Library Pit (Variation 2) (Height 2)	扎库尔达斯图书馆深坑变体2高度2
+hand_comp	Zhakul'Das Library Pit (Variation 2) (Height 3)	扎库尔达斯图书馆深坑变体2高度3
+hand	zz TEST Chasm	测试-裂隙
+hand	zz TEST Hybrid Lab	测试-混合体实验室
+hand	zz TEST Robot	测试-机器人
+hand	zz TEST Truck Stop	测试-卡车站
+hand_comp	zz TEST Zerg Pens (Height 1)	测试-虫族围栏高度1
+hand_comp	zz TEST Zerg Pens (Height 2)	测试-虫族围栏高度2

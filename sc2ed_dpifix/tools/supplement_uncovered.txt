@@ -1,0 +1,13 @@
+16:10(10)
+16:9(9)
+4:3(4)
+5:4(5)
+CEffectCancelOrder
+CEffectCreateHealer
+CEffectDamage
+CEffectEnumMagazine
+CEffectModifyPlayer
+CEffectRedirectMissile
+CEffectReleaseMagazine
+CEffectReturnMagazine
+CEffectUseCalldown

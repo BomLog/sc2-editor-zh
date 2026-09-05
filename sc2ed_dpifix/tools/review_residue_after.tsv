@@ -1,0 +1,2000 @@
+>essence	<img path="Assets\Textures\btn-tips-sellzergbiosamples.dds" height="30" width="30" alignment="AbsoluteMiddle"/>精华	AbsoluteMiddle|Assets|Textures|alignment|btn|dds|height|img|path|sellzergbiosamples|tips|width
+a ans neutral spell	A-Ans中立法术	Ans
+a cac aura command creep	A-Cac光环指令菌毯	Cac
+a cac@buff aura command	ACac增益光环指令	ACac
+a cac@search	ACac搜索	ACac
+a cac@target	ACac目标	ACac
+a cad animate dead creep	A-Cad活化死亡菌毯	Cad
+a cad@buff animate dead	ACad增益活化死亡	ACad
+a cad@revive	ACad复活	ACad
+a cad@search	ACad搜索	ACad
+a cad@special	ACad特殊	ACad
+a cah thorns aura creep	A-Cah尖刺光环菌毯	Cah
+a cah@buff aura thorns	ACah增益光环尖刺	ACah
+a cah@search	ACah搜索	ACah
+a cah@target	ACah目标	ACah
+a cah@thorns damage	A-Cah尖刺伤害	Cah
+a cam anti magic shield creep	A-Cam反魔法盾菌毯	Cam
+a cam@buff anti magic shell	ACam增益反魔法弹壳	ACam
+a cav aura devotion creep	A-Cav光环虔诚菌毯	Cav
+a cav@buff aura devotion	ACav增益光环虔诚	ACav
+a cav@search	ACav搜索	ACav
+a cav@target	ACav目标	ACav
+a cba aura brilliance creep	A-Cba光环光辉菌毯	Cba
+a cba@buff aura brilliance	ACba增益光环光辉	ACba
+a cba@search	ACba搜索	ACba
+a cba@target	ACba目标	ACba
+a cbb bloodlust creep hotkey b	A-Cbb嗜血菌毯热键B	Cbb
+a cbb@buff bloodlust	ACbb增益嗜血	ACbb
+a cbc breath of fire creep	A-Cbc火焰吐息菌毯	Cbc
+a cbc breath of fire creep launch missile	A-Cbc火焰吐息菌毯发射导弹	Cbc
+a cbc@buff breath of fire	ACbc增益火焰吐息	ACbc
+a cbc@missile	ACbc导弹	ACbc
+a cbc@missile attack	A-Cbc导弹攻击	Cbc
+a cbc@missile impact set	ACbc导弹轰击设置	ACbc
+a cbc@search	ACbc搜索	ACbc
+a cbc@search impact set	ACbc搜索轰击设置	ACbc
+a cbc@target	ACbc目标	ACbc
+a cbc@target end	ACbc目标结束	ACbc
+a cbc@target start	ACbc目标开始	ACbc
+a cbf breath of frost creep	A-Cbf冰霜吐息菌毯	Cbf
+a cbf breath of frost creep launch missile	A-Cbf冰霜吐息菌毯发射导弹	Cbf
+a cbf@buff breath of frost	ACbf增益冰霜吐息	ACbf
+a cbf@missile	ACbf导弹	ACbf
+a cbf@missile attack	A-Cbf导弹攻击	Cbf
+a cbf@missile impact set	ACbf导弹轰击设置	ACbf
+a cbf@search	ACbf搜索	ACbf
+a cbf@search impact set	ACbf搜索轰击设置	ACbf
+a cbf@target end	ACbf目标结束	ACbf
+a cbf@target start	ACbf目标开始	ACbf
+a cbh bash creep	A-Cbh猛击菌毯	Cbh
+a cbh@impact effect	ACbh轰击效果	ACbh
+a cbh@stun duration	ACbh眩晕持续时间	ACbh
+a cbh@stun duration hero	ACbh眩晕持续时间英雄	ACbh
+a cbk black arrow melee creep	A-Cbk黑色遮罩箭头近战菌毯	Cbk
+a cbk black arrow melee creep launch missile	A-Cbk黑色遮罩箭头近战菌毯发射导弹	Cbk
+a cbk@buff black arrow	A-Cbk增益黑色遮罩箭头	Cbk
+a cbk@buff dark minion	A-Cbk增益灰色遮罩仆从	Cbk
+a cbk@death set	A-Cbk死亡设置	Cbk
+a cbk@handle corpse	ACbkHandle尸体	ACbkHandle
+a cbk@missile	ACbk导弹	ACbk
+a cbk@missile attack	A-Cbk导弹攻击	Cbk
+a cbk@missile impact set	ACbk导弹轰击设置	ACbk
+a cbl bloodlust creep	A-Cbl嗜血菌毯	Cbl
+a cbl@buff bloodlust	ACbl增益嗜血	ACbl
+a cbn banish creep	A-Cbn放逐菌毯	Cbn
+a cbn@buff banish	ACbn增益放逐	ACbn
+a cbn@buff banish negative	ACbn增益放逐负	ACbn
+a cbn@buff banish positive	ACbn增益放逐正	ACbn
+a cbn@buff switch	ACbn增益切换	ACbn
+a cbz blizzard creep	A-Cbz暴雪菌毯	Cbz
+a cbz@buff blizzard	ACbz增益暴雪	ACbz
+a cbz@impact set	ACbz轰击设置	ACbz
+a cbz@search	ACbz搜索	ACbz
+a cbz@shard effect	ACbz碎片效果	ACbz
+a cbz@shard effect batch	ACbz碎片效果批次	ACbz
+a cbz@shard effect site op	ACbz碎片效果场地行动	ACbz
+a cc2 crushing wave dragon turtle	ACc2碾压波次巨龙龟	ACc
+a cc2 crushing wave dragon turtle launch missile	ACc2碾压波次巨龙龟发射导弹	ACc
+a cc2@missile	ACc2导弹	ACc
+a cc2@missile impact set	ACc2导弹轰击设置	ACc
+a cc2@search	ACc2搜索	ACc
+a cc2@special	ACc2特殊	ACc
+a cc2@target	ACc2目标	ACc
+a cc3 crushing wave lesser	ACc3碾压波次较低	ACc
+a cc3 crushing wave lesser launch missile	ACc3碾压波次较低发射导弹	ACc
+a cc3@missile	ACc3导弹	ACc
+a cc3@missile impact set	ACc3导弹轰击设置	ACc
+a cc3@search	ACc3搜索	ACc
+a cc3@special	ACc3特殊	ACc
+a cc3@target	ACc3目标	ACc
+a cca carrion swarm creep	A-Cca腐肉虫群菌毯	Cca
+a cca carrion swarm creep launch missile	A-Cca腐肉虫群菌毯发射导弹	Cca
+a cca@missile	ACca导弹	ACca
+a cca@missile attack	A-Cca导弹攻击	Cca
+a cca@missile impact set	ACca导弹轰击设置	ACca
+a cca@search	ACca搜索	ACca
+a cca@special	ACca特殊	ACca
+a cca@target	ACca目标	ACca
+a ccb frost bolt	ACcb冰霜闪电束	ACcb
+a ccb frost bolt launch missile	ACcb冰霜闪电束发射导弹	ACcb
+a ccb@buff pause	ACcb增益暂停	ACcb
+a ccb@missile	ACcb导弹	ACcb
+a ccb@missile attack	A-Ccb导弹攻击	Ccb
+a ccb@missile impact set	ACcb导弹轰击设置	ACcb
+a cce cleaving attack creep	A-Cce分裂攻击攻击菌毯	Cce
+a cce@inherited aoe damage	A-Cce继承范围伤害	Cce
+a cce@special	ACce特殊	ACce
+a ccl chain lightning creep	A-Ccl闪电链菌毯	Ccl
+a ccl chain lightning creep launch missile	A-Ccl闪电链菌毯发射导弹	Ccl
+a ccl@beam	A-Ccl射线	Ccl
+a ccl@beam1	ACcl光束1	ACcl
+a ccl@can jump to benign	A-Ccl可跳跃至友善	Ccl
+a ccl@jump target filters	ACcl跳跃目标筛选	ACcl
+a ccl@main beam action	A-Ccl主属性射线动作	Ccl
+a ccl@main damage	A-Ccl主属性伤害	Ccl
+a ccl@main delay	A-Ccl主属性延迟	Ccl
+a ccl@main impact	A-Ccl主属性轰击	Ccl
+a ccl@missile	ACcl导弹	ACcl
+a ccl@missile attack	A-Ccl导弹攻击	Ccl
+a ccl@missile impact set	ACcl导弹轰击设置	ACcl
+a ccl@search	ACcl搜索	ACcl
+a ccl@secondary beam action	A-Ccl副射线动作	Ccl
+a ccl@secondary damage	A-Ccl副伤害	Ccl
+a ccl@secondary delay	ACcl副延迟	ACcl
+a ccl@secondary impact	ACcl副轰击	ACcl
+a ccl@set can jump to benign	A-Ccl设置可跳跃至友善	Ccl
+a ccl@target	ACcl目标	ACcl
+a ccl@target hit count	ACcl目标命中计数	ACcl
+a ccn cannibalize creep	A-Ccn野蛮残食菌毯	Ccn
+a ccn@heal	A-Ccn治疗	Ccn
+a ccr cripple creep	A-Ccr削弱菌毯	Ccr
+a ccr@buff cripple	ACcr增益削弱	ACcr
+a ccs curse creep	A-Ccs诅咒菌毯	Ccs
+a ccs@buff curse	ACcs增益诅咒	ACcs
+a cct critical strike creep	A-Cct致命打击菌毯	Cct
+a ccv crushing wave	ACcv碾压波次	ACcv
+a ccv crushing wave launch missile	ACcv碾压波次发射导弹	ACcv
+a ccv@missile	ACcv导弹	ACcv
+a ccv@missile attack	A-Ccv导弹攻击	Ccv
+a ccv@missile impact set	ACcv导弹轰击设置	ACcv
+a ccv@search	ACcv搜索	ACcv
+a ccv@special	ACcv特殊	ACcv
+a ccv@target	ACcv目标	ACcv
+a ccw cold arrows creep	A-Ccw冰冷箭矢菌毯	Ccw
+a ccw cold arrows creep launch missile	A-Ccw冰冷箭矢菌毯发射导弹	Ccw
+a ccw@buff cold arrow	A-Ccw增益冰冷箭头	Ccw
+a ccw@buff cold arrow stack do t	A-Ccw增益冰冷箭头叠加执行T	Ccw
+a ccw@missile	ACcw导弹	ACcw
+a ccw@missile attack	A-Ccw导弹攻击	Ccw
+a ccw@missile impact set	ACcw导弹轰击设置	ACcw
+a ccy cyclone creep	A-Ccy飓风菌毯	Ccy
+a ccy@buff cyclone two	A-Ccy增益飓风二	Ccy
+a cd2 abolish magic creep12 pos	ACd2消除魔法菌毯12Pos	ACd|Pos
+a cd2@target	ACd2目标	ACd
+a cdc death coil creep	A-Cdc死亡缠绕菌毯	Cdc
+a cdc death coil creep launch missile	A-Cdc死亡缠绕菌毯发射导弹	Cdc
+a cdc@enemy filter	ACdc敌方筛选	ACdc
+a cdc@friend filter	ACdc友筛选	ACdc
+a cdc@heal	A-Cdc治疗	Cdc
+a cdc@heal target	A-Cdc治疗目标	Cdc
+a cdc@missile	ACdc导弹	ACdc
+a cdc@missile attack	A-Cdc导弹攻击	Cdc
+a cdc@missile impact set	ACdc导弹轰击设置	ACdc
+a cdc@special	ACdc特殊	ACdc
+a cdc@target filter	ACdc目标筛选	ACdc
+a cde devour magic creep	A-Cde吞噬魔法菌毯	Cde
+a cde devour magic creep launch missile	A-Cde吞噬魔法菌毯发射导弹	Cde
+a cde@heal	A-Cde治疗	Cde
+a cde@missile	ACde导弹	ACde
+a cde@missile attack	A-Cde导弹攻击	Cde
+a cde@missile impact set	ACde导弹轰击设置	ACde
+a cde@search	ACde搜索	ACde
+a cde@search impact set	ACde搜索轰击设置	ACde
+a cde@search validator	ACde搜索验证器	ACde
+a cde@special	ACde特殊	ACde
+a cdm abolish magic creep	A-Cdm消除魔法菌毯	Cdm
+a cdm@target	ACdm目标	ACdm
+a cdr drain life creep	A-Cdr抽取生命菌毯	Cdr
+a cdr@beam	A-Cdr射线	Cdr
+a cdr@beam drain action	A-Cdr射线抽取动作	Cdr
+a cdr@beam1	ACdr光束1	ACdr
+a cdr@beam2	ACdr光束2	ACdr
+a cdr@buff drain caster life	ACdr增益抽取施法者生命	ACdr
+a cdr@buff drain target life	ACdr增益抽取目标生命	ACdr
+a cdr@drain filter set	ACdr抽取筛选设置	ACdr
+a cdr@drain life	ACdr抽取生命	ACdr
+a cdr@drain target	ACdr抽取目标	ACdr
+a cdr@max range	ACdr最大范围	ACdr
+a cds divine shield creep	A-Cds神圣盾菌毯	Cds
+a cds@buff divine shield	A-Cds增益神圣盾	Cds
+a cdv devour dragon creep	A-Cdv吞噬巨龙菌毯	Cdv
+a cdv@buff devour vision	A-Cdv增益吞噬视野	Cdv
+a cdv@buff digesting	ACdv增益消化	ACdv
+a cdv@buff digesting@dps	ACdv增益消化DPS	ACdv
+a cdv@max creep level	A-Cdv最大菌毯等级	Cdv
+a cdv@not creep or not max creep level	A-Cdv非菌毯或非最大菌毯等级	Cdv
+a cdv@special	ACdv特殊	ACdv
+a ces evasion creep100	ACes闪避菌毯100	ACes
+a cev evasion creep	A-Cev闪避菌毯	Cev
+a cf3 finger of pain21 button	ACf3手指的Pain21按钮	ACf|Pain
+a cf3@target	ACf3目标	ACf
+a cfa frost armor creep old	A-Cfa冰霜护甲菌毯旧	Cfa
+a cfa@buff frost armor	A-Cfa增益冰霜护甲	Cfa
+a cfa@slow duration	A-Cfa减速持续时间	Cfa
+a cfb fire bolt creep	A-Cfb开火闪电束菌毯	Cfb
+a cfb fire bolt creep launch missile	A-Cfb开火闪电束菌毯发射导弹	Cfb
+a cfb@buff pause	ACfb增益暂停	ACfb
+a cfb@missile	ACfb导弹	ACfb
+a cfb@missile attack	A-Cfb导弹攻击	Cfb
+a cfb@missile impact set	ACfb导弹轰击设置	ACfb
+a cfd finger of pain	ACfd手指的Pain	ACfd|Pain
+a cfd@attack	A-Cfd攻击	Cfd
+a cfd@beam	A-Cfd射线	Cfd
+a cfd@target	ACfd目标	ACfd
+a cff faerie fire creep	A-Cff小精灵开火菌毯	Cff
+a cff@buff faerie fire	ACff增益小精灵开火	ACff
+a cfl forked lightning creep	A-Cfl分叉闪电菌毯	Cfl
+a cfl@attack	A-Cfl攻击	Cfl
+a cfl@beam	A-Cfl射线	Cfl
+a cfl@search	ACfl搜索	ACfl
+a cfl@special	ACfl特殊	ACfl
+a cfn frost nova creep	A-Cfn冰霜诺娃菌毯	Cfn
+a cfn@buff frost	ACfn增益冰霜	ACfn
+a cfn@effect	ACfn效果	ACfn
+a cfn@main target is neutral	A-Cfn主属性目标是中立	Cfn
+a cfn@neutral check	ACfn中立检查	ACfn
+a cfn@search	ACfn搜索	ACfn
+a cfn@search impact	ACfn搜索轰击	ACfn
+a cfn@special target damage	A-Cfn特殊目标伤害	Cfn
+a cfr force of nature creep	A-Cfr强制的自然菌毯	Cfr
+a cfr@buff force of nature	ACfr增益强制的自然	ACfr
+a cfr@search impact set	ACfr搜索轰击设置	ACfr
+a cfr@tree killer	ACfr树击杀者	ACfr
+a cfr@unit count	A-Cfr单位计数	Cfr
+a cfs@ember effect bath	烈焰风暴-余烬效果Bath	Bath
+a cfs@subsides	烈焰风暴-Subsides	Subsides
+a cfu frost armor autocast naga	A-Cfu冰霜护甲自动施法纳迦	Cfu
+a cfu@buff frost armor	A-Cfu增益冰霜护甲	Cfu
+a cfu@slow duration	A-Cfu减速持续时间	Cfu
+a chv healing wave creep	A-Chv治疗波次菌毯	Chv
+a chv@beam	A-Chv射线	Chv
+a chv@beam1	AChv光束1	AChv
+a chv@can jump to benign	A-Chv可跳跃至友善	Chv
+a chv@healing loss	AChv治疗失败	AChv
+a chv@jump target filters	AChv跳跃目标筛选	AChv
+a chv@main beam action	A-Chv主属性射线动作	Chv
+a chv@main delay	A-Chv主属性延迟	Chv
+a chv@main healing	A-Chv主属性治疗	Chv
+a chv@main impact	A-Chv主属性轰击	Chv
+a chv@search	AChv搜索	AChv
+a chv@secondary beam action	A-Chv副射线动作	Chv
+a chv@secondary delay	AChv副延迟	AChv
+a chv@secondary healing	AChv副治疗	AChv
+a chv@secondary impact	AChv副轰击	AChv
+a chv@set can jump to benign	A-Chv设置可跳跃至友善	Chv
+a chv@target	AChv目标	AChv
+a chv@target hit count	AChv目标命中计数	AChv
+a chw healing ward creep	A-Chw治疗守卫菌毯	Chw
+a chw@buff healing ward	AChw增益治疗守卫	AChw
+a cif inner fire creep	A-Cif内开火菌毯	Cif
+a cif@buff inner fire	ACif增益内开火	ACif
+a cim	技能-ACim	ACim
+a cim immolation creep	A-Cim献祭菌毯	Cim
+a cim@buff immolation	ACim增益献祭	ACim
+a cim@buff special	ACim增益特殊	ACim
+a cim@init mana gain	ACim初始化法力获得	ACim
+a cim@search	ACim搜索	ACim
+a cls lightning shield creep	A-Cls闪电盾菌毯	Cls
+a cls@buff lightning shield	A-Cls增益闪电盾	Cls
+a cls@hit art	ACls命中美术	ACls
+a cls@search	ACls搜索	ACls
+a cm3 magic immunity dragons	ACm3魔法免疫Dragons	ACm|Dragons
+a cmf	技能-ACmf	ACmf
+a cmf mana shield creep	A-Cmf法力盾菌毯	Cmf
+a cmf@buff mana shield	A-Cmf增益法力盾	Cmf
+a cmo monsoon creep	A-Cmo季风菌毯	Cmo
+a cmo@buff monsoon drain	ACmo增益季风抽取	ACmo
+a cmo@effect monsoon	ACmo效果季风	ACmo
+a cmo@initialize	ACmo初始化	ACmo
+a cmo@search	ACmo搜索	ACmo
+a cmo@target	ACmo目标	ACmo
+a cmp impale creep	A-Cmp钉刺菌毯	Cmp
+a cmp@buff impale	A-Cmp增益钉刺	Cmp
+a cmp@missile	ACmp导弹	ACmp
+a cmp@missile attack	A-Cmp导弹攻击	Cmp
+a cmp@missile impact set	ACmp导弹轰击设置	ACmp
+a cmp@search	ACmp搜索	ACmp
+a cmp@search impact set	ACmp搜索轰击设置	ACmp
+a cmp@special	ACmp特殊	ACmp
+a cmp@stun	ACmp眩晕	ACmp
+a cmp@target	ACmp目标	ACmp
+a cnr neutral regen health only	A-Cnr中立恢复生命仅	Cnr
+a cnr@buff aura regen life	ACnr增益光环恢复生命	ACnr
+a cnr@heal tick	A-Cnr治疗刻	Cnr
+a cnr@search	ACnr搜索	ACnr
+a cpa parasite eredar	A-Cpa寄生虫埃雷达尔	Cpa
+a cpa parasite eredar launch missile	A-Cpa寄生虫埃雷达尔发射导弹	Cpa
+a cpa@buff parasite	ACpa增益寄生虫	ACpa
+a cpa@buff parasite minion	ACpa增益寄生虫仆从	ACpa
+a cpa@buff parasite@dps	ACpa增益寄生虫DPS	ACpa
+a cpa@death spawn	A-Cpa死亡孵化	Cpa
+a cpa@missile	ACpa导弹	ACpa
+a cpa@missile attack	A-Cpa导弹攻击	Cpa
+a cpa@missile impact set	ACpa导弹轰击设置	ACpa
+a cps possession creep	A-Cps夺魂菌毯	Cps
+a cps possession creep launch missile	A-Cps夺魂菌毯发射导弹	Cps
+a cps@hide caster	ACps隐藏施法者	ACps
+a cps@max creep level	A-Cps最大菌毯等级	Cps
+a cps@missile	ACps导弹	ACps
+a cps@missile attack	A-Cps导弹攻击	Cps
+a cps@missile impact set	ACps导弹轰击设置	ACps
+a cps@not creep or not max creep level	A-Cps非菌毯或非最大菌毯等级	Cps
+a cps@remove caster when done	A-Cps移除施法者当完成	Cps
+a cps@transfer selection	ACps转移选择	ACps
+a cps@unhide caster	ACpsUnhide施法者	ACpsUnhide
+a cpu purge creep	A-Cpu清除菌毯	Cpu
+a cpu@buff purge	ACpu增益清除	ACpu
+a cpu@enemy buff set	ACpu敌方增益设置	ACpu
+a cpu@initialize	ACpu初始化	ACpu
+a cpu@movement speed update	A-Cpu移动速度更新	Cpu
+a cpu@special	ACpu特殊	ACpu
+a cpv pulverize sea giant	ACpv粉碎海巨人	ACpv
+a cpy polymorph creep	A-Cpy变形术菌毯	Cpy
+a cpy@buff polymorph	ACpy增益变形术	ACpy
+a cpy@effect	ACpy效果	ACpy
+a cpy@max creep level	A-Cpy最大菌毯等级	Cpy
+a cpy@model swap	A-Cpy模型交换	Cpy
+a cpy@not creep or not max creep level	A-Cpy非菌毯或非最大菌毯等级	Cpy
+a cpy@special	ACpy特殊	ACpy
+a cpy@target checks	ACpy目标检查	ACpy
+a cr1@buff roar	ACr1增益咆哮	ACr
+a cr1@caster	ACr1施法者	ACr
+a cr1@search	ACr1搜索	ACr
+a cr2@buff rejuvination	ACr2增益回春	ACr
+a crd raise dead creep	A-Crd升起死亡菌毯	Crd
+a crd@buff raise dead	A-Crd增益升起死亡	Crd
+a crd@effect	ACrd效果	ACrd
+a crd@spawn set	A-Crd孵化设置	Crd
+a crd@tech limit	ACrd科技限制	ACrd
+a crf rain of fire creep	A-Crf雨的开火菌毯	Crf
+a crf@buff rain of fire	ACrf增益雨的开火	ACrf
+a crf@buff rain of fire aoe	ACrf增益雨的开火范围	ACrf
+a crf@buff rain of fire@dps	ACrf增益雨的开火DPS	ACrf
+a crf@impact set	ACrf轰击设置	ACrf
+a crf@search	ACrf搜索	ACrf
+a crf@shard effect	ACrf碎片效果	ACrf
+a crf@shard effect batch	ACrf碎片效果批次	ACrf
+a crf@shard effect site op	ACrf碎片效果场地行动	ACrf
+a crg rain of fire creep greater	A-Crg雨的开火菌毯更高	Crg
+a crg@buff rain of fire	ACrg增益雨的开火	ACrg
+a crg@buff rain of fire aoe	ACrg增益雨的开火范围	ACrg
+a crg@buff rain of fire@dps	ACrg增益雨的开火DPS	ACrg
+a crg@impact set	ACrg轰击设置	ACrg
+a crg@search	ACrg搜索	ACrg
+a crg@shard effect	ACrg碎片效果	ACrg
+a crg@shard effect batch	ACrg碎片效果批次	ACrg
+a crg@shard effect site op	ACrg碎片效果场地行动	ACrg
+a crj rejuvination creep	A-Crj回春菌毯	Crj
+a crj@buff rejuvination	ACrj增益回春	ACrj
+a crj@heal tick	A-Crj治疗刻	Crj
+a crk resistant skin creep	A-Crk抗性皮肤菌毯	Crk
+a cro roar creep	A-Cro咆哮菌毯	Cro
+a cro@buff roar	ACro增益咆哮	ACro
+a cro@caster	ACro施法者	ACro
+a cro@search	ACro搜索	ACro
+a cs7@buff spirit wolf	ACs7增益灵体狼	ACs
+a cs7@special	ACs7特殊	ACs
+a cs8 feral spirit spirit beast	ACs8野性灵体灵体野兽	ACs
+a cs8@buff spirit wolf	ACs8增益灵体狼	ACs
+a cs8@special	ACs8特殊	ACs
+a cs9@buff spirit wolf	ACs9增益灵体狼	ACs
+a cs9@special	ACs9特殊	ACs
+a csa searing arrows creep	A-Csa灼烧箭矢菌毯	Csa
+a csa searing arrows creep launch missile	A-Csa灼烧箭矢菌毯发射导弹	Csa
+a csa@missile	ACsa导弹	ACsa
+a csa@missile attack	A-Csa导弹攻击	Csa
+a csa@missile impact set	ACsa导弹轰击设置	ACsa
+a csf feral spirit creep	A-Csf野性灵体菌毯	Csf
+a csf@buff spirit wolf	ACsf增益灵体狼	ACsf
+a csf@spawn set	A-Csf孵化设置	Csf
+a csf@special	ACsf特殊	ACsf
+a csh shockwave creep	A-Csh冲击波菌毯	Csh
+a csh shockwave creep launch missile	A-Csh冲击波菌毯发射导弹	Csh
+a csh@missile	ACsh导弹	ACsh
+a csh@missile attack	A-Csh导弹攻击	Csh
+a csh@missile impact set	ACsh导弹轰击设置	ACsh
+a csh@search	ACsh搜索	ACsh
+a csh@target	ACsh目标	ACsh
+a csi silence creep	A-Csi沉默菌毯	Csi
+a csi@buff silence	ACsi增益沉默	ACsi
+a csi@effect	ACsi效果	ACsi
+a csi@search	ACsi搜索	ACsi
+a csk resistant skin31 pos creep	A-Csk抗性皮肤31Pos菌毯	Csk|Pos
+a csl sleep creep	A-Csl休眠菌毯	Csl
+a csl@buff sleep	ACsl增益休眠	ACsl
+a csl@buff sleep pause	ACsl增益休眠暂停	ACsl
+a csm siphon mana creep	A-Csm生命虹吸法力菌毯	Csm
+a csm@beam	A-Csm射线	Csm
+a csm@beam drain action	A-Csm射线抽取动作	Csm
+a csm@beam transfer action	A-Csm射线转移动作	Csm
+a csm@beam1	ACsm光束1	ACsm
+a csm@beam2	ACsm光束2	ACsm
+a csm@buff drain caster mana	ACsm增益抽取施法者法力	ACsm
+a csm@buff drain target mana	ACsm增益抽取目标法力	ACsm
+a csm@drain filter set	ACsm抽取筛选设置	ACsm
+a csm@drain mana	ACsm抽取法力	ACsm
+a csm@drain target	ACsm抽取目标	ACsm
+a csm@max range	ACsm最大范围	ACsm
+a csp creep sleep	A-Csp菌毯休眠	Csp
+a csp@caster	ACsp施法者	ACsp
+a csp@not snoozing	ACsp非Snoozing	ACsp|Snoozing
+a csp@snooze	ACsp休眠	ACsp
+a csp@snooze rb	ACsp休眠RB	ACsp
+a csp@think set	ACsp思考设置	ACsp
+a css shadow strike creep	A-Css阴影打击菌毯	Css
+a css@buff shadow strike	ACss增益阴影打击	ACss
+a css@decaying damage	A-Css衰败伤害	Css
+a css@initial damage	A-Css初始伤害	Css
+a css@missile	ACss导弹	ACss
+a css@missile attack	A-Css导弹攻击	Css
+a css@missile impact set	ACss导弹轰击设置	ACss
+a css@shadow strike bang text	ACss阴影打击爆响文本	ACss
+a css@shadow strike do t text	ACss阴影打击执行T文本	ACss
+a cst shockwave trap	ACst冲击波陷阱	ACst
+a cst shockwave trap launch missile	ACst冲击波陷阱发射导弹	ACst
+a cst@missile	ACst导弹	ACst
+a cst@missile attack	A-Cst导弹攻击	Cst
+a cst@missile impact set	ACst导弹轰击设置	ACst
+a cst@search	ACst搜索	ACst
+a cst@target	ACst目标	ACst
+a csw slow creep	A-Csw减速菌毯	Csw
+a csw@buff slow	A-Csw增益减速	Csw
+a csw@caster	ACsw施法者	ACsw
+a ct2 thunder clap thunder lizard	ACt2雷霆掌声雷霆蜥蜴	ACt
+a ct2@caster	ACt2施法者	ACt
+a ct2@impact set	ACt2轰击设置	ACt
+a ct2@search	ACt2搜索	ACt
+a ctb thunder bolt creep	A-Ctb雷霆闪电束菌毯	Ctb
+a ctb thunder bolt creep launch missile	A-Ctb雷霆闪电束菌毯发射导弹	Ctb
+a ctb@buff pause	ACtb增益暂停	ACtb
+a ctb@missile	ACtb导弹	ACtb
+a ctb@missile attack	A-Ctb导弹攻击	Ctb
+a ctb@missile impact set	ACtb导弹轰击设置	ACtb
+a ctc thunder clap creep	A-Ctc雷霆掌声菌毯	Ctc
+a ctc@buff creep thunder clap	A-Ctc增益菌毯雷霆掌声	Ctc
+a ctc@caster	ACtc施法者	ACtc
+a ctc@impact set	ACtc轰击设置	ACtc
+a ctc@search	ACtc搜索	ACtc
+a ctn serpent ward tentacle forgotten one	A-Ctn巨蛇守卫触须遗忘一	Ctn
+a ctn@buff ward	ACtn增益守卫	ACtn
+a cua unholy aura creep	A-Cua邪恶光环菌毯	Cua
+a cua@buff aura unholy	ACua增益光环邪恶	ACua
+a cua@search	ACua搜索	ACua
+a cua@target	ACua目标	ACua
+a cuf unholy frenzy creep	A-Cuf邪恶狂暴菌毯	Cuf
+a cuf@buff switch	ACuf增益切换	ACuf
+a cuf@buff unholy frenzy	A-Cuf增益邪恶狂暴	Cuf
+a cuf@buff unholy frenzy negative	A-Cuf增益邪恶狂暴负	Cuf
+a cuf@buff unholy frenzy positive	A-Cuf增益邪恶狂暴正	Cuf
+a cuf@buff unholy frenzy@dps	A-Cuf增益邪恶狂暴DPS	Cuf
+a cvp vampiric aura creep	A-Cvp吸血光环菌毯	Cvp
+a cvp@buff aura vampiric	ACvp增益光环吸血	ACvp
+a cvp@leech	A-Cvp能量吸噬	Cvp
+a cvp@search	ACvp搜索	ACvp
+a cvp@target	ACvp目标	ACvp
+a cvs venom spears creep	A-Cvs毒液长矛菌毯	Cvs
+a cvs@buff poison attack	A-Cvs增益毒素攻击	Cvs
+a cvs@buff poison attack stack do t	A-Cvs增益毒素攻击叠加执行T	Cvs
+a cvs@buff poison attack stack do t@dps	A-Cvs增益毒素攻击叠加执行TDPS	Cvs|TDPS
+a cvs@impact effect	ACvs轰击效果	ACvs
+a cwb web creep	A-Cwb网菌毯	Cwb
+a cwb web creep launch missile	A-Cwb网菌毯发射导弹	Cwb
+a cwb@air unit height change	A-Cwb对空单位高度变更	Cwb
+a cwb@air unit height op	A-Cwb对空单位高度行动	Cwb
+a cwb@air unit height site	A-Cwb对空单位高度场地	Cwb
+a cwb@buff web	A-Cwb增益网	Cwb
+a cwb@buff web air	A-Cwb增益网对空	Cwb
+a cwb@missile	ACwb导弹	ACwb
+a cwb@missile attack	A-Cwb导弹攻击	Cwb
+a cwb@missile impact set	ACwb导弹轰击设置	ACwb
+a cwb@switch	ACwb切换	ACwb
+a cwe summon sea elemental	ACwe召唤海元素	ACwe
+a cwe@buff water elemental	A-Cwe增益水体元素	Cwe
+a eah keeper thorns aura	AEah守护者尖刺光环	AEah
+a eah@buff aura thorns	AEah增益光环尖刺	AEah
+a eah@search	AEah搜索	AEah
+a eah@target	AEah目标	AEah
+a eah@thorns damage	A-Eah尖刺伤害	Eah
+a ebu	技能-AEbu	AEbu
+a ebu build night elf	A-Ebu建造暗夜精灵	Ebu
+a eev demon hunter evasion	A-Eev恶魔猎杀虫闪避	Eev
+a efk warden fan of knives	A-Efk守望者扇的飞刀	Efk
+a efk warden fan of knives launch missile	A-Efk守望者扇的飞刀发射导弹	Efk
+a efk@effect	AEfk效果	AEfk
+a efk@missile	AEfk导弹	AEfk
+a efk@missile attack	A-Efk导弹攻击	Efk
+a efk@missile impact set	AEfk导弹轰击设置	AEfk
+a efk@search	AEfk搜索	AEfk
+a efn keeper force of nature	AEfn守护者强制的自然	AEfn
+a efn@1 search	AEfn1搜索	AEfn
+a efn@buff force of nature	AEfn增益强制的自然	AEfn
+a efn@search impact set	AEfn搜索轰击设置	AEfn
+a efn@tree killer	AEfn树击杀者	AEfn
+a efn@unit count	A-Efn单位计数	Efn
+a eim	技能-AEim	AEim
+a eim demon hunter immolation	A-Eim恶魔猎杀虫献祭	Eim
+a eim@buff immolation	AEim增益献祭	AEim
+a eim@buff special	AEim增益特殊	AEim
+a eim@init mana gain	AEim初始化法力获得	AEim
+a eim@search	AEim搜索	AEim
+a emb demon hunter mana burn	A-Emb恶魔猎杀虫法力燃烧	Emb
+a emb@beam	A-Emb射线	Emb
+a emb@beam action	A-Emb射线动作	Emb
+a emb@impact set	AEmb轰击设置	AEmb
+a emb@mana burn text	AEmb法力燃烧文本	AEmb
+a emb@mana drain	AEmb法力抽取	AEmb
+a emb@target	AEmb目标	AEmb
+a eme	技能-AEme	AEme
+a eme demon hunter metamorphosis	A-Eme恶魔猎杀虫变形	Eme
+a eme@buff metamorphosis	AEme增益变形	AEme
+a eme@unmorph anim	AEme取消变形动画	AEme
+a epa poison arrows	AEpa毒素箭矢	AEpa
+a epa poison arrows launch missile	AEpa毒素箭矢发射导弹	AEpa
+a epa@buff poison attack	A-Epa增益毒素攻击	Epa
+a epa@buff poison attack stack do t	A-Epa增益毒素攻击叠加执行T	Epa
+a epa@buff poison attack@dps	A-Epa增益毒素攻击DPS	Epa
+a epa@missile	AEpa导弹	AEpa
+a epa@missile attack	A-Epa导弹攻击	Epa
+a epa@missile impact set	AEpa导弹轰击设置	AEpa
+a esb cenarius beefy starfall	A-Esb半神人Beefy星辰坠落	Beefy|Esb
+a esb@buff starfall drain	AEsb增益星辰坠落抽取	AEsb
+a esb@effect starfall	AEsb效果星辰坠落	AEsb
+a esb@initialize	AEsb初始化	AEsb
+a esb@search	AEsb搜索	AEsb
+a esb@target	AEsb目标	AEsb
+a esd	行为-AEsd	AEsd
+a esd@target	AEsd目标	AEsd
+a esf priestess starfall	AEsf女祭司星辰坠落	AEsf
+a esf@buff starfall drain	AEsf增益星辰坠落抽取	AEsf
+a esf@effect starfall	AEsf效果星辰坠落	AEsf
+a esf@initialize	AEsf初始化	AEsf
+a esf@search	AEsf搜索	AEsf
+a esf@target	AEsf目标	AEsf
+a esh warden shadow strike	A-Esh守望者阴影打击	Esh
+a esh warden shadow strike launch missile	A-Esh守望者阴影打击发射导弹	Esh
+a esh@buff shadow strike	AEsh增益阴影打击	AEsh
+a esh@decaying damage	A-Esh衰败伤害	Esh
+a esh@initial damage	A-Esh初始伤害	Esh
+a esh@missile	AEsh导弹	AEsh
+a esh@missile attack	A-Esh导弹攻击	Esh
+a esh@missile impact set	AEsh导弹轰击设置	AEsh
+a esh@shadow strike bang text	AEsh阴影打击爆响文本	AEsh
+a esh@shadow strike do t text	AEsh阴影打击执行T文本	AEsh
+a est priestess scout	A-Est女祭司侦察机	Est
+a est priestess scout launch missile	A-Est女祭司侦察机发射导弹	Est
+a est@buff scout	A-Est增益侦察机	Est
+a est@missile	AEst导弹	AEst
+a est@missile attack	A-Est导弹攻击	Est
+a est@missile impact set	AEst导弹轰击设置	AEst
+a esv warden avatar of vengeance	A-Esv守望者化身的复仇之魂	Esv
+a esv warden spirit of vengeance launch missile	A-Esv守望者灵体的复仇之魂发射导弹	Esv
+a esv@buff spirit of vengeance	A-Esv增益灵体的复仇之魂	Esv
+a esv@missile	AEsv导弹	AEsv
+a esv@missile attack	A-Esv导弹攻击	Esv
+a esv@missile impact set	AEsv导弹轰击设置	AEsv
+a esv@target	AEsv目标	AEsv
+a etq keeper tranquility	AEtq守护者宁静	AEtq
+a etq@buff tranquility regen	AEtq增益宁静恢复	AEtq
+a etq@effect tranquility	AEtq效果宁静	AEtq
+a etq@heal tick	A-Etq治疗刻	Etq
+a etq@initialize	AEtq初始化	AEtq
+a etq@search	AEtq搜索	AEtq
+a etr	行为-AEtr	AEtr
+a etr@target	AEtr目标	AEtr
+a evi	技能-AEvi	AEvi
+a evi evil illidan metamorphosis	A-Evi邪恶恶魔猎手变形	Evi
+a evi@buff metamorphosis	AEvi增益变形	AEvi
+a evi@unmorph anim	AEvi取消变形动画	AEvi
+a evi@unmorph delay	AEvi取消变形延迟	AEvi
+a gbu	技能-AGbu	AGbu
+a gbu build naga	A-Gbu建造纳迦	Gbu
+a hab arch mage brilliance aura	A-Hab拱法师辉煌光环	Hab
+a hab@target	AHab目标	AHab
+a had paladin devotion aura	A-Had圣骑士虔诚光环	Had
+a had@buff aura devotion	AHad增益光环虔诚	AHad
+a had@search	AHad搜索	AHad
+a had@target	AHad目标	AHad
+a hav@removing	初始化集合-Removing	Removing
+a hbh mountain king bash	AHbh山国王猛击	AHbh
+a hbh@impact effect	AHbh轰击效果	AHbh
+a hbh@stun duration	AHbh眩晕持续时间	AHbh
+a hbh@stun duration hero	AHbh眩晕持续时间英雄	AHbh
+a hbn blood mage banish	AHbn血液法师放逐	AHbn
+a hbn@buff banish	AHbn增益放逐	AHbn
+a hbn@buff banish negative	AHbn增益放逐负	AHbn
+a hbn@buff banish positive	AHbn增益放逐正	AHbn
+a hbn@buff switch	AHbn增益切换	AHbn
+a hbu	技能-AHbu	AHbu
+a hbu build human	A-Hbu建造人类	Hbu
+a hbz arch mage blizzard	AHbz拱法师暴雪	AHbz
+a hbz@impact set	AHbz轰击设置	AHbz
+a hbz@search	AHbz搜索	AHbz
+a hbz@shard effect	AHbz碎片效果	AHbz
+a hbz@shard effect batch	AHbz碎片效果批次	AHbz
+a hbz@shard effect site op	AHbz碎片效果场地行动	AHbz
+a hca cold arrows	AHca冰冷箭矢	AHca
+a hca cold arrows launch missile	AHca冰冷箭矢发射导弹	AHca
+a hca@buff cold arrow	A-Hca增益冰冷箭头	Hca
+a hca@buff cold arrow stack do t	A-Hca增益冰冷箭头叠加执行T	Hca
+a hca@missile	AHca导弹	AHca
+a hca@missile attack	A-Hca导弹攻击	Hca
+a hca@missile impact set	AHca导弹轰击设置	AHca
+a hds paladin divine shield	A-Hds圣骑士神圣盾	Hds
+a her hero	AHer英雄	AHer
+a her suppress	AHer压制	AHer
+a her@caster	AHer施法者	AHer
+a hfa priestess searing arrows	AHfa女祭司灼烧箭矢	AHfa
+a hfa priestess searing arrows launch missile	AHfa女祭司灼烧箭矢发射导弹	AHfa
+a hfa@missile	AHfa导弹	AHfa
+a hfa@missile attack	A-Hfa导弹攻击	Hfa
+a hfa@missile impact set	AHfa导弹轰击设置	AHfa
+a hfs blood mage flame strike	AHfs血液法师火焰打击	AHfs
+a hfs@actual effect	AHfsActual效果	AHfsActual
+a hfs@effect	AHfs效果	AHfs
+a hfs@ember effect	AHfs余烬效果	AHfs
+a hfs@ember effect bath	AHfs余烬效果Bath	AHfs|Bath
+a hfs@ember effect terrain spot	AHfs余烬效果地形地点	AHfs
+a hfs@half damage	A-Hfs半伤害	Hfs
+a hfs@half damage search	A-Hfs半伤害搜索	Hfs
+a hfs@half damage set	A-Hfs半伤害设置	Hfs
+a hfs@is level1	AHfs是等级1	AHfs
+a hfs@is level2	AHfs是等级2	AHfs
+a hfs@special	AHfs特殊	AHfs
+a hfs@special1	AHfs特殊1	AHfs
+a hfs@special2	AHfs特殊2	AHfs
+a hfs@subsides	AHfs消退	AHfs
+a hfs@tree killer	AHfs树击杀者	AHfs
+a hhb paladin holy light	A-Hhb圣骑士神圣光源	Hhb
+a hhb@enemy filter	AHhb敌方筛选	AHhb
+a hhb@friend filter	AHhb友筛选	AHhb
+a hhb@heal	A-Hhb治疗	Hhb
+a hhb@heal target	A-Hhb治疗目标	Hhb
+a hhb@target	AHhb目标	AHhb
+a hhb@target filter	AHhb目标筛选	AHhb
+a hpx blood mage phoenix	A-Hpx血液法师火凤凰	Hpx
+a hpx@remove undieable	A-Hpx移除Undieable	Hpx|Undieable
+a hpx@unique summon replaced set	AHpx唯一召唤Replaced设置	AHpx|Replaced
+a hre paladin resurrection	A-Hre圣骑士复活	Hre
+a hre@caster	AHre施法者	AHre
+a hre@revive	AHre复活	AHre
+a hre@revive set	AHre复活设置	AHre
+a hre@search	AHre搜索	AHre
+a hre@target	AHre目标	AHre
+a htb mountain king thunder bolt	AHtb山国王雷霆闪电束	AHtb
+a htb mountain king thunder bolt launch missile	AHtb山国王雷霆闪电束发射导弹	AHtb
+a htb@buff pause	AHtb增益暂停	AHtb
+a htb@missile	AHtb导弹	AHtb
+a htb@missile attack	A-Htb导弹攻击	Htb
+a htb@missile impact set	AHtb导弹轰击设置	AHtb
+a htc mountain king thunder clap	AHtc山国王雷霆掌声	AHtc
+a htc@buff thunder clap	AHtc增益雷霆掌声	AHtc
+a htc@caster	AHtc施法者	AHtc
+a htc@impact set	AHtc轰击设置	AHtc
+a htc@search	AHtc搜索	AHtc
+a hwe arch mage water elemental	A-Hwe拱法师水体元素	Hwe
+a hwe@buff water elemental	A-Hwe增益水体元素	Hwe
+a ia1 agility bonus1	AIa1敏捷加成1	AIa
+a ia3 agility bonus3	AIa3敏捷加成3	AIa
+a ia4 agility bonus4	AIa4敏捷加成4	AIa
+a ia6 agility bonus6	AIa6敏捷加成6	AIa
+a iaa attack mod	A-Iaa攻击模组	Iaa
+a iaa@caster	AIaa施法者	AIaa
+a iab	行为-AIab	AIab
+a iad@buff aura devotion	AIad增益光环虔诚	AIad
+a iad@search	AIad搜索	AIad
+a iad@target	AIad目标	AIad
+a iae@buff aura endurance	AIae增益光环耐力	AIae
+a iae@search	AIae搜索	AIae
+a iae@target	AIae目标	AIae
+a ian animate dead	AIan活化死亡	AIan
+a ian@buff animate dead	AIan增益活化死亡	AIan
+a ian@revive	AIan复活	AIan
+a ian@search	AIan搜索	AIan
+a ian@special	AIan特殊	AIan
+a iar@buff aura trueshot	AIar增益光环强击	AIar
+a iar@search	AIar搜索	AIar
+a iar@target	AIar目标	AIar
+a ias	行为-AIas	AIas
+a iat attack bonus	A-Iat攻击加成	Iat
+a iau@buff aura unholy	AIau增益光环邪恶	AIau
+a iau@search	AIau搜索	AIau
+a iau@target	AIau目标	AIau
+a iav@buff aura vampiric	AIav增益光环吸血	AIav
+a iav@leech	A-Iav能量吸噬	Iav
+a iav@search	AIav搜索	AIav
+a iav@target	AIav目标	AIav
+a iaz agility bonus10	AIaz敏捷加成10	AIaz
+a iba@buff aura brilliance	AIba增益光环光辉	AIba
+a iba@search	AIba搜索	AIba
+a iba@target	AIba目标	AIba
+a ibb	技能-AIbb	AIbb
+a ibb build tiny blacksmith	A-Ibb建造微型铁匠铺	Ibb
+a ibf	技能-AIbf	AIbf
+a ibf build tiny farm	A-Ibf建造微型农场	Ibf
+a ibg	技能-AIbg	AIbg
+a ibg build tiny great hall	A-Ibg建造小型的大厅	Ibg
+a ibg human	A-Ibg人类	Ibg
+a ibg night elf	A-Ibg暗夜精灵	Ibg
+a ibg orc	A-Ibg兽人	Ibg
+a ibg undead	A-Ibg亡灵	Ibg
+a ibg@human	A-Ibg人类	Ibg
+a ibg@night elf	A-Ibg暗夜精灵	Ibg
+a ibg@orc	A-Ibg兽人	Ibg
+a ibg@undead	A-Ibg亡灵	Ibg
+a ibh	技能-AIbh	AIbh
+a ibh build tiny altar	A-Ibh建造微型祭坛	Ibh
+a ibk blink item	A-Ibk闪现物品	Ibk
+a ibk@area effect	AIbk区域效果	AIbk
+a ibk@special	AIbk特殊	AIbk
+a ibl	技能-AIbl	AIbl
+a ibl build tiny castle	A-Ibl建造小城堡	Ibl
+a ibl human	A-Ibl人类	Ibl
+a ibl night elf	A-Ibl暗夜精灵	Ibl
+a ibl orc	A-Ibl兽人	Ibl
+a ibl undead	A-Ibl亡灵	Ibl
+a ibm max mana bonus most	AIbm最大法力加成Most	AIbm|Most
+a ibr	技能-AIbr	AIbr
+a ibr build tiny lumber mill	A-Ibr建造微型伐木场	Ibr
+a ibs	技能-AIbs	AIbs
+a ibs build tiny barracks	A-Ibs建造微型兵营	Ibs
+a ibt	技能-AIbt	AIbt
+a ibt build tiny scout tower	A-Ibt建造微型侦察机塔	Ibt
+a ibx bash item	AIbx猛击物品	AIbx
+a ibx@impact effect	AIbx轰击效果	AIbx
+a ibx@stun duration	AIbx眩晕持续时间	AIbx
+a ibx@stun duration hero	AIbx眩晕持续时间英雄	AIbx
+a icb orb of corruption	A-Icb腐蚀之球	Icb
+a icb orb of corruption launch missile	A-Icb腐蚀之球发射导弹	Icb
+a icb@buff corruption	A-Icb增益腐化	Icb
+a icb@special	AIcb特殊	AIcb
+a icb@target	AIcb目标	AIcb
+a icd@buff aura command	AIcd增益光环指令	AIcd
+a icd@search	AIcd搜索	AIcd
+a icd@target	AIcd目标	AIcd
+a icf item cloak of flames	A-Icf物品火焰风衣	Icf
+a icf@buff item cloak of flames	A-Icf增益物品火焰风衣	Icf
+a icf@buff special	AIcf增益特殊	AIcf
+a icf@search	AIcf搜索	AIcf
+a icl chain lightning item	A-Icl闪电链物品	Icl
+a icl chain lightning item launch missile	A-Icl闪电链物品发射导弹	Icl
+a icl@beam	A-Icl射线	Icl
+a icl@beam1	AIcl光束1	AIcl
+a icl@can jump to benign	A-Icl可跳跃至友善	Icl
+a icl@jump target filters	AIcl跳跃目标筛选	AIcl
+a icl@main beam action	A-Icl主属性射线动作	Icl
+a icl@main damage	A-Icl主属性伤害	Icl
+a icl@main delay	A-Icl主属性延迟	Icl
+a icl@main impact	A-Icl主属性轰击	Icl
+a icl@missile	AIcl导弹	AIcl
+a icl@missile attack	A-Icl导弹攻击	Icl
+a icl@missile impact set	AIcl导弹轰击设置	AIcl
+a icl@search	AIcl搜索	AIcl
+a icl@secondary beam action	A-Icl副射线动作	Icl
+a icl@secondary damage	A-Icl副伤害	Icl
+a icl@secondary delay	AIcl副延迟	AIcl
+a icl@secondary impact	AIcl副轰击	AIcl
+a icl@set can jump to benign	A-Icl设置可跳跃至友善	Icl
+a icl@target	AIcl目标	AIcl
+a icl@target hit count	AIcl目标命中计数	AIcl
+a icm control magic item	AIcm控制魔法物品	AIcm
+a icm control magic item launch missile	AIcm控制魔法物品发射导弹	AIcm
+a icm@buff control magic	AIcm增益控制魔法	AIcm
+a icm@max creep level	A-Icm最大菌毯等级	Icm
+a icm@missile	AIcm导弹	AIcm
+a icm@missile attack	A-Icm导弹攻击	Icm
+a icm@missile impact set	AIcm导弹轰击设置	AIcm
+a icm@not creep or not max creep level	A-Icm非菌毯或非最大菌毯等级	Icm
+a icm@target	AIcm目标	AIcm
+a ico item command	AIco物品指令	AIco
+a ico@max creep level	A-Ico最大菌毯等级	Ico
+a ico@not creep or not max creep level	A-Ico非菌毯或非最大菌毯等级	Ico
+a ico@target	AIco目标	AIco
+a ics critical strike item	AIcs致命打击物品	AIcs
+a ict item change tod	AIct物品变更TOD	AIct|TOD
+a id0 defense bonus10	AId0防御加成10	AId
+a id1 defense bonus1	AId1防御加成1	AId
+a id2 defense bonus2	AId2防御加成2	AId
+a id3 defense bonus3	AId3防御加成3	AId
+a id4 defense bonus4	AId4防御加成4	AId
+a id5 defense bonus5	AId5防御加成5	AId
+a id7 defense bonus7	AId7防御加成7	AId
+a id8 defense bonus8	AId8防御加成8	AId
+a ida	技能-AIda	AIda
+a ida item defense aoe	AIda物品防御范围	AIda
+a ida@buff defense	AIda增益防御	AIda
+a ida@caster	AIda施法者	AIda
+a ida@search	AIda搜索	AIda
+a idb item defense aoe healing	AIdb物品防御范围治疗	AIdb
+a idb@buff defense	AIdb增益防御	AIdb
+a idb@caster	AIdb施法者	AIdb
+a idb@target	AIdb目标	AIdb
+a idc item dispel chain	AIdc物品驱散连锁	AIdc
+a idc item dispel chain launch missile	AIdc物品驱散连锁发射导弹	AIdc
+a idc@target hit count	AIdc目标命中计数	AIdc
+a idd defend item	AIdd防守物品	AIdd
+a idd@caster	AIdd施法者	AIdd
+a ide	行为-AIde	AIde
+a idf orb of darkness	A-Idf黑暗之球	Idf
+a idf orb of darkness launch missile	A-Idf黑暗之球发射导弹	Idf
+a idf@target	AIdf目标	AIdf
+a idi item dispel aoe	AIdi物品驱散范围	AIdi
+a idi@effect	AIdi效果	AIdi
+a idi@search	AIdi搜索	AIdi
+a idi@search impact set	AIdi搜索轰击设置	AIdi
+a idi@target	AIdi目标	AIdi
+a idn shadow orb ability	AIdn阴影宝珠技能	AIdn
+a idn shadow orb ability launch missile	AIdn阴影宝珠技能发射导弹	AIdn
+a idn@target	AIdn目标	AIdn
+a idp death pact item	A-Idp死亡契约物品	Idp
+a idp@caster	AIdp施法者	AIdp
+a idp@force blast death	A-Idp强制爆破死亡	Idp
+a idp@kill	A-Idp杀死	Idp
+a idp@target	AIdp目标	AIdp
+a ids item dispel aoe with cooldown	AIds物品驱散范围带冷却	AIds
+a ids@effect	AIds效果	AIds
+a ids@search	AIds搜索	AIds
+a ids@search impact set	AIds搜索轰击设置	AIds
+a ids@target	AIds目标	AIds
+a idv divine shield item	A-Idv神圣盾物品	Idv
+a idv@buff divine shield	A-Idv增益神圣盾	Idv
+a ie2@caster	AIe2施法者	AIe
+a iem experience mod	A-Iem经验值模组	Iem
+a iem@caster	AIem施法者	AIem
+a iev evasion	AIev闪避	AIev
+a ifa flare gun	A-Ifa信号枪	Ifa
+a ifa@caster	AIfa施法者	AIfa
+a ifa@effect flare	A-Ifa效果照明弹	Ifa
+a ifb orb of fire	A-Ifb火焰之球	Ifb
+a ifb orb of fire launch missile	A-Ifb火焰之球发射导弹	Ifb
+a ifb@missile	AIfb导弹	AIfb
+a ifb@missile attack	A-Ifb导弹攻击	Ifb
+a ifb@missile impact set	AIfb导弹轰击设置	AIfb
+a ifb@special	AIfb特殊	AIfb
+a ifb@target	AIfb目标	AIfb
+a ifd figurine red drake	AIfd小雕像红小龙	AIfd
+a ifd@buff figurine	AIfd增益小雕像	AIfd
+a ifd@create unit a	A-Ifd创建单位A	Ifd
+a ifd@target	AIfd目标	AIfd
+a ife	行为-AIfe	AIfe
+a ife flag undead	A-Ife旗帜亡灵	Ife
+a ife@target	AIfe目标	AIfe
+a iff figurine furbolg	A-Iff小雕像熊怪	Iff
+a iff@buff figurine	AIff增益小雕像	AIff
+a iff@create unit a	A-Iff创建单位A	Iff
+a iff@target	AIff目标	AIff
+a ifg cloud of fog item	AIfg云的迷雾物品	AIfg
+a ifg@buff cloud of fog	AIfg增益云的迷雾	AIfg
+a ifg@effect cloud of fog	AIfg效果云的迷雾	AIfg
+a ifg@search	AIfg搜索	AIfg
+a ifh figurine fel hound	AIfh小雕像邪能猎犬	AIfh
+a ifh@buff figurine	AIfh增益小雕像	AIfh
+a ifh@create unit a	A-Ifh创建单位A	Ifh
+a ifh@target	AIfh目标	AIfh
+a ifl	行为-AIfl	AIfl
+a ifl flag	AIfl旗帜	AIfl
+a ifl@target	AIfl目标	AIfl
+a ifm	行为-AIfm	AIfm
+a ifm flag human	A-Ifm旗帜人类	Ifm
+a ifm@target	AIfm目标	AIfm
+a ifn	行为-AIfn	AIfn
+a ifn flag night elf	A-Ifn旗帜暗夜精灵	Ifn
+a ifn@target	AIfn目标	AIfn
+a ifo	行为-AIfo	AIfo
+a ifo flag orc	A-Ifo旗帜兽人	Ifo
+a ifo@target	AIfo目标	AIfo
+a ifr figurine rock golem	A-Ifr小雕像岩石魔像	Ifr
+a ifr@buff figurine	AIfr增益小雕像	AIfr
+a ifr@create unit a	A-Ifr创建单位A	Ifr
+a ifr@target	AIfr目标	AIfr
+a ifs figurine skeleton	A-Ifs小雕像骷髅战士	Ifs
+a ifs@buff figurine	AIfs增益小雕像	AIfs
+a ifs@target	AIfs目标	AIfs
+a ift frostguard frost melee	A-Ift霜冻守卫冰霜近战	Ift
+a ift frostguard frost melee launch missile	A-Ift霜冻守卫冰霜近战发射导弹	Ift
+a ift@buff frost	AIft增益冰霜	AIft
+a ift@special	AIft特殊	AIft
+a ift@target	AIft目标	AIft
+a ifu figurine doom guard	AIfu小雕像厄运守卫	AIfu
+a ifu@buff figurine	AIfu增益小雕像	AIfu
+a ifu@create unit a	A-Ifu创建单位A	Ifu
+a ifu@target	AIfu目标	AIfu
+a ifw searing blade fire melee	A-Ifw灼热之刀开火近战	Ifw
+a ifw searing blade fire melee launch missile	A-Ifw灼热之刀开火近战发射导弹	Ifw
+a ifw@impact effect	AIfw轰击效果	AIfw
+a ifw@missile	AIfw导弹	AIfw
+a ifw@missile attack	A-Ifw导弹攻击	Ifw
+a ifw@missile impact set	AIfw导弹轰击设置	AIfw
+a ifw@special	AIfw特殊	AIfw
+a ifw@target	AIfw目标	AIfw
+a ifx	行为-AIfx	AIfx
+a ifx flag orc battle standard	A-Ifx旗帜兽人军旗	Ifx
+a ifx@target	AIfx目标	AIfx
+a ifz finger of death item	A-Ifz手指的死亡物品	Ifz
+a ifz@attack	A-Ifz攻击	Ifz
+a ifz@beam	A-Ifz射线	Ifz
+a ifz@target	AIfz目标	AIfz
+a iga@effect	AIga效果	AIga
+a igd orb of guldan	A-Igd宝珠的巫师	Igd
+a igd orb of guldan launch missile	A-Igd宝珠的巫师发射导弹	Igd
+a igd@missile	AIgd导弹	AIgd
+a igd@missile attack	A-Igd导弹攻击	Igd
+a igd@missile impact set	AIgd导弹轰击设置	AIgd
+a igd@special	AIgd特殊	AIgd
+a igd@target	AIgd目标	AIgd
+a igf fortification glyph	AIgf防御工事符文	AIgf
+a igl	技能-AIgl	AIgl
+a igo give gold	AIgo给予金	AIgo
+a igo@caster	AIgo施法者	AIgo
+a igu ultra vision glyph	AIgu究极视野符文	AIgu
+a igx aura regeneration item	AIgx光环恢复物品	AIgx
+a igx@buff aura regen life	AIgx增益光环恢复生命	AIgx
+a igx@heal tick	A-Igx治疗刻	Igx
+a igx@search	AIgx搜索	AIgx
+a ih1@target	AIh1目标	AIh
+a ih2@target	AIh2目标	AIh
+a ih3@target	AIh3目标	AIh
+a iha	技能-AIha	AIha
+a iha item heal aoe	A-Iha物品治疗范围	Iha
+a iha@heal	A-Iha治疗	Iha
+a iha@search	AIha搜索	AIha
+a iha@target	AIha目标	AIha
+a ihb	技能-AIhb	AIhb
+a ihb item heal aoe greater	A-Ihb物品治疗范围更高	Ihb
+a ihb@target	AIhb目标	AIhb
+a ihe	技能-AIhe	AIhe
+a ihe@target	AIhe目标	AIhe
+a ihl holy light item	AIhl神圣光源物品	AIhl
+a ihl@enemy filter	AIhl敌方筛选	AIhl
+a ihl@friend filter	AIhl友筛选	AIhl
+a ihl@heal	A-Ihl治疗	Ihl
+a ihl@heal target	A-Ihl治疗目标	Ihl
+a ihl@target	AIhl目标	AIhl
+a ihl@target filter	AIhl目标筛选	AIhl
+a ihw healing ward	AIhw治疗守卫	AIhw
+a ihw@buff healing ward	AIhw增益治疗守卫	AIhw
+a ihx item heal leastest	A-Ihx物品治疗最少	Ihx
+a ihx@target	AIhx目标	AIhx
+a ii1 intelligence bonus1	AIi1智力加成1	AIi
+a ii3 intelligence bonus3	AIi3智力加成3	AIi
+a ii4 intelligence bonus4	AIi4智力加成4	AIi
+a ii6 intelligence bonus6	AIi6智力加成6	AIi
+a iil item illusion	AIil物品幻象	AIil
+a iil@buff item illusion	AIil增益物品幻象	AIil
+a iil@spawn effect	A-Iil孵化效果	Iil
+a iil@target	AIil目标	AIil
+a iim intelligence mod	AIim智力模组	AIim
+a iim@target	AIim目标	AIim
+a iin@buff infernal	A-Iin增益地狱火	Iin
+a iin@effect	AIin效果	AIin
+a iin@impact set	AIin轰击设置	AIin
+a iin@search	AIin搜索	AIin
+a iin@search cursor	AIin搜索指针	AIin
+a iin@search impact set	AIin搜索轰击设置	AIin
+a iin@stun	AIin眩晕	AIin
+a iin@stun hero	AIin眩晕英雄	AIin
+a iin@tree killer	AIin树击杀者	AIin
+a iir figurine ice revenant	A-Iir小雕像冰冠冰川亡灵	Iir
+a iir@buff figurine	AIir增益小雕像	AIir
+a iir@create unit a	A-Iir创建单位A	Iir
+a iir@target	AIir目标	AIir
+a il1 max life bonus lesser	AIl1最大生命加成较低	AIl
+a il2 max life bonus greater	AIl2最大生命加成更高	AIl
+a ilb orb of lightning old	A-Ilb闪电之球旧	Ilb
+a ilb orb of lightning old launch missile	A-Ilb闪电之球旧发射导弹	Ilb
+a ilb@special	AIlb特殊	AIlb
+a ilb@target	AIlb目标	AIlb
+a ilf max life bonus least	AIlf最大生命加成最少	AIlf
+a ilp lightning purge	AIlp闪电清除	AIlp
+a ilp@buff purge	AIlp增益清除	AIlp
+a ilp@enemy buff set	AIlp敌方增益设置	AIlp
+a ilp@movement speed update	A-Ilp移动速度更新	Ilp
+a ilp@special	AIlp特殊	AIlp
+a ils lightning shield	A-Ils闪电盾	Ils
+a ils@buff lightning shield	A-Ils增益闪电盾	Ils
+a ils@hit art	AIls命中美术	AIls
+a ils@search	AIls搜索	AIls
+a ilu give lumber	AIlu给予木材	AIlu
+a ilu@target	AIlu目标	AIlu
+a ilx shaman claws lightning melee	A-Ilx萨满利爪闪电近战	Ilx
+a ilx shaman claws lightning melee launch missile	A-Ilx萨满利爪闪电近战发射导弹	Ilx
+a ilx@missile	AIlx导弹	AIlx
+a ilx@missile attack	A-Ilx导弹攻击	Ilx
+a ilx@missile impact set	AIlx导弹轰击设置	AIlx
+a ilx@special	AIlx特殊	AIlx
+a ilx@target	AIlx目标	AIlx
+a ilz max life bonus leastest	AIlz最大生命加成最少	AIlz
+a im1 item mana restore lesser	AIm1物品法力恢复较低	AIm
+a im1@caster	AIm1施法者	AIm
+a im2 item mana restore greater	AIm2物品法力恢复更高	AIm
+a im2@caster	AIm2施法者	AIm
+a ima	技能-AIma	AIma
+a ima@target	AIma目标	AIma
+a imb max mana bonus least	AImb最大法力加成最少	AImb
+a imh permanent hit point bonus	AImh永久命中点加成	AImh
+a imh@caster	AImh施法者	AImh
+a imi	技能-AImi	AImi
+a imi@caster	AImi施法者	AImi
+a iml	行为-AIml	AIml
+a imm	行为-AImm	AImm
+a imo	技能-AImo	AImo
+a imo item monster lure	A-Imo物品怪兽诱捕守卫	Imo
+a imo@buff item monster lure	A-Imo增益物品怪兽诱捕守卫	Imo
+a imr	技能-AImr	AImr
+a imr item mana restore aoe	AImr物品法力恢复范围	AImr
+a imr@mana	AImr法力	AImr
+a imr@search	AImr搜索	AImr
+a imr@target	AImr目标	AImr
+a ims move speed bonus	A-Ims移动速度加成	Ims
+a imt staff o teleportation	A-Imt杖O传送	Imt
+a imt@area effect	AImt区域效果	AImt
+a imt@caster	AImt施法者	AImt
+a imt@mass teleport channel splat	A-Imt群体传送引导泼溅图	Imt
+a imt@mass teleport teleport reveal buff	A-Imt群体传送传送显示增益	Imt
+a imt@remove caster invulnerable buffs	A-Imt移除施法者无敌增益	Imt
+a imt@search	AImt搜索	AImt
+a imt@special	AImt特殊	AImt
+a imt@start channel set	AImt开始引导设置	AImt
+a imt@target	AImt目标	AImt
+a imt@teleport	AImt传送	AImt
+a imt@teleport set	AImt传送设置	AImt
+a imt@teleport target validators	AImt传送目标验证器	AImt
+a imv max mana bonus leastest really	AImv最大法力加成最少Really	AImv|Really
+a imx magic immunity	AImx魔法免疫	AImx
+a imz max mana bonus leastest	AImz最大法力加成最少	AImz
+a ind animate dead item special	AInd活化死亡物品特殊	AInd
+a ind@buff animate dead	AInd增益活化死亡	AInd
+a ind@revive	AInd复活	AInd
+a ind@search	AInd搜索	AInd
+a ind@special	AInd特殊	AInd
+a inm strength mod2	AInm力量模组2	AInm
+a inm@target	AInm目标	AInm
+a iob orb of frost	A-Iob霜冻之球	Iob
+a iob orb of frost launch missile	A-Iob霜冻之球发射导弹	Iob
+a iob@buff frost	AIob增益冰霜	AIob
+a iob@special	AIob特殊	AIob
+a iob@target	AIob目标	AIob
+a ios slow	A-Ios减速	Ios
+a ios@buff slow	A-Ios增益减速	Ios
+a ios@caster	AIos施法者	AIos
+a ip1	技能-AIp1	AIp
+a ip1@buff regeneration	AIp1增益恢复	AIp
+a ip2	技能-AIp2	AIp
+a ip2@buff regeneration	AIp2增益恢复	AIp
+a ip3	技能-AIp3	AIp
+a ip3 potion of rejuv iii	A-Ip3药剂的回春III	III
+a ip3@buff regeneration	AIp3增益恢复	AIp
+a ip4	技能-AIp4	AIp
+a ip4@buff regeneration	AIp4增益恢复	AIp
+a ip5	技能-AIp5	AIp
+a ip5@buff regeneration	AIp5增益恢复	AIp
+a ip5@caster	AIp5施法者	AIp
+a ip6	技能-AIp6	AIp
+a ip6@buff regeneration	AIp6增益恢复	AIp
+a ip6@caster	AIp6施法者	AIp
+a ipb orb of venom	A-Ipb毒液之球	Ipb
+a ipb orb of venom launch missile	A-Ipb毒液之球发射导弹	Ipb
+a ipb@missile	AIpb导弹	AIpb
+a ipb@missile attack	A-Ipb导弹攻击	Ipb
+a ipb@missile impact set	AIpb导弹轰击设置	AIpb
+a ipb@special	AIpb特殊	AIpb
+a ipb@target	AIpb目标	AIpb
+a ipg purge orb	AIpg清除宝珠	AIpg
+a ipg@buff purge	AIpg增益清除	AIpg
+a ipg@enemy buff set	AIpg敌方增益设置	AIpg
+a ipg@initialize	AIpg初始化	AIpg
+a ipg@movement speed update	A-Ipg移动速度更新	Ipg
+a ipg@pause	AIpg暂停	AIpg
+a ipg@special	AIpg特殊	AIpg
+a ipl	技能-AIpl	AIpl
+a ipl potion of mana regen lesser	A-Ipl魔法药水恢复较低	Ipl
+a ipl@buff regen mana	AIpl增益恢复法力	AIpl
+a ipl@caster	AIpl施法者	AIpl
+a ipl@heal tick	A-Ipl治疗刻	Ipl
+a ipm	技能-AIpm	AIpm
+a ipm item place mine	AIpm物品放置地雷	AIpm
+a ipm@create item	AIpm创建物品	AIpm
+a ipr	技能-AIpr	AIpr
+a ipr potion of mana regen greater	A-Ipr魔法药水恢复更高	Ipr
+a ipr@buff regen mana	AIpr增益恢复法力	AIpr
+a ipr@caster	AIpr施法者	AIpr
+a ipr@heal tick	A-Ipr治疗刻	Ipr
+a ips purge totem sp	AIps清除图腾SP	AIps
+a ips@buff purge	AIps增益清除	AIps
+a ips@enemy buff set	AIps敌方增益设置	AIps
+a ips@initialize	AIps初始化	AIps
+a ips@movement speed update	A-Ips移动速度更新	Ips
+a ips@pause	AIps暂停	AIps
+a ips@special	AIps特殊	AIps
+a ipv	技能-AIpv	AIpv
+a ipv item potion vampirism	A-Ipv物品药剂Vampirism	Ipv|Vampirism
+a ipv@buff item vampire potion	A-Ipv增益物品Vampire药剂	Ipv|Vampire
+a ipv@caster	AIpv施法者	AIpv
+a ipx permanent hit point bonus small	AIpx永久命中点加成小型	AIpx
+a ipx@caster	AIpx施法者	AIpx
+a ipz penguin squeek	A-Ipz企鹅Squeek	Ipz|Squeek
+a ira	技能-AIra	AIra
+a ira item restore aoe	AIra物品恢复范围	AIra
+a ira@heal	A-Ira治疗	Ira
+a ira@search	AIra搜索	AIra
+a ira@target	AIra目标	AIra
+a irb rune of rebirth	A-Irb重生神符	Irb
+a irb@buff rebirth	AIrb增益重生	AIrb
+a ird raise dead item	A-Ird升起死亡物品	Ird
+a ird@buff raise dead	A-Ird增益升起死亡	Ird
+a ird@spawn set	A-Ird孵化设置	Ird
+a ird@tech limit	AIrd科技限制	AIrd
+a ire item restore	AIre物品恢复	AIre
+a ire@target	AIre目标	AIre
+a irg	技能-AIrg	AIrg
+a iri item random item	AIri物品随机物品	AIri
+a irl	技能-AIrl	AIrl
+a irl potion of life regen	A-Irl药剂的生命恢复	Irl
+a irl@buff regen life	AIrl增益恢复生命	AIrl
+a irl@caster	AIrl施法者	AIrl
+a irl@heal tick	A-Irl治疗刻	Irl
+a irl@target	AIrl目标	AIrl
+a irm item regen mana	AIrm物品恢复法力	AIrm
+a irr roar	AIrr咆哮	AIrr
+a irr@buff roar	AIrr增益咆哮	AIrr
+a irr@caster	AIrr施法者	AIrr
+a irr@search	AIrr搜索	AIrr
+a irs resurrection	AIrs复活	AIrs
+a irs@caster	AIrs施法者	AIrs
+a irs@target	AIrs目标	AIrs
+a irt	技能-AIrt	AIrt
+a irt item recall	AIrt物品召回	AIrt
+a irt@caster	AIrt施法者	AIrt
+a irt@special	AIrt特殊	AIrt
+a irt@target	AIrt目标	AIrt
+a irv item reveal map	A-Irv物品显示地图	Irv
+a irv@caster	AIrv施法者	AIrv
+a irx resurrection item	AIrx复活物品	AIrx
+a irx@caster	AIrx施法者	AIrx
+a irx@revive	AIrx复活	AIrx
+a irx@revive set	AIrx复活设置	AIrx
+a irx@search	AIrx搜索	AIrx
+a irx@target	AIrx目标	AIrx
+a isa	技能-AIsa	AIsa
+a isa item speed aoe	AIsa物品速度范围	AIsa
+a isa@buff speed bonus	AIsa增益速度加成	AIsa
+a isa@search	AIsa搜索	AIsa
+a isb orb of spells	AIsb宝珠的法术	AIsb
+a isb orb of spells launch missile	AIsb宝珠的法术发射导弹	AIsb
+a isb@target	AIsb目标	AIsb
+a ise silence item	AIse沉默物品	AIse
+a ise@buff silence	AIse增益沉默	AIse
+a ise@effect	AIse效果	AIse
+a ise@search	AIse搜索	AIse
+a ish summon headhunter item	A-Ish召唤巨魔猎头者物品	Ish
+a ish@buff spirit troll	AIsh增益灵体巨魔	AIsh
+a ish@spawn set	A-Ish孵化设置	Ish
+a ish@special	AIsh特殊	AIsh
+a isi sight bonus	AIsi视野加成	AIsi
+a isl	技能-AIsl	AIsl
+a isl scroll of life regen	A-Isl卷轴的生命恢复	Isl
+a isl@buff regen life	AIsl增益恢复生命	AIsl
+a isl@caster	AIsl施法者	AIsl
+a isl@heal tick	A-Isl治疗刻	Isl
+a isl@search	AIsl搜索	AIsl
+a iso soul trap	A-Iso灵魂陷阱	Iso
+a iso@effect	AIso效果	AIso
+a isp	技能-AIsp	AIsp
+a isp item speed	AIsp物品速度	AIsp
+a isp@buff speed bonus	AIsp增益速度加成	AIsp
+a isr runed bracers	A-Isr神秘腰带	Isr
+a isw sentry ward	A-Isw机械哨兵守卫	Isw
+a isw@buff evil eye	AIsw增益邪恶眼	AIsw
+a isx attack speed increase	A-Isx攻击速度提升	Isx
+a isz slow poison item	A-Isz减速毒素物品	Isz
+a isz@buff slow poison	A-Isz增益减速毒素	Isz
+a isz@buff slow poison stack do t	A-Isz增益减速毒素叠加执行T	Isz
+a isz@buff slow poison stack do t@dps	A-Isz增益减速毒素叠加执行TDPS	Isz|TDPS
+a isz@impact effect	AIsz轰击效果	AIsz
+a itb	技能-AItb	AItb
+a itb@buff detected	AItb增益已侦测	AItb
+a itb@caster	AItb施法者	AItb
+a itb@search	AItb搜索	AItb
+a itc attack bonus	A-Itc攻击加成	Itc
+a ite@area effect	AIte区域效果	AIte
+a ite@caster	AIte施法者	AIte
+a ite@special	AIte特殊	AIte
+a ite@target	AIte目标	AIte
+a itf attack bonus	A-Itf攻击加成	Itf
+a itg attack bonus1	A-Itg攻击加成1	Itg
+a ith attack bonus2	A-Ith攻击加成2	Ith
+a iti attack bonus4	A-Iti攻击加成4	Iti
+a itj attack bonus5	A-Itj攻击加成5	Itj
+a itk attack bonus7	A-Itk攻击加成7	Itk
+a itl attack bonus8	A-Itl攻击加成8	Itl
+a itm intelligence mod2	AItm智力模组2	AItm
+a itm@target	AItm目标	AItm
+a itn attack bonus10	A-Itn攻击加成10	Itn
+a itx attack bonus20	A-Itx攻击加成20	Itx
+a iuf unholy frenzy item	A-Iuf邪恶狂暴物品	Iuf
+a iuf@buff switch	AIuf增益切换	AIuf
+a iuf@buff unholy frenzy	A-Iuf增益邪恶狂暴	Iuf
+a iuf@buff unholy frenzy negative	A-Iuf增益邪恶狂暴负	Iuf
+a iuf@buff unholy frenzy positive	A-Iuf增益邪恶狂暴正	Iuf
+a iuf@buff unholy frenzy@dps	A-Iuf增益邪恶狂暴DPS	Iuf
+a iuv item ultravision	AIuv物品超视力	AIuv
+a iuw figurine ursa warrior	AIuw小雕像熊战士	AIuw
+a iuw@buff figurine	AIuw增益小雕像	AIuw
+a iuw@create unit a	A-Iuw创建单位A	Iuw
+a iuw@target	AIuw目标	AIuw
+a iv1	技能-AIv1	AIv
+a iv1 item invis lesser	AIv1物品隐形较低	AIv
+a iv1@buff invisibility	AIv1增益隐形	AIv
+a iv1@target	AIv1目标	AIv
+a iv2	技能-AIv2	AIv
+a iv2 item invis greater	AIv2物品隐形更高	AIv
+a iv2@buff invisibility	AIv2增益隐形	AIv
+a iv2@target	AIv2目标	AIv
+a iva vampiric attack	A-Iva吸血攻击	Iva
+a iva vampiric attack launch missile	A-Iva吸血攻击发射导弹	Iva
+a iva@handled dummy	A-IvaHandled假人	IvaHandled
+a iva@special	AIva特殊	AIva
+a ivi	技能-AIvi	AIvi
+a ivi@target	AIvi目标	AIvi
+a ivl	技能-AIvl	AIvl
+a ivl item invul	AIvl物品无敌	AIvl
+a ivu	技能-AIvu	AIvu
+a ivu item invul	AIvu物品无敌	AIvu
+a iwb item web	A-Iwb物品网	Iwb
+a iwb item web launch missile	A-Iwb物品网发射导弹	Iwb
+a iwb@air unit height change	A-Iwb对空单位高度变更	Iwb
+a iwb@air unit height op	A-Iwb对空单位高度行动	Iwb
+a iwb@air unit height site	A-Iwb对空单位高度场地	Iwb
+a iwb@buff web	A-Iwb增益网	Iwb
+a iwb@buff web air	A-Iwb增益网对空	Iwb
+a iwm watery minion item	AIwm水域仆从物品	AIwm
+a iwm@buff watery minion	AIwm增益水域仆从	AIwm
+a iwm@target	AIwm目标	AIwm
+a ix1 all1	AIx1全部1	AIx
+a ix2 all2	AIx2全部2	AIx
+a ix5 crown of kings all5	AIx5王冠的国王全部5	AIx
+a ixk	技能-AIxk	AIxk
+a ixk beserk item	AIxk狂暴物品	AIxk
+a ixk@buff berserker rage	A-Ixk增益巨魔狂暴战士狂怒	Ixk
+a ixk@caster	AIxk施法者	AIxk
+a ixm permanent all1	AIxm永久全部1	AIxm
+a ixm@int	AIxm整数	AIxm
+a ixm@target	AIxm目标	AIxm
+a ixs	技能-AIxs	AIxs
+a ixs anti magic shield	A-Ixs反魔法盾	Ixs
+a ixs@buff anti magic shell	AIxs增益反魔法弹壳	AIxs
+a izb orb of freezing	AIzb宝珠的冻结中	AIzb
+a izb@buff freeze	AIzb增益冻结	AIzb
+a nab alchemist acid bomb	A-Nab地精炼金术师酸液炸弹	Nab
+a nab alchemist acid bomb launch missile	A-Nab地精炼金术师酸液炸弹发射导弹	Nab
+a nab@missile	ANab导弹	ANab
+a nab@missile attack	A-Nab导弹攻击	Nab
+a nab@missile impact set	ANab导弹轰击设置	ANab
+a nab@search air	ANab搜索对空	ANab
+a nab@search ground	A-Nab搜索地面单位	Nab
+a nab@search switch	ANab搜索切换	ANab
+a nak orb of annihilation quill spray	A-Nak宝珠的歼灭刺针喷漆	Nak
+a nak orb of annihilation quill spray launch missile	A-Nak宝珠的歼灭刺针喷漆发射导弹	Nak
+a nak@inherited aoe damage	A-Nak继承范围伤害	Nak
+a nak@missile	ANak导弹	ANak
+a nak@missile attack	A-Nak导弹攻击	Nak
+a nak@missile impact set	ANak导弹轰击设置	ANak
+a nav avatar garithos	ANav化身加里瑟斯	ANav
+a nav@buff avatar	ANav增益化身	ANav
+a nav@caster	ANav施法者	ANav
+a nav@removing	ANav移除中	ANav
+a nb2 bash maul sp bear level3	ANb2猛击重锤SP熊等级3	ANb
+a nb2@impact effect	ANb2轰击效果	ANb
+a nb2@stun duration	ANb2眩晕持续时间	ANb
+a nb2@stun duration hero	ANb2眩晕持续时间英雄	ANb
+a nba dark ranger black arrow	A-Nba灰色遮罩游侠黑色遮罩箭头	Nba
+a nba dark ranger black arrow launch missile	A-Nba灰色遮罩游侠黑色遮罩箭头发射导弹	Nba
+a nba@buff black arrow	A-Nba增益黑色遮罩箭头	Nba
+a nba@buff dark minion	A-Nba增益灰色遮罩仆从	Nba
+a nba@death set	A-Nba死亡设置	Nba
+a nba@handle corpse	ANbaHandle尸体	ANbaHandle
+a nba@missile	ANba导弹	ANba
+a nba@missile attack	A-Nba导弹攻击	Nba
+a nba@missile impact set	ANba导弹轰击设置	ANba
+a nbf brewmaster breath of fire	ANbf酒仙火焰吐息	ANbf
+a nbf brewmaster breath of fire launch missile	ANbf酒仙火焰吐息发射导弹	ANbf
+a nbf@buff breath of fire	ANbf增益火焰吐息	ANbf
+a nbf@missile	ANbf导弹	ANbf
+a nbf@missile impact set	ANbf导弹轰击设置	ANbf
+a nbf@search	ANbf搜索	ANbf
+a nbf@search impact set	ANbf搜索轰击设置	ANbf
+a nbf@target end	ANbf目标结束	ANbf
+a nbf@target start	ANbf目标开始	ANbf
+a nbh bash beastmaster bear	A-Nbh猛击驯兽师熊	Nbh
+a nbh@impact effect	ANbh轰击效果	ANbh
+a nbh@stun duration	ANbh眩晕持续时间	ANbh
+a nbh@stun duration hero	ANbh眩晕持续时间英雄	ANbh
+a nbr battle roar	ANbr战斗咆哮	ANbr
+a nbr@buff battle roar	ANbr增益战斗咆哮	ANbr
+a nbr@caster	ANbr施法者	ANbr
+a nbr@search	ANbr搜索	ANbr
+a nbs orb of darkness black arrow	A-Nbs黑暗之球黑色遮罩箭头	Nbs
+a nbs orb of darkness black arrow launch missile	A-Nbs黑暗之球黑色遮罩箭头发射导弹	Nbs
+a nbs@buff black arrow	A-Nbs增益黑色遮罩箭头	Nbs
+a nbs@buff dark minion	A-Nbs增益灰色遮罩仆从	Nbs
+a nbs@death set	A-Nbs死亡设置	Nbs
+a nbs@handle corpse	ANbsHandle尸体	ANbsHandle
+a nbs@missile	ANbs导弹	ANbs
+a nbs@missile attack	A-Nbs导弹攻击	Nbs
+a nbs@missile impact set	ANbs导弹轰击设置	ANbs
+a nbu	技能-ANbu	ANbu
+a nbu build neutral	A-Nbu建造中立	Nbu
+a nc1 tinkerer cluster rockets level1	ANc1修补匠集群火箭等级1	ANc
+a nc1 tinkerer cluster rockets level1 launch missile	ANc1修补匠集群火箭等级1发射导弹	ANc
+a nc1@buff cluster rockets	ANc1增益集群火箭	ANc
+a nc1@missile	ANc1导弹	ANc
+a nc1@missile cp	ANc1导弹CP	ANc
+a nc1@missile impact set	ANc1导弹轰击设置	ANc
+a nc1@missile random point	ANc1导弹随机点	ANc
+a nc1@stun search	ANc1眩晕搜索	ANc
+a nc2 tinkerer cluster rockets level2	ANc2修补匠集群火箭等级2	ANc
+a nc2 tinkerer cluster rockets level2 launch missile	ANc2修补匠集群火箭等级2发射导弹	ANc
+a nc2@buff cluster rockets	ANc2增益集群火箭	ANc
+a nc2@missile	ANc2导弹	ANc
+a nc2@missile cp	ANc2导弹CP	ANc
+a nc2@missile impact set	ANc2导弹轰击设置	ANc
+a nc2@missile random point	ANc2导弹随机点	ANc
+a nc2@stun search	ANc2眩晕搜索	ANc
+a nc3 tinkerer cluster rockets level3	ANc3修补匠集群火箭等级3	ANc
+a nc3 tinkerer cluster rockets level3 launch missile	ANc3修补匠集群火箭等级3发射导弹	ANc
+a nc3@buff cluster rockets	ANc3增益集群火箭	ANc
+a nc3@missile	ANc3导弹	ANc
+a nc3@missile cp	ANc3导弹CP	ANc
+a nc3@missile impact set	ANc3导弹轰击设置	ANc
+a nc3@missile random point	ANc3导弹随机点	ANc
+a nc3@stun search	ANc3眩晕搜索	ANc
+a nca pit lord cleaving attack	A-Nca坑领主分裂攻击攻击	Nca
+a nca@inherited aoe damage	A-Nca继承范围伤害	Nca
+a nca@special	ANca特殊	ANca
+a ncf chen breath of fire	ANcf陈火焰吐息	ANcf
+a ncf chen breath of fire launch missile	ANcf陈火焰吐息发射导弹	ANcf
+a ncf@buff breath of fire	ANcf增益火焰吐息	ANcf
+a ncf@missile	ANcf导弹	ANcf
+a ncf@search	ANcf搜索	ANcf
+a ncf@search impact set	ANcf搜索轰击设置	ANcf
+a ncf@target end	ANcf目标结束	ANcf
+a ncf@target start	ANcf目标开始	ANcf
+a ncl illidan channel	A-Ncl恶魔猎手引导	Ncl
+a ncl@target	ANcl目标	ANcl
+a ncr	技能-ANcr	ANcr
+a ncr alchemist chemical rage	A-Ncr地精炼金术师化学狂怒	Ncr
+a ncr@buff chemical rage	ANcr增益化学狂怒	ANcr
+a nd1 tinkerer demolish level1	ANd1修补匠拆除等级1	ANd
+a nd2 tinkerer demolish level2	ANd2修补匠拆除等级2	ANd
+a nd3 tinkerer demolish level3	ANd3修补匠拆除等级3	ANd
+a ndb brewmaster drunken brawler	ANdb酒仙醉拳搏斗者	ANdb
+a nde tinkerer demolish level0	ANde修补匠拆除等级0	ANde
+a ndh brewmaster drunken haze	ANdh酒仙醉拳霾	ANdh
+a ndh brewmaster drunken haze launch missile	ANdh酒仙醉拳霾发射导弹	ANdh
+a ndh@buff drunken haze	ANdh增益醉拳霾	ANdh
+a ndh@missile	ANdh导弹	ANdh
+a ndh@missile attack	A-Ndh导弹攻击	Ndh
+a ndh@missile impact set	ANdh导弹轰击设置	ANdh
+a ndh@search	ANdh搜索	ANdh
+a ndo pit lord doom	ANdo坑领主厄运	ANdo
+a ndo@buff doom	ANdo增益厄运	ANdo
+a ndo@buff doom minion	ANdo增益厄运仆从	ANdo
+a ndo@buff doom@dps	ANdo增益厄运DPS	ANdo
+a ndo@max creep level	A-Ndo最大菌毯等级	Ndo
+a ndo@not creep or not max creep level	A-Ndo非菌毯或非最大菌毯等级	Ndo
+a ndp dark portal	A-Ndp灰色遮罩传送门	Ndp
+a ndp@effect	ANdp效果	ANdp
+a ndp@summon delay	ANdp召唤延迟	ANdp
+a ndp@summon set	ANdp召唤设置	ANdp
+a ndp@summon set single	ANdp召唤设置单人	ANdp
+a ndr dark ranger drain	A-Ndr灰色遮罩游侠抽取	Ndr
+a ndr@beam	A-Ndr射线	Ndr
+a ndr@beam drain action	A-Ndr射线抽取动作	Ndr
+a ndr@beam1	ANdr光束1	ANdr
+a ndr@beam2	ANdr光束2	ANdr
+a ndr@buff drain caster life	ANdr增益抽取施法者生命	ANdr
+a ndr@buff drain target life	ANdr增益抽取目标生命	ANdr
+a ndr@drain filter set	ANdr抽取筛选设置	ANdr
+a ndr@drain life	ANdr抽取生命	ANdr
+a ndr@drain target	ANdr抽取目标	ANdr
+a ndr@max range	ANdr最大范围	ANdr
+a neg	技能-ANeg	ANeg
+a neg tinkerer engineering upgrade	A-Neg修补匠工程升级	Neg
+a neg@buff engineering upgrade	A-Neg增益工程升级	Neg
+a nen ensnare naga	A-Nen诱捕纳迦	Nen
+a nen ensnare naga launch missile	A-Nen诱捕纳迦发射导弹	Nen
+a nen@air unit height change	A-Nen对空单位高度变更	Nen
+a nen@air unit height op	A-Nen对空单位高度行动	Nen
+a nen@air unit height site	A-Nen对空单位高度场地	Nen
+a nen@buff ensnare air	A-Nen增益诱捕对空	Nen
+a nen@buff ensnare ground	A-Nen增益诱捕地面单位	Nen
+a nen@missile	ANen导弹	ANen
+a nen@missile attack	A-Nen导弹攻击	Nen
+a nen@missile impact set	ANen导弹轰击设置	ANen
+a nen@switch	ANen切换	ANen
+a nfa sea witch frost arrows	ANfa海巫医冰霜箭矢	ANfa
+a nfa sea witch frost arrows launch missile	ANfa海巫医冰霜箭矢发射导弹	ANfa
+a nfa@buff cold arrow	A-Nfa增益冰冷箭头	Nfa
+a nfa@buff cold arrow stack do t	A-Nfa增益冰冷箭头叠加执行T	Nfa
+a nfa@missile	ANfa导弹	ANfa
+a nfa@missile attack	A-Nfa导弹攻击	Nfa
+a nfa@missile impact set	ANfa导弹轰击设置	ANfa
+a nfb fire bolt	ANfb开火闪电束	ANfb
+a nfb fire bolt launch missile	ANfb开火闪电束发射导弹	ANfb
+a nfb@buff pause	ANfb增益暂停	ANfb
+a nfb@missile	ANfb导弹	ANfb
+a nfb@missile attack	A-Nfb导弹攻击	Nfb
+a nfb@missile impact set	ANfb导弹轰击设置	ANfb
+a nfd finger of death	A-Nfd手指的死亡	Nfd
+a nfd@attack	A-Nfd攻击	Nfd
+a nfd@beam	A-Nfd射线	Nfd
+a nfd@target	ANfd目标	ANfd
+a nfs@ember effect bath	烈焰风暴-余烬效果Bath	Bath
+a nfs@subsides	烈焰风暴-Subsides	Subsides
+a nfy factory	A-Nfy重工厂	Nfy
+a nfy@buff clockwork goblin	ANfy增益机械地精	ANfy
+a nfy@create clockwork goblin	ANfy创建机械地精	ANfy
+a nfy@leash	ANfy牵引	ANfy
+a ng1 tinkerer robo goblin level1	ANg1修补匠Robo地精等级1	ANg|Robo
+a ng2 tinkerer robo goblin level2	ANg2修补匠Robo地精等级2	ANg|Robo
+a ng3 tinkerer robo goblin level3	ANg3修补匠Robo地精等级3	ANg|Robo
+a ngl@caster	ANgl施法者	ANgl
+a ngl@target	ANgl目标	ANgl
+a nha	技能-ANha	ANha
+a nha harvest naga	A-Nha采集纳迦	Nha
+a nha@damage to tree	A-Nha伤害至树	Nha
+a nht pit lord howl of terror	ANht坑领主嚎叫的恐怖	ANht
+a nht@buff howl of terror	ANht增益嚎叫的恐怖	ANht
+a nht@caster	ANht施法者	ANht
+a nht@search	ANht搜索	ANht
+a nhw rokhan healing wave	A-Nhw暗影猎手治疗波次	Nhw
+a nhw@beam	A-Nhw射线	Nhw
+a nhw@beam1	ANhw光束1	ANhw
+a nhw@can jump to benign	A-Nhw可跳跃至友善	Nhw
+a nhw@healing loss	ANhw治疗失败	ANhw
+a nhw@jump target filters	ANhw跳跃目标筛选	ANhw
+a nhw@main beam action	A-Nhw主属性射线动作	Nhw
+a nhw@main delay	A-Nhw主属性延迟	Nhw
+a nhw@main healing	A-Nhw主属性治疗	Nhw
+a nhw@main impact	A-Nhw主属性轰击	Nhw
+a nhw@search	ANhw搜索	ANhw
+a nhw@secondary beam action	A-Nhw副射线动作	Nhw
+a nhw@secondary delay	ANhw副延迟	ANhw
+a nhw@secondary healing	ANhw副治疗	ANhw
+a nhw@secondary impact	ANhw副轰击	ANhw
+a nhw@set can jump to benign	A-Nhw设置可跳跃至友善	Nhw
+a nhw@target	ANhw目标	ANhw
+a nhw@target hit count	ANhw目标命中计数	ANhw
+a nhx rokhan hex	A-Nhx暗影猎手妖术	Nhx
+a nhx@buff hex	ANhx增益妖术	ANhx
+a nhx@max creep level	A-Nhx最大菌毯等级	Nhx
+a nhx@model swap	A-Nhx模型交换	Nhx
+a nhx@not creep or not max creep level	A-Nhx非菌毯或非最大菌毯等级	Nhx
+a nhx@special	ANhx特殊	ANhx
+a nhx@target checks	ANhx目标检查	ANhx
+a nia firelord incinerate	A-Nia炎魔焚化	Nia
+a nia firelord incinerate launch missile	A-Nia炎魔焚化发射导弹	Nia
+a nia@buff incinerate	ANia增益焚化	ANia
+a nia@damage source has ability	A-Nia伤害源拥有技能	Nia
+a nia@death explode damage air	A-Nia死亡爆炸伤害对空	Nia
+a nia@death explode damage ground	A-Nia死亡爆炸伤害地面单位	Nia
+a nia@death explode delay air	A-Nia死亡爆炸延迟对空	Nia
+a nia@death explode delay ground	A-Nia死亡爆炸延迟地面单位	Nia
+a nia@death explode switch	A-Nia死亡爆炸切换	Nia
+a nia@missile	ANia导弹	ANia
+a nia@missile attack	A-Nia导弹攻击	Nia
+a nia@missile impact set	ANia导弹轰击设置	ANia
+a nia@special	ANia特殊	ANia
+a nic firelord incinerate	A-Nic炎魔焚化	Nic
+a nic firelord incinerate launch missile	A-Nic炎魔焚化发射导弹	Nic
+a nic@buff incinerate	ANic增益焚化	ANic
+a nic@damage source has ability	A-Nic伤害源拥有技能	Nic
+a nic@death explode damage air	A-Nic死亡爆炸伤害对空	Nic
+a nic@death explode damage ground	A-Nic死亡爆炸伤害地面单位	Nic
+a nic@death explode delay air	A-Nic死亡爆炸延迟对空	Nic
+a nic@death explode delay ground	A-Nic死亡爆炸延迟地面单位	Nic
+a nic@death explode switch	A-Nic死亡爆炸切换	Nic
+a nic@missile	ANic导弹	ANic
+a nic@missile attack	A-Nic导弹攻击	Nic
+a nic@missile impact set	ANic导弹轰击设置	ANic
+a nic@special	ANic特殊	ANic
+a nin inferno	ANin地狱火	ANin
+a nin@buff infernal	A-Nin增益地狱火	Nin
+a nin@damage	A-Nin伤害	Nin
+a nin@effect	ANin效果	ANin
+a nin@impact set	ANin轰击设置	ANin
+a nin@search	ANin搜索	ANin
+a nin@search impact set	ANin搜索轰击设置	ANin
+a nin@stun	ANin眩晕	ANin
+a nin@stun hero	ANin眩晕英雄	ANin
+a nin@tree killer	ANin树击杀者	ANin
+a nlg@caster	ANlg施法者	ANlg
+a nlg@target	ANlg目标	ANlg
+a nlm firelord summon lava spawn	A-Nlm炎魔召唤熔岩孵化	Nlm
+a nlm@buff lava monster	A-Nlm增益熔岩怪物	Nlm
+a nlm@buff lava monster bonus time	A-Nlm增益熔岩怪物加成时间	Nlm
+a nlm@buff lava monster initial time	A-Nlm增益熔岩怪物初始时间	Nlm
+a nlm@copy set	ANlm复制设置	ANlm
+a nlm@create copy	ANlm创建复制	ANlm
+a nlm@create spawn set	A-Nlm创建孵化设置	Nlm
+a nlm@create unit	A-Nlm创建单位	Nlm
+a nlm@generation	ANlm世代	ANlm
+a nlm@generation2	ANlm世代2	ANlm
+a nlm@generation3	ANlm世代3	ANlm
+a nlm@increase generation	ANlm提升世代	ANlm
+a nlm@initial generation	ANlm初始世代	ANlm
+a nlm@lava missile	A-Nlm熔岩导弹	Nlm
+a nlm@lava missile attack	A-Nlm熔岩导弹攻击	Nlm
+a nlm@lava missile impact set	A-Nlm熔岩导弹轰击设置	Nlm
+a nlm@lava spawn color	A-Nlm熔岩孵化颜色	Nlm
+a nlm@max generation count	ANlm最大世代计数	ANlm
+a nlm@new life	ANlm新生命	ANlm
+a nlm@precursor	A-Nlm预放置隐藏	Nlm
+a nlm@remove precursor	A-Nlm移除预放置隐藏	Nlm
+a nlm@split attack count	A-Nlm分裂攻击计数	Nlm
+a nlm@split set	ANlm分裂设置	ANlm
+a nmd	行为-ANmd	ANmd
+a nmd@target	ANmd目标	ANmd
+a nmo monsoon	ANmo季风	ANmo
+a nmo@buff monsoon drain	ANmo增益季风抽取	ANmo
+a nmo@effect monsoon	ANmo效果季风	ANmo
+a nmo@initialize	ANmo初始化	ANmo
+a nmo@search	ANmo搜索	ANmo
+a nmo@target	ANmo目标	ANmo
+a nmr	技能-ANmr	ANmr
+a nmr mind rot	ANmr心智腐烂	ANmr
+a nmr@buff mind rot	ANmr增益心智腐烂	ANmr
+a nms	技能-ANms	ANms
+a nms sea witch mana shield	A-Nms海巫医法力盾	Nms
+a nms@buff mana shield	A-Nms增益法力盾	Nms
+a npa parasite	ANpa寄生虫	ANpa
+a npa parasite launch missile	ANpa寄生虫发射导弹	ANpa
+a npa@buff parasite	ANpa增益寄生虫	ANpa
+a npa@buff parasite minion	ANpa增益寄生虫仆从	ANpa
+a npa@buff parasite@dps	ANpa增益寄生虫DPS	ANpa
+a npa@death spawn	A-Npa死亡孵化	Npa
+a npa@missile	ANpa导弹	ANpa
+a npa@missile attack	A-Npa导弹攻击	Npa
+a npa@missile impact set	ANpa导弹轰击设置	ANpa
+a npi	技能-ANpi	ANpi
+a npi permanent immolation	ANpi永久献祭	ANpi
+a npi@buff perm immolation	ANpi增益Perm献祭	ANpi|Perm
+a npi@buff special	ANpi增益特殊	ANpi
+a npi@search	ANpi搜索	ANpi
+a npr preservation	ANpr保存	ANpr
+a npr@caster	ANpr施法者	ANpr
+a npr@special	ANpr特殊	ANpr
+a npr@target	ANpr目标	ANpr
+a npr@teleport	ANpr传送	ANpr
+a nr2@effect	ANr2效果	ANr
+a nr2@response delay	ANr2回应延迟	ANr
+a nr2@revive	ANr2复活	ANr
+a nr2@revive set	ANr2复活设置	ANr
+a nr3 rain of chaos button02	ANr3雨的混乱按钮02	ANr
+a nrc rain of chaos	ANrc雨的混乱	ANrc
+a nrc@random point	ANrc随机点	ANrc
+a nrc@summon chain	ANrc召唤连锁	ANrc
+a nrc@summon delay	ANrc召唤延迟	ANrc
+a nrc@summon set	ANrc召唤设置	ANrc
+a nre neutral regen mana only	ANre中立恢复法力仅	ANre
+a nre@mana tick	ANre法力刻	ANre
+a nre@neutral regen mana	ANre中立恢复法力	ANre
+a nrf pit lord rain of fire	ANrf坑领主雨的开火	ANrf
+a nrf@buff rain of fire	ANrf增益雨的开火	ANrf
+a nrf@buff rain of fire aoe	ANrf增益雨的开火范围	ANrf
+a nrf@buff rain of fire@dps	ANrf增益雨的开火DPS	ANrf
+a nrf@impact set	ANrf轰击设置	ANrf
+a nrf@search	ANrf搜索	ANrf
+a nrf@shard effect	ANrf碎片效果	ANrf
+a nrf@shard effect batch	ANrf碎片效果批次	ANrf
+a nrf@shard effect site op	ANrf碎片效果场地行动	ANrf
+a nrg tinkerer robo goblin level0	ANrg修补匠Robo地精等级0	ANrg|Robo
+a nrl@target	ANrl目标	ANrl
+a nrm@target	ANrm目标	ANrm
+a nrn mannoroth reincarnation	A-Nrn深渊魔王转生	Nrn
+a nrn@effect	ANrn效果	ANrn
+a nrn@heal	A-Nrn治疗	Nrn
+a nrn@remove buff	A-Nrn移除增益	Nrn
+a nrn@response delay	ANrn回应延迟	ANrn
+a nrn@revive	ANrn复活	ANrn
+a nrn@revive set	ANrn复活设置	ANrn
+a ns1@buff clockwork goblin	ANs1增益机械地精	ANs
+a ns1@create clockwork goblin	ANs1创建机械地精	ANs
+a ns1@leash	ANs1牵引	ANs
+a ns2@buff clockwork goblin	ANs2增益机械地精	ANs
+a ns2@create clockwork goblin	ANs2创建机械地精	ANs
+a ns2@leash	ANs2牵引	ANs
+a ns2@missile	ANs2导弹	ANs
+a ns2@missile impact set	ANs2导弹轰击设置	ANs
+a ns3@buff clockwork goblin	ANs3增益机械地精	ANs
+a ns3@create clockwork goblin	ANs3创建机械地精	ANs
+a ns3@leash	ANs3牵引	ANs
+a ns3@missile	ANs3导弹	ANs
+a ns3@missile impact set	ANs3导弹轰击设置	ANs
+a nsa sanctuary	ANsa圣殿	ANsa
+a nsa@buff sanctuary	ANsa增益圣殿	ANsa
+a nsa@caster	ANsa施法者	ANsa
+a nsa@special	ANsa特殊	ANsa
+a nsa@target	ANsa目标	ANsa
+a nsa@teleport	ANsa传送	ANsa
+a nsa@teleport set	ANsa传送设置	ANsa
+a nsb rexxar storm bolt	A-Nsb驯兽师风暴闪电束	Nsb
+a nsb rexxar storm bolt launch missile	A-Nsb驯兽师风暴闪电束发射导弹	Nsb
+a nsb@buff pause	ANsb增益暂停	ANsb
+a nsb@missile	ANsb导弹	ANsb
+a nsb@missile attack	A-Nsb导弹攻击	Nsb
+a nsb@missile impact set	ANsb导弹轰击设置	ANsb
+a nse spell shield aoe	A-Nse法术盾AOE	Nse
+a nse@buff spell shield	A-Nse增益法术盾	Nse
+a nse@caster	ANse施法者	ANse
+a nsg beast master summon bear	ANsg野兽大师召唤熊	ANsg
+a nsg@buff summon grizzly	ANsg增益召唤灰熊	ANsg
+a nsg@target	ANsg目标	ANsg
+a nsh garithos shock wave	ANsh加里瑟斯震荡波次	ANsh
+a nsh garithos shock wave launch missile	ANsh加里瑟斯震荡波次发射导弹	ANsh
+a nsh@missile	ANsh导弹	ANsh
+a nsh@missile attack	A-Nsh导弹攻击	Nsh
+a nsh@missile impact set	ANsh导弹轰击设置	ANsh
+a nsh@search	ANsh搜索	ANsh
+a nsh@target	ANsh目标	ANsh
+a nsi dark ranger silence	A-Nsi灰色遮罩游侠沉默	Nsi
+a nsi@buff silence	ANsi增益沉默	ANsi
+a nsi@effect	ANsi效果	ANsi
+a nsi@search	ANsi搜索	ANsi
+a nsl malganis soul preservation	A-Nsl恐惧魔王灵魂保存	Nsl
+a nsl@buff soul preservation	A-Nsl增益灵魂保存	Nsl
+a nsl@transition	ANsl过渡	ANsl
+a nsl@unit type	A-Nsl单位类型	Nsl
+a nso firelord soul burn	A-Nso炎魔灵魂燃烧	Nso
+a nso@buff soul burn	A-Nso增益灵魂燃烧	Nso
+a nso@buff soul burn@dps	A-Nso增益灵魂燃烧DPS	Nso
+a nsq beast master summon quilbeast	ANsq野兽大师召唤刺猬兽	ANsq
+a nsq@buff summon quillbeast	ANsq增益召唤刺猬兽	ANsq
+a nsq@target	ANsq目标	ANsq
+a nss spell shield	A-Nss法术盾	Nss
+a nss@buff spell shield	A-Nss增益法术盾	Nss
+a nss@caster	ANss施法者	ANss
+a nst beast master stampede	ANst野兽大师践踏	ANst
+a nst beast master stampede launch missile	ANst野兽大师践踏发射导弹	ANst
+a nst@end offset	ANst结束偏移	ANst
+a nst@missile	ANst导弹	ANst
+a nst@missile impact set	ANst导弹轰击设置	ANst
+a nst@missile scan	A-Nst导弹扫描	Nst
+a nst@missile scan impact set	A-Nst导弹扫描轰击设置	Nst
+a nst@persisent	ANst持久	ANst
+a nst@special	ANst特殊	ANst
+a nst@start offset	ANst开始偏移	ANst
+a nsu	技能-ANsu	ANsu
+a nsw beast master summon hawk	ANsw野兽大师召唤鹰	ANsw
+a nsw@buff summon war eagle	ANsw增益召唤战争鹰	ANsw
+a nsw@target	ANsw目标	ANsw
+a nsy tinkerer summon factory level0	A-Nsy修补匠召唤重工厂等级0	Nsy
+a nsy tinkerer summon factory level0 launch missile	A-Nsy修补匠召唤重工厂等级0发射导弹	Nsy
+a nsy@buff clockwork goblin	ANsy增益机械地精	ANsy
+a nsy@buff factory	A-Nsy增益重工厂	Nsy
+a nsy@create clockwork goblin	ANsy创建机械地精	ANsy
+a nsy@create factory	A-Nsy创建重工厂	Nsy
+a nsy@leash	ANsy牵引	ANsy
+a nsy@missile	ANsy导弹	ANsy
+a nsy@missile attack	A-Nsy导弹攻击	Nsy
+a nsy@missile impact set	ANsy导弹轰击设置	ANsy
+a nt2	技能-ANt2	ANt
+a nta taunt creep	A-Nta嘲讽菌毯	Nta
+a nta@caster	ANta施法者	ANta
+a nta@order attack	A-Nta命令攻击	Nta
+a nta@search	ANta搜索	ANta
+a nth	技能-ANth	ANth
+a nth thorny shield creep	A-Nth多刺盾菌毯	Nth
+a nth@buff thorny shield	A-Nth增益多刺盾	Nth
+a nth@reflection damage	A-Nth反射伤害	Nth
+a ntm alchemist transmute	A-Ntm地精炼金术师转化	Ntm
+a ntm alchemist transmute launch missile	A-Ntm地精炼金术师转化发射导弹	Ntm
+a ntm@buff transmute	ANtm增益转化	ANtm
+a ntm@kill	A-Ntm杀死	Ntm
+a ntm@max creep level	A-Ntm最大菌毯等级	Ntm
+a ntm@missile	ANtm导弹	ANtm
+a ntm@missile attack	A-Ntm导弹攻击	Ntm
+a ntm@missile impact set	ANtm导弹轰击设置	ANtm
+a ntm@not creep or not max creep level	A-Ntm非菌毯或非最大菌毯等级	Ntm
+a ntm@pawn	ANtm小卒	ANtm
+a nto sea witch tornado	A-Nto海巫医龙卷风	Nto
+a nto@buff tornado	A-Nto增益龙卷风	Nto
+a nto@hide status bar	ANto隐藏状态条	ANto
+a nto@initialize	ANto初始化	ANto
+a ntr detect war eagle	ANtr探测战争鹰	ANtr
+a nvc firelord volcano	A-Nvc炎魔火山	Nvc
+a nvc@buff volcano	ANvc增益火山	ANvc
+a nvc@buff volcano aoe	ANvc增益火山范围	ANvc
+a nvc@create volcano	ANvc创建火山	ANvc
+a nvc@drop rock cp	A-Nvc投放岩石CP	Nvc
+a nvc@drop rock target	A-Nvc投放岩石目标	Nvc
+a nvc@effect missile	ANvc效果导弹	ANvc
+a nvc@effect missile attack	A-Nvc效果导弹攻击	Nvc
+a nvc@effect missile impact set	ANvc效果导弹轰击设置	ANvc
+a nvc@effect special	ANvc效果特殊	ANvc
+a nvc@initialize	ANvc初始化	ANvc
+a nvc@not have buff volcano aoe	ANvc非拥有增益火山范围	ANvc
+a nvc@search	ANvc搜索	ANvc
+a nvc@terrain deformer	ANvc地形Deformer	ANvc|Deformer
+a nvc@volcano channel splat	A-Nvc火山引导泼溅图	Nvc
+a nvc@volcano spawn set	A-Nvc火山孵化设置	Nvc
+a nwk wind walk	ANwk风行走	ANwk
+a nwk@buff wind walk	ANwk增益风行走	ANwk
+a nwk@buff wind walk final set	ANwk增益风行走最终设置	ANwk
+a nwk@remove attack modifier	A-Nwk移除攻击修正器	Nwk
+a nwk@remove attack modifier after attack	A-Nwk移除攻击修正器之后攻击	Nwk
+a nwk@remove transition	A-Nwk移除过渡	Nwk
+a nwk@transition	ANwk过渡	ANwk
+a nwk@transition end set	ANwk过渡结束设置	ANwk
+a nwm watery minion	ANwm水域仆从	ANwm
+a nwm@buff watery minion	ANwm增益水域仆从	ANwm
+a nwm@target	ANwm目标	ANwm
+a oac@target	AOac目标	AOac
+a oae chieftain endurance aura	AOae酋长耐力光环	AOae
+a oae@buff aura endurance	AOae增益光环耐力	AOae
+a oae@search	AOae搜索	AOae
+a oae@target	AOae目标	AOae
+a obd birds	AObd鸟	AObd
+a obo broken obelisk	A-Obo破损方尖碑	Obo
+a obr skull brazier	AObr颅骨火盆	AObr
+a obu	技能-AObu	AObu
+a obu build orc	A-Obu建造兽人	Obu
+a ocl farseer chain lightning	A-Ocl先知闪电链	Ocl
+a ocl farseer chain lightning launch missile	A-Ocl先知闪电链发射导弹	Ocl
+a ocl@beam	A-Ocl射线	Ocl
+a ocl@beam1	AOcl光束1	AOcl
+a ocl@can jump to benign	A-Ocl可跳跃至友善	Ocl
+a ocl@jump target filters	AOcl跳跃目标筛选	AOcl
+a ocl@main beam action	A-Ocl主属性射线动作	Ocl
+a ocl@main damage	A-Ocl主属性伤害	Ocl
+a ocl@main delay	A-Ocl主属性延迟	Ocl
+a ocl@main impact	A-Ocl主属性轰击	Ocl
+a ocl@missile	AOcl导弹	AOcl
+a ocl@missile attack	A-Ocl导弹攻击	Ocl
+a ocl@missile impact set	AOcl导弹轰击设置	AOcl
+a ocl@search	AOcl搜索	AOcl
+a ocl@secondary beam action	A-Ocl副射线动作	Ocl
+a ocl@secondary damage	A-Ocl副伤害	Ocl
+a ocl@secondary delay	AOcl副延迟	AOcl
+a ocl@secondary impact	AOcl副轰击	AOcl
+a ocl@set can jump to benign	A-Ocl设置可跳跃至友善	Ocl
+a ocl@target	AOcl目标	AOcl
+a ocl@target hit count	AOcl目标命中计数	AOcl
+a ocr blade master critical strike	AOcr刀刃大师致命打击	AOcr
+a ogs guardian statue of aszune	A-Ogs守卫神庙哨兵的埃苏尼	Ogs
+a ohs hollow stump	AOhsHollow树桩	AOhsHollow
+a ohw shadow hunter healing wave	A-Ohw阴影猎杀虫治疗波次	Ohw
+a ohw@beam	A-Ohw射线	Ohw
+a ohw@beam1	AOhw光束1	AOhw
+a ohw@can jump to benign	A-Ohw可跳跃至友善	Ohw
+a ohw@healing loss	AOhw治疗失败	AOhw
+a ohw@jump target filters	AOhw跳跃目标筛选	AOhw
+a ohw@main beam action	A-Ohw主属性射线动作	Ohw
+a ohw@main delay	A-Ohw主属性延迟	Ohw
+a ohw@main healing	A-Ohw主属性治疗	Ohw
+a ohw@main impact	A-Ohw主属性轰击	Ohw
+a ohw@search	AOhw搜索	AOhw
+a ohw@secondary beam action	A-Ohw副射线动作	Ohw
+a ohw@secondary delay	AOhw副延迟	AOhw
+a ohw@secondary healing	AOhw副治疗	AOhw
+a ohw@secondary impact	AOhw副轰击	AOhw
+a ohw@set can jump to benign	A-Ohw设置可跳跃至友善	Ohw
+a ohw@target	AOhw目标	AOhw
+a ohw@target hit count	AOhw目标命中计数	AOhw
+a ohx shadow hunter hex	A-Ohx阴影猎杀虫妖术	Ohx
+a ohx@buff hex	AOhx增益妖术	AOhx
+a ohx@max creep level	A-Ohx最大菌毯等级	Ohx
+a ohx@model swap	A-Ohx模型交换	Ohx
+a ohx@not creep or not max creep level	A-Ohx非菌毯或非最大菌毯等级	Ohx
+a ohx@special	AOhx特殊	AOhx
+a ohx@target checks	AOhx目标检查	AOhx
+a oks keeper statue	A-Oks守护者神庙哨兵	Oks
+a olg straight log	AOlg直日志	AOlg
+a ols rokhan voodoo spirits	A-Ols暗影猎手巫毒之魂	Ols
+a ols@buff locust think	A-Ols增益蝗虫思考	Ols
+a ols@damage return threshold	A-Ols伤害返回阈值	Ols
+a ols@in locust acquire range	A-Ols内蝗虫获取范围	Ols
+a ols@locust can attack this target	A-Ols蝗虫可攻击此目标	Ols
+a ols@locust heal	A-Ols蝗虫治疗	Ols
+a ols@locust is attacking this target	A-Ols蝗虫是攻击中此目标	Ols
+a ols@locust is returning	A-Ols蝗虫是返回	Ols
+a ols@locust recall validators	A-Ols蝗虫召回验证器	Ols
+a ols@locust record damage	A-Ols蝗虫记录伤害	Ols
+a ols@locust returned	A-Ols蝗虫已返回	Ols
+a ols@locust returned range	A-Ols蝗虫已返回范围	Ols
+a ols@locust returned remove	A-Ols蝗虫已返回移除	Ols
+a ols@locust scan	A-Ols蝗虫扫描	Ols
+a ols@locust spawn set	A-Ols蝗虫孵化设置	Ols
+a ols@locust suicide validators	A-Ols蝗虫自杀验证器	Ols
+a ols@max locust per target	A-Ols最大蝗虫每目标	Ols
+a ols@order attack once	A-Ols命令攻击Once	Ols|Once
+a ols@order move	A-Ols命令移动	Ols
+a ols@order reset	AOls命令重置	AOls
+a ols@swarm finished	AOls虫群已完成	AOls
+a ols@swarm random point	AOls虫群随机点	AOls
+a ols@think cp	AOls思考CP	AOls
+a ols@think kill suicide	A-Ols思考杀死自杀	Ols
+a ols@think pick target set	AOls思考选取目标设置	AOls
+a ols@think recall	AOls思考召回	AOls
+a ols@think returned set	AOls思考已返回设置	AOls
+a ols@too far away	AOls过于远远离	AOls
+a omi	技能-AOmi	AOmi
+a omi blade master mirror image	AOmi刀刃大师镜像图像	AOmi
+a omi blade master mirror image launch missile	AOmi刀刃大师镜像图像发射导弹	AOmi
+a omi@buff mirror image	AOmi增益镜像图像	AOmi
+a omi@images creation set	AOmiImages创建设置	AOmiImages
+a omi@initialize	AOmi初始化	AOmi
+a omi@missile	AOmi导弹	AOmi
+a omi@missile attack	A-Omi导弹攻击	Omi
+a omi@missile impact set	AOmi导弹轰击设置	AOmi
+a omi@missile to dups	AOmi导弹至Dups	AOmi|Dups
+a omi@precursor	A-Omi预放置隐藏	Omi
+a omi@remove images	A-Omi移除Images	Images|Omi
+a omi@remove precursor	A-Omi移除预放置隐藏	Omi
+a omi@spawn effect	A-Omi孵化效果	Omi
+a omi@special	AOmi特殊	AOmi
+a omi@target	AOmi目标	AOmi
+a ont totem lantern	AOnt图腾灯笼	AOnt
+a oob glowing obelisk	A-Oob发光方尖碑	Oob
+a os2 cairne shock wave	AOs2凯恩震荡波次	AOs
+a os2 cairne shock wave launch missile	AOs2凯恩震荡波次发射导弹	AOs
+a os2@missile	AOs2导弹	AOs
+a os2@missile impact set	AOs2导弹轰击设置	AOs
+a os2@search	AOs2搜索	AOs
+a os2@target	AOs2目标	AOs
+a osh chieftain shock wave	AOsh酋长震荡波次	AOsh
+a osh chieftain shock wave launch missile	AOsh酋长震荡波次发射导弹	AOsh
+a osh@missile	AOsh导弹	AOsh
+a osh@missile attack	A-Osh导弹攻击	Osh
+a osh@missile impact set	AOsh导弹轰击设置	AOsh
+a osh@search	AOsh搜索	AOsh
+a osh@target	AOsh目标	AOsh
+a osk obelisk	A-Osk方尖碑	Osk
+a osr scorched remains	AOsr焦土Remains	AOsr|Remains
+a osw shadow hunter serpent ward	A-Osw阴影猎杀虫巨蛇守卫	Osw
+a osw@buff ward	AOsw增益守卫	AOsw
+a ovd shadow hunter voodooo	A-Ovd阴影猎杀虫Voodooo	Ovd|Voodooo
+a ovd@buff voodoo	AOvd增益巫毒	AOvd
+a ovd@buff voodoo caster	AOvd增益巫毒施法者	AOvd
+a ovd@initialize	AOvd初始化	AOvd
+a ovd@search	AOvd搜索	AOvd
+a ow2 cairne war stomp	AOw2凯恩战争践踏	AOw
+a ow2@buff pause	AOw2增益暂停	AOw
+a ow2@caster	AOw2施法者	AOw
+a ow2@impact set	AOw2轰击设置	AOw
+a ow2@search	AOw2搜索	AOw
+a owd	技能-AOwd	AOwd
+a owk blade master wind walk	AOwk刀刃大师风行走	AOwk
+a owk@buff wind walk	AOwk增益风行走	AOwk
+a owk@buff wind walk final set	AOwk增益风行走最终设置	AOwk
+a owk@remove attack modifier	A-Owk移除攻击修正器	Owk
+a owk@remove attack modifier after attack	A-Owk移除攻击修正器之后攻击	Owk
+a owk@remove transition	A-Owk移除过渡	Owk
+a owk@transition	AOwk过渡	AOwk
+a owk@transition end set	AOwk过渡结束设置	AOwk
+a ows chieftain war stomp	AOws酋长战争践踏	AOws
+a ows@buff pause	AOws增益暂停	AOws
+a ows@caster	AOws施法者	AOws
+a ows@impact set	AOws轰击设置	AOws
+a ows@search	AOws搜索	AOws
+a pbs bush	APbs灌木	APbs
+a pct cattail	APct香蒲	APct
+a pdi powerup dispel aoe	APdi增强道具驱散范围	APdi
+a pdi@effect	APdi效果	APdi
+a pdi@search	APdi搜索	APdi
+a pdi@search impact set	APdi搜索轰击设置	APdi
+a pdi@target	APdi目标	APdi
+a ph1@search	APh1搜索	APh
+a ph1@target	APh1目标	APh
+a ph2@search	APh2搜索	APh
+a ph2@target	APh2目标	APh
+a ph3@search	APh3搜索	APh
+a ph3@target	APh3目标	APh
+a pmg rune mana restore greater aoe	APmg符文法力恢复更高范围	APmg
+a pmg@mana	APmg法力	APmg
+a pmg@search	APmg搜索	APmg
+a pmg@target	APmg目标	APmg
+a pmr rune mana restore aoe	APmr符文法力恢复范围	APmr
+a pmr@mana	APmr法力	APmr
+a pmr@search	APmr搜索	APmr
+a pmr@target	APmr目标	APmr
+a pms mushrooms	APms蘑菇	APms
+a pra rune restore aoe	APra符文恢复范围	APra
+a pra@heal	A-Pra治疗	Pra
+a pra@search	APra搜索	APra
+a pra@target	APra目标	APra
+a prl rune of lesser resurrection	A-Prl小型复活神符	Prl
+a prl@caster	APrl施法者	APrl
+a prl@revive	APrl复活	APrl
+a prl@revive set	APrl复活设置	APrl
+a prl@search	APrl搜索	APrl
+a prl@target	APrl目标	APrl
+a prr rune of greater resurrection	A-Prr大型复活神符	Prr
+a prr@caster	APrr施法者	APrr
+a prr@revive	APrr复活	APrr
+a prr@revive set	APrr复活设置	APrr
+a prr@search	APrr搜索	APrr
+a prr@target	APrr目标	APrr
+a psa rune speed aoe	APsa符文速度范围	APsa
+a psa@buff speed bonus	APsa增益速度加成	APsa
+a ptv thorny vines	APtv多刺藤蔓	APtv
+a pwt rune of the watcher	A-Pwt岗哨神符	Pwt
+a pwt@buff evil eye	APwt增益邪恶眼	APwt
+a ral	技能-ARal	ARal
+a ral rally	A-Ral集结	Ral
+a rrk rocks	ARrk岩石	ARrk
+a sbc broken column	ASbc破损列	ASbc
+a sbl ruined blocks	毁坏的石块-废墟Blocks	Blocks
+a sbr black ruined rubble	A-Sbr黑色遮罩废墟碎砾	Sbr
+a spr pier	ASpr穿刺	ASpr
+a spt ruined pier	废弃的码头-废墟Pier	Pier
+a sra archway	ASra拱门	ASra
+a sv0 elven fishing village	ASv0精灵钓鱼村庄	ASv
+a sv1 elven fishing village	ASv1精灵钓鱼村庄	ASv
+a sv2 elven fishing village	ASv2精灵钓鱼村庄	ASv
+a sv3 elven fishing village	ASv3精灵钓鱼村庄	ASv
+a sv4 elven fishing village	ASv4精灵钓鱼村庄	ASv
+a swt world tree	ASwt世界树	ASwt
+a sx0 ruined elven fishing village	ASx0废墟精灵钓鱼村庄	ASx
+a sx1 ruined elven fishing village	ASx1废墟精灵钓鱼村庄	ASx
+a sx2 ruined elven fishing village	ASx2废墟精灵钓鱼村庄	ASx
+a ttc@portrait	A-Ttc头像	Ttc
+a ttr@portrait	A-Ttr头像	Ttr
+a twf@portrait	A-Twf头像	Twf
+a uan death knight animate dead	A-Uan死亡骑士活化死亡	Uan
+a uan@buff animate dead	AUan增益活化死亡	AUan
+a uan@revive	AUan复活	AUan
+a uan@search	AUan搜索	AUan
+a uan@special	AUan特殊	AUan
+a uau death knight unholy aura	A-Uau死亡骑士邪恶光环	Uau
+a uau@buff aura unholy	AUau增益光环邪恶	AUau
+a uau@search	AUau搜索	AUau
+a uau@target	AUau目标	AUau
+a uav dreadlord vampiric aura	A-Uav恐惧魔王吸血光环	Uav
+a uav@buff aura vampiric	AUav增益光环吸血	AUav
+a uav@leech	A-Uav能量吸噬	Uav
+a uav@search	AUav搜索	AUav
+a uav@target	AUav目标	AUav
+a ubu	技能-AUbu	AUbu
+a ubu build undead	A-Ubu建造亡灵	Ubu
+a ucs dreadlord carrion swarm	A-Ucs恐惧魔王腐肉虫群	Ucs
+a ucs dreadlord carrion swarm launch missile	A-Ucs恐惧魔王腐肉虫群发射导弹	Ucs
+a ucs@missile	AUcs导弹	AUcs
+a ucs@missile attack	A-Ucs导弹攻击	Ucs
+a ucs@missile impact set	AUcs导弹轰击设置	AUcs
+a ucs@search	AUcs搜索	AUcs
+a ucs@special	AUcs特殊	AUcs
+a ucs@target	AUcs目标	AUcs
+a udc death knight death coil	A-Udc死亡骑士死亡缠绕	Udc
+a udc death knight death coil launch missile	A-Udc死亡骑士死亡缠绕发射导弹	Udc
+a udc@enemy filter	AUdc敌方筛选	AUdc
+a udc@friend filter	AUdc友筛选	AUdc
+a udc@heal	A-Udc治疗	Udc
+a udc@heal target	A-Udc治疗目标	Udc
+a udc@missile	AUdc导弹	AUdc
+a udc@missile attack	A-Udc导弹攻击	Udc
+a udc@missile impact set	AUdc导弹轰击设置	AUdc
+a udc@special	AUdc特殊	AUdc
+a udc@target filter	AUdc目标筛选	AUdc
+a udd@effect death and decay sit op	枯萎凋零-效果死亡与衰变Sit行动	Sit
+a uds dark summoning	A-Uds灰色遮罩召唤	Uds
+a uds dark summoning launch missile	A-Uds灰色遮罩召唤发射导弹	Uds
+a uds@buff teleport reveal	A-Uds增益传送显示	Uds
+a uds@buff teleport reveal flying	A-Uds增益传送显示飞行	Uds
+a uds@buff teleport reveal flying rb	A-Uds增益传送显示飞行RB	Uds
+a uds@dark summoning channel splat	A-Uds灰色遮罩召唤引导泼溅图	Uds
+a uds@effect	AUds效果	AUds
+a uds@post teleport set	AUds后传送设置	AUds
+a uds@precursor	A-Uds预放置隐藏	Uds
+a uds@summon start set	AUds召唤开始设置	AUds
+a uds@target	AUds目标	AUds
+a ufa lich frost armor	A-Ufa巫妖冰霜护甲	Ufa
+a ufa@buff frost armor	A-Ufa增益冰霜护甲	Ufa
+a ufa@slow duration	A-Ufa减速持续时间	Ufa
+a ufu lich frost armor autocast	A-Ufu巫妖冰霜护甲自动施法	Ufu
+a ufu@buff frost armor	A-Ufu增益冰霜护甲	Ufu
+a ufu@slow duration	A-Ufu减速持续时间	Ufu
+a uim crypt lord impale	A-Uim地穴领主钉刺	Uim
+a uim@buff impale	A-Uim增益钉刺	Uim
+a uim@missile	AUim导弹	AUim
+a uim@missile attack	A-Uim导弹攻击	Uim
+a uim@missile impact set	AUim导弹轰击设置	AUim
+a uim@search	AUim搜索	AUim
+a uim@search impact set	AUim搜索轰击设置	AUim
+a uim@special	AUim特殊	AUim
+a uim@stun	AUim眩晕	AUim
+a uim@target	AUim目标	AUim
+a uin dreadlord inferno	A-Uin恐惧魔王地狱火	Uin
+a uin@buff infernal	A-Uin增益地狱火	Uin
+a uin@damage	A-Uin伤害	Uin
+a uin@effect	AUin效果	AUin

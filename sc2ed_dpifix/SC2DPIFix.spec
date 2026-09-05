@@ -12,7 +12,8 @@ a = Analysis(
         ('VERSION', '.'),
         ('CREDITS.md', '.'),
         ('CHANGELOG.md', '.'),
-        ('l10n/bundle', 'l10n/bundle'),
+        ('packages/hook', 'packages/hook'),
+        ('packages/editor', 'packages/editor'),
     ],
     hiddenimports=[],
     excludes=[

@@ -36,10 +36,10 @@ DEFAULT_ENGLISH_OBJECT = (
     / "ObjectStrings.txt"
 )
 DEFAULT_ENGLISH_GAME = DEFAULT_ENGLISH_OBJECT.with_name("GameStrings.txt")
-DEFAULT_OUTPUT = HERE / "l10n" / "OfficialDependencyNames.tsv"
-DEFAULT_RESOURCE_OUTPUT = HERE / "l10n" / "OfficialResourceNames.tsv"
+DEFAULT_OUTPUT = HERE / "packages" / "hook" / "OfficialDependencyNames.tsv"
+DEFAULT_RESOURCE_OUTPUT = HERE / "packages" / "hook" / "OfficialResourceNames.tsv"
 DEFAULT_REPORT = HERE / "l10n" / "OfficialDependencyNames.report.json"
-DEFAULT_ASSETS = HERE / "l10n" / "Editor"
+DEFAULT_ASSETS = HERE / "packages" / "editor"
 DEFAULT_TRIGGER_AUDIT = WORK / "official_trigger_string_audit.json"
 KINDS = ("Actor", "Behavior", "Abil", "Effect", "Validator", "Model")
 KIND_PRIORITY = {kind: index for index, kind in enumerate(KINDS)}
@@ -109,6 +109,7 @@ ENGLISH_ENTRY_OVERRIDES = {
     "Behavior/EditorPrefix/PylonPowerSourceAlly": "Pylon -",
 }
 DISPLAY_ALIAS_PREFIX = "@display:"
+MODEL_ID_PREFIX = "@model:"
 TRIGGER_NAME_OVERRIDES = {
     "TOD": "时段",
     "d": "技术触发器 d",
@@ -148,6 +149,14 @@ REQUIRED_DEPENDENCY_ALIASES = {
     "Hunterling Claws Damage": ("Effect", "HunterlingClawsDamage"),
     "In Range Of Leap Target Point": ("Validator", "InRangeOfLeapTargetPoint"),
     "Hunterling Air Death": ("Model", "HunterlingAirDeath"),
+    "Corsair Disruption Web Create Persistent": (
+        "Effect",
+        "CorsairMPDisruptionWebCreatePersistent",
+    ),
+    "Viper Consume Structure Create Persistent": (
+        "Effect",
+        "ViperConsumeStructureCreatePersistent",
+    ),
 }
 CJK = re.compile(r"[\u3400-\u9fff]")
 EMBEDDED_CATALOG_KEY = re.compile(
@@ -1011,7 +1020,18 @@ def main() -> int:
     ) -> None:
         if not source or not CJK.search(visible_value(value)):
             return
-        for alias in resource_aliases(source):
+        aliases = resource_aliases(source)
+        if source_kind == "objectId":
+            # Several editor trees hide the technical MP token while spacing
+            # a catalog id for display (CorsairMPDisruptionWeb... is shown as
+            # Corsair - Disruption Web...).  Generate the hidden-token form;
+            # the ambiguity pass below still rejects collisions.
+            aliases |= {
+                re.sub(r"(?i)(?<![A-Za-z0-9])MP(?![A-Za-z0-9])\s*", "", alias)
+                for alias in aliases
+                if re.search(r"(?i)(?<![A-Za-z0-9])MP(?![A-Za-z0-9])", alias)
+            }
+        for alias in aliases:
             key = resource_key(alias)
             if not key or any(char in key for char in "\t\r\n"):
                 continue
@@ -1124,6 +1144,8 @@ def main() -> int:
         handle.write("# SC2 official CASC dependency fallback names; UTF-8\n")
         for object_id in sorted(resolved, key=lambda value: (value.lower(), value)):
             handle.write(f"{object_id}\t{resolved[object_id].rstrip()}\n")
+        for object_id in sorted(model_ids, key=lambda value: (value.lower(), value)):
+            handle.write(f"{MODEL_ID_PREFIX}{object_id}\t1\n")
         for alias in sorted(dependency_display_aliases):
             handle.write(
                 f"{DISPLAY_ALIAS_PREFIX}{alias}\t"
@@ -1178,6 +1200,7 @@ def main() -> int:
         "dependencyObjects": len(latest),
         "missingNameBindings": sum(len(rows) for rows in candidates.values()),
         "uniqueRuntimeIds": len(resolved),
+        "preservedModelIds": len(model_ids),
         "dependencyDisplayAliases": len(dependency_display_aliases),
         "dependencyDisplayAliasAudit": {
             "officialKindObjects": len(official_kind_ids),

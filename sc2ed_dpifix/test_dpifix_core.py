@@ -7,6 +7,32 @@ from generate_official_dependency_names import ac_display_stems, resource_aliase
 
 
 class LocalizationReleaseTests(unittest.TestCase):
+    def test_hook_state_requires_fallback_and_tree_hooks(self):
+        tree_only = "tree localization hook installed on SendMessageW import"
+
+        self.assertEqual(
+            core._localization_hook_state(tree_only), ("waiting", "")
+        )
+
+        complete = (
+            "hook installed at SC2Editor_x64.exe+0x404B57\n" + tree_only
+        )
+        self.assertEqual(
+            core._localization_hook_state(complete), ("ready", "")
+        )
+
+    def test_hook_failure_takes_priority_over_success_markers(self):
+        status = (
+            "hook installed at SC2Editor_x64.exe+0x404B57\n"
+            "tree localization hook installed on SendMessageW import\n"
+            "resource hook signature mismatch; hook refused\n"
+        )
+
+        self.assertEqual(
+            core._localization_hook_state(status),
+            ("failed", "resource hook signature mismatch; hook refused"),
+        )
+
     def test_mismatched_external_file_is_backed_up_and_replaced(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -54,12 +80,16 @@ class LocalizationReleaseTests(unittest.TestCase):
             b"SC2L10nGetNameCount",
             b"SC2L10nGetDisplayAliasCount",
             b"SC2L10nGetResourceNameCount",
+            b"SC2L10nGetPreservedModelIdCount",
+            b"SC2L10nGetTreeInsertHookMarker",
             b"SC2L10nGetHookVersion",
             core._hook_version_marker(),
             "OfficialDependencyNames.tsv".encode("utf-16le"),
             "OfficialResourceNames.tsv".encode("utf-16le"),
             b"loaded official dependency names",
             b"loaded official resource names",
+            b"loaded model ids to preserve",
+            b"SC2ED_DPIFIX_TREE_INSERT_HOOK=1",
         )
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -79,11 +109,15 @@ class LocalizationReleaseTests(unittest.TestCase):
             b"SC2L10nGetNameCount",
             b"SC2L10nGetDisplayAliasCount",
             b"SC2L10nGetResourceNameCount",
+            b"SC2L10nGetPreservedModelIdCount",
+            b"SC2L10nGetTreeInsertHookMarker",
             b"SC2L10nGetHookVersion",
             "OfficialDependencyNames.tsv".encode("utf-16le"),
             "OfficialResourceNames.tsv".encode("utf-16le"),
             b"loaded official dependency names",
             b"loaded official resource names",
+            b"loaded model ids to preserve",
+            b"SC2ED_DPIFIX_TREE_INSERT_HOOK=1",
         )
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -167,6 +201,207 @@ class LocalizationReleaseTests(unittest.TestCase):
 
             self.assertFalse(target.exists())
             self.assertTrue(stored.exists())
+
+    def test_data_file_edits_are_preserved_across_launches(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            target = root / "OfficialResourceNames.tsv"
+            upstream = root / "upstream.tsv"
+            upstream.write_text("upstream", encoding="utf-8")
+            statuses = {"valid": 0, "released": 0, "updated": 0,
+                        "preserved": 0, "replaced": 0}
+            baseline = {}
+
+            core._sync_localization_data(
+                "hook/OfficialResourceNames.tsv", str(target), str(upstream),
+                baseline, statuses,
+            )
+            self.assertEqual(statuses["released"], 1)
+            self.assertEqual(target.read_text(encoding="utf-8"), "upstream")
+
+            target.write_text("my own translation", encoding="utf-8")
+            core._sync_localization_data(
+                "hook/OfficialResourceNames.tsv", str(target), str(upstream),
+                baseline, statuses,
+            )
+            self.assertEqual(statuses["preserved"], 1)
+            self.assertEqual(
+                target.read_text(encoding="utf-8"), "my own translation"
+            )
+
+    def test_untouched_data_file_follows_bundle_update(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            target = root / "OfficialResourceNames.tsv"
+            upstream = root / "upstream.tsv"
+            upstream.write_text("upstream v1", encoding="utf-8")
+            statuses = {"valid": 0, "released": 0, "updated": 0,
+                        "preserved": 0, "replaced": 0}
+            baseline = {}
+
+            core._sync_localization_data(
+                "hook/OfficialResourceNames.tsv", str(target), str(upstream),
+                baseline, statuses,
+            )
+
+            upstream.write_text("upstream v2", encoding="utf-8")
+            core._sync_localization_data(
+                "hook/OfficialResourceNames.tsv", str(target), str(upstream),
+                baseline, statuses,
+            )
+            self.assertEqual(statuses["updated"], 1)
+            self.assertEqual(
+                target.read_text(encoding="utf-8"), "upstream v2"
+            )
+            self.assertEqual(
+                baseline["hook/OfficialResourceNames.tsv"],
+                core._sha256_hex(str(upstream)),
+            )
+
+    def _fake_packages(self, root):
+        hook = root / "packages" / "hook"
+        editor = root / "packages" / "editor"
+        hook.mkdir(parents=True)
+        editor.mkdir(parents=True)
+        dll_markers = (
+            b"MZ", b"SC2L10nGetNameCount", b"SC2L10nGetDisplayAliasCount",
+            b"SC2L10nGetResourceNameCount", b"SC2L10nGetPreservedModelIdCount",
+            b"SC2L10nGetTreeInsertHookMarker", b"SC2L10nGetHookVersion",
+            core._hook_version_marker(),
+            "OfficialDependencyNames.tsv".encode("utf-16le"),
+            "OfficialResourceNames.tsv".encode("utf-16le"),
+            b"loaded official dependency names",
+            b"loaded official resource names",
+            b"loaded model ids to preserve",
+            b"SC2ED_DPIFIX_TREE_INSERT_HOOK=1",
+        )
+        (hook / core.L10N_DLL).write_bytes(b"fake".join(dll_markers))
+        (hook / core.L10N_TABLE).write_text("dependency tsv", encoding="utf-8")
+        (hook / core.L10N_RESOURCE_TABLE).write_text("resource tsv", encoding="utf-8")
+        (hook / core.L10N_PACKAGE_MANIFEST).write_text(
+            '{"format": 1, "name": "hook", "target": "deploy", "files": ['
+            f'{{"path": "{core.L10N_DLL}", "policy": "managed"}}, '
+            f'{{"path": "{core.L10N_TABLE}", "policy": "editable"}}, '
+            f'{{"path": "{core.L10N_RESOURCE_TABLE}", "policy": "editable"}}]}}',
+            encoding="utf-8",
+        )
+        strings = editor / "LocalizedData" / "GameStrings.txt"
+        strings.parent.mkdir(parents=True, exist_ok=True)
+        strings.write_text("editor strings", encoding="utf-8")
+        (editor / core.L10N_PACKAGE_MANIFEST).write_text(
+            '{"format": 1, "name": "editor", "target": "editor", "files": ['
+            '{"path": "LocalizedData/GameStrings.txt", "policy": "editable"}]}',
+            encoding="utf-8",
+        )
+        return hook, editor
+
+    def test_load_localization_packages_discovers_both_targets(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self._fake_packages(root)
+
+            packages = core.load_localization_packages(base=str(root))
+
+            self.assertEqual(
+                [(p["name"], p["target"]) for p in packages],
+                [("editor", "editor"), ("hook", "deploy")],
+            )
+            hook = next(p for p in packages if p["name"] == "hook")
+            policies = {e["path"]: e["policy"] for e in hook["files"]}
+            self.assertEqual(
+                policies[core.L10N_DLL], "managed"
+            )
+            self.assertEqual(
+                policies[core.L10N_TABLE], "editable"
+            )
+
+    def test_missing_package_file_is_an_error(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self._fake_packages(root)
+            (root / "packages" / "hook" / core.L10N_TABLE).unlink()
+
+            with self.assertRaises(core.PatchError):
+                core.load_localization_packages(base=str(root))
+
+    def test_release_packages_split_deploy_and_editor_targets(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            hook, editor = self._fake_packages(root)
+            deploy = root / "deploy"
+            editor_target = root / "SC2" / "Editor"
+            statuses = {"valid": 0, "released": 0, "updated": 0,
+                        "preserved": 0, "replaced": 0,
+                        "legacy_removed": 0, "legacy_backed_up": 0}
+            baseline = {}
+            packages = core.load_localization_packages(base=str(root))
+
+            core._release_localization_packages(
+                packages, str(deploy), str(editor_target), baseline, statuses,
+            )
+
+            # hook 包 → deploy；editor 包 → 编辑器目录，互不混放。
+            self.assertTrue((deploy / core.L10N_DLL).is_file())
+            self.assertTrue((deploy / core.L10N_TABLE).is_file())
+            self.assertFalse((editor_target / core.L10N_TABLE).exists())
+            self.assertTrue(
+                (editor_target / "LocalizedData" / "GameStrings.txt").is_file()
+            )
+            self.assertFalse((deploy / "LocalizedData").exists())
+            self.assertEqual(statuses["released"], 4)
+            self.assertEqual(
+                baseline["editor/LocalizedData/GameStrings.txt"],
+                core._sha256_hex(str(editor / "LocalizedData" / "GameStrings.txt")),
+            )
+
+            # 用户编辑 editor 数据 → 保留；managed DLL 被篡改 → 备份并替换。
+            edited = editor_target / "LocalizedData" / "GameStrings.txt"
+            edited.write_text("my own strings", encoding="utf-8")
+            (deploy / core.L10N_DLL).write_bytes(b"tampered")
+            statuses = {key: 0 for key in statuses}
+            core._release_localization_packages(
+                packages, str(deploy), str(editor_target), baseline, statuses,
+            )
+            self.assertEqual(statuses["preserved"], 1)
+            self.assertEqual(edited.read_text(encoding="utf-8"), "my own strings")
+            self.assertEqual(statuses["replaced"], 1)
+            self.assertTrue(
+                core._valid_hook_dll(str(deploy / core.L10N_DLL))
+            )
+
+    def test_prepare_localization_cleans_legacy_editor_hook_files(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            hook, editor = self._fake_packages(root)
+            deploy = root / "deploy"
+            editor_target = root / "SC2" / "Editor"
+            editor_target.mkdir(parents=True)
+            legacy_tsv = editor_target / core.L10N_TABLE
+            legacy_tsv.write_text(
+                (hook / core.L10N_TABLE).read_text(encoding="utf-8"),
+                encoding="utf-8",
+            )
+            stale_log = editor_target / core.L10N_LOG
+            stale_log.write_text("old hook log", encoding="utf-8")
+            statuses = {"valid": 0, "released": 0, "updated": 0,
+                        "preserved": 0, "replaced": 0,
+                        "legacy_removed": 0, "legacy_backed_up": 0}
+            baseline = {}
+            packages = core.load_localization_packages(base=str(root))
+
+            core._release_localization_packages(
+                packages, str(deploy), str(editor_target), baseline, statuses,
+            )
+            core._remove_legacy_hook_files(
+                editor_target, packages, statuses,
+            )
+
+            # 与新版一致 → 直接清理；旧日志一并移除。
+            self.assertFalse(legacy_tsv.exists())
+            self.assertFalse(stale_log.exists())
+            self.assertEqual(statuses["legacy_removed"], 1)
+            self.assertEqual(statuses["legacy_backed_up"], 0)
+            self.assertFalse(list(editor_target.glob("*.bak.sc2ed_dpifix_*")))
 
 
 class ResourceAliasTests(unittest.TestCase):

@@ -1,0 +1,16 @@
+{
+  "format": 1,
+  "name": "editor",
+  "target": "editor",
+  "description": "编辑器资源：编辑器自身读取的界面/游戏字符串，释放到编辑器目录。",
+  "files": [
+    { "path": "EditorCatalogStrings.txt", "policy": "editable" },
+    { "path": "EditorCategoryStrings.txt", "policy": "editable" },
+    { "path": "EditorStrings.txt", "policy": "editable" },
+    { "path": "LocalizedData/GameStrings.txt", "policy": "editable" },
+    { "path": "LocalizedData/ObjectStrings.txt", "policy": "editable" },
+    { "path": "LocalizedData/TriggerStrings.txt", "policy": "editable" },
+    { "path": "LocalizedData/GameStringsProduct.txt", "policy": "editable" },
+    { "path": "LocalizedData/ObjectStringsProduct.txt", "policy": "editable" }
+  ]
+}

@@ -1,0 +1,1190 @@
+(Executed By Trigger)
+(General)
+(Trigger Effect)
+(Unused)
+(Void Coop) Hyperion -
+(Void Coop) Hyperion Air Damage
+(Void Coop) Hyperion Air LM
+(Void Coop) Hyperion Air LM Set
+(Void Coop) Hyperion Air Pause Secondary
+(Void Coop) Hyperion Air Secondary Weapon Search
+(Void Coop) Hyperion Ground Damage
+(Void Coop) Hyperion Ground LM
+(Void Coop) Hyperion Ground LMSet
+(Void Coop) Hyperion Hyperjump Create Precursor
+(Void Coop) Hyperion Hyperjump Teleport
+(Void Coop) Hyperion Hyperjump Teleport AB
+(Void Coop) Hyperion Hyperjump Teleport In
+(Void Coop) Hyperion Hyperjump Teleport Out
+(Void Coop) Hyperion Hyperjump Teleport Set
+(Void Coop) Hyperion Pause Secondary AB
+(Void Coop) Hyperion Secondary Weapon Search
+(Void Coop) Hyperion Spawn AB
+(Void Coop) Hyperion Timed Life Expire AB
+(Void Coop) Hyperion Yamato Cannon CP
+(Void Coop) Hyperion Yamato Cannon Damage
+(Void Coop) Hyperion Yamato Cannon LM
+(Vorazun Commander) Dark Templar Recalling
+16:10(10)
+16:9(9)
+4:3(4)
+5:4(5)
+Abathur -
+Abathur - Overlord -
+Aberration - Weapon
+Adept - Shade Phase Shift Cancel Caster Behavior RB
+Adept - Shade Phase Shift Cancel RB
+Aether Storm (Create Persistent)
+Aether Storm (Damage)
+Aether Storm (Search)
+Aether Storm Dummy Weapon
+Aether Storm Dummy Weapon (Damage)
+Agria
+Aiur Creep
+Aiur Overmind (Height 0)
+Aiur Overmind (Height 1)
+Aiur Overmind (Height 2)
+Aiur Overmind (Height 3)
+Alarak - AC -
+Alarak - AC -  (Trigger Dummy)
+Alarak - Force Bolt (Damage)
+Alarak - Force Bolt Damage Set
+Alarak - Force Bolt Split Damage
+Alarak - Force Bolt Split Damage Set
+Alarak - Weapon Search
+Alarak AC -
+Alarak Psi Orb Final Upgraded
+Alarak Soul Steal Modify
+Alarm Bot Alarm Active
+Amon Tentacle
+Amon Tentacle BAttack
+Amon Tentacle CImpact Root Damage
+Amon Tentacle CImpact Root Stun
+Amon Tentacle CP
+Amon Tentacle LM
+Ancient Xel Naga Artifact Power
+Ancient Xel Naga Artifact Shield
+Annihilator - Ground Particle Disruptors (Damage)
+Annihilator - Ground Particle Disruptors (LM)
+ArbiterMP Recall (Apply Post-Recall Behavior)
+ArbiterMP Recall (Apply Pre-Recall Behavior)
+Arc Node Spawn Shadow Of The Void
+Artanis Hallucination Army Dragoon
+Artanis Hallucination Army Zealot
+Artanis Psi Blast (Apply Marker)
+Artanis Psi Blast 1 (Damage)
+Artanis Psi Blast 1 (Persistent Delay)
+Artanis Psi Blast 1 (Search)
+Artanis Psi Blast 1 (Set)
+Artanis Psi Blast 2 (Damage)
+Artanis Psi Blast 2 (Persistent Delay)
+Artanis Psi Blast 2 (Search)
+Artanis Psi Blast 2 (Set)
+Artanis Psi Blast 3 (Damage)
+Artanis Psi Blast 3 (Persistent Delay)
+Artanis Psi Blast 3 (Search)
+Artanis Psi Blast 3 (Set)
+Artanis Psi Blast 4 (Damage)
+Artanis Psi Blast 4 (Persistent Delay)
+Artanis Psi Blast 4 (Search)
+Artanis Psi Blast 4 (Set)
+Artanis Psi Blast 5 (Damage)
+Artanis Psi Blast 5 (Set)
+Artanis Resurgence Enemy Impact
+Artifact Dig Site
+Auto-Turret - Twin Autocannons (Damage)
+Avernus
+Avernus Gas Refinery (Height 1)
+Avernus Gas Refinery (Height 2)
+Avernus Gas Refinery (Height 3)
+Avernus Glass Floor (Height 1)
+Avernus Glass Floor (Height 2)
+Avernus Glass Floor (Height 3)
+Avernus Grid Floor (Height 1)
+Avernus Grid Floor (Height 2)
+Avernus Grid Floor (Height 3)
+Avernus Mining Chamber (Height 1)
+Avernus Mining Chamber (Height 2)
+Avernus Mining Chamber (Height 3)
+Avernus Spectre Chamber (Height 1)
+Avernus Spectre Chamber (Height 2)
+Avernus Spectre Chamber (Height 3)
+Baneling - Suicide (Remove Buff)
+Battlecruiser - ATA Laser Battery (Damage)
+Battlecruiser - ATA Laser Battery (Launch Missile)
+Battlecruiser - ATS Laser Battery (Damage)
+Battlecruiser - ATS Laser Battery (Launch Missile)
+Battlecruiser - Yamato Cannon (Damage)
+Battlecruiser - Yamato Cannon (Missile)
+Battlecruiser Anti-Air
+Battlecruiser Helios - Helios Damage (Dummy Impact)
+Battlecruiser Hero - Helios Damage (Create Persistent)
+BelShir
+Biomass Buff1 To10
+Biomass Buff10 To100
+Blast Crater 1 (Height 1)
+Blast Crater 1 (Height 2)
+Blast Crater 1 (Height 3)
+Blast Crater 2 (Height 1)
+Blast Crater 2 (Height 2)
+Blast Crater 2 (Height 3)
+Blast Crater 3 (Height 1)
+Blast Crater 3 (Height 2)
+Blast Crater 3 (Height 3)
+Blast Crater 4 (Height 1)
+Blast Crater 4 (Height 2)
+Blast Crater 4 (Height 3)
+Block B - P38 'Scythe' Gauss Pistol (Create Persistent)
+Block B - P38 'Scythe' Gauss Pistol (Damage)
+Brakk - Acidic Projection (Damage)
+Brakk - Acidic Projection (Launch)
+Brakk - Acidic Projection (Search)
+Brakk - Serrated Talons (Damage)
+Braxis Alpha
+Braxis Alpha Bridge Arrow 1 (Height 1)
+Braxis Alpha Bridge Arrow 1 (Height 2)
+Braxis Alpha Bridge Arrow 1 (Height 3)
+Braxis Alpha Bridge Arrow 2 (Height 1)
+Braxis Alpha Bridge Arrow 2 (Height 2)
+Braxis Alpha Bridge Arrow 2 (Height 3)
+Braxis Alpha Reactor (Height 1)
+Braxis Alpha Reactor (Height 2)
+Braxis Alpha Reactor (Height 3)
+Broken Cliff Doodad
+Burrow Charge Create
+CEffectCancelOrder
+CEffectCreateHealer
+CEffectDamage
+CEffectEnumMagazine
+CEffectModifyPlayer
+CEffectRedirectMissile
+CEffectReleaseMagazine
+CEffectReturnMagazine
+CEffectUseCalldown
+Carrier - Interceptor - Interceptor Beam (Persistent Damage)
+Carrier - Interceptors (Create Persistent)
+Carrier - Interceptors (Create Upgraded Persistent)
+Carrier - Launch Interceptor (Magazine)
+Carrier Hero - Interceptor - Pulse Cannon
+Carrier Hero - Interceptor Burst
+Carrier Interceptor Bomb
+Carrier Interceptor Launch Terrazine Shadow
+Castanar Bridge Diagonal (Height 1)
+Castanar Bridge Diagonal (Height 2)
+Castanar Bridge Horizontal Large
+Castanar Bridge Horizontal Large Destroyed
+Castanar Bridge Horizontal Small
+Castanar Bridge Horizontal Small Destroyed
+Castanar Bridge Vertical Large
+Castanar Bridge Vertical Large Destroyed
+Castanar Bridge Vertical Small
+Castanar Bridge Vertical Small Destroyed
+Castanar Bruta Cage (Height 1)
+Castanar Bruta Cage (Height 2)
+Castanar Bruta Cage (Height 3)
+Castanar Brutalisk Cage (Height 1)
+Castanar Brutalisk Cage (Height 2)
+Castanar Brutalisk Cage (Height 3)
+Castanar Power Generator (Height 1)
+Castanar Power Generator (Height 2)
+Castanar Power Generator (Height 3)
+Celestial Beam CP 2
+Celestial Beam Power CP 2
+Char
+Char Acid
+Char Nydus Nest (Height 1)
+Char Nydus Nest (Height 2)
+Char Nydus Nest (Height 3)
+Char Nydus Nest Empty (Height 1)
+Char Nydus Nest Empty (Height 2)
+Char Nydus Nest Empty (Height 3)
+Char2
+Civilian - Throw Molotov (Launch Missile) (Unit)
+Collapsible Rock Tower Ramp/Diagonal (Conjoined Dummy)
+Collapsible Rock Tower Ramp/Diagonal (Conjoined Search)
+Collapsible Terran Tower Ramp/Diagonal (Conjoined Dummy)
+Collapsible Terran Tower Ramp/Diagonal (Conjoined Search)
+CollapsibleRockTowerDiagonalMakeInvulnerable
+Collapsing Ice Large (Height 1)
+Collapsing Ice Large (Height 2)
+Collapsing Ice Large (Height 3)
+Collapsing Ice Medium (Height 1)
+Collapsing Ice Medium (Height 2)
+Collapsing Ice Medium (Height 3)
+Colonist Vehicle - Park
+Colonist Vehicle - Start
+Colony Infestation (Apply Behavior)
+Colony Infestation (Create Persistent)
+Colony Infestation (Launch Missile)
+Colossus Taldarim Thermal Lances
+Colossus Taldarim Thermal Lances Damage
+Colossus Taldarim Thermal Lances Damage Delay
+Colossus Taldarim Thermal Lances Forward
+Colossus Taldarim Thermal Lances Reverse
+Colossus Taldarim Thermal Lances Search
+Colossus Taldarim Thermal Lances Search Reverse
+Command Center - Remove Cargo on Death (Damage)
+Concussive Grenade (Damage)
+Coolant Pipes 1 (Height 1)
+Coolant Pipes 1 (Height 2)
+Coolant Pipes 1 (Height 3)
+Coolant Pipes 2 (Height 1)
+Coolant Pipes 2 (Height 2)
+Coolant Pipes 2 (Height 3)
+Coop -
+Create Stasis Cocoon Controller Target
+D-8 Cluster Bomb (Launch Missile)
+D-8 Cluster Bomb Create Persistant
+D-8 Cluster Bomb Create Unit
+D-8 Cluster Bomb Explode
+D-8 Cluster Bomb Explode Damage
+D-8 Cluster Bomb Launch
+Dark Inertia (AB)
+Dark Inertia (Damage)
+Dark Inertia (Search Area)
+Dark Inertia (Set)
+Dark Inertia Damage Dummy
+Default
+Default Effect (CEffect)
+Default Effect (CEffectApplyBehavior)
+Default Effect (CEffectApplyForce)
+Default Effect (CEffectCreatePersistent)
+Default Effect (CEffectCreateUnit)
+Default Effect (CEffectEnumArea)
+Default Effect (CEffectEnumTransport)
+Default Effect (CEffectIssueOrder)
+Default Effect (CEffectLaunchMissile)
+Default Effect (CEffectModifyUnit)
+Default Effect (CEffectRemoveBehavior)
+Default Effect (CEffectSet)
+Default Effect (CEffectSwitch)
+Default Effect (CEffectTeleport)
+Default Effect (CEffectTransferBehavior)
+Default Effect (CEffectUseMagazine)
+Default Effect (CEffectUserData)
+Defense Droid  (Damage)
+Defense Droid (Launch Missile)
+Defensive Wall 45 1H Merge 1
+Defensive Wall 45 1H Merge 1 Mirror
+Defensive Wall 45 1H Merge 2
+Defensive Wall 45 1H Merge 2 Mirror
+Defensive Wall 45 2H Merge 1
+Defensive Wall 45 2H Merge 1 Mirror
+Defensive Wall 90 1H Merge 1
+Defensive Wall 90 1H Merge 2
+Defensive Wall 90 1H Merge 2 Mirror
+Defensive Wall 90 2H Merge 1
+Defensive Wall 90 2H Merge 1 Mirror
+Defensive Wall901 HMerge10 Mirror
+Dematerialize (AB)
+Devil Dog - Flame Thrower (Create Persistent)
+Devil Dog - Flame Thrower (Damage)
+Devil Dog - Flame Thrower (Search Area)
+Devil Dog - Flame Thrower (Set)
+Diamondback - Eviscerator (Beam)
+Diamondback - Eviscerator (Set)
+Dragoon Champion - Power Shield (Apply)
+Dreadnought AG Damage
+Dreadnought AG Damage Set
+Dreadnought AG Missile LM
+Dreadnought Missile Burst Persistent
+Dreadnought Missile Damage
+Dreadnought Missile Dummy
+Dreadnought Missile LM
+Dreadnought Missile Launchers Persistent
+Dreadnought Target AA Morph Order
+Dreadnought Target AA Morph Order Set
+Dreadnought Target AA Morph RB
+Dreadnought Target Morph AB
+Dreadnought Target Morph AG Order
+Dreadnought Target Morph Delay Persistent
+Dreadnought Target Morph Order Initial Set
+Dreadnought Target Morph Persistent
+Dreadnought Target Morph Search Area
+Duke's Revenge - ATA Damage
+Duke's Revenge - ATA Launch Missile
+Duke's Revenge - ATS Damage
+Duke's Revenge - ATS Launch Missile
+Duke's Revenge - Cannons (Air)
+Duke's Revenge - Cannons (Ground)
+Enable Drag Move In Selection Mode
+Expedition Gate (Height 1)
+Expedition Gate (Height 2)
+Expedition Gate (Height 3)
+Fenix Charge Damage
+Fenix Charge Stop
+FenixSOA Charge Stun Apply
+Firebat - Flame Thrower (Apply DoT Behavior)
+Firebat - Flame Thrower (Damage)
+Firebat - Flame Thrower (Enum Area)
+Firebat - Flame Thrower (Persistent)
+Firebat - Flame Thrower (Set)
+Firebat - Flame Thrower (Viral Plasma DoT Damage)
+Frozen Lake (Height 1)
+Frozen Lake (Height 2)
+Frozen Lake (Height 3)
+Ghost - C-10 Canister Rifle (Damage)
+Goliath - Hellfire Missile Pack (Damage)
+Goliath - Hellfire Missile Pack (Persistent)
+Goliath - Twin Autocannons (Damage)
+Grenadier - Concussive Grenade (Burst)
+Grenadier - Concussive Grenade (Damage)
+Grenadier - Concussive Grenade (Missile)
+Grenadier - Concussive Grenade (Set)
+Hammer Security - Concussive Grenade (Damage)
+Hammer Security - Concussive Grenade (Set)
+Haven
+Haven Creep
+Hel's Angel - Halo Rockets (Damage)
+Hel's Angel - Halo Rockets (Launch Missile)
+Hel's Angel - Halo Rockets (Persistent)
+Hel's Angel - Twin Gatling Cannon (Damage)
+Helios
+High Templar - Feedback (Damage Target based on Energy)
+High Templar - Feedback (Remove Target Energy)
+High Templar - Mind Blast Damage
+High Templar - Psi Orb (Damage)
+High Templar - Psi Orb (Destroy Persistent)
+High Templar - Psi Orb (Final Damage)
+High Templar - Psi Orb (Final Search)
+High Templar - Psi Orb (Initial Persistent)
+High Templar - Psi Orb (Launch Missile)
+High Templar - Psi Orb (Persistent)
+High Templar - Psi Orb (Search)
+High Templar - Psi Orb (Set)
+High Templar - Weapon Cripple AB
+High Templar Weapon Launch Missile
+HotS - Char Lava Flow (Height 1)
+HotS - Char Lava Flow (Height 2)
+HotS - Char Lava Flow (Height 3)
+Hunter Killer - Melee (Damage)
+Hunter Killer - Needle Spines (Missile)
+Hybrid Dominator - Plasma Blast (Damage)
+Hybrid Dominator - Plasma Blast (Launch Missile)
+Hybrid Dominator - Psychic Clones (Apply Caster Behavior)
+Hybrid Dominator - Psychic Clones (Apply Spawn Behavior)
+Hybrid Dominator - Psychic Clones (Create Persistent)
+Hybrid Dominator - Psychic Clones (Create Unit)
+Hybrid Dominator - Psychic Clones (Remove Caster Behavior)
+Hybrid Gas Vent (Height 1)
+Hybrid Gas Vent (Height 2)
+Hybrid Gas Vent (Height 3)
+Hybrid Glass Floor 1 (Height 1)
+Hybrid Glass Floor 1 (Height 2)
+Hybrid Glass Floor 1 (Height 3)
+Hybrid Glass Floor 2 (Height 1)
+Hybrid Glass Floor 2 (Height 2)
+Hybrid Glass Floor 2 (Height 3)
+Hybrid Lab Brutalisk Cage (Height 1)
+Hybrid Lab Brutalisk Cage (Height 2)
+Hybrid Lab Brutalisk Cage (Height 3)
+HybridC - HybridC Plasma Blast Damage
+HybridC - HybridC Plasma Blast Launch Missile
+HybridD - ShockD (Launch Missile)
+HybridD - ShockD Damage
+HybridE - ShockE (Persistent)
+HybridE - ShockE Damage
+HybridF - Consume DNA Create Persistant
+HybridF - Hybrid - Consume Zerg (Create Persistent)
+HybridF - Hybrid - Consume Zerg (Damage)
+HybridF - Hybrid - Consume Zerg (Launch Missile)
+HybridF - Hybrid - Consume Zerg (Launch Set)
+HybridF - Hybrid - Consume Zerg (Modify Unit)
+HybridF - Hybrid - Consume Zerg (Set)
+Immortal - Barrier AB (Base Immortal)
+Immortal - Stasis Heal (Apply)
+Immortal - Stasis Heal (Heal)
+Immortal - Stasis Heal (Remove)
+Immortal - Stasis Heal (Set)
+Immortal - Super Cannons (Apply)
+Immortal - Super Cannons (Remove)
+Infested Terran Campaign - Infested Rifle
+Instant Morph Unburrow
+Interceptor - Pulse Cannon (Damage)
+Interceptor Create
+Jelly Grab Impact
+Jelly Grab Impact Air
+Jelly Grab Impact Ground
+Karax - Master Phase-smith Attack AB
+Karax - Master Phase-smith Production AB
+Karax - Master Phase-smith Search
+Karax - Master Phase-smith Set
+Karax - Servitor Strike Damage A - Electric
+Karax - Servitor Strike Damage B - Fire
+Kel-Morian -  (AB)
+Kelmorian Miner - Gauss Rifle (Damage)
+Kerrigan Epilogue03 Line Dash Attack Stop
+Kerrigan Epilogue03 Strike Amon Dummy Caster
+Kerrigan Void Coop Econ Drop <1 Achievement Behavior
+Kerrigan Void Coop Econ Drop <1 Pickup
+Kerrigan Void Coop Econ Drop <1 Pickup Set
+Kerrigan Void Coop Econ Drop <1 Set
+Korhal
+Korhal Bile Launcher (Damage)
+Korhal Bile Launcher (Delay Persistent)
+Korhal Bile Launcher (Launch Missile)
+Korhal Bile Launcher Bombardment (Damage)
+Korhal Bile Launcher Bombardment (Delay Persistent)
+Korhal Bile Launcher Bombardment (Launch Missile)
+Korhal Hole
+Kraith - Crashing Charge (Persistent)
+Kraith - Crashing Charge Abort (Apply Behavior)
+Kraith - Crashing Charge Caster (Apply Force)
+Kraith - Crashing Charge Caster (Set)
+Kraith - Crashing Charge Caster Move (Persistent)
+Kraith - Crashing Charge Check Target (Persistent)
+Kraith - Crashing Charge Knockback (Apply Behavior)
+Kraith - Crashing Charge Knockback (Apply Force)
+Kraith - Crashing Charge Knockback (Persistent)
+Kraith - Crashing Charge Knockback (Remove Behavior)
+Kraith - Crashing Charge Speed (Apply Behavior)
+Kraith - Crashing Charge Speed (Remove Behavior)
+Kraith - Falling Rocks (Create Damage Persistent)
+Kraith - Falling Rocks Unload (Apply Behavior)
+Laser Drill Tripod -  Laser Beam (Final Damage)
+Laser Drill Tripod -  Laser Beam (Initial Damage)
+Laser Drill Tripod -  Laser Beam (Initial Persistant)
+Loki -  Armageddon Cannon Left (Damage)
+Loki -  Armageddon Cannon Right (Damage)
+Loki -  Armageddon Cannons (Persistent)
+Loki - Hurricane Missile Left (Missile)
+Loki - Hurricane Missile Right (Missile)
+Loki - Yamato Cannon (Damage)
+Loki - Yamato Cannon (Missile)
+MarSara
+Marauder - Stim Pack (Apply Buff)
+Marine - Stim Pack (Apply Buff)
+Meinhoff
+Mercenary Fortress - Fortress Cannons
+Missile Turret - Hellstorm Missile Pods (Create Persistent)
+Missile Turret - Hellstorm Missile Pods (Damage)
+Missile Turret - Hellstorm Missile Pods (Launch Missile)
+Mothership - Birth
+Mothership Core - Light of Aiur
+Mutator
+Mutator -
+Mutator -  (Trigger Notice)
+Mutator Amon Enemy Hero - Karax -
+Mutator Amon Enemy Hero - Karax -  - Electric
+Narud Epilogue Low
+Needle Spines
+New Folsom Prison Floor Left (Height 1)
+New Folsom Prison Floor Left (Height 2)
+New Folsom Prison Floor Left (Height 3)
+New Folsom Prison Floor Right (Height 1)
+New Folsom Prison Floor Right (Height 2)
+New Folsom Prison Floor Right (Height 3)
+Niflheim
+Nova - Weapon Damage
+NovaArmorBlinkSuitBlinkTeleport
+Odin - Anti Air
+Odin - Anti Air (Damage)
+Odin - Anti Air (Launch Missile)
+Odin - Hand Gun
+Odin - Hand Gun (Damage Left)
+Odin - Hand Gun (Damage Right)
+Odin - Hand Gun (Damage)
+Omegalisk - Superzerg Blades (Cleave Damage)
+Omegalisk - Superzerg Blades (Cleave)
+Omegalisk - Superzerg Blades (Damage)
+Omegalisk - Superzerg Blades (Set)
+Oracle Stasis Ward
+Oracle Stasis Ward Activate AB
+Oracle Stasis Ward Activate Search
+Oracle Stasis Ward Activate Set
+Oracle Stasis Ward Build Beam Off
+Oracle Stasis Ward Build Beam On
+Oracle Stasis Ward CU
+Oracle Stasis Ward Reveal
+Parasitic Domination (Apply Behavior)
+Parasitic Domination (Launch Missile)
+Phoenix -  (Issue Order)
+Phoenix - Anti Gravity (Apply Behavior)
+Phoenix - Anti Gravity (Cancel Burrow)
+Phoenix - Anti Gravity (Cancel Lurker Burrow)
+Phoenix - Anti Gravity (Caster Energy Drain)
+Phoenix - Anti Gravity (Height Behavior)
+Phoenix - Anti Gravity (Initial Set)
+Phoenix - Anti Gravity (Issue Lurker Order)
+Phoenix - Anti Gravity (Issue Order)
+Phoenix - Anti Gravity (Periodic Set)
+Phoenix - Anti Gravity (Persistent)
+Phoenix - Anti Gravity (Visibility Dummy)
+Phoenix Aiur - Graviton Beam AB - Void Campaign
+Phoenix Aiur - Graviton Beam CP - Void Campaign
+Phoenix Aiur - Graviton Beam Damage - Void Campaign
+Phoenix Aiur - Graviton Beam Height AB - Void Campaign
+Phoenix Aiur - Graviton Beam Initial Set - Void Campaign
+Phoenix Aiur - Graviton Beam Set - Void Campaign
+Photon Cannon Teleport Build Start
+Photon Cannon Teleport Caster Start
+Photon Cannon Teleport Match Life
+Pit Malash Super Move CP
+Pit Malash Super Move Charge Damage
+Point Defense Drone - Point Defense Laser (Apply Behavior)
+Point Defense Drone - Point Defense Laser (Remove Energy)
+Point Defense Drone - Point Defense Laser (Search)
+Point Defense Drone - Point Defense Laser (Visibility Dummy)
+Port Zion Crusher (Height 1)
+Port Zion Crusher (Height 2)
+Port Zion Crusher (Height 3)
+Port Zion Grid Floor (Height 1)
+Port Zion Grid Floor (Height 2)
+Port Zion Grid Floor (Height 3)
+Port Zion Grid Floor Circle (Height 1)
+Port Zion Grid Floor Circle (Height 2)
+Port Zion Grid Floor Circle (Height 3)
+PortZion
+Predator - ROBOT CLAWS [PH] (Damage)
+Predator Retribution Field Set
+Primal Egg Power 1 (Dummy)
+Primal Lurker
+Primal Lurker (Set)
+Primal Lurker Dummy Search
+Primal Lurker Search
+Primal Slash (Damage)
+Protoss Docking Bay (Height 1)
+Protoss Docking Bay (Height 2)
+Protoss Docking Bay (Height 3)
+Psi Destroyer Damage
+Psi Destroyer Damage AB
+Psi Destroyer Search
+Psi Disintegrator (Height 1)
+Psi Disintegrator (Height 2)
+Psi Disintegrator (Height 3)
+Psi Shield (Apply Behavior)
+Psi Shield (Apply Dummy)
+Psi Shield (Modify Unit)
+Psi Shield (Remove Dummy)
+Psi Shield (Set)
+Purification Nova Targetted
+Purifier03 - Station Transformer Create Push Unit
+Quillgor Corpse
+Quillgor Corpse Set
+Quillgor Medium
+Quillgor Medium Damage
+Quillgor Small
+Quillgor Small Damage
+Raven - Seeker (Damage)
+Raven - Seeker (Launch Missile)
+Raynor - Gauss Rifle (Damage) (TRaynor01)
+Raynor - Gauss Rifle (Horner05S)
+Reaper - D-8 Charge
+Reaper - D-8 Charge (Damage)
+Reaper - D-8 Charge (Launch Missile)
+Reaper - D-8 Charge Explode
+Reaper - D-8 Charge Explode Damage
+Reaper - D-8 Charge Launch
+Reaper - P-38 Scythe Guass Pistol (Create Persistent)
+Reaper - P-38 Scythe Guass Pistol (Damage)
+Redstone
+Replicant Create Unit
+Replicant Create Unit Caster
+Replicant Create Unit Stun
+Replicant Void Create Unit
+Replicant Void Create Unit Caster
+Replicant Void Create Unit Stun
+Resource Stun (Additional Targets Search)
+Resource Stun (Final Search)
+Resource Stun (Issue Order)
+Rip Field (Initial Damage) (Dummy)
+Roach - Acid Saliva (HotS Upgrade Set)
+Roach - Needle Spines (Missile)
+Rooftop Broken (Height 1)
+Rooftop Broken (Height 2)
+Rooftop Broken (Height 3)
+SOA Temporal Field Heroic Unit
+SOA Temporal Field Transport Set
+SOAMothership Line Attack Caster
+SOAMothership Line Attack Initial
+SOAMothership Line Attack Scan
+SOAOrbital Strike
+SOAPlanet Cracker
+SOAWarp In Reinforcements Zealot Sentinel
+SS_BattlecruiserHunterSeekerAttackLaunch
+Sacred Jelly Beast
+Screecher Missiles (Create Persistent)
+Screecher Missiles (Damage)
+Screecher Missiles (Launch Missile)
+Seeker Missile Launch
+Sentry Gun Burrow (Issue Order)
+Sentry Mine Void Delay Remove
+Shakuras
+Shakuras Archives
+Shakuras Hero Gate (Height 1)
+Shakuras Hero Gate (Height 2)
+Shakuras Hero Gate (Height 3)
+Shooter - SS_Battlecruiser Attack (Create Launcher Unit)
+Shooter - SS_Battlecruiser Attack (Launch Missile)
+Shooter - SS_Battlecruiser Attack (Offset Persistent)
+Shooter - SS_Battlecruiser Attack (Persistent)
+Shooter - SS_Battlecruiser Collision Check Circle
+Shooter - SS_Battlecruiser Hunter Seeker Attack (Launch Missile)
+Shooter - SS_Carrier Boss Attack (Issue Order)
+Shooter - SS_Carrier Boss Attack (Launch Missile)
+Shooter - SS_Carrier Boss Attack (Persistent)
+Shooter - SS_Carrier Boss Collision Check Circle
+Shooter - SS_Carrier Collision Check Circle
+Shooter - SS_Carrier Spawn Interceptor (Create Unit)
+Shooter - SS_Carrier Spawn Interceptor (Launch Missile)
+Shooter - SS_Carrier Spawn Interceptor (Set)
+Shooter - SS_Collision Damage To Enemy
+Shooter - SS_Collision Set
+Shooter - SS_Corruptor Attack (Launch Missile)
+Shooter - SS_Corruptor Collision Check Circle
+Shooter - SS_Corruptor Missile Target Check Circle
+Shooter - SS_Figher Drone Damage Response (Apply Behavior)
+Shooter - SS_Fighter Bomb (Apply Missile Death Behavior)
+Shooter - SS_Fighter Bomb (Make Fighter Invulnerable)
+Shooter - SS_Fighter Bomb (Search For Missiles)
+Shooter - SS_Fighter Bomb (Search For Units)
+Shooter - SS_Fighter Bomb (Set)
+Shooter - SS_Fighter Bomb (Unit Damage)
+Shooter - SS_Fighter Drone Damage Response (Remove Behavior 1)
+Shooter - SS_Fighter Drone Damage Response (Remove Behavior 2)
+Shooter - SS_Fighter Drone Damage Response (Switch)
+Shooter - SS_Fighter LM Left
+Shooter - SS_Fighter LM Left Diagonal 1
+Shooter - SS_Fighter LM Left Diagonal 2
+Shooter - SS_Fighter LM Right
+Shooter - SS_Fighter LM Right Diagonal 1
+Shooter - SS_Fighter LM Right Diagonal 2
+Shooter - SS_Fighter LM Strong 1
+Shooter - SS_Fighter LM Strong 2
+Shooter - SS_Fighter Shooting
+Shooter - SS_Fighter Shooting Diagonal 1
+Shooter - SS_Fighter Shooting Diagonal 2
+Shooter - SS_Fighter Shooting Drone 1 (Launch Missile)
+Shooter - SS_Fighter Shooting Drone 1 (Search)
+Shooter - SS_Fighter Shooting Drone 2 (Launch Missile)
+Shooter - SS_Fighter Shooting Drone 2 (Search)
+Shooter - SS_Fighter Shooting Straight
+Shooter - SS_Fighter Shooting Strong 1
+Shooter - SS_Fighter Shooting Strong 2
+Shooter - SS_Interceptor Attack (Launch Missile)
+Shooter - SS_Interceptor Collision Check Circle
+Shooter - SS_Leviathan Bomb Collision Check Circle
+Shooter - SS_Leviathan Bomb Explode (Launch Missile)
+Shooter - SS_Leviathan Bomb Explode (Persistent)
+Shooter - SS_Leviathan Bomb Missile Target Check Circle
+Shooter - SS_Leviathan Collision Check Circle
+Shooter - SS_Leviathan Spawn Bombs (Create Unit)
+Shooter - SS_Leviathan Spawn Bombs (Launch Missile)
+Shooter - SS_Leviathan Spawn Bombs (Persistent)
+Shooter - SS_Leviathan Spawn Bombs (Set)
+Shooter - SS_Leviathan Tentacle Attack (Apply New Scan)
+Shooter - SS_Leviathan Tentacle Attack (Missile Impact Set)
+Shooter - SS_Leviathan Tentacle Attack (Missile Scan Swap Delay)
+Shooter - SS_Leviathan Tentacle Attack (Remove Old Scan)
+Shooter - SS_Leviathan Tentacle Attack (Target Death Delay)
+Shooter - SS_Leviathan Tentacle Attack L1 (Anim Delay)
+Shooter - SS_Leviathan Tentacle Attack L1 (Create Target)
+Shooter - SS_Leviathan Tentacle Attack L1 (Launch Missile)
+Shooter - SS_Leviathan Tentacle Attack L2 (Anim Delay)
+Shooter - SS_Leviathan Tentacle Attack L2 (Create Target)
+Shooter - SS_Leviathan Tentacle Attack L2 (Launch Missile)
+Shooter - SS_Leviathan Tentacle Attack R1 (Anim Delay)
+Shooter - SS_Leviathan Tentacle Attack R1 (Create Target)
+Shooter - SS_Leviathan Tentacle Attack R1 (Launch Missile)
+Shooter - SS_Leviathan Tentacle Attack R2 (Anim Delay)
+Shooter - SS_Leviathan Tentacle Attack R2 (Create Target)
+Shooter - SS_Leviathan Tentacle Attack R2 (Launch Missile)
+Shooter - SS_Leviathan Tentacle Missile Target Check Circle
+Shooter - SS_Leviathan Tentacle Missile Target Check Persistent
+Shooter - SS_Leviathan Tentacle Missile Target Check Persistent Inverted
+Shooter - SS_Lightning Projector (Line AOE Persistent)
+Shooter - SS_Lightning Projector (Persistent)
+Shooter - SS_Lightning Projector (Search Area)
+Shooter - SS_Lightning Projector Collision Check Circle
+Shooter - SS_Missile Damage
+Shooter - SS_Missile Damage Drone
+Shooter - SS_Missile Damage Strong 1
+Shooter - SS_Missile Damage Strong 2
+Shooter - SS_Missile Damage Viking
+Shooter - SS_Missile Target Check Circle
+Shooter - SS_Missile Target Check Circle Drone
+Shooter - SS_Missile Target Check Circle Strong 1
+Shooter - SS_Missile Target Check Circle Strong 2
+Shooter - SS_Missile Target Check Circle Viking
+Shooter - SS_Missile Target Check Viking
+Shooter - SS_Missile Target Check Viking Drone
+Shooter - SS_Missile Target Check Viking Strong 1
+Shooter - SS_Missile Target Check Viking Strong 2
+Shooter - SS_Missile Target Set
+Shooter - SS_Missile Target Set Drone
+Shooter - SS_Missile Target Set Strong 1
+Shooter - SS_Missile Target Set Strong 2
+Shooter - SS_Missile Target Set Viking
+Shooter - SS_Phoenix Attack (Launch Diagonal Missile Left)
+Shooter - SS_Phoenix Attack (Launch Diagonal Missile Right)
+Shooter - SS_Phoenix Attack (Launch Straight Missile Left)
+Shooter - SS_Phoenix Attack (Launch Straight Missile Right)
+Shooter - SS_Phoenix Attack (Persistent)
+Shooter - SS_Phoenix Collision Check Circle
+Shooter - SS_PowerupMorph (Start Pulse)
+Shooter - SS_Science Vessel Attack (Launch Missile)
+Shooter - SS_Science Vessel Attack (Persistent)
+Shooter - SS_Science Vessel Collision Check Circle
+Shooter - SS_Science Vessel Teleport (Apply Behavior)
+Shooter - SS_Science Vessel Teleport (Persistent)
+Shooter - SS_Science Vessel Teleport (Remove Behavior)
+Shooter - SS_Science Vessel Teleport (Teleport)
+Shooter - SS_Scourge Collision Check Circle
+Shooter - SS_Scourge Death (Launch Missile)
+Shooter - SS_Scourge Death (Persistent)
+Shooter - SS_Scourge Death (Remove Behavior)
+Shooter - SS_Scourge Missile Target Check Circle
+Shooter - SS_Scout Attack (Launch Missile)
+Shooter - SS_Scout Collision Check Circle
+Shooter - SS_Swarm Guardian Attack (Launch Missile)
+Shooter - SS_Swarm Guardian Attack (Persistent)
+Shooter - SS_Swarm Guardian Collision Check Circle
+Shooter - SS_Terra Tron Arm Attack (Launch Missile)
+Shooter - SS_Terra Tron Arm Attack (Offset Persistent)
+Shooter - SS_Terra Tron Arm Missile Target Check Circle
+Shooter - SS_Terra Tron Beam Attack (Line AOE Persistent)
+Shooter - SS_Terra Tron Beam Attack (Persistent)
+Shooter - SS_Terra Tron Beam Attack (Search Area)
+Shooter - SS_Terra Tron Collision Check Circle
+Shooter - SS_Terra Tron Head Tracking Dummy Effect
+Shooter - SS_Terra Tron Missile Spinner Attack (Launch Missile)
+Shooter - SS_Terra Tron Missile Spinner Attack (Offset Persistent)
+Shooter - SS_Terra Tron Missile Spinner Collision Check Circle
+Shooter - SS_Terra Tron Saw Attack (Anim Delay)
+Shooter - SS_Terra Tron Saw Attack (Spawn Saw)
+Shooter - SS_Terra Tron Saw Collision Check Circle
+Shooter - SS_Wraith Attack (Launch Missile)
+Shooter - SS_Wraith Collision Check Circle
+Show Selection Details (Shift+K)
+Siege Breaker - Arclite Cannon (Damage)
+Siege Tank - Arclite Cannon (Damage)
+Skylight (Height 1)
+Skylight (Height 2)
+Skylight (Height 3)
+Soul Steal (Dummy)
+Space Elevator (Height 1)
+Space Elevator (Height 2)
+Space Elevator (Height 3)
+Space Platform Destructible Cliff Large
+Space Prison Grid Floor (Height 1)
+Space Prison Grid Floor (Height 2)
+Space Prison Grid Floor (Height 3)
+Spawn Shadow of the Void AB
+Spawn Shadow of the Void CU Set
+Spawn Shadow of the Void Create Banshee
+Spawn Shadow of the Void Create Battlecruiser
+Spawn Shadow of the Void Create Colossus
+Spawn Shadow of the Void Create Create Zealot
+Spawn Shadow of the Void Create Ghost
+Spawn Shadow of the Void Create Hydralisk
+Spawn Shadow of the Void Create Marine
+Spawn Shadow of the Void Create Mutalisk
+Spawn Shadow of the Void Create Overseer
+Spawn Shadow of the Void Create Stalker
+Spawn Shadow of the Void Create Ultralisk
+Spawn Shadow of the Void Create Void Ray
+Spawn Shadow of the Void Create Zergling
+Spawn Shadow of the Void Impact Set
+Spawn Shadow of the Void Launch Missile
+Spectre - AGR-14 Gauss Rifle (Damage)
+Stalker - Entropy Lance (Impact Set)
+Stalker - Entropy Lance (LM)
+Stalker - NovaArmorBlinkSuitBlinkTeleport
+Stalker Beam Air
+Starship Floor Plate 12x12 Height 1
+Starship Floor Plate 12x12 Height 2
+Starship Floor Plate 12x12 Height 3
+Starship Floor Plate 6x6 Height 1
+Starship Floor Plate 6x6 Height 2
+Starship Floor Plate 6x6 Height 3
+Starship Floor Plate 8x8 Height 1
+Starship Floor Plate 8x8 Height 2
+Starship Floor Plate 8x8 Height 3
+Starship Flora Pod (A) (Height 1)
+Starship Flora Pod (A) (Height 2)
+Starship Flora Pod (A) (Height 3)
+Starship Flora Pod (B) (Height 1)
+Starship Flora Pod (B) (Height 2)
+Starship Flora Pod (B) (Height 3)
+Starship Flora Pod (C) (Height 1)
+Starship Flora Pod (C) (Height 2)
+Starship Flora Pod (C) (Height 3)
+Starship Flora Pod (D) (Height 1)
+Starship Flora Pod (D) (Height 2)
+Starship Flora Pod (D) (Height 3)
+Starship Flora Pod (E) (Height 1)
+Starship Flora Pod (E) (Height 2)
+Starship Flora Pod (E) (Height 3)
+Starship Flora Pod (F) (Height 1)
+Starship Flora Pod (F) (Height 2)
+Starship Flora Pod (F) (Height 3)
+Starship Flora Pod (G) (Height 1)
+Starship Flora Pod (G) (Height 2)
+Starship Flora Pod (G) (Height 3)
+Starship Flora Pod (H) (Height 1)
+Starship Flora Pod (H) (Height 2)
+Starship Flora Pod (H) (Height 3)
+Stasis Cocoon Movement Speed Bonus 0.05 AB
+Stasis Cocoon Movement Speed Bonus 0.10 AB
+Stasis Cocoon Movement Speed Bonus 0.15 AB
+Stasis Cocoon Movement Speed Bonus 0.20 AB
+Stasis Cocoon Movement Speed Bonus 0.25 AB
+Stasis Cocoon Movement Speed Bonus 0.30 AB
+Stukov - Coop -
+Stukov - Corrosive Blast Damage
+Stukov Infested -
+Subway Entrance Right
+Supply <1 RB
+Supply <1 Set
+Swann - Concussive Grenade (Create Persistent)
+Swann - Concussive Grenade (Damage)
+Swann - Concussive Grenade (Launch Missile)
+Swann - Place Turret (Create Unit)
+Swann - Place Turret (Timed Life)
+Swann Turret - Flame Thrower (Create Persistent)
+Swann Turret - Flame Thrower (Damage)
+Swann Turret - Flame Thrower (Search Area)
+Swann Turret - Flame Thrower (Set)
+Swarm Queen - Regeneration Aura (Search)
+Swarm Queen - Regeneration Aura (Target)
+Swarmling Claws
+TO Valhalla Aircraft Elevator (Height 1)
+TO Valhalla Aircraft Elevator (Height 2)
+TO Valhalla Aircraft Elevator (Height 3)
+TTychus03 - Queen Of Blades - Razor Swarm (Create Persistent)
+TTychus03 - Queen Of Blades - Razor Swarm (Damage)
+TTychus03 - Queen Of Blades - Razor Swarm (Search Area)
+TTychus03 Queen of Blades - Search (Apply Behavior)
+TTychus03 Queen of Blades - Search (Create Persistent)
+TTychus03 Queen of Blades - Search (Dummy Impact)
+TTychus03 Queen of Blades - Search (Remove Behavior)
+TValerian03 - Queen Of Blades - Psi Blast (Persistent)
+TValerian03 - Queen Of Blades - Razor Swarm (Create Persistent)
+TValerian03 - Queen Of Blades - Razor Swarm (Damage)
+TValerian03 - Queen Of Blades - Razor Swarm (Search Area)
+Tarsonis
+Taunt (Apply Behavior)
+Taunt (Search)
+Terrain Object Fallen Asteroids (Height 1)
+Terrain Object Fallen Asteroids (Height 2)
+Terrain Object Fallen Asteroids (Height 3)
+Terrain Object Fallen Asteroids Scattered (Height 1)
+Terrain Object Fallen Asteroids Scattered (Height 2)
+Terrain Object Fallen Asteroids Scattered (Height 3)
+Terrain Object Holding Pen1
+Terrain Object Holding Pen2
+Terrain Object Holding Pen3
+Terrain Object Hybrid Holding Cell (Height 1)
+Terrain Object Hybrid Holding Cell (Height 2)
+Terrain Object Hybrid Holding Cell (Height 3)
+Terrain Object Space Prison Floor1
+Terrain Object Space Prison Floor2
+Terrain Object Space Prison Floor3
+Terrain Object Trench (Height 1)
+Terrain Object Trench (Height 2)
+Terrain Object Trench (Height 3)
+Terrain Object Trench B1 (Variation 0) (Height 1)
+Terrain Object Trench B1 (Variation 1) (Height 1)
+Terrain Object Trench B1 (Variation 2) (Height 1)
+Terrain Object Trench B2 (Variation 0) (Height 2)
+Terrain Object Trench B2 (Variation 1) (Height 2)
+Terrain Object Trench B2 (Variation 2) (Height 2)
+Terrain Object Trench B3 (Variation 0) (Height 3)
+Terrain Object Trench B3 (Variation 1) (Height 3)
+Terrain Object Trench B3 (Variation 2) (Height 3)
+Terrain Object Trench Diagonal (Height 1)
+Terrain Object Trench Diagonal (Height 2)
+Terrain Object Trench Diagonal (Height 3)
+Terrain Object Xel Naga Artifact Temple (Height 1)
+Terrain Object Xel Naga Artifact Temple (Height 2)
+Terrain Object Xel Naga Artifact Temple (Height 3)
+Terrain Object Xel Naga Ship Bay (Height 1)
+Terrain Object Xel Naga Ship Bay (Height 2)
+Terrain Object Xel Naga Ship Bay (Height 3)
+TerrainObjectXelNagaWedges4x4_1_1
+TerrainObjectXelNagaWedges4x4_1_2
+TerrainObjectXelNagaWedges4x4_1_3
+TerrainObjectXelNagaWedges4x4_2_1
+TerrainObjectXelNagaWedges4x4_2_2
+TerrainObjectXelNagaWedges4x4_2_3
+TerrainObjectXelNagaWedges4x4_3_1
+TerrainObjectXelNagaWedges4x4_3_2
+TerrainObjectXelNagaWedges4x4_3_3
+TerrainObjectXelNagaWedges4x4_4_1
+TerrainObjectXelNagaWedges4x4_4_2
+TerrainObjectXelNagaWedges4x4_4_3
+TerrainObjectXelNagaWedges4x4_5_1
+TerrainObjectXelNagaWedges4x4_5_2
+TerrainObjectXelNagaWedges4x4_5_3
+TerrainObjectXelNagaWedges4x4_6_1
+TerrainObjectXelNagaWedges4x4_6_2
+TerrainObjectXelNagaWedges4x4_6_3
+TerrainObjectXelNagaWedges4x4_7_1
+TerrainObjectXelNagaWedges4x4_7_2
+TerrainObjectXelNagaWedges4x4_7_3
+TerrainObjectXelNagaWedges6x6_1_1
+TerrainObjectXelNagaWedges6x6_1_2
+TerrainObjectXelNagaWedges6x6_1_3
+TerrainObjectXelNagaWedges6x6_2_1
+TerrainObjectXelNagaWedges6x6_2_2
+TerrainObjectXelNagaWedges6x6_2_3
+TerrainObjectXelNagaWedges6x6_3_1
+TerrainObjectXelNagaWedges6x6_3_2
+TerrainObjectXelNagaWedges6x6_3_3
+TerrainObjectXelNagaWedges8x4_1_1
+TerrainObjectXelNagaWedges8x4_1_2
+TerrainObjectXelNagaWedges8x4_1_3
+TerrainObjectXelNagaWedges8x4_2_1
+TerrainObjectXelNagaWedges8x4_2_2
+TerrainObjectXelNagaWedges8x4_2_3
+TerrainObjectXelNagaWedges8x6_1_1
+TerrainObjectXelNagaWedges8x6_1_2
+TerrainObjectXelNagaWedges8x6_1_3
+TerrainObjectXelNagaWedges8x6_2_1
+TerrainObjectXelNagaWedges8x6_2_2
+TerrainObjectXelNagaWedges8x6_2_3
+TerrainObjectXelNagaWedges8x6_3_1
+TerrainObjectXelNagaWedges8x6_3_2
+TerrainObjectXelNagaWedges8x6_3_3
+Thermal Lances Freindly CP
+Thermal Lances Freindly CP (Air)
+Thor - Anti Air (Damage)
+Thor - Anti Air (Launch Missile)
+Thor - Anti Air (Persistent)
+Thor - Arm Cannons (Persistent)
+Thor Hand Gun Splash Damage Target
+Titan Mech Missile (Launch Missile)
+Titan Mech Missile (Persistent)
+Tosh - Z Assassin Rifle (Damage)
+Ultralisk - Head Attack (Damage)
+UmojanLabPlatformCellMassive Height 1
+UmojanLabPlatformCellMassive Height 2
+UmojanLabPlatformCellMassive Height 3
+Unit Knockback By12 Apply Behavior
+Unit Knockback By12 Impact
+Unit Knockback By12 Place Holder Launch MissileHLM
+Unit Knockback By12 Remove Behavior
+Unit Knockback By2 Apply Behavior
+Unit Knockback By2 Impact
+Unit Knockback By2 Place Holder Launch Missile
+Unit Knockback By2 Remove Behavior
+Unit Knockback By3 Apply Behavior
+Unit Knockback By3 Impact
+Unit Knockback By3 Place Holder Launch Missile
+Unit Knockback By3 Remove Behavior
+Unit Knockback By4 Apply Behavior
+Unit Knockback By4 Impact
+Unit Knockback By4 Place Holder Launch Missile
+Unit Knockback By4 Remove Behavior
+Unit Knockback By5 Apply Behavior
+Unit Knockback By5 Impact
+Unit Knockback By5 Place Holder Launch Missile
+Unit Knockback By5 Remove Behavior
+Unit Knockback By6 Apply Behavior
+Unit Knockback By6 Impact
+Unit Knockback By6 Place Holder Launch Missile
+Unit Knockback By6 Remove Behavior
+Unit Knockback By7 Apply Behavior
+Unit Knockback By7 Impact
+Unit Knockback By7 Place Holder Launch Missile
+Unit Knockback By7 Remove Behavior
+Valhalla Glass Floor (Height 1)
+Valhalla Glass Floor (Height 2)
+Valhalla Glass Floor (Height 3)
+Valhalla Grid 45 Floor (Height 1)
+Valhalla Grid 45 Floor (Height 2)
+Valhalla Grid 45 Floor (Height 3)
+Valhalla Grid Floor (Height 1)
+Valhalla Grid Floor (Height 2)
+Valhalla Grid Floor (Height 3)
+Viking - Halo Rockets (Damage)
+Viking - Halo Rockets (Launch Missile)
+Viking - Halo Rockets (Persistent)
+Viking - Twin Gatling Cannon (Damage)
+Viper - Abduct (Apply Behavior)
+Viper - Abduct (Apply Tentacle Behavior)
+Viper - Abduct (Launch Missile)
+Viper - Abduct (Launch Target)
+Viper - Abduct (Set)
+Viper - Abduct (Teleport)
+Void - Heroic Aura (Modify) - Artanis (Aiur 01)
+Void - Heroic Aura (Search) - Artanis (Aiur 01)
+Void - XelNaga Obelisk Energy Channel (Modify Unit)
+Void - XelNaga Obelisk Energy Channel (Persistent)
+Void Carrier Bombing
+Void Carrier Bombing Bombs
+Void Carrier Interceptor Bombs
+Void Dark Templar Shadow Fury Apply AOE
+Void Dark Templar Shadow Fury Damage AOE
+Void Dark Templar Shadow Fury Damage Persistent AOE
+Void Dark Templar Shadow Fury Impact Set AOE
+Void Dark Templar Shadow Fury Persistent AOE
+Void Dark Templar Shadow Fury Search AOE
+Void Dark Templar Shadow Fury Set AOE
+Void Dark Templar Shadow Fury Target
+Void Dark Templar Shadow Fury Teleport AOE
+Void Dark Templar Shadow Fury Teleport Final AOE
+Void Dark Templar Shadow Fury Teleport Final CP AOE
+Void NovaWeaponBlazefireBladeShadowFuryCP AOE
+Void NovaWeaponBlazefireBladeShadowFuryDamage AOE
+Void NovaWeaponBlazefireBladeShadowFuryFinal AOE
+Void NovaWeaponBlazefireBladeShadowFuryImpactSet AOE
+Void NovaWeaponBlazefireBladeShadowFuryPersistent AOE
+Void NovaWeaponBlazefireBladeShadowFurySearch AOE
+Void NovaWeaponBlazefireBladeShadowFuryTeleport AOE
+Void Ray Charge Beam Bounce Caster
+Void Ray Charge Beam Bounce Phase2
+Void Ray Charge Beam Bounce Phase3
+Void Ray Charge Beam Caster
+Void Ray Charge Beam Range Caster
+Void Ray Hero - Void Ray Charge Chain
+Void Ray Hero - Void Ray Charge Effect 01
+Void Ray Hero - Void Ray Charge Effect 02
+Void Ray Hero - Void Ray Charge Effect 03
+Void Ray Hero - Void Ray Charge Initial
+Void Ray Hero - Void Ray MU Initial
+Void Ray MU Base
+Void Shard Unstable Energy Search
+Void Shard Unstable Energy Spawn Effect
+Void Shard Void Zone Root Damage
+Void Thrasher - Disable Abilities (Apply)
+Void Thrasher - Fireball (Create Persistent)
+Void Thrasher - Fireball (Damage)
+Void Thrasher - Fireball (Launch Missile)
+Void Thrasher - Lightning AoE (Create Persistent)
+Void Thrasher - Lightning AoE (Damage)
+Void Thrasher - Lightning AoE (Search)
+Void Thrasher - Scourge Missile (Damage)
+Void Thrasher - Scourge Missile (Launch)
+Void Thrasher - Scourge Missile (Persistent)
+Void Thrasher - Spawn Baneling (Create)
+Void Thrasher - Spawn Baneling (Impact Set)
+Void Thrasher - Spawn Baneling (Launch Missile)
+Void Thrasher - Spawn Baneling (Launch Set)
+Void Thrasher - Spawn Hydralisk (Create)
+Void Thrasher - Spawn Hydralisk (Impact Set)
+Void Thrasher - Spawn Hydralisk (Launch Missile)
+Void Thrasher - Spawn Hydralisk (Launch Set)
+Void Thrasher - Spawn Roach (Create)
+Void Thrasher - Spawn Roach (Impact Set)
+Void Thrasher - Spawn Roach (Launch Missile)
+Void Thrasher - Spawn Roach (Launch Set)
+Void Thrasher - Spawn Zergling (Create)
+Void Thrasher - Spawn Zergling (Impact Set)
+Void Thrasher - Spawn Zergling (Launch Missile)
+Void Thrasher - Spawn Zergling (Launch Set)
+Void Thrasher - Thrasher Wave (Search)
+Void Thrasher Baneling Missile (Create Persistent)
+Void Thrasher Baneling Missile (Damage)
+Void Thrasher Baneling Missile (Destroy Persistent)
+Void Thrasher Baneling Missile (Dummy)
+Void Thrasher Baneling Missile (Impact Set)
+Void Thrasher Baneling Missile (Launch Set)
+Void Thrasher Baneling Missile (Launch)
+Void Thrasher Deep Tunnel Teleport Destroy Buildings
+Void Thrasher Deep Tunnel Teleport Destroy Buildings Search
+Void Thrasher Shield Fireball Damage
+Void Thrasher Shield Fireball Launch Missile
+Void Zealot Shadow Charge Slow Target AB
+Void Zealot Shadow Charge Stun Target AB
+Volitile Burst (Viscous Discharge Apply Behavior)
+Volitile Burst (Viscous Discharge Search)
+Vortex Kill Damage
+Vulcan Champion - Karax Champion Scraper (Apply)
+Vulcan Champion - Karax Champion Scraper (Modify)
+Vulcan Champion - Karax Champion Scraper (Search)
+Vulcan Champion - Karax Champion Shield Restore (Apply)
+Vulcan Champion - Karax Champion Shield Restore (Heal Switch)
+Vulcan Champion - Karax Champion Shield Restore (Modify)
+Vulcan Champion - Karax Champion Shield Restore (Set)
+Vulcan Champion - Karax Champion Shield Restore Mechanical (Modify)
+Vulcan Champion - Karax Champion Shield Restore Shock (Damage)
+Vulcan Champion - Karax Champion Shield Restore Shock (Search)
+Vulcan Champion - Karax Champion Weapon (Damage)
+Vulcan Champion - Karax Champion Weapon (Launch Missile)
+Vulture - Fragmentation Grenade (Missile)
+Vulture - Replenish Nano-Constructor (Modify Constructor charge count)
+Weapon Search Area
+Wraith - Hurricane Laser (Damage)
+Wraith - Hurricane Laser (Launch Missile)
+Wraith - Hurricane Missiles (Damage)
+Wraith - Hurricane Missiles (Launch Missile)(Left)
+Wraith - Hurricane Missiles (Launch Missile)(Right)
+Wraith - Hurricane Missiles (Persistent)
+Xel'Naga Charged Crystal Damage
+Xel'Naga Crystal (Kill Prison)
+Xel'Naga Crystal (Search)
+Xel'Naga Prison (Height 1) (North Facing)
+Xel'Naga Prison (Height 1) (South Facing)
+Xel'Naga Prison (Height 2) (North Facing)
+Xel'Naga Prison (Height 2) (South Facing)
+Xel'Naga Shadow Step (Apply In)
+Xel'Naga Shadow Step (Apply Out)
+Xel'Naga Shadow Step (Launch Missile)
+Xel'Naga Shadow Step (Set)
+Xel'Naga Ship Alarm (Apply Behavior)
+Xel'Naga Ship Alarm (Remove Behavior)
+Xel'Naga Ship Alarm (Search)
+Xil
+ZZerus01 Meat Attacked AB
+Zagara Baneling Barrage CP
+Zagara Baneling Barrage Explode Search Set
+Zagara Baneling Barrage Explode Search Structure
+Zagara Baneling Barrage Explode Search Unit
+Zagara Baneling Barrage Impact Dummy Set
+Zagara Baneling Barrage LM
+Zagara Baneling Barrage Missile Scan
+Zagara Baneling Barrage Missile Scan Persistent
+Zagara Baneling Barrage Missile Scan Persistent Destroy
+Zagara Baneling Barrage Missile Scan Set
+Zagara Baneling Barrage Unpathable Scan Persistent
+Zagara Infested Pods
+Zagara Infested Pods Impact
+Zagara Infested Pods Impact Damage
+Zagara Infested Pods Impact Search
+Zagara Infested Pods Impact Set
+Zagara Infested Pods Timed Life
+Zagara Spawn Hunter Killers
+Zagara Spawn Hunter Killers Create Set
+Zagara Spawn Hunter Killers Initial Set
+Zagara Spawn Hunter Killers Link Destroy Persistent
+Zagara Spawn Hunter Killers Link Persistent
+Zagara Spawn Hunter Killers Timed Life
+Zagara Void Coop Devouring Maw Worm
+Zagara Void Coop Infest Broodlings Death
+Zealot - Terazine Fury Invulnerable Apply
+Zealot - Terazine Fury Shield Restore
+Zealot - Terazine Fury Weakness Apply
+Zealot Respawn
+Zeratul - Master Psi Blades
+Zeratul - PhaseMine Blast (Persistent)
+Zerg General - Post Morph (Healing Effect)
+Zerg Hole Large (Height 1)
+Zerg Hole Large (Height 2)
+Zerg Hole Large (Height 3)
+Zerg Hole Small (Height 1)
+Zerg Hole Small (Height 2)
+Zerg Hole Small (Height 3)
+Zerg Tunnel Entrance - Spawn Corruptor (Create Corruptor)
+Zerg Tunnel Entrance - Spawn Corruptor (Create Egg Unit)
+Zerg Tunnel Entrance - Spawn Corruptor (Persistent For Random Offset)
+Zerg Tunnel Entrance - Spawn Corruptor (Spawn Set)
+Zerus Pool
+Zhakul'Das
+Zhakul'Das Bridge 45 Left (Height 1)
+Zhakul'Das Bridge 45 Left (Height 2)
+Zhakul'Das Library Pit (Height 1)
+Zhakul'Das Library Pit (Height 2)
+Zhakul'Das Library Pit (Height 3)
+Zhakul'Das Library Pit (Variation 1) (Height 1)
+Zhakul'Das Library Pit (Variation 1) (Height 2)
+Zhakul'Das Library Pit (Variation 1) (Height 3)
+Zhakul'Das Library Pit (Variation 2) (Height 1)
+Zhakul'Das Library Pit (Variation 2) (Height 2)
+Zhakul'Das Library Pit (Variation 2) (Height 3)
+zz TEST Chasm
+zz TEST Hybrid Lab
+zz TEST Robot
+zz TEST Truck Stop
+zz TEST Zerg Pens (Height 1)
+zz TEST Zerg Pens (Height 2)

@@ -1,0 +1,244 @@
+== Webby
+   baneling collection skin webby => 爆虫-合集皮肤Webby
+== RCZ
+   baneling nest rcz => 爆虫巢RCZ
+== Ihanrii
+   adept ihanrii => 使徒Ihanrii
+== DOM
+   auto turret dom release => 自动机炮-DOM释放
+== Umbra
+   amon umbra spire epilogue03 => 埃蒙-Umbra尖塔终章03
+== Office
+   smx3 cutscene mp03 010 davis office00 => SMX3过场动画MP03010戴维斯Office00
+== Dot
+   caster radius gt0 dot5 => 施法者半径大于0Dot5
+== War
+   cancel attack orders war3 => 取消攻击指令War3
+== Braids
+   glue main menu void artanis with braids => 粘合-主属性菜单虚空阿塔尼斯带Braids
+== Slip
+   dark templar shadow slip model => 黑暗圣堂武士-阴影Slip模型
+== Spectre
+   tychus spectre => 泰凯斯Spectre
+== Specter
+   tychus specter attack impact => 泰凯斯 Specter 攻击 轰击
+== Rohanna
+   smx2 protoss rohanna no braids => SMX2星灵-Rohanna-否-Braids
+== Dutch
+   dutch attack grenade => Dutch-攻击手雷
+== Jaina
+   footman jaina@portrait => 步兵Jaina@Portrait
+== Grunt
+   grom coop grunt1 => 格罗姆合作Grunt1
+== Kicker
+   automated assimilator text kicker4 => 轨道吸纳舱-文本Kicker4
+== Leg
+   colossus phased leg beam => 巨像-已相位Leg射线
+== Lizzard
+   war3 footprint lizzard large left => 魔兽争霸3占地Lizzard大型左
+== Pens
+   t horner05 s zerg pens center => T-霍纳05S异虫Pens中心
+== Headed
+   war3 ogre one headed => 魔兽争霸3食人魔一Headed
+== Kid
+   war3 villager kid => 魔兽争霸3村民Kid
+== Bottle
+   war3 bottle impact => 魔兽争霸3Bottle轰击
+== Out
+   tychus odin death time out => 泰凯斯 Odin 死亡 Time Out
+== Vulcan
+   vulcan champion => Vulcan勇士
+== Trapper
+   war3 dark troll trapper => 魔兽争霸3-灰色遮罩巨魔Trapper
+== Outlaw
+   tychus outlaw cost factor => 泰凯斯-Outlaw花费因子
+== Gear
+   heavens coop gear delivery beam => 天堂合作任务Gear投送光束
+== Suplex
+   suplex damage delay => Suplex-伤害延迟
+== Flyerling
+   flyerling weapon damage => Flyerling-武器-伤害
+== Greene
+   debra greene => Debra-Greene头像
+== Heath
+   floating text heath full => 漂浮文本-Heath-完整
+== felstalker
+   war3 felstalker => 魔兽争霸3felstalker
+== Megalith
+   megalith attack beam => Megalith-攻击射线
+== Shredder
+   tychus shredder grenade cursor splat => 泰凯斯 Shredder Grenade Cursor Splat
+== Civilian
+   female civilian1 portrait => 女性-Civilian1头像
+== GARY
+   gary stetmann coop => GARY-艾贡·斯台特曼COOP
+== ATX
+   all purpose laser battery target1 => ATX激光炮组-目标1
+== WCS
+   ui screen main menu wcs city tendril => 界面-界面主属性菜单WCS城市触须
+== COD
+   cod - payload nuke collateral fire => COD-载荷聚变弹头附带开火
+== ZZZ
+   albion bush => ZZZ未使用 奥比昂 (丛林)-灌木
+== BLUR
+   aiur temple stone gate diagonal blur => 艾尔 神庙-石门-对角BLUR
+== LTE
+   supply used lte 2 => 补给已使用LTE2
+== ULBR
+   aiur temple stone gate diagonal ulbr => 艾尔 神庙-石门-对角ULBR
+== PVP
+   coop pvp repulser field => 合作PVP斥力场场
+== SMTV
+   smtv raynor02 kate lockwell => SMTV-雷诺02洛克维尔
+== SCCW
+   rotating turret sccw add kinetic => 旋转炮塔SCCW添加动能
+== HHMag
+   hh mag mine charged => HHMag地雷已充能
+== YSw
+   y sw0 low wall => YSw0低墙
+== Ols
+   a ols rokhan voodoo spirits => A-Ols暗影猎手巫毒Spirits
+== Tesseract
+   mastery zeratul tesseract monolith cooldown display dummy => 精通泽拉图-Tesseract-单声道-Lith-冷却显示虚拟
+== SMX
+   actor sound smx2 bridge01 loop => 演算体-声音SMX2桥01循环
+== Titan
+   have proto titan upgrade1 a => 拥有原型-Titan-升级1A
+== BFG
+   have laser drill bfg => 拥有-温拓里尼射线BFG
+== Hut
+   infestation hut0 => 感染-Hut0
+== Prism
+   dark warp prism cloak target => Dark Warp Prism Cloak 目标
+== TerraTron
+   ss terra tron arm attack launch missile => SS-TerraTron臂攻击发射导弹
+== Rev
+   healing drone heal beam rev1 => 治疗-射线Rev1
+== Spinner
+   ss terra tron missile spinner => SSTerraTron导弹Spinner
+== Photon
+   photon cannon attack (photon cannon) => Photon Cannon 攻击
+== Barrage
+   tychus odin barrage cursor model => 泰凯斯 Odin Barrage Cursor 模型
+== Arrival
+   smx2 korhal arrival amon => SMX-2克哈 (城区)Arrival埃蒙
+== Phasesmith
+   mutator amon enemy hero - karax - mutator amon master phase-smith atta => 突变因子-埃蒙大师Phasesmith攻击AB
+== Ray
+   portrait - voidray_zeratul_coop_portrait => 虚空Ray_Zeratul_合作_Portrait
+== Splat
+   armory splat (tychus) => Armory Splat (泰凯斯)
+== Karma
+   karma increased damage => 突变因子-Karma已提升伤害Vet
+== Sun
+   lens flare sun aiur city => 透镜-照明弹Sun艾尔 城市
+== Knock
+   terran building knock back2 set => 人类-正在建造Knock后2设置
+== Blob
+   bio stasis blob => 生命休眠-Blob
+== Center
+   is tychus command center => Is 泰凯斯 Command Center
+== Prep
+   event zeratul prophecy prep found => 事件泽拉图预言Prep已找到
+== Oil
+   target is oil bombed => 目标 Is Oil Bombed
+== Conductor
+   portal conductor => 传送门Conductor
+== Cords
+   high templar no cords => 高阶圣堂武士-否Cords
+== MUx
+   mohandar m ux1 => 莫汉达尔-MUx1
+== Ttw
+   b ttw@portrait => B-Ttw头像
+== Val
+   val03 artifact => Val03-神器
+== Combat
+   caster not in combat 10 => 施法者非内Combat10
+== Construct
+   construct essence zeratul coop evolution => Construct_Essence_Zeratul_合作_Evolution
+== Research
+   tychus research center intro => 泰凯斯 Research Center Intro
+== Intro
+   tychus research center intro => 泰凯斯 Research Center Intro
+== Uppercut
+   pit malash uppercut => 马拉什-Uppercut
+== Nia
+   a nia firelord incinerate => A-Nia炎魔焚化
+== Nic
+   a nic firelord incinerate => A-Nic炎魔焚化
+== XThos
+   nova x thos part => 诺娃-XThos部件
+== ANc
+   a nc1 tinkerer cluster rockets level1 => ANc1修补匠集群火箭等级1
+== Spearof
+   aiur spearof adun arms => 艾尔(城区)-Spearof阿顿武装
+== SSTerraTron
+   ss terra tron arm missile target check => SSTerraTron臂导弹目标检查
+== WarpIn
+   assimilator zeratul coop warp in => Assimilator_Zeratul_合作_WarpIn
+== Ragdoll
+   dark templar zeratul coop death ragdoll => DarkTemplar_Zeratul_合作_死亡Ragdoll
+== Epilogue
+   smx2 epilogue amon vortex => SMX-2Epilogue埃蒙星河漩涡
+== Ragdoll
+   dark templar zeratul coop death ragdoll => DarkTemplar_Zeratul_合作_死亡Ragdoll
+== Portrait
+   dark templar zeratul coop portrait => DarkTemplar_Zeratul_合作_Portrait
+== Projection
+   has zeratul photon cannon projection caster => 拥有泽拉图光子火炮Projection施法者
+== Golden
+   adept golden => 使徒Golden
+== Remastered
+   battlecruiser remastered => 战列巡航舰Remastered
+== MKII
+   barrage mk ii (damage) => 弹幕-MKII伤害
+== Heavens
+   assault depot heavens coop => AssaultDepot_Heavens_合作
+== Planets
+   smx2 star map ui mission planets00 => SMX-2星地图界面任务Planets00
+== Than
+   a hdr@mana greater than half => 法力虹吸-法力更高Than半
+== Have
+   dont have250mm cannons => 不要-Have250mm-火炮
+== Sideways
+   s op sideways nydus addition height => S-行动-Sideways-坑道追加高度
+== Devolve
+   zeratul devolve => 泽拉图Devolve
+== Overseerand
+   is si infected civilian or overseerand no casual rally block => 是-SI已感染平民或Overseerand否临时阻止集结（右键点击以阻止集结）
+== Precusor
+   (vorazun commander) dark templar recall destroy precusor => 紧急召回-毁灭Precusor
+== Supress
+   ambt@supress regen by day => 补充法力和生命-Supress恢复由日
+== Sanitization
+   sanitization attack => Sanitization-攻击
+== Transformer
+   station transformer create push unit purifier03 => 站-Transformer创建推进单位净化者03
+== Psy
+   glue main menu void artanis psy blade => 粘合-主属性菜单虚空阿塔尼斯Psy刀刃
+== Vignette
+   zerg adjutant portrait left vignette => 卡维-头像左Vignette
+== Warfields
+   warfields ship debris => Warfields舰船碎屑
+== Wheel
+   war3 foot print wheel left0 => 魔兽争霸3足打印Wheel左0
+== Forcefield
+   forcefield gate actor sound => Forcefield-门演算体声音
+== Shredder
+   tychus shredder grenade cursor splat => 泰凯斯 Shredder Grenade Cursor Splat
+== Grenade
+   tychus shredder grenade cursor splat => 泰凯斯 Shredder Grenade Cursor Splat
+== Dominate
+   tychus ghost dominate ab => 泰凯斯幽灵Dominate应用行为
+== Uncloaked
+   mutator amon nova weapon improved canister rifle uncloaked => C-20A 霰弹步枪-Uncloaked
+== Beacon
+   fleet beacon forged => 舰队Beacon锻造
+== Duel
+   create duel bubble unit blocker => 创建-Duel气泡单位阻挡物
+== Revealer
+   soa strafe attack revealer => 太阳轰炸-Revealer
+== Slip
+   dark templar shadow slip model => 黑暗圣堂武士-阴影Slip模型
+== Duel
+   create duel bubble unit blocker => 创建-Duel气泡单位阻挡物
